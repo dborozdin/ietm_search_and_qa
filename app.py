@@ -15,6 +15,7 @@ st.set_page_config(
 
 searchStarted= False
 qaStarted= False
+
 # Sidebar
 with st.sidebar:
     tab1, tab2 = st.sidebar.tabs(["Поиск по публикации", "Вопросы-ответы"])
@@ -26,7 +27,10 @@ with tab1:
 
 with tab2:
     st.header("Вопросы-ответы")
-    qa_input = st.text_input(label='Введите вопрос:', value='Какой ресурс до первого ремонта?')
+    #qa_input = st.text_input(label='Введите вопрос:', value='Какой ресурс до первого ремонта?')
+    #qa_input = st.text_input(label='Введите вопрос:', value='Что входит в состав системы предпускового подогрева?')
+    qa_input = st.text_input(label='Введите вопрос:', value='Для чего нужен нагреватель с нагнетателем воздуха?')
+    
     qaStarted = st.button('Узнать ответ')
  
 if searchStarted==True:

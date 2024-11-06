@@ -32,7 +32,6 @@ PARSE_PATHS=['//dmodule/content[last()]/procedure[last()]/preliminaryRqmts[last(
 
 PERSCENTAGE_IN_RATIO=0.5
 THRESHOLD=0.1
-BATCH_SIZE=8
 
 global nlp, tokenizer_search, tokenizer_qa, device
 global search_df, qa_df, SEARCH_DATA
@@ -583,38 +582,14 @@ def get_best_and_longest_result(model_results, threshold, mode):
     #print('longest_answer:' , longest_answer)
     return best_result, longest_result
  
-def find_answer(inputs, threshold, max_answer_len=1000, top_k=20, verbose=True, mode='strict'):
+def find_answer(question, context, threshold, max_answer_len=1000, top_k=20, verbose=True, mode='strict'):
     print('find_answer!')
     print('mode:', mode)
     found_answer=False
     #print('qa_model', qa_model)
-    model_results= qa_model([{"question": q["question"], "context": q["context"]} for q in inputs], batch_size=BATCH_SIZE, max_answer_len=max_answer_len, top_k=top_k)
-    print('model_results type:', type(model_results))
-    if isinstance(model_results, dict):
-        tmp= model_results
-        model_results= list()
-        model_results.append(tmp)
-    print('model_results:', model_results)
-    # Добавляем индексы обратно в результаты
-    best_score=0
-    best_result=None
-    longest_result=None
-    for i, result in enumerate(model_results):#для каждого документа (модуля данных) свой список результатов
-        dmc_value= inputs[i]["DMC"]
-        print('dmc_value:', dmc_value)
-        if isinstance(result, dict):
-            tmp= result
-            result= list()
-            result.append(tmp)
-        for r in result:#это список результатов для одного модуля данных
-            print('r:', r)
-            r["DMC"] = dmc_value
-        #print(model_results)
-        best_doc_result, longest_doc_result= get_best_and_longest_result(result, threshold, mode)
-        if best_doc_result["score"]>best_score:
-            best_score= best_doc_result["score"]
-            best_result= best_doc_result
-            longest_result= longest_doc_result
+    model_results= qa_model(question = question, context = context, max_answer_len=max_answer_len, top_k=top_k)
+    #print(model_result)
+    best_result, longest_result= get_best_and_longest_result(model_results, threshold, mode)
     #print('longest_result', longest_result)
     if best_result['score']>=threshold:
         longest_answer= longest_result['answer']
@@ -653,18 +628,13 @@ def answer_question(question, mode, model=1):
     best_DMC=""
     
     regex = re.compile(r'\([^)]*\)')
-    #for indx in filtered_index:
-    print('filtered_index:', filtered_index)
-
-    inputs = [{"question": question, "context": indx["text"], "DMC": indx["DMC"]} for indx in filtered_index]
-    #print('qa model inputs', inputs)
-    result= find_answer(inputs, threshold=threshold, max_answer_len=1000, top_k=len(filtered_index), verbose=False, mode=mode)
-
-    if result['score']>best_score:
-        best_answer= result['answer']
-        best_score= result['score']
-        best_DMC= result['DMC']
-        best_DMC= re.sub(regex, '', best_DMC)
+    for indx in filtered_index:
+        result= find_answer(question, indx['text'], threshold=threshold, max_answer_len=1000, top_k=20, verbose=False, mode=mode)
+        if result['score']>best_score:
+            best_answer= result['answer']
+            best_score= result['score']
+            best_DMC= indx['DMC']
+            best_DMC= re.sub(regex, '', best_DMC)
     result= [{'score': best_score, 'answer': best_answer, 'DMC': best_DMC}]
     return result
     
