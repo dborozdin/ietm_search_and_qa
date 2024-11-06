@@ -1,0 +1,1580 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC '-//W3C//NOTATION Portable Network Graphics//EN'>
+<!ENTITY DUMMYENTITY SYSTEM 'DUMMYENTITY.PNG' NDATA png>
+]>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+ <identAndStatusSection>
+  <dmAddress>
+   <dmIdent>
+    <dmCode disassyCode="00" subSubSystemCode="0" subSystemCode="0" infoCode="040" systemDiffCode="A" disassyCodeVariant="A" assyCode="00" systemCode="B4" infoCodeVariant="A" modelIdentCode="URALM" itemLocationCode="A"/>
+    <language languageIsoCode="ru" countryIsoCode="RU"/>
+    <issueInfo inWork="01" issueNumber="001"/>
+   </dmIdent>
+   <dmAddressItems>
+    <issueDate year="2021" day="10" month="11"/>
+    <dmTitle>
+     <techName>Электросистема</techName>
+     <infoName>Общее описание электросистемы автомобиля</infoName>
+     <infoNameVariant/>
+    </dmTitle>
+   </dmAddressItems>
+  </dmAddress>
+  <dmStatus issueType="new">
+   <security securityClassification="01"/>
+   <responsiblePartnerCompany enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </responsiblePartnerCompany>
+   <originator enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </originator>
+   <applic>
+    <displayText>
+     <simplePara>Все</simplePara>
+    </displayText>
+   </applic>
+   <techStandard>
+    <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+    <authorityExceptions/>
+    <authorityNotes/>
+   </techStandard>
+   <brexDmRef>
+    <dmRef>
+     <dmRefIdent>
+      <dmCode disassyCode="00" subSubSystemCode="0" subSystemCode="0" infoCode="040" systemDiffCode="A" disassyCodeVariant="A" assyCode="00" systemCode="B4" infoCodeVariant="A" modelIdentCode="URALM" itemLocationCode="A"/>
+      <language languageIsoCode="ru" countryIsoCode="RU"/>
+     </dmRefIdent>
+    </dmRef>
+   </brexDmRef>
+   <qualityAssurance>
+    <unverified/>
+   </qualityAssurance>
+  </dmStatus>
+ </identAndStatusSection>
+ <content>
+  <refs>
+   <dmRef referredFragment="fig-0">
+    <dmRefIdent>
+     <dmCode disassyCode="00" subSubSystemCode="0" subSystemCode="0" infoCode="051" systemDiffCode="A" disassyCodeVariant="A" assyCode="00" systemCode="B4" infoCodeVariant="A" modelIdentCode="URALM" itemLocationCode="A"/>
+    </dmRefIdent>
+    <dmRefAddressItems>
+     <dmTitle>
+      <techName>Схема соединения</techName>
+     </dmTitle>
+    </dmRefAddressItems>
+   </dmRef>
+   <dmRef>
+    <dmRefIdent>
+     <dmCode disassyCode="00" subSubSystemCode="0" subSystemCode="0" infoCode="040" systemDiffCode="A" disassyCodeVariant="A" assyCode="00" systemCode="B4" infoCodeVariant="A" modelIdentCode="URALM" itemLocationCode="A"/>
+     <issueInfo inWork="00" issueNumber="001"/>
+     <language languageIsoCode="ru" countryIsoCode="RU"/>
+    </dmRefIdent>
+    <dmRefAddressItems>
+     <dmTitle>
+      <techName>Общее описание электросистемы автомобиля УРАЛ</techName>
+     </dmTitle>
+    </dmRefAddressItems>
+   </dmRef>
+  </refs>
+  <description>
+   <para>   Система электрооборудования однопроводная, отрицательный полюс источников электроэнергии и потребителей соединен с «массой» автомобиля.</para>
+   <para>   Отрицательный вывод аккумуляторной батареи соединяется с «массой» автомобиля</para>
+   <para>дистанционным выключателем. Источниками электроэнергии служат две аккумуляторные батареи, соединенные последовательно, и генератор, работающий совместно с регулятором напряжения. Соединение агрегатов и приборов электрооборудования осуществлено проводами с полихлорвиниловой изоляцией различного сечения. Провода, входящие в пучки, выполнены определенного цвета для облегчения их нахождения и удобства при монтаже. Одинарные провода могут выполняться любой расцветки. Расцветка провода может быть указана на манжетах, устанавливаемых на обоих концах провода, первой буквой цвета.</para>
+   <para>   Соединение проводов между собой и подсоединение к приборам осуществляется штекерными разъемами. Расцветка проводов автомобиля помещена в приложении 4.</para>
+   <para>   На автомобиле установлен спидометр с механическим приводом, электронные приборы и системы: тахометр, генератор с выпрямительным блоком и др. </para>
+   <para>   Во избежание поломки гибкого вала спидометра ГВ300-05 необходимо при монтаже и демонтаже панели приборов укладывать гибкий вал таким образом, чтобы метка, нанесенная краской на оболочке вала, была расположена снаружи кабины непосредственно за уплотнительной втулкой проходного отверстия гибкого вала, при этом гибкий вал необходимо проложить без образования петли за панелью приборов.</para>
+   <para>   Для надежной работы указанных приборов и систем необходимо следить за состоянием предохранителей, установленных в блоках. Не применяйте нестандартные предохранители в виде согнутой проволоки, болтов, шайб, так как при коротком замыкании в электроцепи это приведет к немедленному выводу из строя изделий, выполненных на базе электроники. Перегоревший предохранитель следует заменить другим, таким же по назначению рабочего тока.</para>
+   <para>   На седельных тягачах Урал-4420-10, Урал-4420-31, Урал-44202-0311-31 и Урал-44202-0612-30 фара-прожектор для освещения седельного устройства установлена на задней панели кабины.</para>
+   <para>   На автомобилях Урал-43202-0351-31 и седельных тягачах Урал-44202-0311-31 светосигнальные приборы установлены в негерметичном исполнении; конденсатор отеплителя кабины, фильтр конденсаторный 11.7904, конденсатор электродвигателя подогревателя, шинный манометр с фонарем подсветки не устанавливаются.</para>
+   <para>   Схема электрооборудования автомобилей Урал-4320-10, Урал-4320-31 в исполнении МО и НХ показана на рисунке 1 модуля данных <dmRef>
+<?dmRef_pi code="URALM-A-B4-00-00-00A-051A-A" id="85972" name="Электросистема
+Схема  соединения"?>
+     <dmRefIdent>
+      <dmCode disassyCode="00" subSystemCode="0" subSubSystemCode="0" systemDiffCode="A" infoCode="051" disassyCodeVariant="A" systemCode="B4" assyCode="00" infoCodeVariant="A" modelIdentCode="URALM" itemLocationCode="A"/>
+     </dmRefIdent>
+     <dmRefAddressItems>
+      <dmTitle>
+       <techName>Электросистема
+Схема  соединения</techName>
+      </dmTitle>
+     </dmRefAddressItems>
+    </dmRef>    приведены в таблице</para>
+   <table id="tab-0000">
+    <title>Приборы электрооборудования автомобилей УРАЛ-4320-10, УРАЛ-4320-31</title>
+    <tgroup cols="3">
+     <colspec colnum="1" colwidth="76pt" colname="col1"/>
+     <colspec colnum="2" colwidth="1*" colname="col2"/>
+     <colspec colnum="3" colwidth="338pt" colname="col3"/>
+     <thead>
+      <row>
+       <entry colname="col1">
+        <para>Позиция на рис. 1</para>
+       </entry>
+       <entry colname="col2">
+        <para>Наименование</para>
+       </entry>
+       <entry colname="col3">
+        <para>Тип или номер прибора</para>
+       </entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry colname="col1">
+        <para>1</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь передний правый</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПФ133АБ(ПФ130Б или ПФ130АБ-01)*1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>2</para>
+       </entry>
+       <entry colname="col2">
+        <para>Повторитель боковой указателя поворота правый</para>
+       </entry>
+       <entry colname="col3">
+        <para>УП101-Б1 (511-3726010)*1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>3</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фара правая</para>
+       </entry>
+       <entry colname="col3">
+        <para>401.3711(671.3711)*1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>4</para>
+       </entry>
+       <entry colname="col2">
+        <para>Панель соединительная правая</para>
+       </entry>
+       <entry colname="col3">
+        <para>17.3723</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>5</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фара противотуманная правая</para>
+       </entry>
+       <entry colname="col3">
+        <para>ФГ152А*2</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>6</para>
+       </entry>
+       <entry colname="col2">
+        <para>Электродвигатель предпускового подогревателя</para>
+       </entry>
+       <entry colname="col3">
+        <para>МЭ252</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>7</para>
+       </entry>
+       <entry colname="col2">
+        <para>Конденсатор</para>
+       </entry>
+       <entry colname="col3">
+        <para>КБП-С</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>8</para>
+       </entry>
+       <entry colname="col2">
+        <para>Сигнал звуковой низкого тона</para>
+       </entry>
+       <entry colname="col3">
+        <para>С306Д</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>9</para>
+       </entry>
+       <entry colname="col2">
+        <para>Сигнал звуковой высокого тона</para>
+       </entry>
+       <entry colname="col3">
+        <para>С307Д</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>10</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фара противотуманная левая</para>
+       </entry>
+       <entry colname="col3">
+        <para>ФГ152А*2</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>11</para>
+       </entry>
+       <entry colname="col2">
+        <para>Панель соединительная левая</para>
+       </entry>
+       <entry colname="col3">
+        <para>17.3723</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>12</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фара левая</para>
+       </entry>
+       <entry colname="col3">
+        <para>401.3711(671.3711)*1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>13</para>
+       </entry>
+       <entry colname="col2">
+        <para>Повторитель боковой указателя поворота левый</para>
+       </entry>
+       <entry colname="col3">
+        <para>УП101-Б1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>14</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь передний левый</para>
+       </entry>
+       <entry colname="col3">
+        <para>(511-3726010) *1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>15</para>
+       </entry>
+       <entry colname="col2">
+        <para>Стеклоочиститель</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПФ133АБ(ПФ130Б или ПФ130АБ-01)*1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>16</para>
+       </entry>
+       <entry colname="col2">
+        <para>Стеклоомыватель</para>
+       </entry>
+       <entry colname="col3">
+        <para>16.3730</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>17</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле звуковых сигналов</para>
+       </entry>
+       <entry colname="col3">
+        <para>1112.5208000-14 или 1212.5208000-12</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>18</para>
+       </entry>
+       <entry colname="col2">
+        <para>Лампа подкапотная</para>
+       </entry>
+       <entry colname="col3">
+        <para>901.3747</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>19</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель звуковых сигналов</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПД308Б</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>20</para>
+       </entry>
+       <entry colname="col2">
+        <para>Клапан электромагнитный ЭФУ</para>
+       </entry>
+       <entry colname="col3">
+        <para>2802.3829 или ДЕ-Т или ММ125Д</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>21</para>
+       </entry>
+       <entry colname="col2">
+        <para>Предохранитель плавкий 6А</para>
+       </entry>
+       <entry colname="col3">
+        <para>11.3741</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>22</para>
+       </entry>
+       <entry colname="col2">
+        <para>Свеча факельная ЭФУ</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПР119-01</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para/>
+       </entry>
+       <entry colname="col2">
+        <para>Датчики:</para>
+       </entry>
+       <entry colname="col3">
+        <para/>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>23</para>
+       </entry>
+       <entry colname="col2">
+        <para>- указателя температуры охлаждающей жидкости</para>
+       </entry>
+       <entry colname="col3">
+        <para>11.3740</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>24</para>
+       </entry>
+       <entry colname="col2">
+        <para>- сигнализатора масляного фильтра</para>
+       </entry>
+       <entry colname="col3">
+        <para>ТМ100А</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>25</para>
+       </entry>
+       <entry colname="col2">
+        <para>- аварийного падения давления масла</para>
+       </entry>
+       <entry colname="col3">
+        <para>-</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>26</para>
+       </entry>
+       <entry colname="col2">
+        <para>- указателя давления масла</para>
+       </entry>
+       <entry colname="col3">
+        <para>2602.3729 или ДЕ-М или ММ111Д</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>27</para>
+       </entry>
+       <entry colname="col2">
+        <para>Свеча искровая предпускового подогревателя</para>
+       </entry>
+       <entry colname="col3">
+        <para>ММ370</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>28</para>
+       </entry>
+       <entry colname="col2">
+        <para>Датчик аварийного перегрева охлаждающей жидкости</para>
+       </entry>
+       <entry colname="col3">
+        <para>СН423</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>29</para>
+       </entry>
+       <entry colname="col2">
+        <para>Генератор</para>
+       </entry>
+       <entry colname="col3">
+        <para>ТМ111-01</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>30</para>
+       </entry>
+       <entry colname="col2">
+        <para>Источник высокого напряжения</para>
+       </entry>
+       <entry colname="col3">
+        <para>Г288Е или 1702.3771</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>31</para>
+       </entry>
+       <entry colname="col2">
+        <para>Нагреватель топлива предпускового подогревателя</para>
+       </entry>
+       <entry colname="col3">
+        <para>ТК107А или 9301.3734</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>32</para>
+       </entry>
+       <entry colname="col2">
+        <para>Клапан электромагнитный предпускового подогревателя</para>
+       </entry>
+       <entry colname="col3">
+        <para>11.3741060</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>33</para>
+       </entry>
+       <entry colname="col2">
+        <para>Стартер</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПЖД30-1015501-04</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para/>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатели:</para>
+       </entry>
+       <entry colname="col3">
+        <para/>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>34</para>
+       </entry>
+       <entry colname="col2">
+        <para>- электродвигателя предпускового подогревателя</para>
+       </entry>
+       <entry colname="col3">
+        <para>46.3710</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>35</para>
+       </entry>
+       <entry colname="col2">
+        <para>- свечи предпускового подогревателя</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВН45М</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>36</para>
+       </entry>
+       <entry colname="col2">
+        <para>- подогрева топлива</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВН45М</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>37</para>
+       </entry>
+       <entry colname="col2">
+        <para>- электромагнитного клапана предпускового подогревателя</para>
+       </entry>
+       <entry colname="col3">
+        <para>46.3710</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>38</para>
+       </entry>
+       <entry colname="col2">
+        <para>Переключатель</para>
+       </entry>
+       <entry colname="col3">
+        <para>1602.3769</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>39</para>
+       </entry>
+       <entry colname="col2">
+        <para>Регулятор напряжения</para>
+       </entry>
+       <entry colname="col3">
+        <para>2712.3702 или Р2712.3702</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>40</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фильтр конденсаторный</para>
+       </entry>
+       <entry colname="col3">
+        <para>11.7904</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>41</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле отключения регулятора напряжения</para>
+       </entry>
+       <entry colname="col3">
+        <para>901.3747</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>42</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле включения факельных свечей</para>
+       </entry>
+       <entry colname="col3">
+        <para>901.3747</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>43</para>
+       </entry>
+       <entry colname="col2">
+        <para>Сопротивление с биметаллическим контактом системы «термостарт»</para>
+       </entry>
+       <entry colname="col3">
+        <para>12.3741</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>44</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле блокировки выключателя батареи</para>
+       </entry>
+       <entry colname="col3">
+        <para>901.3747</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>45</para>
+       </entry>
+       <entry colname="col2">
+        <para>Предохранитель биметаллический</para>
+       </entry>
+       <entry colname="col3">
+        <para>291.3722</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>46</para>
+       </entry>
+       <entry colname="col2">
+        <para>Розетка переносной лампы</para>
+       </entry>
+       <entry colname="col3">
+        <para>47К</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>47</para>
+       </entry>
+       <entry colname="col2">
+        <para>Переключатель света фар ножной</para>
+       </entry>
+       <entry colname="col3">
+        <para>П53 (П39) *1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>48</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле указателей поворота</para>
+       </entry>
+       <entry colname="col3">
+        <para>РС951 или РП24М</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>49</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле стартера</para>
+       </entry>
+       <entry colname="col3">
+        <para>738.3747-20</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>50</para>
+       </entry>
+       <entry colname="col2">
+        <para>Розетка переносной лампы</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПС400</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>51</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фара – прожектор</para>
+       </entry>
+       <entry colname="col3">
+        <para>171.3711 *3</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>52</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле вспомогательного тормоза</para>
+       </entry>
+       <entry colname="col3">
+        <para>901.3747</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>53</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель вспомогательного тормоза</para>
+       </entry>
+       <entry colname="col3">
+        <para>2802.3829 или ДЕ-Т или ММ125Д</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>54</para>
+       </entry>
+       <entry colname="col2">
+        <para>Блок предохранителей</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПР120</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>55</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель заднего противотуманного фонаря</para>
+       </entry>
+       <entry colname="col3">
+        <para>3842.3710-02.04</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>56</para>
+       </entry>
+       <entry colname="col2">
+        <para>Сопротивление электродвигателя отопителя</para>
+       </entry>
+       <entry colname="col3">
+        <para>СЭ300</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>57</para>
+       </entry>
+       <entry colname="col2">
+        <para>Электродвигатель отопителя</para>
+       </entry>
+       <entry colname="col3">
+        <para>МЭ226-В</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para/>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатели:</para>
+       </entry>
+       <entry colname="col3">
+        <para/>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>58</para>
+       </entry>
+       <entry colname="col2">
+        <para>- плафона кабины</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК343.01.08</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>59</para>
+       </entry>
+       <entry colname="col2">
+        <para>- фары – прожектора</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК343.01.06 *3</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>60</para>
+       </entry>
+       <entry colname="col2">
+        <para>- фонарей знака автопоезда</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК343.02.16</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>61</para>
+       </entry>
+       <entry colname="col2">
+        <para>Переключатель отопителя кабины</para>
+       </entry>
+       <entry colname="col3">
+        <para>П147.03.11</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>62</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель противотуманных фар</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК343.01.03 *2</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>63</para>
+       </entry>
+       <entry colname="col2">
+        <para>Предохранитель плавкий 10А</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПР119Б-01</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>64</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель системы “термостарт”</para>
+       </entry>
+       <entry colname="col3">
+        <para>11.3704-01</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>65</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель световой аварийной сигнализации</para>
+       </entry>
+       <entry colname="col3">
+        <para>32.3710 или 245.3710-01 или 249.3710</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>66</para>
+       </entry>
+       <entry colname="col2">
+        <para>Манометр шинный</para>
+       </entry>
+       <entry colname="col3">
+        <para>МД101</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>67</para>
+       </entry>
+       <entry colname="col2">
+        <para>Плафон кабины</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПК201-Д</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>68</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь знака автопоезда</para>
+       </entry>
+       <entry colname="col3">
+        <para>УП101Б1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>69</para>
+       </entry>
+       <entry colname="col2">
+        <para>Блок контрольных ламп правый</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПД511Е</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para/>
+       </entry>
+       <entry colname="col2">
+        <para>Сигнализаторы:</para>
+       </entry>
+       <entry colname="col3">
+        <para/>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>70</para>
+       </entry>
+       <entry colname="col2">
+        <para>- указателей поворота прицепа</para>
+       </entry>
+       <entry colname="col3">
+        <para>-</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>71</para>
+       </entry>
+       <entry colname="col2">
+        <para>- указателей поворота тягача</para>
+       </entry>
+       <entry colname="col3">
+        <para>-</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>72</para>
+       </entry>
+       <entry colname="col2">
+        <para>- готовности к пуску</para>
+       </entry>
+       <entry colname="col3">
+        <para>-</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>73</para>
+       </entry>
+       <entry colname="col2">
+        <para>Переключатель света центральный</para>
+       </entry>
+       <entry colname="col3">
+        <para>П305</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>74</para>
+       </entry>
+       <entry colname="col2">
+        <para>Указатель уровня топлива</para>
+       </entry>
+       <entry colname="col3">
+        <para>УБ170-01 или 34.3806010</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>75</para>
+       </entry>
+       <entry colname="col2">
+        <para>Сигнализатор резерва топлива</para>
+       </entry>
+       <entry colname="col3">
+        <para>-</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>76</para>
+       </entry>
+       <entry colname="col2">
+        <para>Переключатель указателей поворота</para>
+       </entry>
+       <entry colname="col3">
+        <para>П110А или П110В- 01</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>77</para>
+       </entry>
+       <entry colname="col2">
+        <para>Указатель тока</para>
+       </entry>
+       <entry colname="col3">
+        <para>АП171А</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>78</para>
+       </entry>
+       <entry colname="col2">
+        <para>Спидометр</para>
+       </entry>
+       <entry colname="col3">
+        <para>161.3802</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>79</para>
+       </entry>
+       <entry colname="col2">
+        <para>Сигнализатор дальнего света фар</para>
+       </entry>
+       <entry colname="col3">
+        <para>-</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>80</para>
+       </entry>
+       <entry colname="col2">
+        <para>Тахометр</para>
+       </entry>
+       <entry colname="col3">
+        <para>253.3813</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>81</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель стартера и приборов</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК353 или ВК354 (2109.3704010) *1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>82</para>
+       </entry>
+       <entry colname="col2">
+        <para>Указатель давления масла</para>
+       </entry>
+       <entry colname="col3">
+        <para>УК170-03</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>83</para>
+       </entry>
+       <entry colname="col2">
+        <para>Сигнализатор аварийного падения давления масла</para>
+       </entry>
+       <entry colname="col3">
+        <para>-</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>84</para>
+       </entry>
+       <entry colname="col2">
+        <para>Кнопка включения аккумуляторных батарей</para>
+       </entry>
+       <entry colname="col3">
+        <para>11.3704-01 (1402.3737) *1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>85</para>
+       </entry>
+       <entry colname="col2">
+        <para>Указатель температуры охлаждающей жидкости</para>
+       </entry>
+       <entry colname="col3">
+        <para>УК171-01</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>86</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реостат подсветки приборов</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК416Б-01</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>87</para>
+       </entry>
+       <entry colname="col2">
+        <para>Манометр двухстрелочный</para>
+       </entry>
+       <entry colname="col3">
+        <para>1901.3830010</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>88</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле блокировки стартера</para>
+       </entry>
+       <entry colname="col3">
+        <para>2612.3747 или РБС- 1к</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>89</para>
+       </entry>
+       <entry colname="col2">
+        <para>Сигнализатор звуковой (зуммер)</para>
+       </entry>
+       <entry colname="col3">
+        <para>733.3747</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>90</para>
+       </entry>
+       <entry colname="col2">
+        <para>Блок контрольных ламп левый</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПД512Е</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para/>
+       </entry>
+       <entry colname="col2">
+        <para>Сигнализаторы:</para>
+       </entry>
+       <entry colname="col3">
+        <para/>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>91</para>
+       </entry>
+       <entry colname="col2">
+        <para>- стояночного тормоза</para>
+       </entry>
+       <entry colname="col3">
+        <para>--</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>92</para>
+       </entry>
+       <entry colname="col2">
+        <para>- угла складывания полуприцепа</para>
+       </entry>
+       <entry colname="col3">
+        <para>--</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>93</para>
+       </entry>
+       <entry colname="col2">
+        <para>- аварийного повышения температуры охлаждающей жидкости</para>
+       </entry>
+       <entry colname="col3">
+        <para>--</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>94</para>
+       </entry>
+       <entry colname="col2">
+        <para>- выхода из строя тормозов</para>
+       </entry>
+       <entry colname="col3">
+        <para>--</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>95</para>
+       </entry>
+       <entry colname="col2">
+        <para>- аварийного падения давления в баллонах</para>
+       </entry>
+       <entry colname="col3">
+        <para>--</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>96</para>
+       </entry>
+       <entry colname="col2">
+        <para>- загрязнения маслофильтра</para>
+       </entry>
+       <entry colname="col3">
+        <para>--</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>97</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель сигнализатора стояночного тормоза</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК403А или ВК403Б</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>98</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле стояночного тормоза</para>
+       </entry>
+       <entry colname="col3">
+        <para>РС493</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>99</para>
+       </entry>
+       <entry colname="col2">
+        <para>Батарея аккумуляторная</para>
+       </entry>
+       <entry colname="col3">
+        <para>6СТ-190 (6СТ-190А или 6СТ-190ТР или 6СТ-190ТМ) *2</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>100</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель аккумуляторных батарей</para>
+       </entry>
+       <entry colname="col3">
+        <para>1402.3737</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>101</para>
+       </entry>
+       <entry colname="col2">
+        <para>Розетка внешнего запуска</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПС315-100 или ММММ685121002</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>102</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель света заднего хода</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК403А или ВК418А или ВК403Б</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>103</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель сигнала торможения</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК12Б</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>104</para>
+       </entry>
+       <entry colname="col2">
+        <para>Датчик неисправности тормозов</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК503</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>105</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель сигнала из кузова</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК322</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>106</para>
+       </entry>
+       <entry colname="col2">
+        <para>Выключатель цепи электромагнита</para>
+       </entry>
+       <entry colname="col3">
+        <para>ВК403А или ВК403Б</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>107</para>
+       </entry>
+       <entry colname="col2">
+        <para>Датчик указателя уровня топлива</para>
+       </entry>
+       <entry colname="col3">
+        <para>5202.3827010</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>108</para>
+       </entry>
+       <entry colname="col2">
+        <para>Датчик падения давления воздуха в баллонах</para>
+       </entry>
+       <entry colname="col3">
+        <para>2702.3829 или ДЕ-В или ММ124Д</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>109</para>
+       </entry>
+       <entry colname="col2">
+        <para>Розетка штепсельная прицепа</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПС300-А3</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>110</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь подкузовной</para>
+       </entry>
+       <entry colname="col3">
+        <para>ФП103Г</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>111</para>
+       </entry>
+       <entry colname="col2">
+        <para>Панель соединительная</para>
+       </entry>
+       <entry colname="col3">
+        <para>17.3723</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>112</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь задний правый</para>
+       </entry>
+       <entry colname="col3">
+        <para>ФП133АБ</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>113</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь задний противотуманный</para>
+       </entry>
+       <entry colname="col3">
+        <para>2412.3716010</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>114</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь заднего хода</para>
+       </entry>
+       <entry colname="col3">
+        <para>2112.3711</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>115</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь освещения номерного знака</para>
+       </entry>
+       <entry colname="col3">
+        <para>ФП134Б</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>116</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь задний левый</para>
+       </entry>
+       <entry colname="col3">
+        <para>ФП133АБ</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>117</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь габаритный боковой</para>
+       </entry>
+       <entry colname="col3">
+        <para>431.3731</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>118</para>
+       </entry>
+       <entry colname="col2">
+        <para>Розетка прицепа</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПС326-150 или СНЦ125-7/45В034- 01</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>119</para>
+       </entry>
+       <entry colname="col2">
+        <para>Розетка прицепа</para>
+       </entry>
+       <entry colname="col3">
+        <para>ПС325-150 или СНЦ124-7/45В034- 01</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>120</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь задний правый</para>
+       </entry>
+       <entry colname="col3">
+        <para>7462.3716 *1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>121</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь освещения номерного знака</para>
+       </entry>
+       <entry colname="col3">
+        <para>ФП131АБ *1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>122</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь задний левый</para>
+       </entry>
+       <entry colname="col3">
+        <para>7472.3716 *1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>123</para>
+       </entry>
+       <entry colname="col2">
+        <para>Фонарь габаритный передний</para>
+       </entry>
+       <entry colname="col3">
+        <para>264.3712 *1</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>124</para>
+       </entry>
+       <entry colname="col2">
+        <para>Корректор ближнего света фар</para>
+       </entry>
+       <entry colname="col3">
+        <para>ЭМКФ35</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>125</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле габаритных фонарей</para>
+       </entry>
+       <entry colname="col3">
+        <para>901.3747</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>126</para>
+       </entry>
+       <entry colname="col2">
+        <para>Реле дальнего света фар</para>
+       </entry>
+       <entry colname="col3">
+        <para>901.3747</para>
+       </entry>
+      </row>
+      <row>
+       <entry colname="col1">
+        <para>127</para>
+       </entry>
+       <entry colname="col2">
+        <para>Клапан электромагнитный останова двигателя</para>
+       </entry>
+       <entry colname="col3">
+        <para>5320-3721500 или ЭМ-1</para>
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+   <para>Общее описание электросистемы</para>
+  </description>
+ </content>
+</dmodule>

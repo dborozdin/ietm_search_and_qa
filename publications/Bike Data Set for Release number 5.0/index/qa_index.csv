@@ -1,0 +1,1712 @@
+tokens;labels;text;DMC
+[126, 18, 386, 180, 314, 315];0;"Mountain bicycle: 
+ Applicability cross-reference table";DMC-BRAKE-D-D00-00-00-00AA-00WA-AAA(1)
+[126, 19, 308, 180, 10, 353];0;"Mountain bicycle: 
+ Applicability cross-reference table";DMC-BRAKE-D-D00-00-00-00AA-00WA-AAA(1)
+[7, 51, 2, 211, 529, 38, 4, 2, 18, 9, 2, 7, 51, 387, 6, 316, 212, 4, 2, 7, 51, 9, 99, 213, 70, 6, 388, 23, 252, 21, 35, 36, 3, 23, 2, 99, 212, 57, 530, 57, 366, 44, 36, 23, 31, 23, 37, 2, 18, 181, 9, 389, 3, 24, 82, 9, 317, 143, 127, 4, 7, 51, 2, 144, 182, 8, 211, 18, 9, 2, 318, 7, 10, 3, 318, 7, 2, 7, 51, 10, 3, 64, 76, 390, 206, 2, 7, 25, 10, 3, 2, 7, 106, 2, 7, 319, 2, 7, 48, 108, 320, 57, 486, 2, 7, 39, 10, 3, 318, 7, 13, 487, 106, 6, 106, 11, 207, 14, 2, 7, 25, 8, 2, 34, 117, 2, 77, 25, 8, 2, 7, 367, 37, 214, 2, 7, 39, 183, 2, 215, 60, 4, 2, 16, 160, 391, 2, 216, 4, 2, 18, 7, 39, 82, 9, 392, 7, 39, 10, 3, 8, 2, 18, 77, 9, 182, 8, 2, 26, 16, 5, 77, 8, 2, 41, 16, 2, 7, 39, 9, 21, 109, 4, 253, 321, 254, 2, 39, 214, 183, 2, 60, 4, 2, 16, 3, 145, 217, 70, 2, 36, 184, 2, 7, 25, 531, 393, 4, 6, 7, 7, 25, 2, 7, 25, 10, 3, 9, 368, 161, 2, 25, 9, 32, 20, 2, 87, 6, 48, 49, 54, 2, 87, 37, 49, 9, 31, 532, 488, 15, 9, 182, 20, 2, 87, 2, 25, 100, 8, 6, 25, 118, 49, 2, 533, 162, 119, 54, 2, 7, 106, 37, 162, 119, 159, 2, 94, 4, 2, 106, 489, 206, 4, 6, 126, 18, 25, 2, 208, 7, 25, 54, 2, 7, 39, 8, 2, 26, 16, 5, 2, 185, 7, 39, 54, 2, 7, 8, 2, 41, 16];1;"Brake system: 
+ The most important part of the bicycle is the brake system. Only a minimum maintenance of the brake system is necessary. But, when a problem does occur, make sure you to do the necessary maintenance as quickly as possible. If you do not do this the bicycle will be dangerous to use. 
+ There are nine different types of brake systems. The one found on most bicycles is the cantilever brake (refer to ). 
+ Cantilever brake: 
+ The brake system (refer to ) has these primary components:  
+ the brake lever (refer to ) 
+ the brake cable 
+ the brake arm 
+ the brake clamp (also known as callipers) 
+ the brake pads (refer to ) 
+ Cantilever brake with straddle cable: 
+ A cable that goes from the brake levers on the handlebars pulls the two levers on the brakes together. This presses the brake pads against the outer rim of the wheel, which decreases the speed of the bicycle. 
+ Brake pads: 
+ There are four brake pads (refer to ) on the bicycle. Two are found on the front wheel and two on the rear wheel. The brake pads are made out of hard wearing rubber. The pads press against the rim of the wheel to cause friction when the you operate the brake levers. 
+ Exploded diagram of a brake: 
+ Brake lever: 
+ The brake levers (refer to ) are easily damaged. The lever is installed in the mount. A clamp bolt holds the mount. This bolt is not visible because it is found in the mount. The lever turns on a lever pivot bolt. The adjuster lock nut holds the brake cable. This lock nut adjusts the tension of the cable. 
+ Typical components of a mountain bicycle lever: 
+ The left brake lever holds the brake pads on the front wheel and the right brake pads hold the brakes on the rear wheel.";DMC-BRAKE-A-DA1-00-00-00AA-041A-AAA(1)
+[7, 51, 2, 211, 708, 38, 4, 2, 19, 17, 2, 7, 51, 469, 6, 316, 240, 4, 2, 7, 51, 17, 104, 213, 70, 6, 388, 509, 252, 21, 35, 36, 3, 23, 2, 104, 240, 57, 415, 57, 379, 44, 36, 23, 31, 23, 37, 2, 19, 181, 9, 470, 3, 24, 82, 59, 317, 139, 127, 4, 7, 51, 2, 144, 354, 8, 211, 19, 17, 2, 355, 7, 10, 3, 355, 7, 2, 7, 51, 10, 3, 140, 76, 471, 210, 2, 7, 25, 10, 3, 2, 7, 107, 2, 7, 319, 2, 7, 48, 108, 356, 57, 510, 2, 7, 39, 10, 3, 355, 7, 13, 511, 107, 6, 107, 11, 512, 14, 2, 7, 25, 8, 2, 34, 117, 2, 77, 25, 8, 2, 7, 380, 37, 214, 2, 7, 39, 183, 2, 215, 60, 4, 2, 16, 160, 472, 2, 216, 4, 2, 19, 7, 39, 82, 59, 392, 7, 39, 10, 3, 8, 2, 19, 77, 59, 354, 8, 2, 26, 16, 5, 77, 8, 2, 41, 16, 2, 7, 39, 59, 115, 109, 4, 253, 321, 254, 2, 39, 214, 183, 2, 60, 4, 2, 16, 3, 158, 217, 70, 2, 36, 141, 2, 7, 25, 709, 393, 4, 6, 7, 7, 25, 2, 7, 25, 10, 3, 59, 381, 172, 2, 25, 17, 32, 20, 2, 87, 6, 48, 49, 54, 2, 87, 37, 49, 17, 31, 710, 513, 15, 17, 354, 20, 2, 87, 2, 25, 100, 8, 6, 25, 118, 49, 2, 159, 162, 119, 54, 2, 7, 107, 37, 162, 119, 159, 2, 94, 4, 2, 107, 514, 210, 4, 6, 126, 19, 25, 2, 208, 7, 25, 54, 2, 7, 39, 8, 2, 26, 16, 5, 2, 185, 7, 39, 54, 2, 7, 8, 2, 41, 16];1;"Brake system: 
+ The most important part of the bicycle is the brake system. Only a minimum maintenance of the brake system is necessary. But, when a problem does occur, make sure you to do the necessary maintenance as quickly as possible. If you do not do this the bicycle will be dangerous to use. 
+ There are nine different types of brake systems. The one found on most bicycles is the cantilever brake (refer to ). 
+ Cantilever brake: 
+ The brake system (refer to ) has these primary components:  
+ the brake lever (refer to ) 
+ the brake cable 
+ the brake arm 
+ the brake clamp (also known as callipers) 
+ the brake pads (refer to ) 
+ Cantilever brake with straddle cable: 
+ A cable that goes from the brake levers on the handlebars pulls the two levers on the brakes together. This presses the brake pads against the outer rim of the wheel, which decreases the speed of the bicycle. 
+ Brake pads: 
+ There are four brake pads (refer to ) on the bicycle. Two are found on the front wheel and two on the rear wheel. The brake pads are made out of hard wearing rubber. The pads press against the rim of the wheel to cause friction when the you operate the brake levers. 
+ Exploded diagram of a brake: 
+ Brake lever: 
+ The brake levers (refer to ) are easily damaged. The lever is installed in the mount. A clamp bolt holds the mount. This bolt is not visible because it is found in the mount. The lever turns on a lever pivot bolt. The adjuster lock nut holds the brake cable. This lock nut adjusts the tension of the cable. 
+ Typical components of a mountain bicycle lever: 
+ The left brake lever holds the brake pads on the front wheel and the right brake pads hold the brakes on the rear wheel.";DMC-BRAKE-A-DA1-00-00-00AA-041A-AAA(1)
+[7, 51, 101, 4, 88, 15, 9, 21];2;"Brake system: 
+ Description of how it is made";DMC-BRAKE-A-DA1-00-00-00AA-041A-AAA(2)
+[7, 51, 105, 4, 88, 15, 17, 115];2;"Brake system: 
+ Description of how it is made";DMC-BRAKE-A-DA1-00-00-00AA-041A-AAA(2)
+[65, 2, 18, 20, 6, 490, 163, 54, 2, 128, 61, 5, 89, 2, 18, 113, 80, 2, 7, 21, 35, 11, 2, 16, 162, 5, 2, 18, 255];3;"Put the bicycle in a vertical position. 
+ Hold the handle bars and push the bicycle forwards. 
+ Apply the brakes. 
+ Make sure that the wheels lock and the bicycle stops.";DMC-BRAKE-A-DA1-00-00-00AA-341A-AAA(2)
+[65, 2, 19, 20, 6, 515, 173, 54, 2, 135, 61, 5, 89, 2, 19, 113, 81, 2, 7, 21, 35, 11, 2, 16, 162, 5, 2, 19, 255];3;"Put the bicycle in a vertical position. 
+ Hold the handle bars and push the bicycle forwards. 
+ Apply the brakes. 
+ Make sure that the wheels lock and the bicycle stops.";DMC-BRAKE-A-DA1-00-00-00AA-341A-AAA(2)
+[7, 51, 256, 120];4;"Brake system: 
+ Manual test";DMC-BRAKE-A-DA1-00-00-00AA-341A-AAA(3)
+[23, 6, 322, 369, 4, 2, 7, 57, 175, 20, 2, 257, 129, 66, 10, 3, 28, 2, 7, 39, 182, 95, 4, 2, 7, 39, 80, 6, 186, 258, 4, 2, 8, 95, 4, 2, 7, 39, 259, 2, 323, 187, 36, 64, 80, 2, 3, 2, 491, 323, 4, 2, 39, 29, 2, 218, 260];5;"Do a visual inspection of the brakes as given in the pre-ride checks (refer to  
+ Clean the brake pads. 
+ Find each of the brake pads. 
+ Apply a thin layer of the  on each of the brake pads. 
+ Rub the surface until you have applied the  to the complete surface of the pad. 
+ Remove the unwanted alcohol.";DMC-BRAKE-A-DA1-10-00-00AA-251A-AAA(2)
+[23, 6, 322, 307, 4, 2, 7, 57, 309, 20, 2, 257, 129, 66, 10, 3, 28, 2, 7, 39, 182, 95, 4, 2, 7, 39, 81, 6, 186, 258, 4, 2, 8, 95, 4, 2, 7, 39, 259, 2, 357, 187, 36, 64, 81, 2, 3, 2, 473, 357, 4, 2, 39, 30, 2, 241, 260];5;"Do a visual inspection of the brakes as given in the pre-ride checks (refer to  
+ Clean the brake pads. 
+ Find each of the brake pads. 
+ Apply a thin layer of the  on each of the brake pads. 
+ Rub the surface until you have applied the  to the complete surface of the pad. 
+ Remove the unwanted alcohol.";DMC-BRAKE-A-DA1-10-00-00AA-251A-AAA(2)
+[7, 39, 28, 13, 259, 260];6;"Brake pads: 
+ Clean with rubbing alcohol";DMC-BRAKE-A-DA1-10-00-00AA-251A-AAA(3)
+[18, 759, 534];7;"Bicycle: 
+ Title page";DMC-S1000DBIKE-A-D00-00-00-00AA-001A-AAA(1)
+[19, 866, 534];7;"Bicycle: 
+ Title page";DMC-S1000DBIKE-A-D00-00-00-00AA-001A-AAA(1)
+[18, 188, 4, 760, 394, 761];8;"Bicycle: 
+ List of effective data modules";DMC-S1000DBIKE-A-D00-00-00-00AA-002A-AAA(1)
+[19, 188, 4, 867, 474, 868];8;"Bicycle: 
+ List of effective data modules";DMC-S1000DBIKE-A-D00-00-00-00AA-002A-AAA(1)
+[18, 315, 4, 395];9;"Bicycle: 
+ Table of contents";DMC-S1000DBIKE-A-D00-00-00-00AA-009A-AAA(1)
+[19, 353, 4, 395];9;"Bicycle: 
+ Table of contents";DMC-S1000DBIKE-A-D00-00-00-00AA-009A-AAA(1)
+[126, 18, 535, 180, 314, 315];10;"Mountain bicycle: 
+ Products cross-reference table";DMC-S1000DBIKE-D-D00-00-00-00AA-00PA-AAA(1)
+[126, 19, 535, 180, 10, 353];10;"Mountain bicycle: 
+ Products cross-reference table";DMC-S1000DBIKE-D-D00-00-00-00AA-00PA-AAA(1)
+[126, 18, 396, 180, 314, 315];11;"Mountain bicycle: 
+ Conditions cross-reference table";DMC-S1000DBIKE-D-D00-00-00-00AA-00QA-AAA(1)
+[126, 19, 475, 180, 10, 353];11;"Mountain bicycle: 
+ Conditions cross-reference table";DMC-S1000DBIKE-D-D00-00-00-00AA-00QA-AAA(1)
+[126, 18, 386, 180, 314, 315];12;"Mountain bicycle : 
+ Applicability cross-reference table";DMC-S1000DBIKE-D-D00-00-00-00AA-00WA-AAA(1)
+[126, 19, 308, 180, 10, 353];12;"Mountain bicycle : 
+ Applicability cross-reference table";DMC-S1000DBIKE-D-D00-00-00-00AA-00WA-AAA(1)
+[18, 261, 5, 762];13;"Bicycle: 
+ Controls and Indicators";DMC-S1000DBIKE-A-D00-00-00-00AA-00XA-AAA(1)
+[19, 261, 5, 711];13;"Bicycle: 
+ Controls and Indicators";DMC-S1000DBIKE-A-D00-00-00-00AA-00XA-AAA(1)
+[126, 18, 536, 397, 763];14;"Mountain bicycle: 
+ Business rules exchange";DMC-S1000DBIKE-D-D00-00-00-00AA-022A-AAA(1)
+[126, 19, 712, 397, 869];14;"Mountain bicycle: 
+ Business rules exchange";DMC-S1000DBIKE-D-D00-00-00-00AA-022A-AAA(1)
+[398, 537, 536, 397, 538];15;"S1000DBIKE: 
+ Business rules document";DMC-S1000DBIKE-D-D00-00-00-00AA-024A-AAA(1)
+[398, 537, 712, 397, 538];15;"S1000DBIKE: 
+ Business rules document";DMC-S1000DBIKE-D-D00-00-00-00AA-024A-AAA(1)
+[539, 101, 4, 6, 18, 6, 18, 10, 3, 9, 6, 42, 5, 6, 262, 4, 764, 206, 13, 540, 38, 11, 9, 765, 219, 82, 9, 220, 324, 73, 399, 221, 541, 11, 325, 222, 3, 2, 540, 38, 542, 36, 47, 543, 2, 143, 206, 4, 6, 18, 10, 3, 3, 23, 164, 369, 6, 212, 326, 6, 244, 326, 491, 18, 2, 38, 11, 36, 47, 370, 544, 8, 6, 18, 9, 175, 20, 18, 38, 189, 10, 3, 766, 42, 6, 18, 42, 9, 21, 4, 221, 22, 11, 9, 327, 367, 16, 2, 16, 223, 76, 38, 74, 91, 221, 60, 254, 27, 41, 16, 26, 16, 98, 5, 98, 263, 76, 46, 43, 2, 98, 22, 13, 6, 190, 36, 47, 24, 3, 224, 2, 400, 128, 61, 6, 492, 61, 11, 67, 3, 2, 33, 13, 110, 68, 2, 146, 11, 67, 3, 2, 7, 25, 5, 2, 55, 128, 61, 33, 37, 67, 2, 128, 61, 3, 2, 209, 22, 165, 191, 166, 6, 25, 11, 401, 14, 2, 130, 4, 2, 225, 3, 2, 192, 192, 2, 77, 402, 58, 2, 328, 11, 67, 3, 2, 166, 12, 6, 545, 191, 4, 264, 11, 193, 2, 12, 71, 3, 2, 403, 8, 2, 226, 72, 2, 72, 223, 26, 12, 71, 41, 226, 26, 5, 2, 41, 40, 147, 25, 8, 2, 128, 61, 106, 7, 2, 7, 223, 767, 8, 2, 34, 7, 106, 7, 486, 7, 39];16;"Physical description of a bicycle: 
+ A bicycle (refer to ) is a frame and a number of movable components with mechanical parts that are completely open. There are no covers or sheet metal panels that prevent access to the mechanical parts. Thus, you can disassemble the different components of a bicycle (refer to ) to do:  
+ an inspection 
+ a maintenance task 
+ a repair task 
+ Complete bicycle: 
+ The parts that you can immediately identify on a bicycle are given in . 
+ Bicycle parts: 
+ Item 
+ Refer to 
+ Definition 
+ Frame 
+ A bicycle frame is made of metal tubes that are welded together. 
+ Wheels 
+ The wheels include these parts:  
+ Hub 
+ Spokes 
+ Metal rim 
+ Rubber tire 
+ Rear wheel 
+ Front wheel 
+ Seat and seat post 
+ These install into the seat tube with a mechanism you can use to change the height. 
+ Handle bars 
+ A horizontal bar that attaches to the stem with grips at the ends that attach to the brake levers and the shifters. 
+ Handle bar stem 
+ This attaches the handle bar to the steering tube (head set). 
+ Cranks 
+ A lever that extends from the bottom of the bracket to the pedal. 
+ Pedals 
+ The two platforms for the feet that attach to the crank. 
+ Chain 
+ A circular set of links that connect the chain ring to the cogs on the freewheel. 
+ Gears 
+ The gears include:  
+ Front chain ring 
+ Rear freewheel 
+ Front and the rear derailleur 
+ Shift lever on the handle bars 
+ Cables 
+ Brakes 
+ The brakes include:  
+ Actuators on the handlebars 
+ Brake cable 
+ Brake callipers 
+ Brake pads";DMC-S1000DBIKE-A-D00-00-00-00AA-041A-AAA(1)
+[713, 105, 4, 6, 19, 6, 19, 10, 3, 17, 6, 42, 5, 6, 262, 4, 870, 210, 13, 174, 38, 11, 59, 473, 219, 82, 59, 220, 324, 73, 399, 221, 541, 11, 325, 222, 3, 2, 174, 38, 542, 36, 47, 714, 2, 139, 210, 4, 6, 19, 10, 3, 3, 23, 164, 307, 6, 240, 326, 6, 244, 326, 473, 19, 2, 38, 11, 36, 47, 310, 715, 8, 6, 19, 59, 309, 20, 19, 38, 189, 10, 3, 871, 42, 6, 19, 42, 17, 115, 4, 221, 22, 11, 59, 327, 380, 16, 2, 16, 242, 76, 38, 74, 91, 221, 60, 254, 27, 41, 16, 26, 16, 98, 5, 98, 263, 76, 32, 43, 2, 98, 22, 13, 6, 174, 36, 47, 24, 3, 243, 2, 400, 135, 61, 6, 516, 61, 11, 67, 3, 2, 33, 13, 110, 68, 2, 146, 11, 67, 3, 2, 7, 25, 5, 2, 55, 135, 61, 33, 37, 67, 2, 135, 61, 3, 2, 138, 22, 165, 191, 166, 6, 25, 11, 401, 14, 2, 130, 4, 2, 225, 3, 2, 192, 192, 2, 77, 402, 58, 2, 716, 11, 67, 3, 2, 166, 12, 6, 545, 191, 4, 264, 11, 193, 2, 12, 71, 3, 2, 403, 8, 2, 226, 72, 2, 72, 242, 26, 12, 71, 41, 226, 26, 5, 2, 41, 40, 147, 25, 8, 2, 135, 61, 107, 7, 2, 7, 242, 717, 8, 2, 34, 7, 107, 7, 510, 7, 39];16;"Physical description of a bicycle: 
+ A bicycle (refer to ) is a frame and a number of movable components with mechanical parts that are completely open. There are no covers or sheet metal panels that prevent access to the mechanical parts. Thus, you can disassemble the different components of a bicycle (refer to ) to do:  
+ an inspection 
+ a maintenance task 
+ a repair task 
+ Complete bicycle: 
+ The parts that you can immediately identify on a bicycle are given in . 
+ Bicycle parts: 
+ Item 
+ Refer to 
+ Definition 
+ Frame 
+ A bicycle frame is made of metal tubes that are welded together. 
+ Wheels 
+ The wheels include these parts:  
+ Hub 
+ Spokes 
+ Metal rim 
+ Rubber tire 
+ Rear wheel 
+ Front wheel 
+ Seat and seat post 
+ These install into the seat tube with a mechanism you can use to change the height. 
+ Handle bars 
+ A horizontal bar that attaches to the stem with grips at the ends that attach to the brake levers and the shifters. 
+ Handle bar stem 
+ This attaches the handle bar to the steering tube (head set). 
+ Cranks 
+ A lever that extends from the bottom of the bracket to the pedal. 
+ Pedals 
+ The two platforms for the feet that attach to the crank. 
+ Chain 
+ A circular set of links that connect the chain ring to the cogs on the freewheel. 
+ Gears 
+ The gears include:  
+ Front chain ring 
+ Rear freewheel 
+ Front and the rear derailleur 
+ Shift lever on the handle bars 
+ Cables 
+ Brakes 
+ The brakes include:  
+ Actuators on the handlebars 
+ Brake cable 
+ Brake callipers 
+ Brake pads";DMC-S1000DBIKE-A-D00-00-00-00AA-041A-AAA(1)
+[18, 101, 4, 88, 15, 9, 21];17;"Bicycle: 
+ Description of how it is made";DMC-S1000DBIKE-A-D00-00-00-00AA-041A-AAA(2)
+[19, 105, 4, 88, 15, 17, 115];17;"Bicycle: 
+ Description of how it is made";DMC-S1000DBIKE-A-D00-00-00-00AA-041A-AAA(2)
+[404, 101, 4, 6, 18, 194, 9, 6, 188, 4, 2, 143, 18, 206, 5, 6, 404, 101, 4, 96, 2, 42, 9, 2, 405, 4, 2, 18, 10, 3, 2, 16, 9, 2, 195, 4, 406, 131, 2, 18, 5, 2, 407, 58, 2, 18, 3, 64, 227, 10, 3, 2, 91, 9, 493, 245, 13, 94, 80, 11, 193, 2, 74, 3, 2, 60, 36, 47, 159, 2, 94, 13, 2, 371, 8, 2, 60, 111, 2, 74, 67, 3, 2, 167, 4, 2, 16, 265, 2, 196, 5, 2, 114, 9, 2, 221, 60, 9, 6, 221, 71, 11, 64, 6, 546, 408, 180, 329, 3, 54, 2, 91, 8, 2, 132, 111, 5, 2, 27, 8, 2, 215, 111, 2, 98, 160, 9, 108, 320, 57, 2, 547, 9, 24, 57, 2, 266, 402, 58, 2, 548, 3, 409, 8, 2, 18, 2, 98, 263, 9, 24, 57, 6, 266, 263, 58, 2, 98, 5, 3, 224, 2, 400, 4, 2, 98, 58, 2, 197, 2, 128, 61, 9, 6, 492, 61, 13, 128, 8, 95, 146, 2, 128, 61, 9, 6, 209, 190, 11, 2, 197, 24, 3, 224, 2, 410, 4, 2, 18, 2, 7, 25, 9, 108, 8, 2, 128, 61, 10, 3, 2, 128, 61, 33, 2, 33, 67, 2, 128, 61, 3, 2, 209, 22, 10, 3, 70, 36, 184, 2, 7, 25, 2, 7, 39, 50, 183, 2, 16, 3, 391, 2, 216, 2, 7, 25, 8, 2, 208, 111, 184, 2, 26, 7, 2, 7, 25, 8, 2, 185, 111, 184, 2, 41, 7, 70, 36, 184, 2, 7, 2, 7, 39, 50, 183, 2, 16, 3, 391, 2, 216, 4, 2, 18, 10, 3, 2, 55, 9, 2, 190, 11, 36, 24, 3, 224, 2, 72, 8, 2, 18, 82, 9, 143, 127, 4, 55, 11, 64, 9, 549, 411, 2, 550, 213, 96, 69, 64, 2, 330, 768, 70, 36, 184, 2, 55, 96, 117, 2, 261, 106, 3, 50, 2, 40, 551, 6, 246, 412, 12, 71, 2, 55, 47, 108, 90, 2, 106, 3, 168, 2, 40, 50, 551, 6, 176, 412, 12, 71, 10, 3, 2, 166, 50, 2, 413, 3, 2, 12, 71, 70, 2, 192, 184, 2, 192, 50, 2, 552, 4, 227, 14, 2, 328, 3, 2, 166, 2, 12, 50, 2, 413, 14, 2, 12, 71, 3, 2, 403, 8, 2, 226, 10, 3, 2, 72, 64, 143, 190, 11, 124, 367, 3, 224, 2, 216, 4, 2, 18, 76, 190, 223, 2, 62, 2, 12, 2, 40, 2, 12, 71, 108, 320, 57, 2, 12, 16, 117, 8, 2, 12, 70, 2, 166, 100, 6, 40, 50, 2, 12, 14, 144, 62, 3, 769, 3, 224, 2, 72, 82, 9, 77, 143, 127, 4, 40, 2, 26, 5, 2, 41, 2, 136, 414, 136, 72, 9, 70, 2, 12, 9, 8, 2, 246, 62, 8, 2, 26, 5, 2, 176, 68, 2, 41, 3, 63, 2, 372, 72, 2, 176, 62, 9, 68, 2, 26, 5, 2, 246, 68, 2, 41, 10, 3];18;"Functional description of a bicycle: 
+ Below is a list of the different bicycle components and a functional description of them.  
+ the frame is the skeleton of the bicycle. refer to  
+ the wheel is the point of contact between the bicycle and the road for the bicycle to have movement. refer to  
+ the spokes are thick wires with tension applied that connect the hub to the rim. you can adjust the tension with the nipple on the rim side. 
+ the hub attaches to the center of the wheel where the axle and the bearings are. 
+ the metal rim is a metal ring that has a u-shaped cross section to hold the spokes on the inner side and the tire on the outer side. 
+ the seat, which is also known as the ""saddle"", is used as the support platform for the person to sit on the bicycle. 
+ the seat post is used as a support post for the seat and to change the height of the seat for the rider. 
+ the handle bar is a horizontal bar with handles on each end. the handle bar is a steering mechanism that the rider uses to change the direction of the bicycle. the brake levers are also on the handle bar. refer to  
+ the handle bar stem (the stem) attaches the handle bar to the steering tube. refer to  
+ when you operate the brake lever, the brake pads move against the wheel to decrease the speed. the brake lever on the left side operates the front brake. the brake lever on the right side operates the rear brake. 
+ when you operate the brakes, the brake pad moves against the wheel to decrease the speed of the bicycle. refer to  
+ the shifters are the mechanisms that you use to change the gears on the bicycle. there are 7 different types of shifters that have been developed over the years, but they all have the same functionality. when you operate the shifters, they pull the control cable to move the derailleur towards a larger diameter chain ring. the shifters can also loosen the cable to let the derailleur move towards a smaller diameter chain ring. refer to  
+ the crank moves the power to the chain rings when the pedals operate. 
+ the pedals move the force of movement from the feet to the cranks. 
+ the chain moves the power from the chain rings to the cogs on the freewheel. refer to  
+ the gears have different mechanisms that function together to change the speed of the bicycle. these mechanisms include:  
+ the sprockets 
+ the chain 
+ the derailleur 
+ the chain rings (also known as the ""chain wheel"") pull on the chain when the cranks turn. 
+ a derailleur moves the chain from one sprocket to another to change the gears. there are two different types of derailleur, the front and the rear. the highest ratio (highest gear) is when the chain is on the largest sprocket on the front and the smallest at the rear. to get the lowest gear, the smallest sprocket is at the front and the largest at the rear. refer to ";DMC-S1000DBIKE-A-D00-00-00-00AA-042A-AAA(1)
+[124, 105, 4, 6, 19, 194, 17, 6, 188, 4, 2, 139, 19, 210, 5, 6, 124, 105, 4, 298, 2, 42, 17, 2, 405, 4, 2, 19, 10, 3, 2, 16, 17, 2, 195, 4, 406, 131, 2, 19, 5, 2, 407, 58, 2, 19, 3, 64, 227, 10, 3, 2, 91, 59, 493, 245, 13, 94, 81, 11, 193, 2, 74, 3, 2, 60, 36, 47, 159, 2, 94, 13, 2, 382, 8, 2, 60, 111, 2, 74, 67, 3, 2, 167, 4, 2, 16, 265, 2, 205, 5, 2, 92, 59, 2, 221, 60, 17, 6, 221, 71, 11, 140, 6, 546, 408, 180, 329, 3, 54, 2, 91, 8, 2, 132, 111, 5, 2, 27, 8, 2, 215, 111, 2, 98, 160, 17, 108, 356, 57, 2, 718, 17, 24, 57, 2, 266, 402, 58, 2, 548, 3, 409, 8, 2, 19, 2, 98, 263, 17, 24, 57, 6, 266, 263, 58, 2, 98, 5, 3, 243, 2, 400, 4, 2, 98, 58, 2, 197, 2, 135, 61, 17, 6, 516, 61, 13, 135, 8, 95, 146, 2, 135, 61, 17, 6, 138, 174, 11, 2, 197, 24, 3, 243, 2, 311, 4, 2, 19, 2, 7, 25, 59, 108, 8, 2, 135, 61, 10, 3, 2, 135, 61, 33, 2, 33, 67, 2, 135, 61, 3, 2, 138, 22, 10, 3, 70, 36, 141, 2, 7, 25, 2, 7, 39, 50, 183, 2, 16, 3, 472, 2, 216, 2, 7, 25, 8, 2, 208, 111, 141, 2, 26, 7, 2, 7, 25, 8, 2, 185, 111, 141, 2, 41, 7, 70, 36, 141, 2, 7, 2, 7, 39, 50, 183, 2, 16, 3, 472, 2, 216, 4, 2, 19, 10, 3, 2, 55, 59, 2, 174, 11, 36, 24, 3, 243, 2, 72, 8, 2, 19, 82, 59, 139, 127, 4, 55, 11, 64, 872, 549, 411, 2, 550, 213, 96, 69, 64, 2, 330, 124, 70, 36, 141, 2, 55, 96, 117, 2, 261, 107, 3, 50, 2, 40, 719, 6, 720, 476, 12, 71, 2, 55, 47, 108, 90, 2, 107, 3, 168, 2, 40, 50, 719, 6, 873, 476, 12, 71, 10, 3, 2, 166, 50, 2, 413, 3, 2, 12, 71, 70, 2, 192, 141, 2, 192, 50, 2, 721, 4, 227, 14, 2, 716, 3, 2, 166, 2, 12, 50, 2, 413, 14, 2, 12, 71, 3, 2, 403, 8, 2, 226, 10, 3, 2, 72, 64, 139, 174, 11, 124, 380, 3, 243, 2, 216, 4, 2, 19, 76, 174, 242, 2, 62, 2, 12, 2, 40, 2, 12, 71, 108, 356, 57, 2, 12, 16, 117, 8, 2, 12, 70, 2, 166, 100, 6, 40, 50, 2, 12, 14, 144, 62, 3, 874, 3, 243, 2, 72, 82, 59, 77, 139, 127, 4, 40, 2, 26, 5, 2, 41, 2, 722, 414, 722, 72, 17, 70, 2, 12, 17, 8, 2, 477, 62, 8, 2, 26, 5, 2, 723, 68, 2, 41, 3, 63, 2, 875, 72, 2, 723, 62, 17, 68, 2, 26, 5, 2, 477, 68, 2, 41, 10, 3];18;"Functional description of a bicycle: 
+ Below is a list of the different bicycle components and a functional description of them.  
+ the frame is the skeleton of the bicycle. refer to  
+ the wheel is the point of contact between the bicycle and the road for the bicycle to have movement. refer to  
+ the spokes are thick wires with tension applied that connect the hub to the rim. you can adjust the tension with the nipple on the rim side. 
+ the hub attaches to the center of the wheel where the axle and the bearings are. 
+ the metal rim is a metal ring that has a u-shaped cross section to hold the spokes on the inner side and the tire on the outer side. 
+ the seat, which is also known as the ""saddle"", is used as the support platform for the person to sit on the bicycle. 
+ the seat post is used as a support post for the seat and to change the height of the seat for the rider. 
+ the handle bar is a horizontal bar with handles on each end. the handle bar is a steering mechanism that the rider uses to change the direction of the bicycle. the brake levers are also on the handle bar. refer to  
+ the handle bar stem (the stem) attaches the handle bar to the steering tube. refer to  
+ when you operate the brake lever, the brake pads move against the wheel to decrease the speed. the brake lever on the left side operates the front brake. the brake lever on the right side operates the rear brake. 
+ when you operate the brakes, the brake pad moves against the wheel to decrease the speed of the bicycle. refer to  
+ the shifters are the mechanisms that you use to change the gears on the bicycle. there are 7 different types of shifters that have been developed over the years, but they all have the same functionality. when you operate the shifters, they pull the control cable to move the derailleur towards a larger diameter chain ring. the shifters can also loosen the cable to let the derailleur move towards a smaller diameter chain ring. refer to  
+ the crank moves the power to the chain rings when the pedals operate. 
+ the pedals move the force of movement from the feet to the cranks. 
+ the chain moves the power from the chain rings to the cogs on the freewheel. refer to  
+ the gears have different mechanisms that function together to change the speed of the bicycle. these mechanisms include:  
+ the sprockets 
+ the chain 
+ the derailleur 
+ the chain rings (also known as the ""chain wheel"") pull on the chain when the cranks turn. 
+ a derailleur moves the chain from one sprocket to another to change the gears. there are two different types of derailleur, the front and the rear. the highest ratio (highest gear) is when the chain is on the largest sprocket on the front and the smallest at the rear. to get the lowest gear, the smallest sprocket is at the front and the largest at the rear. refer to ";DMC-S1000DBIKE-A-D00-00-00-00AA-042A-AAA(1)
+[18, 101, 4, 124];19;"Bicycle: 
+ Description of function";DMC-S1000DBIKE-A-D00-00-00-00AA-042A-AAA(2)
+[19, 105, 4, 124];19;"Bicycle: 
+ Description of function";DMC-S1000DBIKE-A-D00-00-00-00AA-042A-AAA(2)
+[18, 101, 770, 3, 267];20;"Bicycle: 
+ Description attributed to crew";DMC-S1000DBIKE-A-D00-00-00-00AA-043A-AAA(1)
+[19, 105, 876, 3, 267];20;"Bicycle: 
+ Description attributed to crew";DMC-S1000DBIKE-A-D00-00-00-00AA-043A-AAA(1)
+[126, 18, 386, 180, 314, 315, 553];21;"Mountain bicycle: 
+ Applicability cross-reference table catalog";DMC-S1000DBIKE-D-D00-00-00-00AA-0A3A-AAA(1)
+[126, 19, 308, 180, 10, 353, 553];21;"Mountain bicycle: 
+ Applicability cross-reference table catalog";DMC-S1000DBIKE-D-D00-00-00-00AA-0A3A-AAA(1)
+[247, 2, 396, 4, 2, 7, 219, 2, 7, 415, 494, 247, 2, 396, 5, 2, 771, 4, 2, 7, 39, 21, 35, 11, 82, 9, 6, 246, 416, 4, 254, 495, 21, 35, 11, 2, 39, 9, 31, 148, 253, 28, 69, 2, 218, 331, 23, 164, 369, 4, 2, 772, 4, 2, 7, 66, 2, 554, 7, 51, 124, 554, 7, 124, 21, 35, 11, 82, 9, 773, 774, 131, 2, 39, 5, 2, 132, 412, 4, 2, 7, 323, 44, 2, 163, 4, 2, 39, 9, 148, 372, 8, 2, 60, 57, 268, 20, 2, 39, 47, 50, 37, 417, 145, 2, 775, 4, 2, 91, 14, 269, 555, 96, 417, 418, 270, 145, 2, 91, 3, 9, 776, 109, 4, 269, 555, 7, 39, 777, 21, 35, 11, 2, 39, 9, 302, 32, 20, 2, 167, 4, 2, 132, 412, 4, 2, 7, 323, 23, 6, 66, 4, 2, 27, 137, 23, 6, 66, 4, 2, 27, 137, 13, 2, 778, 2, 779, 36, 556, 13, 2, 557, 137, 11, 9, 268, 43, 2, 558, 4, 2, 27, 559, 2, 99, 169, 247, 2, 396, 4, 2, 16, 247, 2, 60, 58, 780, 5, 560, 247, 58, 561, 68, 2, 562, 265, 164, 781, 60, 9, 419, 23, 6, 66, 4, 2, 52, 114, 487, 2, 18, 80, 2, 26, 7, 5, 89, 2, 128, 61, 113, 21, 35, 11, 2, 52, 114, 9, 271, 23, 2, 66, 8, 2, 12, 563, 247, 2, 12, 44, 2, 12, 9, 148, 782, 28, 15, 57, 783, 20, 2, 28, 12, 326, 10, 3, 563, 247, 2, 12, 58, 264, 11, 9, 420, 73, 11, 23, 31, 50, 368, 80, 2, 99, 23, 6, 66, 4, 2, 12, 3, 21, 35, 11, 15, 9, 271, 21, 35, 11, 2, 564, 4, 2, 12, 9, 31, 148, 272, 50, 2, 12, 8, 2, 246, 12, 71, 784, 3, 117, 2, 12, 273, 14, 2, 26, 4, 2, 12, 71, 21, 35, 11, 2, 12, 9, 31, 496, 78, 2, 12, 44, 70, 36, 117, 15, 273, 14, 2, 12, 71, 36, 47, 421, 6, 274, 422, 78, 2, 12, 13, 2, 228, 198, 14, 2];22;"Examine the condition of the brakes. 
+ Open the brake quick release. 
+ Examine the condition and the thickness of the brake pads. 
+ Make sure that there is a large quantity of rubber left. 
+ Make sure that the pad is not too hard. 
+ Clean all the unwanted material. 
+ Do an inspection of the installation of the brakes. 
+ Check the hydraulic brake system function. 
+ Hydraulic brake function: 
+ Make sure that there is sufficient clearance between the pad and the inner diameter of the brake surface. 
+ If the position of the pads is too low on the rim, as shown in  , the pads can move. This could cause the separation of the spokes from their mountings., they could slip off causing the spokes to be torn out of their mountings. 
+ Brake pad seating: 
+ Make sure that the pads are correctly installed in the center of the inner diameter of the brake surface. 
+ Do a check of the tire pressure. 
+ Do a check of the tire pressure with the  . 
+ Compare the value you read with the recommended pressure that is shown into the sidewall of the tire. 
+ Add the necessary air. 
+ Examine the condition of the wheels. 
+ Examine the rims for bulges and dents. 
+ Examine for splits at the seam where an extruded rim is bonded. 
+ Do a check of the headset bearings. 
+ Straddle the bicycle. 
+ Apply the front brakes and push the handle bars forward. 
+ Make sure that the headset bearings are tight. 
+ Do the checks on the chain. 
+ Visually examine the chain. 
+ If the chain is too dirty, clean it as specified in the clean chain task (refer to  
+ Visually examine the chain for links that are frozen or that do not move easily. 
+ Apply the necessary  . 
+ Do a check of the chain to make sure that it is tight. 
+ Make sure that the play of the chain is not too much. 
+ Move the chain on the largest chain ring. 
+ Try to pull the chain away from the front of the chain ring. 
+ Make sure that the chain is not loose. Tighten the chain if, when you pull it away from the chain ring, you can see a full tooth. 
+ Tighten the chain with the Allen wrench from the .";DMC-S1000DBIKE-A-D00-00-00-00AA-121A-AAA(2)
+[251, 2, 475, 4, 2, 7, 219, 2, 7, 415, 517, 251, 2, 475, 5, 2, 493, 4, 2, 7, 39, 21, 35, 11, 82, 17, 6, 518, 478, 4, 254, 208, 21, 35, 11, 2, 39, 17, 31, 148, 253, 28, 69, 2, 241, 358, 23, 164, 307, 4, 2, 32, 4, 2, 7, 66, 2, 724, 7, 51, 124, 724, 7, 124, 21, 35, 11, 82, 17, 877, 878, 131, 2, 39, 5, 2, 132, 476, 4, 2, 7, 357, 44, 2, 173, 4, 2, 39, 17, 148, 372, 8, 2, 60, 57, 359, 20, 2, 39, 47, 50, 37, 417, 158, 2, 879, 4, 2, 91, 14, 269, 87, 96, 417, 418, 270, 158, 2, 91, 3, 9, 880, 109, 4, 269, 87, 7, 39, 98, 21, 35, 11, 2, 39, 59, 125, 32, 20, 2, 167, 4, 2, 132, 476, 4, 2, 7, 357, 23, 6, 66, 4, 2, 27, 142, 23, 6, 66, 4, 2, 27, 142, 13, 2, 881, 2, 882, 36, 556, 13, 2, 557, 142, 11, 17, 359, 43, 2, 725, 4, 2, 27, 559, 2, 104, 169, 251, 2, 475, 4, 2, 16, 251, 2, 60, 58, 883, 5, 560, 251, 58, 561, 68, 2, 562, 265, 164, 884, 60, 17, 419, 23, 6, 66, 4, 2, 52, 92, 511, 2, 19, 81, 2, 26, 7, 5, 89, 2, 135, 61, 113, 21, 35, 11, 2, 52, 92, 59, 271, 23, 2, 66, 8, 2, 12, 322, 251, 2, 12, 44, 2, 12, 17, 148, 885, 28, 15, 57, 886, 20, 2, 28, 12, 326, 10, 3, 322, 251, 2, 12, 58, 264, 11, 59, 420, 73, 11, 23, 31, 50, 381, 81, 2, 104, 23, 6, 66, 4, 2, 12, 3, 21, 35, 11, 15, 17, 271, 21, 35, 11, 2, 564, 4, 2, 12, 17, 31, 148, 272, 50, 2, 12, 8, 2, 477, 12, 71, 887, 3, 117, 2, 12, 273, 14, 2, 26, 4, 2, 12, 71, 21, 35, 11, 2, 12, 17, 31, 519, 78, 2, 12, 44, 70, 36, 117, 15, 273, 14, 2, 12, 71, 36, 47, 421, 6, 274, 422, 78, 2, 12, 13, 2, 228, 198, 14, 2];22;"Examine the condition of the brakes. 
+ Open the brake quick release. 
+ Examine the condition and the thickness of the brake pads. 
+ Make sure that there is a large quantity of rubber left. 
+ Make sure that the pad is not too hard. 
+ Clean all the unwanted material. 
+ Do an inspection of the installation of the brakes. 
+ Check the hydraulic brake system function. 
+ Hydraulic brake function: 
+ Make sure that there is sufficient clearance between the pad and the inner diameter of the brake surface. 
+ If the position of the pads is too low on the rim, as shown in  , the pads can move. This could cause the separation of the spokes from their mountings., they could slip off causing the spokes to be torn out of their mountings. 
+ Brake pad seating: 
+ Make sure that the pads are correctly installed in the center of the inner diameter of the brake surface. 
+ Do a check of the tire pressure. 
+ Do a check of the tire pressure with the  . 
+ Compare the value you read with the recommended pressure that is shown into the sidewall of the tire. 
+ Add the necessary air. 
+ Examine the condition of the wheels. 
+ Examine the rims for bulges and dents. 
+ Examine for splits at the seam where an extruded rim is bonded. 
+ Do a check of the headset bearings. 
+ Straddle the bicycle. 
+ Apply the front brakes and push the handle bars forward. 
+ Make sure that the headset bearings are tight. 
+ Do the checks on the chain. 
+ Visually examine the chain. 
+ If the chain is too dirty, clean it as specified in the clean chain task (refer to  
+ Visually examine the chain for links that are frozen or that do not move easily. 
+ Apply the necessary  . 
+ Do a check of the chain to make sure that it is tight. 
+ Make sure that the play of the chain is not too much. 
+ Move the chain on the largest chain ring. 
+ Try to pull the chain away from the front of the chain ring. 
+ Make sure that the chain is not loose. Tighten the chain if, when you pull it away from the chain ring, you can see a full tooth. 
+ Tighten the chain with the Allen wrench from the .";DMC-S1000DBIKE-A-D00-00-00-00AA-121A-AAA(2)
+[18, 257, 373, 83, 267];23;"Bicycle: 
+ Pre-operation procedures (crew)";DMC-S1000DBIKE-A-D00-00-00-00AA-121A-AAA(3)
+[19, 257, 141, 86, 267];23;"Bicycle: 
+ Pre-operation procedures (crew)";DMC-S1000DBIKE-A-D00-00-00-00AA-121A-AAA(3)
+[18, 129, 6, 18];24;"Bicycle: 
+ Riding a bicycle";DMC-S1000DBIKE-A-D00-00-00-00AA-130A-AAA(1)
+[19, 129, 6, 19];24;"Bicycle: 
+ Riding a bicycle";DMC-S1000DBIKE-A-D00-00-00-00AA-130A-AAA(1)
+[565, 565, 566];25;"Computer: 
+ Computer Display";DMC-S1000DBIKE-A-D00-00-00-00AA-131A-AAA(1)
+[726, 726, 566];25;"Computer: 
+ Computer Display";DMC-S1000DBIKE-A-D00-00-00-00AA-131A-AAA(1)
+[18, 567, 373, 83, 267];26;"Bicycle: 
+ Normal operation procedures (crew)";DMC-S1000DBIKE-A-D00-00-00-00AA-131A-AAA(2)
+[19, 567, 141, 86, 267];26;"Bicycle: 
+ Normal operation procedures (crew)";DMC-S1000DBIKE-A-D00-00-00-00AA-131A-AAA(2)
+[28, 2, 18, 28, 2, 18, 13, 56, 24, 2, 332, 14, 2, 3, 28, 2, 7, 2, 147, 25, 2, 62, 5, 2, 27, 168, 2, 18, 374, 177, 2, 18, 568, 2, 3, 76, 50, 38, 2, 7, 118, 2, 40, 118, 2, 40, 94, 275, 2, 7, 25, 118, 2, 261, 106, 2, 72, 62, 2, 12, 29, 2, 303, 160, 9, 276, 277, 2, 99];27;"Clean the bicycle. 
+ Clean the bicycle with water. 
+ Use the brush from the  to clean the brakes, the shift levers, the sprockets and the tires. 
+ Let the bicycle dry. 
+ Lubricate the bicycle 
+ Spray the , to these moving parts:  
+ the brake pivots 
+ the derailleur pivots 
+ the derailleur tension guides 
+ the brake lever pivots 
+ the control cables 
+ the gear sprockets 
+ the chain 
+ Remove the lubricant which is more than the necessary.";DMC-S1000DBIKE-A-D00-00-00-00AA-151A-AAA(2)
+[28, 2, 19, 28, 2, 19, 13, 56, 24, 2, 332, 14, 2, 3, 28, 2, 7, 2, 147, 25, 2, 62, 5, 2, 27, 168, 2, 19, 383, 116, 2, 19, 568, 2, 3, 76, 50, 38, 2, 7, 118, 2, 40, 118, 2, 40, 94, 299, 2, 7, 25, 118, 2, 261, 107, 2, 72, 62, 2, 12, 30, 2, 116, 160, 17, 276, 277, 2, 104];27;"Clean the bicycle. 
+ Clean the bicycle with water. 
+ Use the brush from the  to clean the brakes, the shift levers, the sprockets and the tires. 
+ Let the bicycle dry. 
+ Lubricate the bicycle 
+ Spray the , to these moving parts:  
+ the brake pivots 
+ the derailleur pivots 
+ the derailleur tension guides 
+ the brake lever pivots 
+ the control cables 
+ the gear sprockets 
+ the chain 
+ Remove the lubricant which is more than the necessary.";DMC-S1000DBIKE-A-D00-00-00-00AA-151A-AAA(2)
+[18, 263, 373, 83, 267];28;"Bicycle: 
+ Post-operation procedures (crew)";DMC-S1000DBIKE-A-D00-00-00-00AA-151A-AAA(3)
+[19, 263, 141, 86, 267];28;"Bicycle: 
+ Post-operation procedures (crew)";DMC-S1000DBIKE-A-D00-00-00-00AA-151A-AAA(3)
+[18, 785, 786, 569, 570];29;"Bicycle: 
+ Servicing: Prerequisite concept review";DMC-S1000DBIKE-T-D00-00-00-00AA-200A-AAA(1)
+[19, 727, 888, 569, 570];29;"Bicycle: 
+ Servicing: Prerequisite concept review";DMC-S1000DBIKE-T-D00-00-00-00AA-200A-AAA(1)
+[23, 31, 63, 43, 79, 102, 44, 15, 63, 43, 79, 102, 121, 96, 370, 20, 28, 278, 56, 23, 31, 63, 43, 79, 102, 44, 15, 63, 43, 79, 102, 121, 96, 370, 20, 28, 278, 56, 23, 31, 24, 6, 11, 64, 136, 137, 6, 56, 279, 11, 64, 136, 137, 47, 145, 280, 38, 3, 333, 496, 73, 274, 4, 56, 23, 31, 195, 2, 279, 571, 68, 2, 74, 73, 68, 2, 130, 225, 114, 37, 47, 145, 161, 3, 2, 38, 80, 20, 572, 13, 2, 573, 8, 2, 497, 2, 423, 334, 145, 161, 3, 2, 84, 335, 44, 15, 9, 31, 80, 302];30;"Do not get  into your eyes. If it gets into your eyes, wash them immediately in clean warm water. 
+ Do not get  into your eyes. If it gets into your eyes, wash them immediately in clean warm water. 
+ Do not use a  that has high pressure. A water hose that has high pressure can cause some parts to become loose or full of water. 
+ Do not point the hose directly at the hub or at the bottom bracket bearings. This can cause damage to the parts. 
+ Apply  in accordance with the instruction on the container. The substance may cause damage to the Bike paint if it is not applied correctly.";DMC-S1000DBIKE-A-D00-00-00-00AA-258A-AAA(1)
+[23, 31, 63, 43, 79, 102, 44, 15, 63, 43, 79, 102, 121, 298, 310, 20, 28, 278, 56, 23, 31, 63, 43, 79, 102, 44, 15, 63, 43, 79, 102, 121, 298, 310, 20, 28, 278, 56, 23, 31, 24, 6, 11, 140, 136, 142, 6, 56, 279, 11, 140, 136, 142, 47, 158, 280, 38, 3, 360, 519, 73, 274, 4, 56, 23, 31, 195, 2, 279, 311, 68, 2, 74, 73, 68, 2, 130, 225, 92, 37, 47, 158, 172, 3, 2, 38, 81, 20, 728, 13, 2, 729, 8, 2, 250, 2, 479, 334, 158, 172, 3, 2, 84, 335, 44, 15, 17, 31, 81, 125];30;"Do not get  into your eyes. If it gets into your eyes, wash them immediately in clean warm water. 
+ Do not get  into your eyes. If it gets into your eyes, wash them immediately in clean warm water. 
+ Do not use a  that has high pressure. A water hose that has high pressure can cause some parts to become loose or full of water. 
+ Do not point the hose directly at the hub or at the bottom bracket bearings. This can cause damage to the parts. 
+ Apply  in accordance with the instruction on the container. The substance may cause damage to the Bike paint if it is not applied correctly.";DMC-S1000DBIKE-A-D00-00-00-00AA-258A-AAA(1)
+[28, 2, 18, 13, 56, 3, 29, 69, 424, 10, 3, 28, 2, 84, 24, 6, 3, 63, 222, 3, 93, 11, 9, 31, 498, 3, 28, 76, 9, 2, 147, 25, 2, 574, 27, 5, 2, 7, 28, 2, 425, 426, 14, 2, 12, 5, 2, 62, 13, 6, 304, 11, 64, 6, 176, 427, 29, 2, 281, 14, 2, 226, 499, 13, 2, 57, 268, 20, 24, 6, 332, 3, 29, 2, 281, 14, 76, 38, 62, 275, 5, 94, 16, 4, 2, 40, 12, 71, 422, 575, 2, 428, 149, 2, 62, 2, 40, 2, 12, 71, 5, 2, 12, 13, 56, 44, 99, 23, 2, 149, 83, 199, 121, 2, 84, 97, 2, 43, 5, 56, 28, 2, 18, 13, 2, 97, 336, 149, 2, 18, 5, 21, 35, 11, 69, 9, 29, 50, 2, 18, 200, 5, 150, 8, 201, 27, 3, 29, 69, 56, 121, 2, 84, 97, 2, 43, 5, 56, 28, 2, 18, 13, 2, 97, 336, 97, 2, 43, 5, 56, 337, 28, 2, 18, 13, 2, 97, 336, 149, 2, 18, 3, 21, 35, 11, 69, 576, 9, 29, 50, 2, 18, 200, 5, 150, 8, 201, 27, 3, 29, 69, 56, 177, 2, 18, 10, 3];31;"Clean the bicycle with water to remove all dirt. Refer to . 
+ Cleaning the bike: 
+ Use a  to get access to areas that are not easy to clean. These are the shift levers, the knobbly tires, and the brakes. 
+ Clean the caked grime from the chain and the sprockets with a screwdriver that has a small blade. 
+ Remove the grease from the freewheel assembly with the  as shown in . 
+ Use a brush to remove the grease from these parts:  
+ sprockets 
+ guide and tension wheels of the derailleur 
+ chain ring teeth 
+ Degreasing the freehub: 
+ Flush the sprockets, the derailleurs, the chain rings and the chain with water. 
+ If necessary, do the flush procedure again. 
+ Wash the Bike 
+ Soak the  into  and water. 
+ Clean the bicycle with the soaked sponge. 
+ Flush the bicycle and make sure that all  is removed. 
+ Move the bicycle up and down on its tires to remove all water. 
+ Wash the Bike 
+ Soak the  into  and water. 
+ Clean the bicycle with the soaked sponge. 
+ Soak the  into  and water. 
+ Fully clean the bicycle with the soaked sponge. 
+ Flush the bicycle to make sure that all detergents are removed. 
+ Move the bicycle up and down on its tires to remove all water. 
+ Lubricate the bicycle. Refer to ";DMC-S1000DBIKE-A-D00-00-00-00AA-258A-AAA(2)
+[28, 2, 19, 13, 56, 3, 30, 69, 424, 10, 3, 28, 2, 84, 24, 6, 3, 63, 222, 3, 93, 11, 59, 31, 520, 3, 28, 76, 59, 2, 147, 25, 2, 730, 27, 5, 2, 7, 28, 2, 425, 426, 14, 2, 12, 5, 2, 62, 13, 6, 312, 11, 140, 6, 176, 427, 30, 2, 300, 14, 2, 226, 361, 13, 2, 57, 359, 20, 24, 6, 332, 3, 30, 2, 300, 14, 76, 38, 62, 299, 5, 94, 16, 4, 2, 40, 12, 71, 731, 732, 2, 428, 149, 2, 62, 2, 40, 2, 12, 71, 5, 2, 12, 13, 56, 44, 104, 23, 2, 149, 86, 199, 121, 2, 84, 97, 2, 43, 5, 56, 28, 2, 19, 13, 2, 97, 362, 149, 2, 19, 5, 21, 35, 11, 69, 17, 30, 50, 2, 19, 200, 5, 150, 8, 15, 27, 3, 30, 69, 56, 121, 2, 84, 97, 2, 43, 5, 56, 28, 2, 19, 13, 2, 97, 362, 97, 2, 43, 5, 56, 363, 28, 2, 19, 13, 2, 97, 362, 149, 2, 19, 3, 21, 35, 11, 69, 733, 59, 30, 50, 2, 19, 200, 5, 150, 8, 15, 27, 3, 30, 69, 56, 116, 2, 19, 10, 3];31;"Clean the bicycle with water to remove all dirt. Refer to . 
+ Cleaning the bike: 
+ Use a  to get access to areas that are not easy to clean. These are the shift levers, the knobbly tires, and the brakes. 
+ Clean the caked grime from the chain and the sprockets with a screwdriver that has a small blade. 
+ Remove the grease from the freewheel assembly with the  as shown in . 
+ Use a brush to remove the grease from these parts:  
+ sprockets 
+ guide and tension wheels of the derailleur 
+ chain ring teeth 
+ Degreasing the freehub: 
+ Flush the sprockets, the derailleurs, the chain rings and the chain with water. 
+ If necessary, do the flush procedure again. 
+ Wash the Bike 
+ Soak the  into  and water. 
+ Clean the bicycle with the soaked sponge. 
+ Flush the bicycle and make sure that all  is removed. 
+ Move the bicycle up and down on its tires to remove all water. 
+ Wash the Bike 
+ Soak the  into  and water. 
+ Clean the bicycle with the soaked sponge. 
+ Soak the  into  and water. 
+ Fully clean the bicycle with the soaked sponge. 
+ Flush the bicycle to make sure that all detergents are removed. 
+ Move the bicycle up and down on its tires to remove all water. 
+ Lubricate the bicycle. Refer to ";DMC-S1000DBIKE-A-D00-00-00-00AA-258A-AAA(2)
+[18, 151, 83, 3, 28];32;"Bicycle: 
+ Other procedures to clean";DMC-S1000DBIKE-A-D00-00-00-00AA-258A-AAA(3)
+[19, 151, 86, 3, 28];32;"Bicycle: 
+ Other procedures to clean";DMC-S1000DBIKE-A-D00-00-00-00AA-258A-AAA(3)
+[23, 31, 63, 43, 79, 102, 44, 15, 63, 43, 79, 102, 121, 96, 370, 20, 28, 278, 56, 23, 31, 63, 43, 79, 102, 44, 15, 63, 43, 79, 102, 121, 96, 370, 20, 28, 278, 56, 23, 31, 24, 6, 11, 64, 136, 137, 6, 56, 279, 11, 64, 136, 137, 47, 145, 280, 38, 3, 333, 496, 73, 274, 4, 56, 23, 31, 195, 2, 279, 571, 68, 2, 74, 73, 68, 2, 130, 225, 114, 37, 47, 145, 161, 3, 2, 38, 80, 20, 572, 13, 2, 573, 8, 2, 497, 2, 423, 334, 145, 161, 3, 2, 84, 335, 44, 15, 9, 31, 80, 302];33;"Do not get  into your eyes. If it gets into your eyes, wash them immediately in clean warm water. 
+ Do not get  into your eyes. If it gets into your eyes, wash them immediately in clean warm water. 
+ Do not use a  that has high pressure. A water hose that has high pressure can cause some parts to become loose or full of water. 
+ Do not point the hose directly at the hub or at the bottom bracket bearings. This can cause damage to the parts. 
+ Apply  in accordance with the instruction on the container. The substance may cause damage to the Bike paint if it is not applied correctly.";DMC-S1000DBIKE-A-D00-00-00-00AA-258B-AAA(1)
+[23, 31, 63, 43, 79, 102, 44, 15, 63, 43, 79, 102, 121, 298, 310, 20, 28, 278, 56, 23, 31, 63, 43, 79, 102, 44, 15, 63, 43, 79, 102, 121, 298, 310, 20, 28, 278, 56, 23, 31, 24, 6, 11, 140, 136, 142, 6, 56, 279, 11, 140, 136, 142, 47, 158, 280, 38, 3, 360, 519, 73, 274, 4, 56, 23, 31, 195, 2, 279, 311, 68, 2, 74, 73, 68, 2, 130, 225, 92, 37, 47, 158, 172, 3, 2, 38, 81, 20, 728, 13, 2, 729, 8, 2, 250, 2, 479, 334, 158, 172, 3, 2, 84, 335, 44, 15, 17, 31, 81, 125];33;"Do not get  into your eyes. If it gets into your eyes, wash them immediately in clean warm water. 
+ Do not get  into your eyes. If it gets into your eyes, wash them immediately in clean warm water. 
+ Do not use a  that has high pressure. A water hose that has high pressure can cause some parts to become loose or full of water. 
+ Do not point the hose directly at the hub or at the bottom bracket bearings. This can cause damage to the parts. 
+ Apply  in accordance with the instruction on the container. The substance may cause damage to the Bike paint if it is not applied correctly.";DMC-S1000DBIKE-A-D00-00-00-00AA-258B-AAA(1)
+[28, 2, 18, 13, 56, 3, 29, 69, 424, 10, 3, 28, 2, 84, 24, 6, 3, 63, 222, 3, 93, 11, 9, 31, 498, 3, 28, 76, 9, 2, 147, 25, 2, 574, 27, 5, 2, 7, 28, 2, 425, 426, 14, 2, 12, 5, 2, 62, 13, 6, 304, 11, 64, 6, 176, 427, 29, 2, 281, 14, 2, 226, 499, 13, 2, 57, 268, 20, 24, 6, 332, 3, 29, 2, 281, 14, 76, 38, 62, 275, 5, 94, 16, 4, 2, 40, 12, 71, 422, 575, 2, 428, 149, 2, 62, 2, 40, 2, 12, 71, 5, 2, 12, 13, 56, 44, 99, 23, 2, 149, 83, 199, 121, 2, 84, 97, 2, 43, 5, 56, 28, 2, 18, 13, 2, 97, 336, 149, 2, 18, 5, 21, 35, 11, 69, 9, 29, 50, 2, 18, 200, 5, 150, 8, 201, 27, 3, 29, 69, 56, 121, 2, 84, 97, 2, 43, 5, 56, 28, 2, 18, 13, 2, 97, 336, 97, 2, 43, 5, 56, 337, 28, 2, 18, 13, 2, 97, 336, 149, 2, 18, 3, 21, 35, 11, 69, 576, 9, 29, 50, 2, 18, 200, 5, 150, 8, 201, 27, 3, 29, 69, 56, 177, 2, 18, 10, 3];34;"Clean the bicycle with water to remove all dirt. Refer to . 
+ Cleaning the bike: 
+ Use a  to get access to areas that are not easy to clean. These are the shift levers, the knobbly tires, and the brakes. 
+ Clean the caked grime from the chain and the sprockets with a screwdriver that has a small blade. 
+ Remove the grease from the freewheel assembly with the  as shown in . 
+ Use a brush to remove the grease from these parts:  
+ sprockets 
+ guide and tension wheels of the derailleur 
+ chain ring teeth 
+ Degreasing the freehub: 
+ Flush the sprockets, the derailleurs, the chain rings and the chain with water. 
+ If necessary, do the flush procedure again. 
+ Wash the Bike 
+ Soak the  into  and water. 
+ Clean the bicycle with the soaked sponge. 
+ Flush the bicycle and make sure that all  is removed. 
+ Move the bicycle up and down on its tires to remove all water. 
+ Wash the Bike 
+ Soak the  into  and water. 
+ Clean the bicycle with the soaked sponge. 
+ Soak the  into  and water. 
+ Fully clean the bicycle with the soaked sponge. 
+ Flush the bicycle to make sure that all detergents are removed. 
+ Move the bicycle up and down on its tires to remove all water. 
+ Lubricate the bicycle. Refer to ";DMC-S1000DBIKE-A-D00-00-00-00AA-258B-AAA(2)
+[28, 2, 19, 13, 56, 3, 30, 69, 424, 10, 3, 28, 2, 84, 24, 6, 3, 63, 222, 3, 93, 11, 59, 31, 520, 3, 28, 76, 59, 2, 147, 25, 2, 730, 27, 5, 2, 7, 28, 2, 425, 426, 14, 2, 12, 5, 2, 62, 13, 6, 312, 11, 140, 6, 176, 427, 30, 2, 300, 14, 2, 226, 361, 13, 2, 57, 359, 20, 24, 6, 332, 3, 30, 2, 300, 14, 76, 38, 62, 299, 5, 94, 16, 4, 2, 40, 12, 71, 731, 732, 2, 428, 149, 2, 62, 2, 40, 2, 12, 71, 5, 2, 12, 13, 56, 44, 104, 23, 2, 149, 86, 199, 121, 2, 84, 97, 2, 43, 5, 56, 28, 2, 19, 13, 2, 97, 362, 149, 2, 19, 5, 21, 35, 11, 69, 17, 30, 50, 2, 19, 200, 5, 150, 8, 15, 27, 3, 30, 69, 56, 121, 2, 84, 97, 2, 43, 5, 56, 28, 2, 19, 13, 2, 97, 362, 97, 2, 43, 5, 56, 363, 28, 2, 19, 13, 2, 97, 362, 149, 2, 19, 3, 21, 35, 11, 69, 733, 59, 30, 50, 2, 19, 200, 5, 150, 8, 15, 27, 3, 30, 69, 56, 116, 2, 19, 10, 3];34;"Clean the bicycle with water to remove all dirt. Refer to . 
+ Cleaning the bike: 
+ Use a  to get access to areas that are not easy to clean. These are the shift levers, the knobbly tires, and the brakes. 
+ Clean the caked grime from the chain and the sprockets with a screwdriver that has a small blade. 
+ Remove the grease from the freewheel assembly with the  as shown in . 
+ Use a brush to remove the grease from these parts:  
+ sprockets 
+ guide and tension wheels of the derailleur 
+ chain ring teeth 
+ Degreasing the freehub: 
+ Flush the sprockets, the derailleurs, the chain rings and the chain with water. 
+ If necessary, do the flush procedure again. 
+ Wash the Bike 
+ Soak the  into  and water. 
+ Clean the bicycle with the soaked sponge. 
+ Flush the bicycle and make sure that all  is removed. 
+ Move the bicycle up and down on its tires to remove all water. 
+ Wash the Bike 
+ Soak the  into  and water. 
+ Clean the bicycle with the soaked sponge. 
+ Soak the  into  and water. 
+ Fully clean the bicycle with the soaked sponge. 
+ Flush the bicycle to make sure that all detergents are removed. 
+ Move the bicycle up and down on its tires to remove all water. 
+ Lubricate the bicycle. Refer to ";DMC-S1000DBIKE-A-D00-00-00-00AA-258B-AAA(2)
+[18, 151, 83, 3, 28];35;"Bicycle: 
+ Other procedures to clean";DMC-S1000DBIKE-A-D00-00-00-00AA-258B-AAA(3)
+[19, 151, 86, 3, 28];35;"Bicycle: 
+ Other procedures to clean";DMC-S1000DBIKE-A-D00-00-00-00AA-258B-AAA(3)
+[577, 9, 578, 429, 18, 8, 2, 120, 282, 271, 48, 187, 18, 9, 787, 67, 3, 2, 120, 282];36;"Ensure  is level. 
+ Place bicycle on the test stand. 
+ Tight clamps until bicycle is securely attach to the test stand.";DMC-S1000DBIKE-A-D00-00-00-00AA-330A-AAA(2)
+[734, 17, 578, 429, 19, 8, 2, 120, 282, 271, 48, 187, 19, 17, 889, 67, 3, 2, 120, 282];36;"Ensure  is level. 
+ Place bicycle on the test stand. 
+ Tight clamps until bicycle is securely attach to the test stand.";DMC-S1000DBIKE-A-D00-00-00-00AA-330A-AAA(2)
+[18, 429, 8, 120, 282];37;"Bicycle: 
+ Place on test stand";DMC-S1000DBIKE-A-D00-00-00-00AA-330A-AAA(3)
+[19, 429, 8, 120, 282];37;"Bicycle: 
+ Place on test stand";DMC-S1000DBIKE-A-D00-00-00-00AA-330A-AAA(3)
+[70, 36, 29, 2, 41, 16, 3, 244, 6, 788, 579, 2, 7, 319, 14, 2, 12, 338];38;When you remove the rear wheel to repair a puncture, disconnect the brake arm from the chain stay.;DMC-S1000DBIKE-A-D00-00-00-00AA-663A-AAA(1)
+[70, 36, 30, 2, 41, 16, 3, 244, 6, 890, 579, 2, 7, 319, 14, 2, 12, 338];38;When you remove the rear wheel to repair a puncture, disconnect the brake arm from the chain stay.;DMC-S1000DBIKE-A-D00-00-00-00AA-663A-AAA(1)
+[29, 2, 41, 16, 10, 3, 21, 35, 11, 82, 9, 220, 169, 20, 2, 22, 90, 2, 339, 8, 2, 178, 33, 89, 2, 178, 33, 580, 150, 3, 581, 69, 2, 169, 24, 6, 3, 50, 2, 27, 430, 109, 4, 201, 98, 202, 2, 27, 430, 582, 2, 583, 4, 2, 60, 584, 2, 27, 13, 6, 27, 25, 29, 2, 22, 305, 31, 337, 2, 22, 13, 2, 247, 2, 22, 58, 283, 44, 36, 182, 6, 283, 544, 15, 13, 6, 585, 21, 13, 6, 585, 283, 494, 211, 4, 2, 169, 24, 6, 586, 4, 789, 14, 2, 5, 21, 2, 93, 8, 5, 152, 2, 122, 340, 37, 181, 587, 2, 133, 419, 302, 588, 2, 589, 93, 80, 6, 186, 258, 4, 284, 14, 2, 133, 285, 8, 5, 152, 2, 122, 21, 35, 11, 2, 93, 13, 2, 284, 9, 246, 277, 2, 133, 80, 284, 3, 589, 93, 168, 2, 284, 374, 58, 590, 790, 187, 15, 333, 791, 5, 591, 29, 2, 41, 592, 14, 2, 133, 11, 9, 6, 38, 4, 2, 133, 285, 5, 89, 2, 133, 20, 201, 163, 89, 13, 79, 170, 14, 2, 167, 4, 2, 133, 3, 2, 215, 38, 4, 2, 80, 93, 80, 137, 3, 22, 29, 2, 186, 324, 14, 2, 133, 65, 6, 431, 186, 258, 4, 593, 594, 8, 5, 152, 2, 133, 305, 31, 337, 2, 792, 22, 13, 2, 328, 341, 595, 68, 2, 178, 33, 5, 46, 2, 22, 199, 131, 2, 27, 5, 2, 60, 89, 2, 178, 33, 286, 2, 122, 20, 2, 60, 21, 35, 11, 2, 178, 33, 9, 432, 46, 2, 793, 4, 2, 27];39;"Remove the rear wheel. (Refer to  
+ Make sure that there is no air in the tube. 
+ Loosen the cap on the valve stem. 
+ Push the valve stem core down to bleed all the air. 
+ Use a  to move the tire bead out of its seat. Lift the tire bead above the lip of the rim. 
+ Unseating the tire with a tire lever: 
+ Remove the tube. 
+ Inflate (not fully) the tube with the . Examine the tube for leaks. 
+ If you find a leak, identify it with a circle made with a . 
+ Circle leak: 
+ Release most of the air. 
+  Use a piece of sandpaper from the  and make the area on and around the hole rough. This will help the patch bond correctly. 
+ Sanding the application area: 
+ Apply a thin layer of glue from the patch kit on and around the hole. Make sure that the area with the glue is larger than the patch. 
+ Apply glue to application area: 
+ Let the glue dry for five minutes until it becomes tacky and dim. 
+ Remove the rear foil from the patch (that is a part of the patch kit) and push the patch in its position. 
+ Push with your thumbs from the center of the patch to the outer part of the applied area. 
+ Apply pressure to tube: 
+ Remove the thin cover from the patch. 
+ Put a very thin layer of talcum powder on and around the patch. 
+ Inflate (not fully) the repaired tube with the foot pump. 
+ Start at the valve stem and install the tube again between the tire and the rim. 
+ Push the valve stem through the hole in the rim. 
+ Make sure that the valve stem is straight. 
+ Install the remaining of the tire.";DMC-S1000DBIKE-A-D00-00-00-00AA-663A-AAA(2)
+[30, 2, 41, 16, 10, 3, 21, 35, 11, 82, 17, 220, 169, 20, 2, 22, 90, 2, 339, 8, 2, 179, 33, 89, 2, 179, 33, 580, 150, 3, 581, 69, 2, 169, 24, 6, 3, 50, 2, 27, 430, 109, 4, 15, 98, 202, 2, 27, 430, 735, 2, 583, 4, 2, 60, 584, 2, 27, 13, 6, 27, 25, 30, 2, 22, 313, 31, 363, 2, 22, 13, 2, 251, 2, 22, 58, 283, 44, 36, 182, 6, 283, 715, 15, 13, 6, 736, 115, 13, 6, 736, 283, 517, 211, 4, 2, 169, 24, 6, 737, 4, 891, 14, 2, 5, 21, 2, 93, 8, 5, 152, 2, 122, 340, 37, 181, 587, 2, 133, 419, 125, 588, 2, 308, 93, 81, 6, 186, 258, 4, 284, 14, 2, 133, 285, 8, 5, 152, 2, 122, 21, 35, 11, 2, 93, 13, 2, 284, 17, 720, 277, 2, 133, 81, 284, 3, 308, 93, 168, 2, 284, 383, 58, 590, 892, 187, 15, 360, 893, 5, 591, 30, 2, 41, 592, 14, 2, 133, 11, 17, 6, 38, 4, 2, 133, 285, 5, 89, 2, 133, 20, 15, 173, 89, 13, 79, 170, 14, 2, 167, 4, 2, 133, 3, 2, 215, 38, 4, 2, 81, 93, 81, 142, 3, 22, 30, 2, 186, 324, 14, 2, 133, 65, 6, 480, 186, 258, 4, 593, 594, 8, 5, 152, 2, 133, 313, 31, 363, 2, 244, 22, 13, 2, 328, 341, 595, 68, 2, 179, 33, 5, 32, 2, 22, 199, 131, 2, 27, 5, 2, 60, 89, 2, 179, 33, 286, 2, 122, 20, 2, 60, 21, 35, 11, 2, 179, 33, 17, 432, 32, 2, 375, 4, 2, 27];39;"Remove the rear wheel. (Refer to  
+ Make sure that there is no air in the tube. 
+ Loosen the cap on the valve stem. 
+ Push the valve stem core down to bleed all the air. 
+ Use a  to move the tire bead out of its seat. Lift the tire bead above the lip of the rim. 
+ Unseating the tire with a tire lever: 
+ Remove the tube. 
+ Inflate (not fully) the tube with the . Examine the tube for leaks. 
+ If you find a leak, identify it with a circle made with a . 
+ Circle leak: 
+ Release most of the air. 
+  Use a piece of sandpaper from the  and make the area on and around the hole rough. This will help the patch bond correctly. 
+ Sanding the application area: 
+ Apply a thin layer of glue from the patch kit on and around the hole. Make sure that the area with the glue is larger than the patch. 
+ Apply glue to application area: 
+ Let the glue dry for five minutes until it becomes tacky and dim. 
+ Remove the rear foil from the patch (that is a part of the patch kit) and push the patch in its position. 
+ Push with your thumbs from the center of the patch to the outer part of the applied area. 
+ Apply pressure to tube: 
+ Remove the thin cover from the patch. 
+ Put a very thin layer of talcum powder on and around the patch. 
+ Inflate (not fully) the repaired tube with the foot pump. 
+ Start at the valve stem and install the tube again between the tire and the rim. 
+ Push the valve stem through the hole in the rim. 
+ Make sure that the valve stem is straight. 
+ Install the remaining of the tire.";DMC-S1000DBIKE-A-D00-00-00-00AA-663A-AAA(2)
+[18, 342, 244, 83];40;"Bicycle: 
+ Standard repair procedures";DMC-S1000DBIKE-A-D00-00-00-00AA-663A-AAA(3)
+[19, 342, 244, 86];40;"Bicycle: 
+ Standard repair procedures";DMC-S1000DBIKE-A-D00-00-00-00AA-663A-AAA(3)
+[18, 794, 266];41;"Bicycle: 
+ Performance support";DMC-S1000DBIKE-T-D00-00-00-00AA-952A-AAA(1)
+[19, 894, 266];41;"Bicycle: 
+ Performance support";DMC-S1000DBIKE-T-D00-00-00-00AA-952A-AAA(1)
+[18, 596, 38, 394, 433];42;"Bicycle: 
+ Illustrated Parts Data - IPD";DMC-S1000DBIKE-D-D00-00-00-01AA-941A-AAA(1)
+[19, 481, 38, 474, 433];42;"Bicycle: 
+ Illustrated Parts Data - IPD";DMC-S1000DBIKE-D-D00-00-00-01AA-941A-AAA(1)
+[597, 8, 2, 18, 100, 185, 5, 495, 795, 434, 129, 113, 2, 18, 21, 35, 11, 2, 16, 9, 796, 89, 20, 2, 53, 21, 35, 11, 220, 229, 73, 169, 9, 283, 109, 2, 53];43;"Climb on the bicycle. 
+ Turn right and left several times. 
+ Ride forward the bicycle. 
+ Make sure that the wheels are stable. 
+ Push in the fork. 
+ Make sure that no oil or air is leaking out the fork.";DMC-S1000DBIKE-A-D00-00-01-00AA-341A-AAA(2)
+[597, 8, 2, 19, 100, 185, 5, 208, 895, 434, 129, 113, 2, 19, 21, 35, 11, 2, 16, 59, 896, 89, 20, 2, 53, 21, 35, 11, 220, 229, 73, 169, 17, 283, 109, 2, 53];43;"Climb on the bicycle. 
+ Turn right and left several times. 
+ Ride forward the bicycle. 
+ Make sure that the wheels are stable. 
+ Push in the fork. 
+ Make sure that no oil or air is leaking out the fork.";DMC-S1000DBIKE-A-D00-00-01-00AA-341A-AAA(2)
+[53, 256, 120];44;"Fork: 
+ Manual test";DMC-S1000DBIKE-A-D00-00-01-00AA-341A-AAA(3)
+[29, 2, 33, 10, 3, 29, 2, 52, 10, 3, 89, 2, 53, 598, 3, 29, 15, 14, 2, 42, 65, 2, 42, 8, 2, 112];45;"Remove the stem, refer  to: 
+ 
+ Remove the headset, refer  to: 
+ 
+ Push the fork downwards to remove it from the frame 
+ Put the frame on the floor";DMC-S1000DBIKE-A-D00-00-01-00AA-520A-AAA(2)
+[30, 2, 33, 10, 3, 30, 2, 52, 10, 3, 89, 2, 53, 598, 3, 30, 15, 14, 2, 42, 65, 2, 42, 8, 2, 112];45;"Remove the stem, refer  to: 
+ 
+ Remove the headset, refer  to: 
+ 
+ Push the fork downwards to remove it from the frame 
+ Put the frame on the floor";DMC-S1000DBIKE-A-D00-00-01-00AA-520A-AAA(2)
+[53, 29, 83];46;"Fork: 
+ Remove procedures";DMC-S1000DBIKE-A-D00-00-01-00AA-520A-AAA(3)
+[53, 30, 86];46;"Fork: 
+ Remove procedures";DMC-S1000DBIKE-A-D00-00-01-00AA-520A-AAA(3)
+[80, 281, 8, 2, 52, 46, 2, 52, 10, 3, 3, 46, 2, 203, 10, 3, 46, 2, 33, 10, 3, 46, 2, 53];47;"Apply grease () on the headset 
+ Install the headset, refer to: 
+ 
+ To install the spacers, refer to: 
+ 
+ Install the stem, refer to: 
+ 
+ Install the fork ()";DMC-S1000DBIKE-A-D00-00-01-00AA-720A-AAA(2)
+[81, 300, 8, 2, 52, 32, 2, 52, 10, 3, 3, 32, 2, 203, 10, 3, 32, 2, 33, 10, 3, 32, 2, 53];47;"Apply grease () on the headset 
+ Install the headset, refer to: 
+ 
+ To install the spacers, refer to: 
+ 
+ Install the stem, refer to: 
+ 
+ Install the fork ()";DMC-S1000DBIKE-A-D00-00-01-00AA-720A-AAA(2)
+[53, 46, 83];48;"Fork: 
+ Install procedures";DMC-S1000DBIKE-A-D00-00-01-00AA-720A-AAA(3)
+[53, 32, 86];48;"Fork: 
+ Install procedures";DMC-S1000DBIKE-A-D00-00-01-00AA-720A-AAA(3)
+[18, 797, 599, 600, 4, 342, 113, 53, 230, 798, 53];49;"Bicycle: 
+ Service Bulletin - Replacement of standard forward fork by telescopic fork";DMC-S1000DBIKE-A-D00-00-01-00AA-930A-AAA(1)
+[19, 727, 599, 364, 4, 342, 113, 53, 230, 897, 53];49;"Bicycle: 
+ Service Bulletin - Replacement of standard forward fork by telescopic fork";DMC-S1000DBIKE-A-D00-00-01-00AA-930A-AAA(1)
+[799, 29, 2, 26, 16, 10, 3, 29, 2, 26, 7, 10, 3, 83, 29, 2, 53, 10, 3, 224, 2, 84, 500, 10, 3, 46, 2, 85, 53, 10, 3, 46, 2, 85, 53, 10, 3, 46, 2, 26, 7, 10, 3, 46, 2, 26, 16, 10, 3, 120, 120, 11, 2, 53, 9, 800, 32, 10, 3, 26, 7, 120, 10, 3];50;"PREPARATION: 
+ Remove the front wheel, refer to:
+								 
+ Remove the front brakes, refer to:
+								 
+ PROCEDURE: 
+ Remove the fork, refer to:
+								 
+ Change the bike axis, refer to:
+								 
+ Install the new fork, refer to:
+								 
+ Install the new fork, refer to:
+								 
+ Install the front brakes, refer to:
+								 
+ Install the front wheel, refer to:
+								 
+ TEST: 
+ Test that the fork is properly installed, refer to:
+								 
+ Front brakes test, refer to:
+								";DMC-S1000DBIKE-A-D00-00-01-00AA-933A-AAA(2)
+[521, 30, 2, 26, 16, 10, 3, 30, 2, 26, 7, 10, 3, 86, 30, 2, 53, 10, 3, 243, 2, 84, 522, 10, 3, 32, 2, 85, 53, 10, 3, 32, 2, 85, 53, 10, 3, 32, 2, 26, 7, 10, 3, 32, 2, 26, 16, 10, 3, 120, 120, 11, 2, 53, 17, 898, 32, 10, 3, 26, 7, 120, 10, 3];50;"PREPARATION: 
+ Remove the front wheel, refer to:
+								 
+ Remove the front brakes, refer to:
+								 
+ PROCEDURE: 
+ Remove the fork, refer to:
+								 
+ Change the bike axis, refer to:
+								 
+ Install the new fork, refer to:
+								 
+ Install the new fork, refer to:
+								 
+ Install the front brakes, refer to:
+								 
+ Install the front wheel, refer to:
+								 
+ TEST: 
+ Test that the fork is properly installed, refer to:
+								 
+ Front brakes test, refer to:
+								";DMC-S1000DBIKE-A-D00-00-01-00AA-933A-AAA(2)
+[53, 600, 83];51;"Fork: 
+ Replacement procedure";DMC-S1000DBIKE-A-D00-00-01-00AA-933A-AAA(3)
+[53, 364, 86];51;"Fork: 
+ Replacement procedure";DMC-S1000DBIKE-A-D00-00-01-00AA-933A-AAA(3)
+[24, 2, 24, 2, 65, 2, 42, 8, 2, 112];52;"Use the (
+                   
+ Use the (
+                   
+ Put the frame on the floor";DMC-S1000DBIKE-A-D00-00-01-00AA-93AA-AAA(2)
+[18, 500, 801, 83];53;"Bicycle axis: 
+ Modification procedures";DMC-S1000DBIKE-A-D00-00-01-00AA-93AA-AAA(3)
+[19, 522, 899, 86];53;"Bicycle axis: 
+ Modification procedures";DMC-S1000DBIKE-A-D00-00-01-00AA-93AA-AAA(3)
+[80, 281, 8, 2, 52, 46, 2, 52, 10, 3, 46, 2, 33, 10, 3, 46, 2, 53];54;"Apply grease () on the headset 
+ Install the headset, refer to:
+						 
+ Install the stem, refer to:
+						 
+ Install the fork ()";DMC-S1000DBIKE-A-D00-00-01-00AB-720A-AAA(2)
+[81, 300, 8, 2, 52, 32, 2, 52, 10, 3, 32, 2, 33, 10, 3, 32, 2, 53];54;"Apply grease () on the headset 
+ Install the headset, refer to:
+						 
+ Install the stem, refer to:
+						 
+ Install the fork ()";DMC-S1000DBIKE-A-D00-00-01-00AB-720A-AAA(2)
+[53, 46, 83];55;"Fork: 
+ Install procedures";DMC-S1000DBIKE-A-D00-00-01-00AB-720A-AAA(3)
+[53, 32, 86];55;"Fork: 
+ Install procedures";DMC-S1000DBIKE-A-D00-00-01-00AB-720A-AAA(3)
+[18, 434, 435];56;"Bicycle: 
+ Time limits";DMC-S1000DBIKE-A-D05-10-00-00AA-000A-AAA(1)
+[19, 434, 435];56;"Bicycle: 
+ Time limits";DMC-S1000DBIKE-A-D05-10-00-00AA-000A-AAA(1)
+[18, 601, 212, 188];57;"Bicycle: 
+ Scheduled maintenance lists";DMC-S1000DBIKE-A-D05-20-00-00AA-000A-AAA(1)
+[19, 738, 240, 188];57;"Bicycle: 
+ Scheduled maintenance lists";DMC-S1000DBIKE-A-D05-20-00-00AA-000A-AAA(1)
+[18, 601, 212, 66];58;"Bicycle: 
+ Scheduled maintenance checks";DMC-S1000DBIKE-A-D05-40-00-00AA-000A-AAA(1)
+[19, 738, 240, 66];58;"Bicycle: 
+ Scheduled maintenance checks";DMC-S1000DBIKE-A-D05-40-00-00AA-000A-AAA(1)
+[18, 212, 802, 602];59;"Bicycle: 
+ Maintenance Allocation Chart";DMC-S1000DBIKE-A-D05-80-00-00AA-916A-AAA(1)
+[19, 240, 900, 602];59;"Bicycle: 
+ Maintenance Allocation Chart";DMC-S1000DBIKE-A-D05-80-00-00AA-916A-AAA(1)
+[2, 18, 16, 2, 16, 10, 3, 4, 6, 18, 9, 6, 603, 501, 2, 16, 499, 64, 76, 38, 2, 27, 2, 22, 2, 91, 2, 91, 371, 2, 178, 2, 74, 38, 4, 2, 16, 91, 2, 91, 207, 109, 14, 2, 74, 5, 207, 604, 5, 194, 95, 151, 2, 502, 371, 67, 2, 91, 3, 2, 60, 13, 2, 171, 8, 2, 146, 4, 2, 91, 36, 47, 24, 2, 502, 371, 3, 159, 2, 94, 4, 2, 91, 2, 94, 8, 95, 4, 2, 91, 287, 9, 605, 16, 60, 2, 60, 10, 3, 4, 2, 16, 64, 6, 803, 4, 60, 436, 37, 436, 248, 2, 22, 14, 161, 11, 2, 340, 804, 8, 2, 502, 371, 47, 145, 2, 27, 5, 60, 22, 5, 27, 2, 22, 5, 2, 27, 46, 8, 2, 60, 2, 558, 4, 2, 27, 64, 606, 8, 96, 76, 160, 9, 24, 3, 805, 2, 125, 410, 4, 806, 2, 606, 108, 21, 35, 2, 27, 46, 8, 2, 60, 5, 11, 2, 807, 607, 195, 20, 2, 125, 410, 36, 46, 2, 22, 43, 2, 27, 343, 36, 305, 15, 2, 22, 64, 6, 178, 10, 3, 160, 36, 65, 286, 2, 122, 20, 2, 60, 37, 178, 10, 3, 9, 24, 3, 305, 2, 22, 5, 2, 27, 3, 2, 125, 137, 6, 344, 339, 46, 8, 2, 178, 10, 3, 3, 325, 161, 11, 344, 5, 608, 47, 145, 178];60;"The bicycle wheel: 
+ The wheel (refer to ) of a bicycle is a complex structure. The wheel assembly has these parts:  
+ the tire 
+ the tube 
+ the spokes 
+ the spoke nipples 
+ the valve 
+ the hub 
+ Parts of the wheel: 
+ Spokes: 
+ The spokes go out from the hub and go across and below each other. The spoke nipples attach the spokes to the rim with the threads on the end of the spokes. You can use the spoke nipples to adjust the tension of the spokes. The tension on each of the spokes must be equal. 
+ Wheel rim: 
+ The rim (refer to ) of the wheel has a lining of rim tape. This tape protects the tube from damage that the rough edges on the spoke nipples can cause. 
+ The tire and rim: 
+ Tube and tire: 
+ The tube and the tire install on the rim. The sidewalls of the tire have markings on them. These which are used to indicate the correct direction of rotation. The markings also make sure the tire installs on the rim and that the directional arrows points in the correct direction. You install the tube into the tire before you inflate it. The tube has a valve (refer to ) which you put through the hole in the rim. This valve (refer to ) is used to inflate the tube and the tire to the correct pressure. A dust cap installs on the valve (refer to ) to prevent damage that dust and debris can cause. 
+ Valve:";DMC-S1000DBIKE-A-DA0-00-00-00AA-041A-AAA(1)
+[2, 19, 16, 2, 16, 10, 3, 4, 6, 19, 17, 6, 603, 523, 2, 16, 361, 140, 76, 38, 2, 27, 2, 22, 2, 91, 2, 91, 382, 2, 179, 2, 74, 38, 4, 2, 16, 91, 2, 91, 207, 109, 14, 2, 74, 5, 207, 604, 5, 194, 95, 151, 2, 91, 382, 67, 2, 91, 3, 2, 60, 13, 2, 171, 8, 2, 146, 4, 2, 91, 36, 47, 24, 2, 91, 382, 3, 159, 2, 94, 4, 2, 91, 2, 94, 8, 95, 4, 2, 91, 287, 9, 605, 16, 60, 2, 60, 10, 3, 4, 2, 16, 140, 6, 901, 4, 60, 436, 37, 436, 248, 2, 22, 14, 172, 11, 2, 340, 902, 8, 2, 91, 382, 47, 158, 2, 27, 5, 60, 22, 5, 27, 2, 22, 5, 2, 27, 32, 8, 2, 60, 2, 725, 4, 2, 27, 64, 739, 8, 298, 76, 160, 59, 24, 3, 711, 2, 125, 311, 4, 903, 2, 739, 108, 21, 35, 2, 27, 32, 8, 2, 60, 5, 11, 2, 311, 607, 195, 20, 2, 125, 311, 36, 32, 2, 22, 43, 2, 27, 365, 36, 313, 15, 2, 22, 140, 6, 179, 10, 3, 160, 36, 65, 286, 2, 122, 20, 2, 60, 37, 179, 10, 3, 17, 24, 3, 313, 2, 22, 5, 2, 27, 3, 2, 125, 142, 6, 344, 339, 32, 8, 2, 179, 10, 3, 3, 325, 172, 11, 344, 5, 740, 47, 158, 179];60;"The bicycle wheel: 
+ The wheel (refer to ) of a bicycle is a complex structure. The wheel assembly has these parts:  
+ the tire 
+ the tube 
+ the spokes 
+ the spoke nipples 
+ the valve 
+ the hub 
+ Parts of the wheel: 
+ Spokes: 
+ The spokes go out from the hub and go across and below each other. The spoke nipples attach the spokes to the rim with the threads on the end of the spokes. You can use the spoke nipples to adjust the tension of the spokes. The tension on each of the spokes must be equal. 
+ Wheel rim: 
+ The rim (refer to ) of the wheel has a lining of rim tape. This tape protects the tube from damage that the rough edges on the spoke nipples can cause. 
+ The tire and rim: 
+ Tube and tire: 
+ The tube and the tire install on the rim. The sidewalls of the tire have markings on them. These which are used to indicate the correct direction of rotation. The markings also make sure the tire installs on the rim and that the directional arrows points in the correct direction. You install the tube into the tire before you inflate it. The tube has a valve (refer to ) which you put through the hole in the rim. This valve (refer to ) is used to inflate the tube and the tire to the correct pressure. A dust cap installs on the valve (refer to ) to prevent damage that dust and debris can cause. 
+ Valve:";DMC-S1000DBIKE-A-DA0-00-00-00AA-041A-AAA(1)
+[16, 101, 4, 88, 15, 9, 21];61;"Wheel: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA0-00-00-00AA-041A-AAA(2)
+[16, 105, 4, 88, 15, 17, 115];61;"Wheel: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA0-00-00-00AA-041A-AAA(2)
+[16, 101, 4, 88, 15, 9, 21, 609, 66];62;"Wheels: 
+ Description of how it is made: Knowledge Check";DMC-S1000DBIKE-T-DA0-00-00-00AA-041A-AAA(1)
+[16, 105, 4, 88, 15, 17, 115, 741, 66];62;"Wheels: 
+ Description of how it is made: Knowledge Check";DMC-S1000DBIKE-T-DA0-00-00-00AA-041A-AAA(1)
+[9, 610, 13, 611, 73, 253, 153, 96, 47, 145, 161, 3, 2, 132, 22];63;Be careful with sharp or hard tools. They can cause damage to the inner tube.;DMC-S1000DBIKE-A-DA0-10-10-00AA-921A-AAA(1)
+[9, 524, 13, 611, 73, 253, 153, 96, 47, 158, 172, 3, 2, 132, 22];63;Be careful with sharp or hard tools. They can cause damage to the inner tube.;DMC-S1000DBIKE-A-DA0-10-10-00AA-921A-AAA(1)
+[29, 2, 437, 132, 22, 29, 2, 132, 22, 46, 2, 85];64;"Remove the old inner-tube. 
+ Removing the inner tube: 
+ Install the new .";DMC-S1000DBIKE-A-DA0-10-10-00AA-921A-AAA(2)
+[30, 2, 437, 132, 22, 30, 2, 132, 22, 32, 2, 85];64;"Remove the old inner-tube. 
+ Removing the inner tube: 
+ Install the new .";DMC-S1000DBIKE-A-DA0-10-10-00AA-921A-AAA(2)
+[132, 22, 29, 5, 46, 6, 85, 189];65;"Inner tube: 
+ Remove and install a new item";DMC-S1000DBIKE-A-DA0-10-10-00AA-921A-AAA(3)
+[132, 22, 30, 5, 32, 6, 85, 189];65;"Inner tube: 
+ Remove and install a new item";DMC-S1000DBIKE-A-DA0-10-10-00AA-921A-AAA(3)
+[577, 18, 9, 8, 2, 244, 282, 612, 2, 808, 27, 67, 2, 613, 178, 4, 2, 14, 2, 3, 2, 178, 4, 2, 614, 27, 305, 2, 27, 184, 2, 328, 341, 3, 341, 169, 43, 2, 27, 66, 27, 137, 10, 3];66;"Ensure bicycle is on the repair stand. 
+ Locate the deflated tire. 
+ Attach the outlet valve of the , from the , to the valve of the deflated tire. 
+ Inflate the tire. 
+ Operate the foot pump to pump air into the tire. 
+ Check tire pressure. Refer to ";DMC-S1000DBIKE-A-DA0-10-20-00AA-215A-AAA(2)
+[734, 19, 17, 8, 2, 244, 282, 482, 2, 525, 27, 67, 2, 613, 179, 4, 2, 14, 2, 3, 2, 179, 4, 2, 525, 27, 313, 2, 27, 141, 2, 328, 341, 3, 341, 169, 43, 2, 27, 66, 27, 142, 10, 3];66;"Ensure bicycle is on the repair stand. 
+ Locate the deflated tire. 
+ Attach the outlet valve of the , from the , to the valve of the deflated tire. 
+ Inflate the tire. 
+ Operate the foot pump to pump air into the tire. 
+ Check tire pressure. Refer to ";DMC-S1000DBIKE-A-DA0-10-20-00AA-215A-AAA(2)
+[27, 438, 13, 169];67;"Tire: 
+ Fill with air";DMC-S1000DBIKE-A-DA0-10-20-00AA-215A-AAA(3)
+[612, 2, 178, 33, 4, 27, 24, 2, 27, 137, 809, 3, 66, 2, 27, 137, 27, 137, 615, 131, 288, 3, 288, 44, 27, 137, 9, 616, 277, 288, 305, 27, 10, 3, 44, 2, 27, 47, 31, 617, 137, 73, 2, 27, 137, 9, 810, 277, 288, 439, 2, 132, 22, 10, 3];68;"Locate the valve stem of tire. 
+ Use the tire pressure gauge () to check the tire pressure. 
+ Tire pressure should between 2000 hPa to 2700 hPa. 
+ If tire pressure is less than 2000 hPa inflate tire. Refer to  
+ If the tire cannot maintain pressure or the tire pressure is greater than 2700 hPa replace the inner tube. Refer to ";DMC-S1000DBIKE-A-DA0-10-20-00AA-362B-AAA(2)
+[482, 2, 179, 33, 4, 27, 24, 2, 27, 142, 904, 3, 66, 2, 27, 142, 27, 142, 615, 131, 288, 3, 288, 44, 27, 142, 17, 616, 277, 288, 313, 27, 10, 3, 44, 2, 27, 47, 31, 617, 142, 73, 2, 27, 142, 17, 905, 277, 288, 364, 2, 132, 22, 10, 3];68;"Locate the valve stem of tire. 
+ Use the tire pressure gauge () to check the tire pressure. 
+ Tire pressure should between 2000 hPa to 2700 hPa. 
+ If tire pressure is less than 2000 hPa inflate tire. Refer to  
+ If the tire cannot maintain pressure or the tire pressure is greater than 2700 hPa replace the inner tube. Refer to ";DMC-S1000DBIKE-A-DA0-10-20-00AA-362B-AAA(2)
+[27, 66, 137];69;"Tire: 
+ Check pressure";DMC-S1000DBIKE-A-DA0-10-20-00AA-362B-AAA(3)
+[27, 66, 142];69;"Tire: 
+ Check pressure";DMC-S1000DBIKE-A-DA0-10-20-00AA-362B-AAA(3)
+[26, 16, 231, 618, 5, 811, 83];70;"Front wheel: 
+ Fault reports and isolation procedures";DMC-S1000DBIKE-A-DA0-10-20-00AA-400A-AAA(1)
+[26, 16, 231, 618, 5, 742, 86];70;"Front wheel: 
+ Fault reports and isolation procedures";DMC-S1000DBIKE-A-DA0-10-20-00AA-400A-AAA(1)
+[26, 16, 29, 83, 812, 395, 83];71;"Front wheel: 
+ Remove procedures: Interactive content - Procedure";DMC-S1000DBIKE-T-DA0-10-20-00AA-520A-AAA(1)
+[26, 16, 30, 86, 906, 395, 86];71;"Front wheel: 
+ Remove procedures: Interactive content - Procedure";DMC-S1000DBIKE-T-DA0-10-20-00AA-520A-AAA(1)
+[202, 5, 100, 2, 18, 5, 21, 35, 2, 18, 9, 54, 619, 20, 37, 163, 24, 6, 342, 198, 14, 2, 5, 90, 2, 7, 620, 29, 2, 196, 49, 29, 2, 16, 614, 2, 27, 24, 2, 14, 2, 5, 29, 2, 437, 27, 14, 2, 16, 24, 2, 14, 2, 5, 67, 2, 85, 3, 2, 16, 10, 3, 305, 2, 27, 10, 3, 46, 2, 16, 78, 2, 196, 49, 78, 2, 7, 620];72;"Lift and turn the bicycle and make sure the bicycle is held safely in this position. 
+ Use a standard wrench from the  and loosen the brake caliper. 
+ Remove the axle bolt. 
+ Remove the wheel. 
+ Deflate the tire. 
+ Use the  from the  and remove the old tire from the wheel. 
+ Use the  from the  and attach the new  to the wheel. Refer to  
+ Inflate the tire (refer to  
+ Install the wheel. 
+ Tighten the axle bolt. 
+ Tighten the brake caliper.";DMC-S1000DBIKE-A-DA0-10-20-00AA-921A-AAA(2)
+[202, 5, 100, 2, 19, 5, 21, 35, 2, 19, 17, 526, 743, 20, 37, 173, 24, 6, 342, 198, 14, 2, 5, 90, 2, 7, 744, 30, 2, 205, 49, 30, 2, 16, 525, 2, 27, 24, 2, 14, 2, 5, 30, 2, 437, 27, 14, 2, 16, 24, 2, 14, 2, 5, 67, 2, 85, 3, 2, 16, 10, 3, 313, 2, 27, 10, 3, 32, 2, 16, 78, 2, 205, 49, 78, 2, 7, 744];72;"Lift and turn the bicycle and make sure the bicycle is held safely in this position. 
+ Use a standard wrench from the  and loosen the brake caliper. 
+ Remove the axle bolt. 
+ Remove the wheel. 
+ Deflate the tire. 
+ Use the  from the  and remove the old tire from the wheel. 
+ Use the  from the  and attach the new  to the wheel. Refer to  
+ Inflate the tire (refer to  
+ Install the wheel. 
+ Tighten the axle bolt. 
+ Tighten the brake caliper.";DMC-S1000DBIKE-A-DA0-10-20-00AA-921A-AAA(2)
+[27, 29, 5, 46, 6, 85, 189];73;"Tire: 
+ Remove and install a new item";DMC-S1000DBIKE-A-DA0-10-20-00AA-921A-AAA(3)
+[27, 30, 5, 32, 6, 85, 189];73;"Tire: 
+ Remove and install a new item";DMC-S1000DBIKE-A-DA0-10-20-00AA-921A-AAA(3)
+[41, 16, 621, 231];74;"Rear wheel: 
+ Detected fault";DMC-S1000DBIKE-A-DA0-20-00-00AA-412A-AAA(1)
+[54, 2, 41, 4, 2, 18, 89, 2, 16, 113, 5, 150, 3, 622, 2, 12, 14, 2, 62, 100, 2, 16, 3, 2, 111, 5, 202, 15, 273, 14, 2, 42, 65, 2, 42, 8, 2, 112];75;"Hold the rear of the bicycle. 
+ Push the wheel forwards and down to disengage the chain from the sprocket. 
+ Turn the wheel to the side and lift it away from the frame. 
+ Put the frame on the floor.";DMC-S1000DBIKE-A-DA0-20-00-00AA-520A-AAA(2)
+[54, 2, 41, 4, 2, 19, 89, 2, 16, 113, 5, 150, 3, 745, 2, 12, 14, 2, 62, 100, 2, 16, 3, 2, 111, 5, 202, 15, 273, 14, 2, 42, 65, 2, 42, 8, 2, 112];75;"Hold the rear of the bicycle. 
+ Push the wheel forwards and down to disengage the chain from the sprocket. 
+ Turn the wheel to the side and lift it away from the frame. 
+ Put the frame on the floor.";DMC-S1000DBIKE-A-DA0-20-00-00AA-520A-AAA(2)
+[41, 16, 29, 83];76;"Rear wheel: 
+ Remove procedures";DMC-S1000DBIKE-A-DA0-20-00-00AA-520A-AAA(3)
+[41, 16, 30, 86];76;"Rear wheel: 
+ Remove procedures";DMC-S1000DBIKE-A-DA0-20-00-00AA-520A-AAA(3)
+[54, 2, 26, 4, 2, 18, 24, 2, 3, 622, 2, 53, 14, 2, 503, 230, 89, 2, 16, 113, 5, 150, 202, 2, 16, 273, 14, 2, 42, 65, 2, 42, 8, 2, 112];77;"Hold the front of the bicycle. 
+ Use the () to disengage the fork from the chainring by pushing the wheel forwards and down. 
+ Lift the wheel away from the frame. 
+ Put the frame on the floor.";DMC-S1000DBIKE-A-DA0-30-00-00AA-520A-AAA(2)
+[54, 2, 26, 4, 2, 19, 24, 2, 3, 745, 2, 53, 14, 2, 527, 230, 89, 2, 16, 113, 5, 150, 202, 2, 16, 273, 14, 2, 42, 65, 2, 42, 8, 2, 112];77;"Hold the front of the bicycle. 
+ Use the () to disengage the fork from the chainring by pushing the wheel forwards and down. 
+ Lift the wheel away from the frame. 
+ Put the frame on the floor.";DMC-S1000DBIKE-A-DA0-30-00-00AA-520A-AAA(2)
+[26, 16, 29, 83];78;"Front wheel: 
+ Remove procedures";DMC-S1000DBIKE-A-DA0-30-00-00AA-520A-AAA(3)
+[26, 16, 30, 86];78;"Front wheel: 
+ Remove procedures";DMC-S1000DBIKE-A-DA0-30-00-00AA-520A-AAA(3)
+[15, 9, 99, 3, 46, 2, 53, 5, 2, 7, 343, 32, 2, 16, 54, 2, 26, 4, 2, 18, 46, 2, 16, 13, 5, 9, 610, 3, 31, 161, 2, 503, 65, 2, 84, 8, 2, 112];79;"It is necessary to install the fork and the brakes before installing the wheel 
+ Hold the front of the bicycle. 
+ Install the wheel with () and be careful to not damage the chainring. 
+ Put the bike on the floor.";DMC-S1000DBIKE-A-DA0-30-00-00AA-720A-AAA(2)
+[15, 17, 104, 3, 32, 2, 53, 5, 2, 7, 365, 32, 2, 16, 54, 2, 26, 4, 2, 19, 32, 2, 16, 13, 5, 9, 524, 3, 31, 172, 2, 527, 65, 2, 84, 8, 2, 112];79;"It is necessary to install the fork and the brakes before installing the wheel 
+ Hold the front of the bicycle. 
+ Install the wheel with () and be careful to not damage the chainring. 
+ Put the bike on the floor.";DMC-S1000DBIKE-A-DA0-30-00-00AA-720A-AAA(2)
+[26, 16, 46, 83];80;"Front wheel: 
+ Install procedures";DMC-S1000DBIKE-A-DA0-30-00-00AA-720A-AAA(3)
+[26, 16, 32, 86];80;"Front wheel: 
+ Install procedures";DMC-S1000DBIKE-A-DA0-30-00-00AA-720A-AAA(3)
+[7, 51, 2, 211, 529, 38, 4, 2, 18, 9, 2, 7, 51, 387, 6, 316, 212, 4, 2, 7, 51, 9, 99, 213, 70, 6, 388, 23, 252, 21, 35, 36, 3, 23, 2, 99, 212, 57, 530, 57, 366, 44, 36, 23, 31, 23, 37, 2, 18, 181, 9, 389, 3, 24, 82, 9, 317, 143, 127, 4, 7, 51, 2, 144, 182, 8, 211, 18, 9, 2, 318, 7, 10, 3, 318, 7, 2, 7, 51, 10, 3, 64, 76, 390, 206, 2, 7, 25, 10, 3, 2, 7, 106, 2, 7, 319, 2, 7, 48, 108, 320, 57, 486, 2, 7, 39, 10, 3, 318, 7, 13, 487, 106, 6, 106, 11, 207, 14, 2, 7, 25, 8, 2, 34, 117, 2, 77, 25, 8, 2, 7, 367, 37, 214, 2, 7, 39, 183, 2, 215, 60, 4, 2, 16, 160, 391, 2, 216, 4, 2, 18, 7, 39, 82, 9, 392, 7, 39, 10, 3, 8, 2, 18, 77, 9, 182, 8, 2, 26, 16, 5, 77, 8, 2, 41, 16, 2, 7, 39, 9, 21, 109, 4, 253, 321, 254, 2, 39, 214, 183, 2, 60, 4, 2, 16, 3, 145, 217, 70, 2, 36, 184, 2, 7, 25, 531, 393, 4, 6, 7, 7, 25, 2, 7, 25, 10, 3, 9, 368, 161, 2, 25, 9, 32, 20, 2, 87, 6, 48, 49, 54, 2, 87, 37, 49, 9, 31, 532, 488, 15, 9, 182, 20, 2, 87, 2, 25, 100, 8, 6, 25, 118, 49, 2, 533, 162, 119, 54, 2, 7, 106, 37, 162, 119, 159, 2, 94, 4, 2, 106, 489, 206, 4, 6, 126, 18, 25, 2, 208, 7, 25, 54, 2, 7, 39, 8, 2, 26, 16, 5, 2, 185, 7, 39, 54, 2, 7, 8, 2, 41, 16];81;"Brake system: 
+ The most important part of the bicycle is the brake system. Only a minimum maintenance of the brake system is necessary. But, when a problem does occur, make sure you to do the necessary maintenance as quickly as possible. If you do not do this the bicycle will be dangerous to use. 
+ There are nine different types of brake systems. The one found on most bicycles is the cantilever brake (refer to ). 
+ Cantilever brake: 
+ The brake system (refer to ) has these primary components:  
+ the brake lever (refer to ) 
+ the brake cable 
+ the brake arm 
+ the brake clamp (also known as callipers) 
+ the brake pads (refer to ) 
+ Cantilever brake with straddle cable: 
+ A cable that goes from the brake levers on the handlebars pulls the two levers on the brakes together. This presses the brake pads against the outer rim of the wheel, which decreases the speed of the bicycle. 
+ Brake pads: 
+ There are four brake pads (refer to ) on the bicycle. Two are found on the front wheel and two on the rear wheel. The brake pads are made out of hard wearing rubber. The pads press against the rim of the wheel to cause friction when the you operate the brake levers. 
+ Exploded diagram of a brake: 
+ Brake lever: 
+ The brake levers (refer to ) are easily damaged. The lever is installed in the mount. A clamp bolt holds the mount. This bolt is not visible because it is found in the mount. The lever turns on a lever pivot bolt. The adjuster lock nut holds the brake cable. This lock nut adjusts the tension of the cable. 
+ Typical components of a mountain bicycle lever: 
+ The left brake lever holds the brake pads on the front wheel and the right brake pads hold the brakes on the rear wheel.";DMC-S1000DBIKE-A-DA1-00-00-00AA-041A-AAA(1)
+[7, 51, 2, 211, 708, 38, 4, 2, 19, 17, 2, 7, 51, 469, 6, 316, 240, 4, 2, 7, 51, 17, 104, 213, 70, 6, 388, 509, 252, 21, 35, 36, 3, 23, 2, 104, 240, 57, 415, 57, 379, 44, 36, 23, 31, 23, 37, 2, 19, 181, 9, 470, 3, 24, 82, 59, 317, 139, 127, 4, 7, 51, 2, 144, 354, 8, 211, 19, 17, 2, 355, 7, 10, 3, 355, 7, 2, 7, 51, 10, 3, 140, 76, 471, 210, 2, 7, 25, 10, 3, 2, 7, 107, 2, 7, 319, 2, 7, 48, 108, 356, 57, 510, 2, 7, 39, 10, 3, 355, 7, 13, 511, 107, 6, 107, 11, 512, 14, 2, 7, 25, 8, 2, 34, 117, 2, 77, 25, 8, 2, 7, 380, 37, 214, 2, 7, 39, 183, 2, 215, 60, 4, 2, 16, 160, 472, 2, 216, 4, 2, 19, 7, 39, 82, 59, 392, 7, 39, 10, 3, 8, 2, 19, 77, 59, 354, 8, 2, 26, 16, 5, 77, 8, 2, 41, 16, 2, 7, 39, 59, 115, 109, 4, 253, 321, 254, 2, 39, 214, 183, 2, 60, 4, 2, 16, 3, 158, 217, 70, 2, 36, 141, 2, 7, 25, 709, 393, 4, 6, 7, 7, 25, 2, 7, 25, 10, 3, 59, 381, 172, 2, 25, 17, 32, 20, 2, 87, 6, 48, 49, 54, 2, 87, 37, 49, 17, 31, 710, 513, 15, 17, 354, 20, 2, 87, 2, 25, 100, 8, 6, 25, 118, 49, 2, 159, 162, 119, 54, 2, 7, 107, 37, 162, 119, 159, 2, 94, 4, 2, 107, 514, 210, 4, 6, 126, 19, 25, 2, 208, 7, 25, 54, 2, 7, 39, 8, 2, 26, 16, 5, 2, 185, 7, 39, 54, 2, 7, 8, 2, 41, 16];81;"Brake system: 
+ The most important part of the bicycle is the brake system. Only a minimum maintenance of the brake system is necessary. But, when a problem does occur, make sure you to do the necessary maintenance as quickly as possible. If you do not do this the bicycle will be dangerous to use. 
+ There are nine different types of brake systems. The one found on most bicycles is the cantilever brake (refer to ). 
+ Cantilever brake: 
+ The brake system (refer to ) has these primary components:  
+ the brake lever (refer to ) 
+ the brake cable 
+ the brake arm 
+ the brake clamp (also known as callipers) 
+ the brake pads (refer to ) 
+ Cantilever brake with straddle cable: 
+ A cable that goes from the brake levers on the handlebars pulls the two levers on the brakes together. This presses the brake pads against the outer rim of the wheel, which decreases the speed of the bicycle. 
+ Brake pads: 
+ There are four brake pads (refer to ) on the bicycle. Two are found on the front wheel and two on the rear wheel. The brake pads are made out of hard wearing rubber. The pads press against the rim of the wheel to cause friction when the you operate the brake levers. 
+ Exploded diagram of a brake: 
+ Brake lever: 
+ The brake levers (refer to ) are easily damaged. The lever is installed in the mount. A clamp bolt holds the mount. This bolt is not visible because it is found in the mount. The lever turns on a lever pivot bolt. The adjuster lock nut holds the brake cable. This lock nut adjusts the tension of the cable. 
+ Typical components of a mountain bicycle lever: 
+ The left brake lever holds the brake pads on the front wheel and the right brake pads hold the brakes on the rear wheel.";DMC-S1000DBIKE-A-DA1-00-00-00AA-041A-AAA(1)
+[7, 51, 101, 4, 88, 15, 9, 21];82;"Brake system: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA1-00-00-00AA-041A-AAA(2)
+[7, 51, 105, 4, 88, 15, 17, 115];82;"Brake system: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA1-00-00-00AA-041A-AAA(2)
+[65, 2, 18, 20, 6, 490, 163, 54, 2, 128, 61, 5, 89, 2, 18, 113, 80, 2, 7, 21, 35, 11, 2, 16, 162, 5, 2, 18, 255];83;"Put the bicycle in a vertical position. 
+ Hold the handle bars and push the bicycle forwards. 
+ Apply the brakes. 
+ Make sure that the wheels lock and the bicycle stops.";DMC-S1000DBIKE-A-DA1-00-00-00AA-341A-AAA(2)
+[65, 2, 19, 20, 6, 515, 173, 54, 2, 135, 61, 5, 89, 2, 19, 113, 81, 2, 7, 21, 35, 11, 2, 16, 162, 5, 2, 19, 255];83;"Put the bicycle in a vertical position. 
+ Hold the handle bars and push the bicycle forwards. 
+ Apply the brakes. 
+ Make sure that the wheels lock and the bicycle stops.";DMC-S1000DBIKE-A-DA1-00-00-00AA-341A-AAA(2)
+[7, 51, 256, 120];84;"Brake system: 
+ Manual test";DMC-S1000DBIKE-A-DA1-00-00-00AA-341A-AAA(3)
+[23, 6, 322, 369, 4, 2, 7, 57, 175, 20, 2, 257, 129, 66, 10, 3, 28, 2, 7, 39, 182, 95, 4, 2, 7, 39, 80, 6, 186, 258, 4, 2, 8, 95, 4, 2, 7, 39, 259, 2, 323, 187, 36, 64, 80, 2, 3, 2, 491, 323, 4, 2, 39, 29, 2, 218, 260];85;"Do a visual inspection of the brakes as given in the pre-ride checks (refer to  
+ Clean the brake pads. 
+ Find each of the brake pads. 
+ Apply a thin layer of the  on each of the brake pads. 
+ Rub the surface until you have applied the  to the complete surface of the pad. 
+ Remove the unwanted alcohol.";DMC-S1000DBIKE-A-DA1-10-00-00AA-251A-AAA(2)
+[23, 6, 322, 307, 4, 2, 7, 57, 309, 20, 2, 257, 129, 66, 10, 3, 28, 2, 7, 39, 182, 95, 4, 2, 7, 39, 81, 6, 186, 258, 4, 2, 8, 95, 4, 2, 7, 39, 259, 2, 357, 187, 36, 64, 81, 2, 3, 2, 473, 357, 4, 2, 39, 30, 2, 241, 260];85;"Do a visual inspection of the brakes as given in the pre-ride checks (refer to  
+ Clean the brake pads. 
+ Find each of the brake pads. 
+ Apply a thin layer of the  on each of the brake pads. 
+ Rub the surface until you have applied the  to the complete surface of the pad. 
+ Remove the unwanted alcohol.";DMC-S1000DBIKE-A-DA1-10-00-00AA-251A-AAA(2)
+[7, 39, 28, 13, 259, 260];86;"Brake pads: 
+ Clean with rubbing alcohol";DMC-S1000DBIKE-A-DA1-10-00-00AA-251A-AAA(3)
+[54, 2, 26, 4, 2, 18, 29, 2, 26, 7, 813, 65, 2, 42, 8, 2, 112];87;"Hold the front of the bicycle. 
+ Remove the front brake forwards. 
+ Put the frame on the floor.";DMC-S1000DBIKE-A-DA1-20-00-00AA-520A-AAA(2)
+[54, 2, 26, 4, 2, 19, 30, 2, 26, 7, 113, 65, 2, 42, 8, 2, 112];87;"Hold the front of the bicycle. 
+ Remove the front brake forwards. 
+ Put the frame on the floor.";DMC-S1000DBIKE-A-DA1-20-00-00AA-520A-AAA(2)
+[26, 7, 29, 83];88;"Front brake: 
+ Remove procedures";DMC-S1000DBIKE-A-DA1-20-00-00AA-520A-AAA(3)
+[26, 7, 30, 86];88;"Front brake: 
+ Remove procedures";DMC-S1000DBIKE-A-DA1-20-00-00AA-520A-AAA(3)
+[15, 9, 99, 3, 46, 2, 53, 343, 32, 2, 7, 54, 2, 26, 4, 2, 18, 46, 2, 26, 7, 8, 2, 53, 65, 2, 42, 8, 2, 112];89;"It is necessary to install the fork before installing the brakes 
+ Hold the front of the bicycle. 
+ Install the front brakes on the fork. 
+ Put the frame on the floor.";DMC-S1000DBIKE-A-DA1-20-00-00AA-720A-AAA(2)
+[15, 17, 104, 3, 32, 2, 53, 365, 32, 2, 7, 54, 2, 26, 4, 2, 19, 32, 2, 26, 7, 8, 2, 53, 65, 2, 42, 8, 2, 112];89;"It is necessary to install the fork before installing the brakes 
+ Hold the front of the bicycle. 
+ Install the front brakes on the fork. 
+ Put the frame on the floor.";DMC-S1000DBIKE-A-DA1-20-00-00AA-720A-AAA(2)
+[26, 7, 46, 83];90;"Front brake: 
+ Install procedures";DMC-S1000DBIKE-A-DA1-20-00-00AA-720A-AAA(3)
+[26, 7, 32, 86];90;"Front brake: 
+ Install procedures";DMC-S1000DBIKE-A-DA1-20-00-00AA-720A-AAA(3)
+[138, 2, 209, 8, 2, 84, 9, 440, 623, 2, 84, 3, 814, 20, 6, 175, 410, 624, 625, 2, 209, 51, 8, 2, 84, 9, 21, 4, 232, 38, 96, 9, 2, 34, 2, 52, 2, 33, 34, 37, 626, 4, 6, 492, 61, 67, 3, 2, 33, 13, 627, 68, 2, 146, 7, 25, 5, 55, 9, 108, 67, 3, 37, 61, 628, 96, 23, 31, 64, 629, 38, 20, 2, 209, 190, 2, 34, 815, 9, 6, 816, 289, 630, 2, 34, 817, 23, 31, 818, 37, 289, 2, 52, 108, 320, 57, 2, 209, 22, 9, 2, 190, 11, 623, 2, 34, 3, 289, 52, 37, 190, 9, 631, 20, 26, 4, 2, 42, 5, 193, 2, 26, 53, 3, 2, 33, 5, 34, 2, 52, 441, 2, 34, 3, 289, 495, 5, 185, 58, 209, 819, 58, 6, 274, 101, 4, 2, 52, 10, 3, 33, 2, 33, 9, 6, 586, 11, 67, 2, 34, 3, 2, 209, 22, 820, 2, 33, 9, 632, 6, 171, 33, 49, 631, 821, 2, 154, 22, 5, 9, 440, 67, 2, 34, 3, 2, 52];91;"Steering: 
+ The steering on the bike is what enables the bike to manoeuvre in a given direction during travel. The steering system on the bike is made of three parts, they are: 
+ 
+                         The handlebar 
+ 
+                         The headset 
+ 
+                         The stem 
+ Handlebar: 
+ This consists of a horizontal bar attached to the stem with handgrips at the end. Brake levers and shifters are also attached to this bar although they do not have any part in the steering mechanism. The handlebars manoeuvrability is a sideways swivelling action. The handlebars themselves do not provide this swivelling, the headset (also known as the steering tube) is the mechanism that enables the handlebars to swivel. 
+ Headset: 
+ This mechanism is situated in front of the frame and connects the front fork to the stem and handlebars. The headset allows the handlebars to swivel left and right for steering purposes. 
+ For a full description of the headset, refer to  
+ Stem: 
+ The stem is a piece that attaches the handlebar to the steering tube. Basically the stem is just a threaded stem bolt situated inside the steerer tube and is what attaches the handlebars to the headset.";DMC-S1000DBIKE-A-DA2-00-00-00AA-041A-AAA(1)
+[138, 2, 138, 8, 2, 84, 17, 440, 746, 2, 84, 3, 747, 20, 6, 309, 311, 748, 625, 2, 138, 51, 8, 2, 84, 17, 115, 4, 232, 38, 96, 59, 2, 34, 2, 52, 2, 33, 34, 37, 626, 4, 6, 516, 61, 67, 3, 2, 33, 13, 627, 68, 2, 146, 7, 25, 5, 55, 59, 108, 67, 3, 37, 61, 628, 96, 23, 31, 64, 749, 38, 20, 2, 138, 174, 2, 34, 747, 17, 6, 907, 289, 630, 2, 34, 908, 23, 31, 909, 37, 289, 2, 52, 108, 356, 57, 2, 138, 22, 17, 2, 174, 11, 746, 2, 34, 3, 289, 52, 37, 174, 17, 750, 20, 26, 4, 2, 42, 5, 193, 2, 26, 53, 3, 2, 33, 5, 34, 2, 52, 441, 2, 34, 3, 289, 208, 5, 185, 58, 138, 910, 58, 6, 274, 105, 4, 2, 52, 10, 3, 33, 2, 33, 17, 6, 737, 11, 67, 2, 34, 3, 2, 138, 22, 911, 2, 33, 17, 632, 6, 171, 33, 49, 750, 912, 2, 154, 22, 5, 17, 440, 67, 2, 34, 3, 2, 52];91;"Steering: 
+ The steering on the bike is what enables the bike to manoeuvre in a given direction during travel. The steering system on the bike is made of three parts, they are: 
+ 
+                         The handlebar 
+ 
+                         The headset 
+ 
+                         The stem 
+ Handlebar: 
+ This consists of a horizontal bar attached to the stem with handgrips at the end. Brake levers and shifters are also attached to this bar although they do not have any part in the steering mechanism. The handlebars manoeuvrability is a sideways swivelling action. The handlebars themselves do not provide this swivelling, the headset (also known as the steering tube) is the mechanism that enables the handlebars to swivel. 
+ Headset: 
+ This mechanism is situated in front of the frame and connects the front fork to the stem and handlebars. The headset allows the handlebars to swivel left and right for steering purposes. 
+ For a full description of the headset, refer to  
+ Stem: 
+ The stem is a piece that attaches the handlebar to the steering tube. Basically the stem is just a threaded stem bolt situated inside the steerer tube and is what attaches the handlebars to the headset.";DMC-S1000DBIKE-A-DA2-00-00-00AA-041A-AAA(1)
+[138, 101, 4, 88, 15, 9, 21];92;"Steering: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA2-00-00-00AA-041A-AAA(2)
+[138, 105, 4, 88, 15, 17, 115];92;"Steering: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA2-00-00-00AA-041A-AAA(2)
+[138, 101, 4, 88, 15, 9, 21, 609, 66];93;"Steering: 
+ Description of how it is made: Knowledge Check";DMC-S1000DBIKE-T-DA2-10-00-00AA-041A-AAA(1)
+[138, 105, 4, 88, 15, 17, 115, 741, 66];93;"Steering: 
+ Description of how it is made: Knowledge Check";DMC-S1000DBIKE-T-DA2-10-00-00AA-041A-AAA(1)
+[15, 9, 31, 99, 3, 29, 2, 34, 70, 36, 29, 2, 33, 3, 63, 222, 3, 2, 52];94;It is not necessary to remove the handlebar when you remove the stem to get access to the headset.;DMC-S1000DBIKE-A-DA2-10-00-00AA-520A-AAA(1)
+[15, 17, 31, 104, 3, 30, 2, 34, 70, 36, 30, 2, 33, 3, 63, 222, 3, 2, 52];94;It is not necessary to remove the handlebar when you remove the stem to get access to the headset.;DMC-S1000DBIKE-A-DA2-10-00-00AA-520A-AAA(1)
+[29, 2, 34, 29, 2, 33, 29, 2, 49, 20, 2, 167, 4, 2, 33, 339, 29, 2, 49, 90, 2, 33, 633, 49, 13, 6, 29, 2, 33, 14, 2, 154, 22, 634, 15, 9, 31, 99, 3, 29, 2, 34, 44, 36, 29, 2, 33, 3, 63, 222, 3, 2, 52];95;"Remove the handlebar  
+ Remove the stem. 
+ Remove the bolt in the center of the stem cap. 
+ Remove the bolt: 
+ Loosen the stem clam bolt with a . 
+ Remove the stem from the steerer tube. 
+ Note: It is not necessary to remove the handlebar if you remove the stem to get access to the headset.";DMC-S1000DBIKE-A-DA2-10-00-00AA-520A-AAA(2)
+[30, 2, 34, 30, 2, 33, 30, 2, 49, 20, 2, 167, 4, 2, 33, 339, 30, 2, 49, 90, 2, 33, 633, 49, 13, 6, 30, 2, 33, 14, 2, 154, 22, 634, 15, 17, 31, 104, 3, 30, 2, 34, 44, 36, 30, 2, 33, 3, 63, 222, 3, 2, 52];95;"Remove the handlebar  
+ Remove the stem. 
+ Remove the bolt in the center of the stem cap. 
+ Remove the bolt: 
+ Loosen the stem clam bolt with a . 
+ Remove the stem from the steerer tube. 
+ Note: It is not necessary to remove the handlebar if you remove the stem to get access to the headset.";DMC-S1000DBIKE-A-DA2-10-00-00AA-520A-AAA(2)
+[33, 29, 83];96;"Stem: 
+ Remove procedures";DMC-S1000DBIKE-A-DA2-10-00-00AA-520A-AAA(3)
+[33, 30, 86];96;"Stem: 
+ Remove procedures";DMC-S1000DBIKE-A-DA2-10-00-00AA-520A-AAA(3)
+[23, 31, 78, 2, 33, 49, 148, 272, 36, 47, 145, 161, 3, 2, 52, 114, 44, 36, 78, 2, 33, 148, 272, 2, 33, 49, 23, 31, 635, 2, 33, 2, 33, 287, 195, 113, 20, 822, 13, 2, 16];97;"Do not tighten the stem bolt too much. You can cause damage to the headset bearings if you tighten the stem too much. 
+ The stem bolt does not safety the stem. 
+ The stem must point forward in alignment with the wheel.";DMC-S1000DBIKE-A-DA2-10-00-00AA-720A-AAA(1)
+[23, 31, 78, 2, 33, 49, 148, 272, 36, 47, 158, 172, 3, 2, 52, 92, 44, 36, 78, 2, 33, 148, 272, 2, 33, 49, 509, 31, 384, 2, 33, 2, 33, 287, 195, 113, 20, 306, 13, 2, 16];97;"Do not tighten the stem bolt too much. You can cause damage to the headset bearings if you tighten the stem too much. 
+ The stem bolt does not safety the stem. 
+ The stem must point forward in alignment with the wheel.";DMC-S1000DBIKE-A-DA2-10-00-00AA-720A-AAA(1)
+[29, 69, 2, 636, 5, 2, 823, 13, 6, 5, 46, 2, 33, 24, 6, 5, 177, 2, 171, 4, 2, 5, 2, 111, 2, 103, 4, 2, 824, 177, 2, 171, 46, 2, 20, 2, 154, 22, 78, 2, 49, 159, 3, 306, 2, 13, 2, 16, 5, 78, 2, 637, 46, 2, 34, 10, 3];98;"Remove all the rust and the corrosion with a  and . 
+ Install the stem. 
+ Use a  and lubricate:  
+ the threads of the  and 
+                            
+ the sides 
+ the top of the wedge 
+ Lubricate the thread: 
+ Install the  in the steerer tube. 
+ Tighten the bolt: 
+ Adjust to align the  with the wheel and tighten the  firmly. 
+ Install the handlebars (refer to ";DMC-S1000DBIKE-A-DA2-10-00-00AA-720A-AAA(2)
+[30, 69, 2, 636, 5, 2, 913, 13, 6, 5, 32, 2, 33, 24, 6, 5, 116, 2, 171, 4, 2, 5, 2, 111, 2, 103, 4, 2, 914, 116, 2, 171, 32, 2, 20, 2, 154, 22, 78, 2, 49, 159, 3, 306, 2, 13, 2, 16, 5, 78, 2, 751, 32, 2, 34, 10, 3];98;"Remove all the rust and the corrosion with a  and . 
+ Install the stem. 
+ Use a  and lubricate:  
+ the threads of the  and 
+                            
+ the sides 
+ the top of the wedge 
+ Lubricate the thread: 
+ Install the  in the steerer tube. 
+ Tighten the bolt: 
+ Adjust to align the  with the wheel and tighten the  firmly. 
+ Install the handlebars (refer to ";DMC-S1000DBIKE-A-DA2-10-00-00AA-720A-AAA(2)
+[33, 46, 83];99;"Stem: 
+ Install procedures";DMC-S1000DBIKE-A-DA2-10-00-00AA-720A-AAA(3)
+[33, 32, 86];99;"Stem: 
+ Install procedures";DMC-S1000DBIKE-A-DA2-10-00-00AA-720A-AAA(3)
+[23, 31, 129, 6, 18, 13, 220, 110, 8, 2, 34, 37, 47, 145, 2, 290, 4, 2, 197, 3, 418];100;Do not ride a bicycle with no grips on the handlebar. This can cause the hands of the rider to slip.;DMC-S1000DBIKE-A-DA2-20-00-00AA-520A-AAA(1)
+[23, 31, 129, 6, 19, 13, 220, 110, 8, 2, 34, 37, 47, 158, 2, 290, 4, 2, 197, 3, 418];100;Do not ride a bicycle with no grips on the handlebar. This can cause the hands of the rider to slip.;DMC-S1000DBIKE-A-DA2-20-00-00AA-520A-AAA(1)
+[29, 2, 110, 65, 6, 442, 186, 304, 194, 2, 110, 5, 80, 56, 131, 2, 110, 5, 2, 128, 61, 100, 2, 110, 113, 5, 249, 3, 90, 15, 5, 345, 117, 15, 270, 2, 146, 4, 2, 34, 29, 2, 7, 5, 2, 147, 25, 14, 2, 34, 90, 2, 48, 75, 10, 3, 160, 9, 638, 73, 194, 2, 7, 25, 57, 268, 90, 2, 48, 75, 13, 2, 228, 198, 29, 2, 25, 5, 2, 87, 14, 2, 34, 90, 2, 48, 49, 5, 29, 2, 55, 14, 2, 34, 29, 2, 34, 24, 6, 5, 90, 2, 48, 49, 10, 3, 3, 29, 50, 2, 34, 109, 4, 2, 33, 90, 2, 48, 49];101;"Remove the grips: 
+ Put a long thin screwdriver below the grip and apply water between the grip and the handle bar. 
+ Turn the grip forwards and rearwards to loosen it and then pull it off the end of the handlebar. 
+ Remove the brake and the shift levers from the handlebars: 
+ Loosen the clamp screw (refer to  ) which is behind or below the brake lever (as shown). 
+ Loosen the clamp screw with the Allen wrench: 
+ Remove the lever and the mount from the handlebar. 
+ Loosen the clamp bolt and remove the shifter from the handlebar. 
+ Remove the handlebar: 
+ Use a  and loosen the clamp bolt (refer to  ). To remove, move the handlebar out of the stem. 
+ Loosen the clamp bolt:";DMC-S1000DBIKE-A-DA2-20-00-00AA-520A-AAA(2)
+[30, 2, 110, 65, 6, 442, 186, 312, 194, 2, 110, 5, 81, 56, 131, 2, 110, 5, 2, 135, 61, 100, 2, 110, 113, 5, 249, 3, 90, 15, 5, 345, 117, 15, 270, 2, 146, 4, 2, 34, 30, 2, 7, 5, 2, 147, 25, 14, 2, 34, 90, 2, 48, 75, 10, 3, 160, 17, 638, 73, 194, 2, 7, 25, 57, 359, 90, 2, 48, 75, 13, 2, 228, 198, 30, 2, 25, 5, 2, 87, 14, 2, 34, 90, 2, 48, 49, 5, 30, 2, 55, 14, 2, 34, 30, 2, 34, 24, 6, 5, 90, 2, 48, 49, 10, 3, 3, 30, 50, 2, 34, 109, 4, 2, 33, 90, 2, 48, 49];101;"Remove the grips: 
+ Put a long thin screwdriver below the grip and apply water between the grip and the handle bar. 
+ Turn the grip forwards and rearwards to loosen it and then pull it off the end of the handlebar. 
+ Remove the brake and the shift levers from the handlebars: 
+ Loosen the clamp screw (refer to  ) which is behind or below the brake lever (as shown). 
+ Loosen the clamp screw with the Allen wrench: 
+ Remove the lever and the mount from the handlebar. 
+ Loosen the clamp bolt and remove the shifter from the handlebar. 
+ Remove the handlebar: 
+ Use a  and loosen the clamp bolt (refer to  ). To remove, move the handlebar out of the stem. 
+ Loosen the clamp bolt:";DMC-S1000DBIKE-A-DA2-20-00-00AA-520A-AAA(2)
+[34, 29, 83];102;"Handlebar: 
+ Remove procedures";DMC-S1000DBIKE-A-DA2-20-00-00AA-520A-AAA(3)
+[34, 30, 86];102;"Handlebar: 
+ Remove procedures";DMC-S1000DBIKE-A-DA2-20-00-00AA-520A-AAA(3)
+[23, 31, 129, 2, 18, 187, 2, 110, 64, 333, 374, 5, 9, 637, 54, 20, 163, 44, 2, 110, 9, 639, 79, 290, 47, 50, 270, 2, 110, 70, 36, 129, 2, 18, 23, 31, 129, 6, 18, 13, 220, 110, 8, 2, 34, 21, 35, 2, 34, 9, 302, 306, 20, 2, 167, 4, 2, 33];103;"Do not ride the bicycle until the grips have become dry and are firmly held in position. If the grips are wet, your hands can move off the grips when you ride the bicycle. 
+ Do not ride a bicycle with no grips on the handlebar. 
+ Make sure the handlebar is correctly aligned in the center of the stem.";DMC-S1000DBIKE-A-DA2-20-00-00AA-720A-AAA(1)
+[23, 31, 129, 2, 19, 187, 2, 110, 64, 360, 383, 5, 59, 751, 526, 20, 173, 44, 2, 110, 59, 639, 79, 290, 47, 50, 270, 2, 110, 70, 36, 129, 2, 19, 23, 31, 129, 6, 19, 13, 220, 110, 8, 2, 34, 21, 35, 2, 34, 17, 125, 306, 20, 2, 167, 4, 2, 33];103;"Do not ride the bicycle until the grips have become dry and are firmly held in position. If the grips are wet, your hands can move off the grips when you ride the bicycle. 
+ Do not ride a bicycle with no grips on the handlebar. 
+ Make sure the handlebar is correctly aligned in the center of the stem.";DMC-S1000DBIKE-A-DA2-20-00-00AA-720A-AAA(1)
+[65, 2, 20, 2, 33, 5, 78, 2, 48, 49, 13, 6, 21, 35, 2, 34, 9, 302, 306, 20, 2, 167, 4, 2, 33, 78, 2, 48, 49, 65, 2, 5, 8, 2, 34, 50, 2, 8, 2, 199, 5, 21, 35, 36, 23, 31, 443, 2, 106, 78, 2, 48, 49, 50, 2, 5, 2, 7, 25, 8, 2, 199, 78, 2, 48, 75, 439, 2, 80, 13, 2, 3, 2, 93, 4, 2, 343, 2, 333, 374, 50, 2, 43, 2, 125, 163, 21, 35, 2, 110, 248, 2, 146, 4, 2, 73, 46, 6];104;"Put the  in the stem and tighten the clamp bolt with a . Make sure the handlebar is correctly aligned in the center of the stem. Tighten the clamp bolt. 
+ Put the  and  on the handlebar. 
+ Move the  on the  again and make sure you do not catch the cables. 
+ Tighten the clamp bolt. 
+ Move the  and the brake lever on the  again. 
+ Tighten the clamp screw. 
+ Replace the . 
+ Apply with the  to the  area of the . 
+ Before the  becomes dry, move the  into the correct position. Make sure the grip protects the end of the  or install a .";DMC-S1000DBIKE-A-DA2-20-00-00AA-720A-AAA(2)
+[65, 2, 20, 2, 33, 5, 78, 2, 48, 49, 13, 6, 21, 35, 2, 34, 17, 125, 306, 20, 2, 167, 4, 2, 33, 78, 2, 48, 49, 65, 2, 5, 8, 2, 34, 50, 2, 8, 2, 199, 5, 21, 35, 36, 23, 31, 443, 2, 107, 78, 2, 48, 49, 50, 2, 5, 2, 7, 25, 8, 2, 199, 78, 2, 48, 75, 364, 2, 81, 13, 2, 3, 2, 93, 4, 2, 365, 2, 360, 383, 50, 2, 43, 2, 125, 173, 21, 35, 2, 110, 248, 2, 146, 4, 2, 73, 32, 6];104;"Put the  in the stem and tighten the clamp bolt with a . Make sure the handlebar is correctly aligned in the center of the stem. Tighten the clamp bolt. 
+ Put the  and  on the handlebar. 
+ Move the  on the  again and make sure you do not catch the cables. 
+ Tighten the clamp bolt. 
+ Move the  and the brake lever on the  again. 
+ Tighten the clamp screw. 
+ Replace the . 
+ Apply with the  to the  area of the . 
+ Before the  becomes dry, move the  into the correct position. Make sure the grip protects the end of the  or install a .";DMC-S1000DBIKE-A-DA2-20-00-00AA-720A-AAA(2)
+[34, 46, 83];105;"Handlebar: 
+ Install procedures";DMC-S1000DBIKE-A-DA2-20-00-00AA-720A-AAA(3)
+[34, 32, 86];105;"Handlebar: 
+ Install procedures";DMC-S1000DBIKE-A-DA2-20-00-00AA-720A-AAA(3)
+[52, 2, 52, 10, 3, 9, 6, 640, 4, 114, 8, 2, 77, 146, 4, 2, 165, 22, 4, 2, 42, 76, 114, 641, 2, 53, 3, 100, 249, 5, 113, 58, 642, 3, 168, 2, 197, 100, 2, 34, 58, 2, 209, 2, 52, 10, 3, 223, 2, 38, 11, 233, 2, 92, 123, 11, 89, 43, 2, 165, 22, 6, 92, 123, 11, 89, 8, 2, 53, 154, 22, 164, 825, 234, 123, 77, 191, 4, 346, 114, 6, 52, 64, 347, 11, 9, 89, 43, 2, 165, 22, 5, 6, 71, 8, 2, 53, 69, 232, 287, 9, 337, 291, 15, 9, 826, 99, 3, 29, 340, 335, 3, 63, 69, 232, 337, 291, 2, 234, 123, 46, 235, 2, 154, 22, 13, 6, 171, 6, 292, 9, 24, 3, 635, 2, 234, 123, 6, 48, 49, 54, 2, 33, 3, 2, 154, 22, 2, 643, 375, 92, 123, 9, 38, 4, 6, 119, 11, 46, 8, 2, 171, 103, 146, 4, 2, 53, 37, 9, 23, 644, 36, 46, 15, 20, 2, 165, 22, 15, 9, 827, 99, 58, 280, 52, 3, 64, 276, 171, 68, 2, 103, 4, 2, 165, 22, 44, 2, 53, 9, 148, 442, 2, 203, 71, 47, 9, 32, 44, 15, 9, 148, 645, 82, 9, 6, 435, 3, 2, 262, 4, 52, 36, 47, 24, 58, 164, 646, 4, 2, 38, 4, 2, 52, 10, 3, 52];106;"Headset: 
+ The headset (refer to ) is a pair of bearings on the two ends of the head tube of the frame. These bearings permit the fork to turn rearward and forward (for example, to let the rider turn the handlebars for the steering). 
+ The headset (refer to ) includes the parts that follow:  
+ The bearing races that push into the head tube 
+ a bearing race that pushes on the fork steerer tube 
+ an adjustable upper race 
+ two sets of ball bearings 
+ A headset has cups that are pushed into the head tube and a ring on the fork. All three must be fully parallel. It is usually necessary to remove rough paint to get all three fully parallel. 
+ The upper race installs onto the steerer tube with a thread. A locknut is used to safety the upper race. 
+ A clamp bolt holds the stem to the steerer tube. 
+ The fourth remaining bearing race is part of a nut that installs on the threaded top end of the fork. This is done after you install it in the head tube. It is sometimes necessary for some headsets to have more thread at the top of the head tube. If the fork is too long, the spacer rings can be installed. If it is too short, there is a limit to the number of headsets you can use. 
+ For an illustration of the parts of the headset (refer to ). 
+ Headset:";DMC-S1000DBIKE-A-DA2-30-00-00AA-041A-AAA(1)
+[52, 2, 52, 10, 3, 17, 6, 640, 4, 92, 8, 2, 77, 146, 4, 2, 165, 22, 4, 2, 42, 76, 92, 641, 2, 53, 3, 100, 249, 5, 113, 58, 752, 3, 168, 2, 197, 100, 2, 34, 58, 2, 138, 2, 52, 10, 3, 242, 2, 38, 11, 233, 2, 92, 123, 11, 89, 43, 2, 165, 22, 6, 92, 123, 11, 89, 8, 2, 53, 154, 22, 164, 159, 234, 123, 77, 191, 4, 346, 92, 6, 52, 140, 347, 11, 59, 89, 43, 2, 165, 22, 5, 6, 71, 8, 2, 53, 69, 232, 287, 9, 363, 291, 15, 17, 506, 104, 3, 30, 340, 335, 3, 63, 69, 232, 363, 291, 2, 234, 123, 32, 235, 2, 154, 22, 13, 6, 171, 6, 292, 17, 24, 3, 384, 2, 234, 123, 6, 48, 49, 54, 2, 33, 3, 2, 154, 22, 2, 643, 375, 92, 123, 17, 38, 4, 6, 119, 11, 32, 8, 2, 171, 103, 146, 4, 2, 53, 37, 17, 915, 644, 36, 32, 15, 20, 2, 165, 22, 15, 17, 916, 104, 58, 280, 52, 3, 64, 276, 171, 68, 2, 103, 4, 2, 165, 22, 44, 2, 53, 17, 148, 442, 2, 203, 71, 47, 9, 32, 44, 15, 17, 148, 645, 82, 17, 6, 435, 3, 2, 262, 4, 52, 36, 47, 24, 58, 164, 481, 4, 2, 38, 4, 2, 52, 10, 3, 52];106;"Headset: 
+ The headset (refer to ) is a pair of bearings on the two ends of the head tube of the frame. These bearings permit the fork to turn rearward and forward (for example, to let the rider turn the handlebars for the steering). 
+ The headset (refer to ) includes the parts that follow:  
+ The bearing races that push into the head tube 
+ a bearing race that pushes on the fork steerer tube 
+ an adjustable upper race 
+ two sets of ball bearings 
+ A headset has cups that are pushed into the head tube and a ring on the fork. All three must be fully parallel. It is usually necessary to remove rough paint to get all three fully parallel. 
+ The upper race installs onto the steerer tube with a thread. A locknut is used to safety the upper race. 
+ A clamp bolt holds the stem to the steerer tube. 
+ The fourth remaining bearing race is part of a nut that installs on the threaded top end of the fork. This is done after you install it in the head tube. It is sometimes necessary for some headsets to have more thread at the top of the head tube. If the fork is too long, the spacer rings can be installed. If it is too short, there is a limit to the number of headsets you can use. 
+ For an illustration of the parts of the headset (refer to ). 
+ Headset:";DMC-S1000DBIKE-A-DA2-30-00-00AA-041A-AAA(1)
+[52, 101, 4, 88, 15, 9, 21];107;"Headset: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA2-30-00-00AA-041A-AAA(2)
+[52, 105, 4, 88, 15, 17, 115];107;"Headset: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA2-30-00-00AA-041A-AAA(2)
+[15, 9, 31, 99, 3, 29, 2, 34, 58, 37, 83];108;It is not necessary to remove the handlebar for this procedure.;DMC-S1000DBIKE-A-DA2-30-00-00AA-520A-AAA(1)
+[15, 17, 31, 104, 3, 30, 2, 34, 58, 37, 86];108;It is not necessary to remove the handlebar for this procedure.;DMC-S1000DBIKE-A-DA2-30-00-00AA-520A-AAA(1)
+[29, 2, 33, 10, 3, 29, 2, 203, 2, 7, 106, 647, 2, 344, 648, 2, 828, 829, 204, 398, 14, 2, 154, 22, 202, 2, 234, 114, 347, 270, 10, 3, 5, 345, 29, 2, 53, 14, 2, 42, 202, 2, 234, 114, 347];109;"Remove the stem (refer to  
+ Remove:  
+ the spacers 
+ the brake cable hangar 
+ the dust seals 
+ the conical expansion washer(s) from the steerer tube 
+ Lift the upper bearing cup off (refer to ) and then remove the fork from the frame. 
+ Lift the upper bearing cup:";DMC-S1000DBIKE-A-DA2-30-00-00AA-520A-AAA(2)
+[30, 2, 33, 10, 3, 30, 2, 203, 2, 7, 107, 647, 2, 344, 648, 2, 917, 918, 204, 398, 14, 2, 154, 22, 202, 2, 234, 92, 347, 270, 10, 3, 5, 345, 30, 2, 53, 14, 2, 42, 202, 2, 234, 92, 347];109;"Remove the stem (refer to  
+ Remove:  
+ the spacers 
+ the brake cable hangar 
+ the dust seals 
+ the conical expansion washer(s) from the steerer tube 
+ Lift the upper bearing cup off (refer to ) and then remove the fork from the frame. 
+ Lift the upper bearing cup:";DMC-S1000DBIKE-A-DA2-30-00-00AA-520A-AAA(2)
+[52, 29, 83];110;"Headset: 
+ Remove procedures";DMC-S1000DBIKE-A-DA2-30-00-00AA-520A-AAA(3)
+[52, 30, 86];110;"Headset: 
+ Remove procedures";DMC-S1000DBIKE-A-DA2-30-00-00AA-520A-AAA(3)
+[46, 2, 8, 2, 42, 46, 2, 46, 2, 206, 11, 233, 8, 2, 209, 22, 2, 2, 2, 46, 2, 33, 10, 3];111;"Install the  on the frame. 
+ Install the . 
+ Install the components that follow on the steering tube:  
+ the 
+                         
+ the 
+                         
+ the 
+                         
+ Install the stem (refer to ";DMC-S1000DBIKE-A-DA2-30-00-00AA-720A-AAA(2)
+[32, 2, 8, 2, 42, 32, 2, 32, 2, 210, 11, 233, 8, 2, 138, 22, 2, 2, 2, 32, 2, 33, 10, 3];111;"Install the  on the frame. 
+ Install the . 
+ Install the components that follow on the steering tube:  
+ the 
+                         
+ the 
+                         
+ the 
+                         
+ Install the stem (refer to ";DMC-S1000DBIKE-A-DA2-30-00-00AA-720A-AAA(2)
+[52, 46, 83];112;"Headset: 
+ Install procedures";DMC-S1000DBIKE-A-DA2-30-00-00AA-720A-AAA(3)
+[52, 32, 86];112;"Headset: 
+ Install procedures";DMC-S1000DBIKE-A-DA2-30-00-00AA-720A-AAA(3)
+[15, 9, 99, 3, 46, 2, 52, 343, 32, 629, 203, 46, 2, 203];113;"It is necessary to install the headset before installing any spacer 
+ Install the spacer ()";DMC-S1000DBIKE-A-DA2-40-00-00AA-720A-AAA(2)
+[15, 17, 104, 3, 32, 2, 52, 365, 32, 749, 203, 32, 2, 203];113;"It is necessary to install the headset before installing any spacer 
+ Install the spacer ()";DMC-S1000DBIKE-A-DA2-40-00-00AA-720A-AAA(2)
+[203, 46, 83];114;"Spacer: 
+ Install procedures";DMC-S1000DBIKE-A-DA2-40-00-00AA-720A-AAA(3)
+[203, 32, 86];114;"Spacer: 
+ Install procedures";DMC-S1000DBIKE-A-DA2-40-00-00AA-720A-AAA(3)
+[2, 18, 42, 2, 42, 9, 2, 405, 2, 390, 38, 4, 79, 18, 201, 501, 21, 2, 18, 830, 3, 246, 552, 2, 831, 42, 10, 3, 9, 22, 4, 649, 73, 650, 327, 367, 327, 42, 651, 832, 42, 10, 3, 47, 9, 21, 109, 4, 6, 652, 833, 4, 331, 223, 653, 444, 73, 445, 654, 42, 151, 42, 9, 143, 5, 47, 108, 9, 4, 143, 331, 58, 642, 444, 73, 445, 654, 280, 18, 42, 9, 4, 446, 447, 3, 63, 37, 331, 15, 9, 99, 3, 65, 399, 4, 446, 447, 655, 8, 656, 657, 5, 834, 96, 20, 163, 37, 83, 175, 6, 431, 45, 658, 501, 11, 47, 64, 143, 408, 2, 42, 223, 2, 38, 11, 233, 2, 103, 22, 2, 136, 61, 4, 2, 18, 42, 2, 150, 22, 2, 329, 4, 2, 42, 11, 401, 14, 2, 33, 3, 2, 130, 225, 2, 165, 22, 2, 38, 4, 2, 42, 11, 2, 53, 154, 22, 207, 286, 2, 98, 22, 2, 490, 38, 4, 2, 42, 11, 9, 2, 41, 4, 2, 26, 448, 5, 11, 9, 131, 2, 130, 225, 5, 2, 103, 22, 2, 98, 338, 2, 22, 11, 223, 2, 835, 131, 2, 98, 22, 5, 2, 41, 659, 2, 12, 338, 2, 22, 11, 9, 2, 130, 38, 4, 2, 41, 448];115;"The bicycle frame: 
+ The frame is the skeleton, the primary part of your bicycle. Its structure makes the bicycle resistant to large forces. 
+ The initial frames (refer to ) were tubes of aluminum or steel welded together. 
+ Welded frame joints: 
+ Subsequent frames (refer to ) can be made out of a wide variety of materials, including aluminium, titanium, or chrome moly. 
+ Frame: 
+ Other Frames are different and can also be of different materials (for example, titanium or chrome moly). Some bicycle frames are of carbon fiber. To get this material, it is necessary to put sheets of carbon fiber cloth on foam forms and epoxy them in position. This procedure gives a very light, strong structure that can have different shapes. 
+ The frame includes the parts that follow:  
+ the top tube (the higher bar of the bicycle frame) 
+ the down tube (the section of the frame that extends from the stem to the bottom bracket) 
+ the head tube (the part of the frame that the fork steerer tube goes through) 
+ the seat tube (the vertical part of the frame that is the rear of the front triangle and that is between the bottom bracket and the top tube) 
+ the seat stay (the tube that includes the distance between the seat tube and the rear dropouts) 
+ the chain stay (the tube that is the bottom part of the rear triangle)";DMC-S1000DBIKE-A-DA3-00-00-00AA-041A-AAA(1)
+[2, 19, 42, 2, 42, 17, 2, 405, 2, 471, 38, 4, 79, 19, 15, 523, 21, 2, 19, 919, 3, 518, 721, 2, 920, 42, 10, 3, 921, 22, 4, 649, 73, 650, 327, 380, 327, 42, 651, 922, 42, 10, 3, 47, 9, 115, 109, 4, 6, 652, 923, 4, 358, 242, 653, 444, 73, 445, 753, 42, 151, 42, 59, 139, 5, 47, 108, 9, 4, 139, 358, 58, 752, 444, 73, 445, 753, 280, 19, 42, 59, 4, 446, 447, 3, 63, 37, 358, 15, 17, 104, 3, 65, 399, 4, 446, 447, 655, 8, 656, 657, 5, 924, 298, 20, 173, 37, 86, 175, 6, 480, 45, 658, 523, 11, 47, 64, 139, 408, 2, 42, 242, 2, 38, 11, 233, 2, 103, 22, 2, 925, 61, 4, 2, 19, 42, 2, 150, 22, 2, 329, 4, 2, 42, 11, 401, 14, 2, 33, 3, 2, 130, 225, 2, 165, 22, 2, 38, 4, 2, 42, 11, 2, 53, 154, 22, 512, 286, 2, 98, 22, 2, 515, 38, 4, 2, 42, 11, 17, 2, 41, 4, 2, 26, 483, 5, 11, 17, 131, 2, 130, 225, 5, 2, 103, 22, 2, 98, 338, 2, 22, 11, 242, 2, 926, 131, 2, 98, 22, 5, 2, 41, 659, 2, 12, 338, 2, 22, 11, 17, 2, 130, 38, 4, 2, 41, 483];115;"The bicycle frame: 
+ The frame is the skeleton, the primary part of your bicycle. Its structure makes the bicycle resistant to large forces. 
+ The initial frames (refer to ) were tubes of aluminum or steel welded together. 
+ Welded frame joints: 
+ Subsequent frames (refer to ) can be made out of a wide variety of materials, including aluminium, titanium, or chrome moly. 
+ Frame: 
+ Other Frames are different and can also be of different materials (for example, titanium or chrome moly). Some bicycle frames are of carbon fiber. To get this material, it is necessary to put sheets of carbon fiber cloth on foam forms and epoxy them in position. This procedure gives a very light, strong structure that can have different shapes. 
+ The frame includes the parts that follow:  
+ the top tube (the higher bar of the bicycle frame) 
+ the down tube (the section of the frame that extends from the stem to the bottom bracket) 
+ the head tube (the part of the frame that the fork steerer tube goes through) 
+ the seat tube (the vertical part of the frame that is the rear of the front triangle and that is between the bottom bracket and the top tube) 
+ the seat stay (the tube that includes the distance between the seat tube and the rear dropouts) 
+ the chain stay (the tube that is the bottom part of the rear triangle)";DMC-S1000DBIKE-A-DA3-00-00-00AA-041A-AAA(1)
+[42, 101, 4, 88, 15, 9, 21];116;"Frame: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA3-00-00-00AA-041A-AAA(2)
+[42, 105, 4, 88, 15, 17, 115];116;"Frame: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA3-00-00-00AA-041A-AAA(2)
+[293, 836, 231];117;"Horn: 
+ Isolated fault";DMC-S1000DBIKE-A-DA3-10-00-00AA-411A-AAA(1)
+[293, 742, 231];117;"Horn: 
+ Isolated fault";DMC-S1000DBIKE-A-DA3-10-00-00AA-411A-AAA(1)
+[619, 54, 2, 18, 29, 2, 293, 24, 2, 449, 228, 198, 14, 2, 5, 29, 2, 77, 228, 75, 29, 2, 293, 46, 2, 85, 46, 2, 85, 8, 2, 34, 24, 2, 14, 2, 5, 78, 2, 77, 228, 75];118;"Safely hold the bicycle. 
+ Remove the horn. 
+ Use the 8mm Allen wrench from the  and remove the two Allen screws. 
+ Remove the horn. 
+ Install the new . 
+ Install the new  on the handlebars. 
+ Use the  from the  and tighten the two Allen screws.";DMC-S1000DBIKE-A-DA3-10-00-00AA-921A-AAA(2)
+[743, 54, 2, 19, 30, 2, 293, 24, 2, 449, 228, 198, 14, 2, 5, 30, 2, 77, 228, 75, 30, 2, 293, 32, 2, 85, 32, 2, 85, 8, 2, 34, 24, 2, 14, 2, 5, 78, 2, 77, 228, 75];118;"Safely hold the bicycle. 
+ Remove the horn. 
+ Use the 8mm Allen wrench from the  and remove the two Allen screws. 
+ Remove the horn. 
+ Install the new . 
+ Install the new  on the handlebars. 
+ Use the  from the  and tighten the two Allen screws.";DMC-S1000DBIKE-A-DA3-10-00-00AA-921A-AAA(2)
+[293, 29, 5, 46, 6, 85, 189];119;"Horn: 
+ Remove and install a new item";DMC-S1000DBIKE-A-DA3-10-00-00AA-921A-AAA(3)
+[293, 30, 5, 32, 6, 85, 189];119;"Horn: 
+ Remove and install a new item";DMC-S1000DBIKE-A-DA3-10-00-00AA-921A-AAA(3)
+[155, 156, 2, 155, 156, 9, 2, 660, 4, 206, 11, 9, 99, 58, 2, 373, 4, 2, 18, 2, 155, 156, 9, 2, 390, 51, 58, 2, 227, 4, 2, 18, 6, 489, 155, 156, 64, 2, 12, 16, 2, 12, 2, 192, 5, 2, 547, 837, 2, 155, 156, 64, 838, 206, 15, 9, 99, 3, 23, 6, 661, 212, 2, 155, 156, 212, 9, 498, 5, 2, 348, 47, 543, 5, 504, 95, 38, 4, 2, 155, 156, 488, 4, 37, 70, 144, 38, 9, 839, 15, 9, 366, 3, 29, 5, 439, 15, 13, 6, 85, 144];120;"Drive train: 
+ The drive train is the group of components that are necessary for the operation of the bicycle. The drive train is the primary system for the movement of the bicycle. A typical drive train has the chain wheels, the chain, the pedals and the saddle. 
+ Since the drive train has many components, it is necessary to do a regular maintenance. The drive train maintenance is easy and the users can disassemble and assemble each part of the drive train. Because of this, when one part is defective, it is possible to remove and replace it with a new one.";DMC-S1000DBIKE-A-DA4-00-00-00AA-041A-AAA(1)
+[155, 156, 2, 155, 156, 17, 2, 660, 4, 210, 11, 59, 104, 58, 2, 141, 4, 2, 19, 2, 155, 156, 17, 2, 471, 51, 58, 2, 227, 4, 2, 19, 6, 514, 155, 156, 140, 2, 12, 16, 2, 12, 2, 192, 5, 2, 718, 927, 2, 155, 156, 140, 928, 210, 15, 17, 104, 3, 23, 6, 661, 240, 2, 155, 156, 240, 17, 520, 5, 2, 348, 47, 714, 5, 361, 95, 38, 4, 2, 155, 156, 513, 4, 37, 70, 144, 38, 17, 929, 15, 17, 379, 3, 30, 5, 364, 15, 13, 6, 85, 144];120;"Drive train: 
+ The drive train is the group of components that are necessary for the operation of the bicycle. The drive train is the primary system for the movement of the bicycle. A typical drive train has the chain wheels, the chain, the pedals and the saddle. 
+ Since the drive train has many components, it is necessary to do a regular maintenance. The drive train maintenance is easy and the users can disassemble and assemble each part of the drive train. Because of this, when one part is defective, it is possible to remove and replace it with a new one.";DMC-S1000DBIKE-A-DA4-00-00-00AA-041A-AAA(1)
+[662, 101, 4, 88, 15, 9, 21];121;"Drivetrain: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA4-00-00-00AA-041A-AAA(2)
+[662, 105, 4, 88, 15, 17, 115];121;"Drivetrain: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA4-00-00-00AA-041A-AAA(2)
+[9, 6, 431, 389, 423, 23, 31, 63, 15, 235, 79, 450, 24, 15, 20, 6, 451, 663, 93, 44, 36, 452, 15, 294, 664, 453, 454, 44, 15, 63, 43, 79, 102, 121, 79, 102, 20, 28, 56, 5, 294, 453, 454, 9, 6, 431, 389, 423, 23, 31, 63, 15, 235, 79, 450, 24, 15, 20, 6, 451, 663, 93, 44, 36, 452, 15, 294, 664, 453, 454, 44, 15, 63, 43, 79, 102, 121, 79, 102, 20, 28, 56, 5, 294, 453, 454];122;"
+                         is a very
+                                dangerous substance. Do not get it onto your skin. Use it in a well
+                                ventilated area. If you swallow it seek immediate medical advice. If
+                                it gets into your eyes wash your eyes in clean water and seek
+                                medical advice. 
+ 
+                         is a very
+                                dangerous substance. Do not get it onto your skin. Use it in a well
+                                ventilated area. If you swallow it seek immediate medical advice. If
+                                it gets into your eyes wash your eyes in clean water and seek
+                                medical advice.";DMC-S1000DBIKE-A-DA4-10-00-00AA-241A-AAA(1)
+[17, 6, 480, 470, 479, 23, 31, 63, 15, 235, 79, 450, 24, 15, 20, 6, 451, 754, 93, 44, 36, 452, 15, 294, 310, 484, 485, 44, 15, 63, 43, 79, 102, 121, 79, 102, 20, 28, 56, 5, 294, 484, 485, 17, 6, 480, 470, 479, 23, 31, 63, 15, 235, 79, 450, 24, 15, 20, 6, 451, 754, 93, 44, 36, 452, 15, 294, 310, 484, 485, 44, 15, 63, 43, 79, 102, 121, 79, 102, 20, 28, 56, 5, 294, 484, 485];122;"
+                         is a very
+                                dangerous substance. Do not get it onto your skin. Use it in a well
+                                ventilated area. If you swallow it seek immediate medical advice. If
+                                it gets into your eyes wash your eyes in clean water and seek
+                                medical advice. 
+ 
+                         is a very
+                                dangerous substance. Do not get it onto your skin. Use it in a well
+                                ventilated area. If you swallow it seek immediate medical advice. If
+                                it gets into your eyes wash your eyes in clean water and seek
+                                medical advice.";DMC-S1000DBIKE-A-DA4-10-00-00AA-241A-AAA(1)
+[80, 2, 840, 303, 43, 69, 2, 38, 4, 2, 84, 11, 50, 80, 3, 40, 118, 10, 3, 40, 94, 10, 3, 40, 665, 40, 94, 80, 3, 7, 25, 118, 10, 3, 40, 665, 40, 94, 275, 16, 7, 25, 118, 261, 106, 5, 265, 96, 207, 43, 269, 841, 7, 25, 118, 177, 2, 12, 21, 35, 2, 12, 9, 28, 5, 374, 65, 2, 8, 2, 112, 194, 2, 12, 80, 2, 3, 95, 455, 4, 2, 12, 10, 3, 213, 387, 80, 6, 176, 416, 80, 2, 3, 95, 455, 4, 2, 12, 10, 3, 213, 387, 80, 6, 176, 416, 54, 2, 842, 4, 2, 497, 582, 2, 26, 4, 2, 12, 71, 5, 666, 100, 2, 166, 249, 23, 31, 63, 843, 229, 43, 2, 7, 51, 229, 20, 2, 667, 51, 47, 668, 2, 844, 4, 2, 669, 51, 23, 31, 63, 229, 235, 2, 112, 265, 15, 47, 368, 63, 670, 235, 2, 7, 51, 168, 2, 303, 97, 43, 12, 343, 36, 28, 2, 218, 303, 14, 2, 12, 177, 2, 12, 66, 177, 38, 23, 6, 66, 4, 2, 41, 16, 60, 5, 28, 2, 218, 303, 44, 99, 23, 6, 66, 4, 2, 12, 3, 21, 35, 11, 95, 264, 9, 177, 44, 82, 9, 264, 11, 23, 31, 50, 368, 73, 64, 333, 420, 177, 2, 12, 199, 10, 3, 23, 6, 66, 4, 2, 375, 177, 38, 5, 28, 2, 218, 303, 13, 6];123;"Apply the penetrating lubricant into all the parts of the bike that
+                        move: 
+ Apply  to: 
+ derailleur pivots (refer to ) 
+ derailleur tension (refer to ) 
+ Derailleur pivots: 
+ Derailleur tension: 
+ Apply  to: 
+ brake lever pivots (refer to )  
+ derailleur pivots 
+ derailleur tension 
+ guide wheels 
+ brake lever pivots 
+ control cables and where they go into their casings 
+ Brake lever pivots: 
+ Lubricate the chain: 
+ Make sure the chain is clean and dry. 
+ Put the  on the floor below the
+                            chain. 
+ Apply the  to each roller
+                                of the chain (refer to ) but only apply a small
+                                quantity. 
+ Apply the  to each roller
+                                of the chain (refer to ) but only apply a small
+                                quantity. 
+ Hold the nozzle of the container above the front of the chain ring and
+                            slowly turn the cranks rearwards. 
+ Do not get lubrication oil into the brake system.
+                                Oil in the break system can affect the efficiency of the bake
+                                system. Do not get oil onto the floor where it can easily get
+                                transferred onto the brake system. 
+ Let the lubricant soak into chain before you clean the unwanted
+                            lubricant from the chain. 
+ Lubricate the chain: 
+ Check lubricated parts: 
+ Do a check of the rear wheel rim and clean the unwanted lubricant
+                            if necessary. 
+ Do a check of the chain to make sure that each link is lubricated.
+                            If there are links that do not move easily or have become frozen,
+                            lubricate the chain again (refer to ). 
+ Do a check of the remaining lubricated parts and clean the
+                            unwanted lubricant with a .";DMC-S1000DBIKE-A-DA4-10-00-00AA-241A-AAA(2)
+[81, 2, 930, 116, 43, 69, 2, 38, 4, 2, 84, 11, 50, 81, 3, 40, 118, 10, 3, 40, 94, 10, 3, 40, 118, 40, 94, 81, 3, 7, 25, 118, 10, 3, 40, 118, 40, 94, 299, 16, 7, 25, 118, 261, 107, 5, 265, 96, 207, 43, 269, 931, 7, 25, 118, 116, 2, 12, 21, 35, 2, 12, 17, 28, 5, 383, 65, 2, 8, 2, 112, 194, 2, 12, 81, 2, 3, 95, 455, 4, 2, 12, 10, 3, 213, 469, 81, 6, 176, 478, 81, 2, 3, 95, 455, 4, 2, 12, 10, 3, 213, 469, 81, 6, 176, 478, 54, 2, 932, 4, 2, 250, 735, 2, 26, 4, 2, 12, 71, 5, 755, 100, 2, 166, 249, 23, 31, 63, 116, 229, 43, 2, 7, 51, 229, 20, 2, 667, 51, 47, 668, 2, 933, 4, 2, 669, 51, 23, 31, 63, 229, 235, 2, 112, 265, 15, 47, 381, 63, 670, 235, 2, 7, 51, 168, 2, 116, 97, 43, 12, 365, 36, 28, 2, 241, 116, 14, 2, 12, 116, 2, 12, 66, 116, 38, 23, 6, 66, 4, 2, 41, 16, 60, 5, 28, 2, 241, 116, 44, 104, 23, 6, 66, 4, 2, 12, 3, 21, 35, 11, 95, 264, 17, 116, 44, 82, 59, 264, 11, 23, 31, 50, 381, 73, 64, 360, 420, 116, 2, 12, 199, 10, 3, 23, 6, 66, 4, 2, 375, 116, 38, 5, 28, 2, 241, 116, 13, 6];123;"Apply the penetrating lubricant into all the parts of the bike that
+                        move: 
+ Apply  to: 
+ derailleur pivots (refer to ) 
+ derailleur tension (refer to ) 
+ Derailleur pivots: 
+ Derailleur tension: 
+ Apply  to: 
+ brake lever pivots (refer to )  
+ derailleur pivots 
+ derailleur tension 
+ guide wheels 
+ brake lever pivots 
+ control cables and where they go into their casings 
+ Brake lever pivots: 
+ Lubricate the chain: 
+ Make sure the chain is clean and dry. 
+ Put the  on the floor below the
+                            chain. 
+ Apply the  to each roller
+                                of the chain (refer to ) but only apply a small
+                                quantity. 
+ Apply the  to each roller
+                                of the chain (refer to ) but only apply a small
+                                quantity. 
+ Hold the nozzle of the container above the front of the chain ring and
+                            slowly turn the cranks rearwards. 
+ Do not get lubrication oil into the brake system.
+                                Oil in the break system can affect the efficiency of the bake
+                                system. Do not get oil onto the floor where it can easily get
+                                transferred onto the brake system. 
+ Let the lubricant soak into chain before you clean the unwanted
+                            lubricant from the chain. 
+ Lubricate the chain: 
+ Check lubricated parts: 
+ Do a check of the rear wheel rim and clean the unwanted lubricant
+                            if necessary. 
+ Do a check of the chain to make sure that each link is lubricated.
+                            If there are links that do not move easily or have become frozen,
+                            lubricate the chain again (refer to ). 
+ Do a check of the remaining lubricated parts and clean the
+                            unwanted lubricant with a .";DMC-S1000DBIKE-A-DA4-10-00-00AA-241A-AAA(2)
+[12, 229];124;"Chain: 
+ Oil";DMC-S1000DBIKE-A-DA4-10-00-00AA-241A-AAA(3)
+[307, 2, 12, 23, 2, 369, 4, 2, 12, 57, 175, 20, 2, 257, 129, 66, 10, 3, 845, 2, 376, 93, 65, 2, 8, 6, 846, 112, 93, 65, 2, 18, 8, 2, 112, 324, 28, 608, 14, 2, 12, 24, 2, 5, 90, 57, 272, 218, 331, 57, 366, 21, 35, 11, 36, 29, 69, 2, 218, 331, 14, 2, 12, 28, 2, 12, 219, 2, 5, 438, 13, 2, 50, 2, 12, 3, 2, 505, 503, 5, 2, 505, 62, 68, 2, 41, 65, 2, 12, 20, 2, 12, 275, 4, 2, 12, 376, 153, 5, 162, 2, 153, 8, 2, 12, 54, 2, 153, 13, 2, 208, 290, 5, 666, 100, 2, 249, 13, 2, 185, 290, 214, 2, 671, 8, 2, 376, 153, 3, 21, 35, 11, 28, 456, 672, 187, 2, 153, 9, 847, 44, 99, 29, 2, 218, 12, 376, 456, 177, 2, 12, 24, 2, 5, 177, 2, 12, 673, 5, 29, 2, 376, 153, 44, 99, 29, 2, 218, 303];125;"Inspect the chain. 
+ Do the inspection of the chain as given in the pre-ride checks (refer to  
+ Prepare the cleaning area. 
+ Put the  on a satisfactory floor area. 
+ Put the bicycle on the floor covering. 
+ Clean debris from the chain. 
+ Use the  and loosen as much unwanted material as possible. 
+ Make sure that you remove all the unwanted material from the chain. 
+ Clean the chain. 
+ Open the  and fill with the . 
+ Move the chain to the middle chainring and the middle sprocket at the rear. 
+ Put the chain in the chain guides of the chain cleaning tool and lock the tool on the chain. 
+ Hold the tool with the left hand and slowly turn the rearwards with the right hand. 
+ Press the button on the cleaning tool to make sure that cleaning fluid flows until the tool is empty. 
+ If necessary, remove the unwanted chain cleaning fluid. 
+ Lubricate the chain. 
+ Use the  and lubricate the chain. 
+ Unlock and remove the cleaning tool. 
+ If necessary, remove the unwanted lubricant.";DMC-S1000DBIKE-A-DA4-10-00-00AA-251B-AAA(2)
+[307, 2, 12, 23, 2, 307, 4, 2, 12, 57, 309, 20, 2, 257, 129, 66, 10, 3, 521, 2, 28, 93, 65, 2, 8, 6, 934, 112, 93, 65, 2, 19, 8, 2, 112, 324, 28, 740, 14, 2, 12, 24, 2, 5, 90, 57, 272, 241, 358, 57, 379, 21, 35, 11, 36, 30, 69, 2, 241, 358, 14, 2, 12, 28, 2, 12, 219, 2, 5, 438, 13, 2, 50, 2, 12, 3, 2, 528, 527, 5, 2, 528, 62, 68, 2, 41, 65, 2, 12, 20, 2, 12, 299, 4, 2, 12, 28, 153, 5, 162, 2, 153, 8, 2, 12, 54, 2, 153, 13, 2, 208, 290, 5, 755, 100, 2, 249, 13, 2, 185, 290, 214, 2, 671, 8, 2, 28, 153, 3, 21, 35, 11, 28, 456, 672, 187, 2, 153, 17, 935, 44, 104, 30, 2, 241, 12, 28, 456, 116, 2, 12, 24, 2, 5, 116, 2, 12, 673, 5, 30, 2, 28, 153, 44, 104, 30, 2, 241, 116];125;"Inspect the chain. 
+ Do the inspection of the chain as given in the pre-ride checks (refer to  
+ Prepare the cleaning area. 
+ Put the  on a satisfactory floor area. 
+ Put the bicycle on the floor covering. 
+ Clean debris from the chain. 
+ Use the  and loosen as much unwanted material as possible. 
+ Make sure that you remove all the unwanted material from the chain. 
+ Clean the chain. 
+ Open the  and fill with the . 
+ Move the chain to the middle chainring and the middle sprocket at the rear. 
+ Put the chain in the chain guides of the chain cleaning tool and lock the tool on the chain. 
+ Hold the tool with the left hand and slowly turn the rearwards with the right hand. 
+ Press the button on the cleaning tool to make sure that cleaning fluid flows until the tool is empty. 
+ If necessary, remove the unwanted chain cleaning fluid. 
+ Lubricate the chain. 
+ Use the  and lubricate the chain. 
+ Unlock and remove the cleaning tool. 
+ If necessary, remove the unwanted lubricant.";DMC-S1000DBIKE-A-DA4-10-00-00AA-251B-AAA(2)
+[12, 28, 13, 674, 457];126;"Chain: 
+ Clean with chemical agent";DMC-S1000DBIKE-A-DA4-10-00-00AA-251B-AAA(3)
+[12, 28, 13, 756, 457];126;"Chain: 
+ Clean with chemical agent";DMC-S1000DBIKE-A-DA4-10-00-00AA-251B-AAA(3)
+[155, 156, 848, 231];127;"Drive train: 
+ Correlated fault";DMC-S1000DBIKE-A-DA4-10-00-00AA-414A-AAA(1)
+[155, 156, 936, 231];127;"Drive train: 
+ Correlated fault";DMC-S1000DBIKE-A-DA4-10-00-00AA-414A-AAA(1)
+[72, 2, 72, 223, 2, 190, 2, 74, 5, 2, 55, 2, 101, 4, 2, 190, 9, 175, 20, 2, 101, 4, 2, 55, 9, 175, 20, 2, 18, 4, 76, 675, 47, 64, 72, 73, 276, 2, 126, 84, 24, 6, 191, 11, 223, 232, 458, 62, 4, 143, 676, 8, 2, 26, 317, 458, 62, 4, 143, 676, 68, 2, 41, 37, 191, 175, 2, 72, 414, 2, 55, 32, 8, 2, 34, 224, 2, 72, 5, 184, 2, 190, 108, 320, 57, 40, 76, 40, 9, 106, 849, 190, 96, 50, 2, 12, 14, 2, 143, 62, 2, 74, 9, 2, 167, 4, 2, 16, 5, 250, 2, 196, 5, 114, 2, 72, 168, 2, 197, 166, 68, 2, 192, 68, 6, 677, 227, 8, 678, 4, 143, 850];128;"Gears: 
+ The gears include the mechanism, the hubs and the shifters. 
+ The description of the mechanisms is given in  
+ The description of the shifters is given in  
+ The bicycles of these days can have 27 gears or more. The mountain bikes use a set that includes:  
+ Three socket sprockets of different dimension on the front 
+ Nine socket sprockets of different dimensions at the rear 
+ This set gives the gear ratios. 
+ The shifters installed on the handlebars change the gears and operate the mechanisms (also known as derailleurs). These derailleurs are cable-actuated mechanisms. They move the chain from the different sprockets. 
+ The hub is the center of the wheel and contains the axle and bearings. 
+ The gears let the rider crank at the pedals at a constant movement on slopes of different angles.";DMC-S1000DBIKE-A-DA5-00-00-00AA-041A-AAA(1)
+[72, 2, 72, 242, 2, 174, 2, 74, 5, 2, 55, 2, 105, 4, 2, 174, 17, 309, 20, 2, 105, 4, 2, 55, 17, 309, 20, 2, 19, 4, 76, 675, 47, 64, 72, 73, 276, 2, 126, 84, 24, 6, 191, 11, 242, 232, 458, 62, 4, 139, 757, 8, 2, 26, 317, 458, 62, 4, 139, 757, 68, 2, 41, 37, 191, 175, 2, 72, 414, 2, 55, 32, 8, 2, 34, 243, 2, 72, 5, 141, 2, 174, 108, 356, 57, 40, 76, 40, 59, 107, 717, 174, 96, 50, 2, 12, 14, 2, 139, 62, 2, 74, 17, 2, 167, 4, 2, 16, 5, 250, 2, 205, 5, 92, 2, 72, 168, 2, 197, 166, 68, 2, 192, 68, 6, 677, 227, 8, 678, 4, 139, 937];128;"Gears: 
+ The gears include the mechanism, the hubs and the shifters. 
+ The description of the mechanisms is given in  
+ The description of the shifters is given in  
+ The bicycles of these days can have 27 gears or more. The mountain bikes use a set that includes:  
+ Three socket sprockets of different dimension on the front 
+ Nine socket sprockets of different dimensions at the rear 
+ This set gives the gear ratios. 
+ The shifters installed on the handlebars change the gears and operate the mechanisms (also known as derailleurs). These derailleurs are cable-actuated mechanisms. They move the chain from the different sprockets. 
+ The hub is the center of the wheel and contains the axle and bearings. 
+ The gears let the rider crank at the pedals at a constant movement on slopes of different angles.";DMC-S1000DBIKE-A-DA5-00-00-00AA-041A-AAA(1)
+[72, 101, 4, 88, 15, 9, 21];129;"Gears: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA5-00-00-00AA-041A-AAA(2)
+[72, 105, 4, 88, 15, 17, 115];129;"Gears: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA5-00-00-00AA-041A-AAA(2)
+[40, 82, 9, 77, 143, 127, 4, 40, 2, 26, 5, 2, 41, 26, 40, 2, 26, 40, 10, 3, 250, 77, 127, 4, 75, 3, 679, 2, 227, 4, 2, 40, 3, 6, 316, 76, 75, 9, 2, 255, 75, 372, 72, 2, 255, 75, 136, 72, 2, 124, 4, 76, 75, 9, 3, 325, 2, 197, 14, 411, 147, 44, 37, 252, 2, 12, 181, 207, 109, 4, 2, 12, 16, 26, 40, 2, 40, 9, 32, 8, 2, 18, 98, 22, 13, 6, 48, 5, 9, 291, 3, 2, 232, 26, 62, 2, 147, 106, 9, 193, 131, 2, 55, 8, 2, 128, 61, 5, 2, 106, 48, 49, 8, 2, 26, 40, 37, 184, 2, 40, 8, 2, 62, 82, 9, 164, 132, 5, 215, 349, 2, 48, 67, 2, 349, 41, 40, 2, 41, 40, 10, 3, 329, 250, 2, 62, 58, 2, 143, 72, 224, 70, 2, 106, 48, 49, 9, 271, 15, 54, 2, 147, 106, 20, 201, 163, 6, 75, 49, 54, 2, 94, 16, 41, 40, 2, 40, 87, 49, 193, 2, 40, 3, 2, 42, 70, 2, 348, 67, 37, 49, 37, 21, 35, 11, 2, 349, 680, 9, 291, 13, 2, 12, 71, 2, 275, 16, 64, 2, 124, 3, 50, 2, 12, 13, 2, 40, 15, 50, 2, 12, 14, 144, 62, 3, 2, 151, 2, 275, 16, 287, 31, 50, 8, 201, 500, 44, 37, 252, 82, 181, 9, 321, 8, 2, 16, 2, 163, 4, 2, 275, 16, 9, 194, 2, 246, 62];130;"Derailleur: 
+ There are two different types of derailleur, the front and the rear. 
+ Front derailleur: 
+ The front derailleur (refer to ) contains two types of screws to keep the movement of the derailleur to a minimum. These screws are:  
+ the stop screw low-gear 
+ the stop screw high-gear 
+ The function of these screws is to prevent the rider from over shifting . If this occurs, the chain will go out of the chain wheel. 
+ Front derailleur: 
+ The derailleur is installed on the bicycle seat tube with a clamp and is parallel to the three front sprockets. 
+ The shift cable is connected between the shifters on the handle bars and the cable clamp bolt on the front derailleur. This operates the derailleur. On the sprockets there is an inner and outer cage. The clamp attaches the cage. 
+ Rear derailleur: 
+ The rear derailleur (refer to ) section contains the sprockets for the different gear changes. When the cable clamp bolt is tight, it holds the shift cable in its position. A screwed bolt holds the tension wheel. 
+ Rear derailleur: 
+ The derailleur mounting bolt connects the derailleur to the frame. When the user attaches this bolt, this makes sure that the cage plates are parallel with the chain rings. 
+ The guide wheel has the function to move the chain with the derailleur. It moves the chain from one sprocket to the other. The guide wheel must not move on its axis. If this occurs, there will be wear on the wheel. The position of the guide wheel is below the largest sprocket.";DMC-S1000DBIKE-A-DA5-10-00-00AA-041A-AAA(1)
+[40, 82, 59, 77, 139, 127, 4, 40, 2, 26, 5, 2, 41, 26, 40, 2, 26, 40, 10, 3, 250, 77, 127, 4, 75, 3, 679, 2, 227, 4, 2, 40, 3, 6, 316, 76, 75, 59, 2, 255, 75, 372, 72, 2, 255, 75, 136, 72, 2, 124, 4, 76, 75, 17, 3, 325, 2, 197, 14, 411, 147, 44, 37, 252, 2, 12, 181, 207, 109, 4, 2, 12, 16, 26, 40, 2, 40, 17, 32, 8, 2, 19, 98, 22, 13, 6, 48, 5, 17, 291, 3, 2, 232, 26, 62, 2, 147, 107, 17, 193, 131, 2, 55, 8, 2, 135, 61, 5, 2, 107, 48, 49, 8, 2, 26, 40, 37, 141, 2, 40, 8, 2, 62, 82, 17, 164, 132, 5, 215, 349, 2, 48, 67, 2, 349, 41, 40, 2, 41, 40, 10, 3, 329, 250, 2, 62, 58, 2, 139, 72, 243, 70, 2, 107, 48, 49, 17, 271, 15, 54, 2, 147, 107, 20, 15, 173, 6, 75, 49, 54, 2, 94, 16, 41, 40, 2, 40, 87, 49, 193, 2, 40, 3, 2, 42, 70, 2, 348, 67, 37, 49, 37, 21, 35, 11, 2, 349, 680, 59, 291, 13, 2, 12, 71, 2, 299, 16, 140, 2, 124, 3, 50, 2, 12, 13, 2, 40, 15, 50, 2, 12, 14, 144, 62, 3, 2, 151, 2, 299, 16, 287, 31, 50, 8, 15, 522, 44, 37, 252, 82, 181, 9, 321, 8, 2, 16, 2, 173, 4, 2, 299, 16, 17, 194, 2, 477, 62];130;"Derailleur: 
+ There are two different types of derailleur, the front and the rear. 
+ Front derailleur: 
+ The front derailleur (refer to ) contains two types of screws to keep the movement of the derailleur to a minimum. These screws are:  
+ the stop screw low-gear 
+ the stop screw high-gear 
+ The function of these screws is to prevent the rider from over shifting . If this occurs, the chain will go out of the chain wheel. 
+ Front derailleur: 
+ The derailleur is installed on the bicycle seat tube with a clamp and is parallel to the three front sprockets. 
+ The shift cable is connected between the shifters on the handle bars and the cable clamp bolt on the front derailleur. This operates the derailleur. On the sprockets there is an inner and outer cage. The clamp attaches the cage. 
+ Rear derailleur: 
+ The rear derailleur (refer to ) section contains the sprockets for the different gear changes. When the cable clamp bolt is tight, it holds the shift cable in its position. A screwed bolt holds the tension wheel. 
+ Rear derailleur: 
+ The derailleur mounting bolt connects the derailleur to the frame. When the user attaches this bolt, this makes sure that the cage plates are parallel with the chain rings. 
+ The guide wheel has the function to move the chain with the derailleur. It moves the chain from one sprocket to the other. The guide wheel must not move on its axis. If this occurs, there will be wear on the wheel. The position of the guide wheel is below the largest sprocket.";DMC-S1000DBIKE-A-DA5-10-00-00AA-041A-AAA(1)
+[851, 101, 4, 88, 15, 9, 21];131;"Mechs: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA5-10-00-00AA-041A-AAA(2)
+[938, 105, 4, 88, 15, 17, 115];131;"Mechs: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA5-10-00-00AA-041A-AAA(2)
+[29, 2, 196, 24, 2, 236, 198, 14, 2, 5, 29, 2, 292, 14, 144, 111, 4, 2, 196, 29, 2, 204, 5, 2, 236, 14, 2, 196, 21, 35, 36, 23, 31, 681, 2, 114, 14, 2, 74, 9, 852, 3, 443, 2, 114, 44, 96, 682, 109, 683, 114, 47, 145, 161, 3, 2, 74, 117, 2, 196, 109, 14, 2, 151, 111, 57, 268, 20, 29, 2, 196, 29, 2, 114, 24, 6, 176, 304, 14, 2, 5, 29, 2, 114, 14, 269, 123, 21, 35, 11, 95, 111, 4, 2, 74, 64, 2, 330, 262, 4, 114, 24, 2, 5, 28, 69, 2, 38, 4, 2, 74, 23, 6, 66, 4, 2, 196, 3, 21, 35, 11, 15, 9, 432, 247, 2, 92, 406, 93, 8, 2, 236, 5, 2, 123, 20, 2, 74, 58, 853, 5, 151, 459, 4, 161, 23, 6, 66, 4, 2, 346, 114, 58, 459, 4, 161, 80, 6, 246, 416, 4, 8, 95, 74, 123, 504, 2, 74, 46, 2, 346, 114, 43, 2, 123, 5, 89, 96, 43, 2, 281, 80, 276, 281, 8, 2, 103, 4, 2, 114, 46, 2, 196, 286, 2, 74, 46, 2, 236, 2, 204, 5, 2, 292, 8, 2, 151, 111, 4, 2, 196, 24, 2, 236, 198, 14, 2, 684, 460, 5, 854, 78, 2, 292];132;"Remove the axle. 
+ Use the cone-wrench from the  and remove the locknut from one side of the axle. 
+ Remove the washer and the cone from the axle. 
+ Make sure you do not lose the bearings from the hub. Be prepared to catch the bearings if they fall out. Missing bearings can cause damage to the hub. 
+ Pull the axle out from the other side as shown in  . 
+ Removing the axle: 
+ Remove the bearings. 
+ Use a small screwdriver from the  and remove the bearings from their races. 
+ Make sure that each side of the hub has the same number of bearings. 
+ Use the  and clean all the parts of the hub. 
+ Do a check of the axle to make sure that it is straight. 
+ Examine the bearing contact area on the cones and the races in the hub for pitting and other signs of damage. 
+ Do a check of the ball bearings for signs of damage. 
+ Apply a large quantity of  on each hub race. 
+ Assemble the hub. 
+ Install the ball bearings into the races and push them into the grease. 
+ Apply more grease on the tops of the bearings. 
+ Install the axle through the hub. 
+ Install the cone, the washer and the locknut on the other side of the axle. 
+ Use the cone-wrench from the specialist toolset and carefully tighten the locknut.";DMC-S1000DBIKE-A-DA5-20-00-00AA-251C-AAA(2)
+[30, 2, 205, 24, 2, 236, 198, 14, 2, 5, 30, 2, 292, 14, 144, 111, 4, 2, 205, 30, 2, 204, 5, 2, 236, 14, 2, 205, 21, 35, 36, 23, 31, 681, 2, 92, 14, 2, 74, 9, 521, 3, 443, 2, 92, 44, 96, 682, 109, 683, 92, 47, 158, 172, 3, 2, 74, 117, 2, 205, 109, 14, 2, 151, 111, 57, 359, 20, 30, 2, 205, 30, 2, 92, 24, 6, 176, 312, 14, 2, 5, 30, 2, 92, 14, 269, 123, 21, 35, 11, 95, 111, 4, 2, 74, 140, 2, 330, 262, 4, 92, 24, 2, 5, 28, 69, 2, 38, 4, 2, 74, 23, 6, 66, 4, 2, 205, 3, 21, 35, 11, 15, 17, 432, 251, 2, 92, 406, 93, 8, 2, 236, 5, 2, 123, 20, 2, 74, 58, 939, 5, 151, 459, 4, 172, 23, 6, 66, 4, 2, 346, 92, 58, 459, 4, 172, 81, 6, 518, 478, 4, 8, 95, 74, 123, 361, 2, 74, 32, 2, 346, 92, 43, 2, 123, 5, 89, 298, 43, 2, 300, 81, 276, 300, 8, 2, 103, 4, 2, 92, 32, 2, 205, 286, 2, 74, 32, 2, 236, 2, 204, 5, 2, 292, 8, 2, 151, 111, 4, 2, 205, 24, 2, 236, 198, 14, 2, 684, 460, 5, 524, 78, 2, 292];132;"Remove the axle. 
+ Use the cone-wrench from the  and remove the locknut from one side of the axle. 
+ Remove the washer and the cone from the axle. 
+ Make sure you do not lose the bearings from the hub. Be prepared to catch the bearings if they fall out. Missing bearings can cause damage to the hub. 
+ Pull the axle out from the other side as shown in  . 
+ Removing the axle: 
+ Remove the bearings. 
+ Use a small screwdriver from the  and remove the bearings from their races. 
+ Make sure that each side of the hub has the same number of bearings. 
+ Use the  and clean all the parts of the hub. 
+ Do a check of the axle to make sure that it is straight. 
+ Examine the bearing contact area on the cones and the races in the hub for pitting and other signs of damage. 
+ Do a check of the ball bearings for signs of damage. 
+ Apply a large quantity of  on each hub race. 
+ Assemble the hub. 
+ Install the ball bearings into the races and push them into the grease. 
+ Apply more grease on the tops of the bearings. 
+ Install the axle through the hub. 
+ Install the cone, the washer and the locknut on the other side of the axle. 
+ Use the cone-wrench from the specialist toolset and carefully tighten the locknut.";DMC-S1000DBIKE-A-DA5-20-00-00AA-251C-AAA(2)
+[74, 28, 13, 674, 457];133;"Hubs: 
+ Clean with chemical agent";DMC-S1000DBIKE-A-DA5-20-00-00AA-251C-AAA(3)
+[74, 28, 13, 756, 457];133;"Hubs: 
+ Clean with chemical agent";DMC-S1000DBIKE-A-DA5-20-00-00AA-251C-AAA(3)
+[55, 2, 170, 55, 9, 6, 506, 127, 20, 461, 18, 15, 9, 366, 3, 159, 37, 127, 4, 55, 58, 373, 20, 2, 350, 163, 73, 20, 2, 217, 163, 2, 855, 131, 2, 77, 9, 2, 350, 55, 224, 2, 72, 13, 6, 685, 4, 6, 25, 2, 217, 55, 54, 2, 40, 20, 201, 163, 230, 217, 2, 170, 55, 10, 3, 9, 54, 8, 2, 18, 13, 6, 75, 2, 686, 11, 233, 175, 6, 101, 4, 6, 170, 55, 170, 55, 350, 127, 88, 6, 170, 55, 9, 21, 200, 6, 687, 119, 10, 3, 14, 2, 103, 4, 2, 25, 54, 2, 170, 55, 2, 25, 9, 8, 103, 4, 2, 87, 5, 2, 87, 9, 8, 2, 128, 61, 13, 6, 119, 3, 29, 2, 87, 15, 9, 99, 3, 90, 2, 119, 4, 77, 100, 10, 3, 345, 2, 87, 47, 50, 14, 2, 128, 61, 14, 2, 103, 4, 2, 25, 2, 25, 409, 8, 103, 4, 2, 87, 5, 2, 87, 9, 688, 43, 689, 8, 2, 128, 61, 230, 6, 119, 690, 691, 90, 2, 119, 8, 461, 692, 4, 37, 55, 82, 9, 6, 48, 49, 11, 54, 2, 55, 20, 201, 163, 10, 3, 2, 348, 47, 90, 2, 48, 49, 13, 164, 856, 153, 37, 168, 2, 55, 494, 2, 34, 90, 2, 55, 48, 49];134;"Shifters: 
+ The thumb shifter is a usual type in modern bicycles. It is possible to adjust this type of shifter for operation in the index position or in the friction position. The differences between the two are:  
+ The index shifters change the gears with a click of a lever. 
+ The friction shifters hold the derailleur in its position by friction. 
+ The thumb shifters (refer to ) are held on the bicycle with a screw. The paragraph that follows gives a description of a thumb shifter. 
+ Thumb shifter index type: 
+ How a thumb shifter is made up: 
+ A wing nut (refer to ) from the top of the lever holds the thumb shifter. The lever is on top of the mount and the mount is on the handle bar with a nut. To remove the mount, it is necessary to loosen the nut of two turns (refer to ), then the mount can move from the handle bar from the top of the lever. The lever sits on top of the mount and the mount is fixed into pace on the handle bar by a nut. 
+ Unscrew wingnut: 
+ Loosen the nut: 
+ On modern models of this shifter, there is a clamp bolt that holds the shifter in its position (refer to ). The user can loosen the clamp bolt with an applicable tool. This lets the shifter release the handlebar. 
+ Loosen the shifter clamp bolt:";DMC-S1000DBIKE-A-DA5-30-00-00AA-041A-AAA(1)
+[55, 2, 170, 55, 17, 6, 506, 127, 20, 461, 19, 15, 17, 379, 3, 159, 37, 127, 4, 55, 58, 141, 20, 2, 350, 173, 73, 20, 2, 217, 173, 2, 139, 131, 2, 77, 59, 2, 350, 55, 243, 2, 72, 13, 6, 685, 4, 6, 25, 2, 217, 55, 54, 2, 40, 20, 15, 173, 230, 217, 2, 170, 55, 10, 3, 59, 526, 8, 2, 19, 13, 6, 75, 2, 686, 11, 233, 175, 6, 105, 4, 6, 170, 55, 170, 55, 350, 127, 88, 6, 170, 55, 17, 115, 200, 6, 687, 119, 10, 3, 14, 2, 103, 4, 2, 25, 54, 2, 170, 55, 2, 25, 17, 8, 103, 4, 2, 87, 5, 2, 87, 17, 8, 2, 135, 61, 13, 6, 119, 3, 30, 2, 87, 15, 17, 104, 3, 90, 2, 119, 4, 77, 100, 10, 3, 345, 2, 87, 47, 50, 14, 2, 135, 61, 14, 2, 103, 4, 2, 25, 2, 25, 409, 8, 103, 4, 2, 87, 5, 2, 87, 17, 688, 43, 689, 8, 2, 135, 61, 230, 6, 119, 690, 691, 90, 2, 119, 8, 461, 692, 4, 37, 55, 82, 17, 6, 48, 49, 11, 54, 2, 55, 20, 15, 173, 10, 3, 2, 348, 47, 90, 2, 48, 49, 13, 164, 308, 153, 37, 168, 2, 55, 517, 2, 34, 90, 2, 55, 48, 49];134;"Shifters: 
+ The thumb shifter is a usual type in modern bicycles. It is possible to adjust this type of shifter for operation in the index position or in the friction position. The differences between the two are:  
+ The index shifters change the gears with a click of a lever. 
+ The friction shifters hold the derailleur in its position by friction. 
+ The thumb shifters (refer to ) are held on the bicycle with a screw. The paragraph that follows gives a description of a thumb shifter. 
+ Thumb shifter index type: 
+ How a thumb shifter is made up: 
+ A wing nut (refer to ) from the top of the lever holds the thumb shifter. The lever is on top of the mount and the mount is on the handle bar with a nut. To remove the mount, it is necessary to loosen the nut of two turns (refer to ), then the mount can move from the handle bar from the top of the lever. The lever sits on top of the mount and the mount is fixed into pace on the handle bar by a nut. 
+ Unscrew wingnut: 
+ Loosen the nut: 
+ On modern models of this shifter, there is a clamp bolt that holds the shifter in its position (refer to ). The user can loosen the clamp bolt with an applicable tool. This lets the shifter release the handlebar. 
+ Loosen the shifter clamp bolt:";DMC-S1000DBIKE-A-DA5-30-00-00AA-041A-AAA(1)
+[55, 101, 4, 88, 15, 9, 21];135;"Shifters: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA5-30-00-00AA-041A-AAA(2)
+[55, 105, 4, 88, 15, 17, 115];135;"Shifters: 
+ Description of how it is made";DMC-S1000DBIKE-A-DA5-30-00-00AA-041A-AAA(2)
+[45, 404, 189, 262, 237, 377, 295];136;"Lighting: 
+ Functional item numbers common information repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-00EA-AAA(1)
+[45, 124, 189, 262, 237, 385, 301];136;"Lighting: 
+ Functional item numbers common information repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-00EA-AAA(1)
+[45, 38, 237, 377, 295];137;"Lighting: 
+ Parts common information repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-00GA-AAA(1)
+[45, 38, 237, 385, 301];137;"Lighting: 
+ Parts common information repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-00GA-AAA(1)
+[45, 462, 237, 377, 295];138;"Lighting: 
+ Zones common information repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-00HA-AAA(1)
+[45, 462, 237, 385, 301];138;"Lighting: 
+ Zones common information repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-00HA-AAA(1)
+[45, 266, 693, 237, 377, 295];139;"Lighting: 
+ Support equipment common information repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-00NA-AAA(1)
+[45, 266, 463, 237, 385, 301];139;"Lighting: 
+ Support equipment common information repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-00NA-AAA(1)
+[507, 394, 694, 101];140;"Wiring data: 
+ Field description";DMC-S1000DLIGHTING-A-D00-00-00-00AA-029A-AAA(1)
+[245, 474, 694, 105];140;"Wiring data: 
+ Field description";DMC-S1000DLIGHTING-A-D00-00-00-00AA-029A-AAA(1)
+[296, 51, 2, 646, 11, 233, 421, 268, 2, 296, 51, 4, 2, 18, 2, 296, 51, 9, 463, 13, 351, 136, 464, 296, 23, 31, 24, 351, 136, 464, 296, 70, 18, 8, 407, 624, 695, 696, 2, 296, 51, 9, 857, 5, 181, 9, 439, 230, 296, 51];141;"Lighting system: 
+ The illustration that follows (see ) shows the lighting system of the bicycle. 
+ The lighting system is equipped with special high beam lighting.  Do not use special high beam lighting when bicycling on roads during winter months. 
+ The lighting system is faulty and will be replaced by 2013-03-15. 
+ Lighting system:";DMC-S1000DLIGHTING-A-D00-00-00-00AA-040A-AAA(1)
+[45, 51, 2, 481, 11, 233, 421, 268, 2, 45, 51, 4, 2, 19, 2, 45, 51, 17, 463, 13, 351, 136, 464, 45, 23, 31, 24, 351, 136, 464, 45, 70, 19, 8, 407, 748, 695, 696, 2, 45, 51, 17, 940, 5, 181, 9, 364, 230, 45, 51];141;"Lighting system: 
+ The illustration that follows (see ) shows the lighting system of the bicycle. 
+ The lighting system is equipped with special high beam lighting.  Do not use special high beam lighting when bicycling on roads during winter months. 
+ The lighting system is faulty and will be replaced by 2013-03-15. 
+ Lighting system:";DMC-S1000DLIGHTING-A-D00-00-00-00AA-040A-AAA(1)
+[858, 51, 101, 4, 88, 15, 9, 21, 5, 201, 124];142;"Electrical system: 
+ Description of how it is made and its function";DMC-S1000DLIGHTING-A-D00-00-00-00AA-040A-AAA(2)
+[941, 51, 105, 4, 88, 15, 17, 115, 5, 15, 124];142;"Electrical system: 
+ Description of how it is made and its function";DMC-S1000DLIGHTING-A-D00-00-00-00AA-040A-AAA(2)
+[507, 693, 188];143;"Wiring: 
+ Equipment lists";DMC-S1000DLIGHTING-A-D00-00-00-00AA-056A-AAA(1)
+[245, 463, 188];143;"Wiring: 
+ Equipment lists";DMC-S1000DLIGHTING-A-D00-00-00-00AA-056A-AAA(1)
+[507, 245, 188];144;"Wiring: 
+ Wire list";DMC-S1000DLIGHTING-A-D00-00-00-00AA-057A-AAA(1)
+[245, 245, 188];144;"Wiring: 
+ Wire list";DMC-S1000DLIGHTING-A-D00-00-00-00AA-057A-AAA(1)
+[245, 697, 188];145;"Wiring: 
+ Loom list";DMC-S1000DLIGHTING-A-D00-00-00-00AA-058A-AAA(1)
+[45, 404, 5, 73, 539, 93, 295];146;"Lighting: 
+ Functional and/or physical areas repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-0A1A-AAA(1)
+[45, 124, 5, 73, 713, 93, 301];146;"Lighting: 
+ Functional and/or physical areas repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-0A1A-AAA(1)
+[45, 386, 237, 377, 295];147;"Lighting: 
+ Applicability common information repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-0A2A-AAA(1)
+[45, 308, 237, 385, 301];147;"Lighting: 
+ Applicability common information repository";DMC-S1000DLIGHTING-D-D00-00-00-00AA-0A2A-AAA(1)
+[191, 2, 45, 3, 8, 21, 35, 11, 69, 2, 45, 184, 302];148;"Set the lights to on. 
+ Make sure that all the lights operate correctly.";DMC-S1000DLIGHTING-A-D00-00-00-00AA-341A-AAA(2)
+[191, 2, 45, 3, 8, 21, 35, 11, 69, 2, 45, 141, 125];148;"Set the lights to on. 
+ Make sure that all the lights operate correctly.";DMC-S1000DLIGHTING-A-D00-00-00-00AA-341A-AAA(2)
+[45, 256, 120];149;"Lights: 
+ Manual test";DMC-S1000DLIGHTING-A-D00-00-00-00AA-341A-AAA(3)
+[45, 859, 231];150;"Lights: 
+ Observed fault";DMC-S1000DLIGHTING-A-D00-00-00-00AA-413A-AAA(1)
+[45, 942, 231];150;"Lights: 
+ Observed fault";DMC-S1000DLIGHTING-A-D00-00-00-00AA-413A-AAA(1)
+[698, 462, 5, 29, 2, 296, 51, 14, 2, 860, 21, 35, 11, 2, 206, 20, 2, 861, 9, 2, 330, 57, 699, 8, 2, 46, 2, 45, 134, 3, 2, 26, 5, 41, 45, 10, 3, 67, 2, 26, 45, 352, 8, 2, 103, 4, 2, 34, 80, 2, 378, 238, 152, 2, 34, 117, 2, 48, 219, 5, 65, 15, 152, 2, 378, 238, 13, 2, 45, 297, 68, 2, 103, 46, 2, 204, 8, 2, 75, 24, 2, 125, 304, 14, 2, 5, 78, 2, 75, 43, 2, 122, 68, 2, 130, 4, 2, 48, 37, 508, 2, 48, 3, 2, 34, 67, 2, 41, 45, 352, 3, 2, 41, 448, 4, 2, 84, 42, 80, 2, 378, 238, 152, 144, 4, 2, 77, 41, 448, 200, 22, 117, 2, 48, 219, 5, 65, 15, 152, 2, 378, 238, 21, 35, 2, 45, 297, 195, 862, 46, 2, 204, 8, 2, 75, 24, 2, 125, 304, 14, 2, 5, 78, 2, 75, 43, 2, 122, 68, 2, 130, 4, 2, 48, 37, 508, 2, 48, 3, 2, 22, 67, 2, 45, 13, 2, 239, 157, 3, 2, 26, 297, 67, 2, 45, 13, 2, 700, 157, 3, 2, 41, 297];151;"Impacted zones: and 
+                
+ Remove the lighting system from the packaging. 
+ Make sure that the components in the package are the same as those on the  
+ Install the light bulb to the front and rear lights (refer to  
+ Attach the front light fitting on the top of the handlebar. 
+ Apply the protective strip around the handlebar. 
+ Pull the clamp open and put it around the protective strip with the light connector at the top. 
+ Install the washer on the screw. 
+ Use the correct screwdriver from the  and tighten the screw into the hole at the bottom of the clamp. This safeties the clamp to the handlebar. 
+ Attach the rear light fitting to the rear triangle of the bike frame. 
+ Apply the protective strip around one of the two rear triangle up-tubes. 
+ Pull the clamp open and put it around the protective strip. Make sure the light connector points rearwards. 
+ Install the washer on the screw. 
+ Use the correct screwdriver from the  and tighten the screw into the hole at the bottom of the clamp. This safeties the clamp to the tube. 
+ Attach the light with the white glass to the front connector. 
+ Attach the light with the red glass to the rear connector.";DMC-S1000DLIGHTING-A-D00-00-00-00AA-700A-AAA(2)
+[698, 462, 5, 30, 2, 45, 51, 14, 2, 758, 21, 35, 11, 2, 210, 20, 2, 758, 59, 2, 330, 57, 699, 8, 2, 32, 2, 45, 134, 3, 2, 26, 5, 41, 45, 10, 3, 67, 2, 26, 45, 352, 8, 2, 103, 4, 2, 34, 81, 2, 248, 238, 152, 2, 34, 117, 2, 48, 219, 5, 65, 15, 152, 2, 248, 238, 13, 2, 45, 297, 68, 2, 103, 32, 2, 204, 8, 2, 75, 24, 2, 125, 312, 14, 2, 5, 78, 2, 75, 43, 2, 122, 68, 2, 130, 4, 2, 48, 37, 384, 2, 48, 3, 2, 34, 67, 2, 41, 45, 352, 3, 2, 41, 483, 4, 2, 84, 42, 81, 2, 248, 238, 152, 144, 4, 2, 77, 41, 483, 200, 22, 117, 2, 48, 219, 5, 65, 15, 152, 2, 248, 238, 21, 35, 2, 45, 297, 195, 249, 32, 2, 204, 8, 2, 75, 24, 2, 125, 312, 14, 2, 5, 78, 2, 75, 43, 2, 122, 68, 2, 130, 4, 2, 48, 37, 384, 2, 48, 3, 2, 22, 67, 2, 45, 13, 2, 239, 157, 3, 2, 26, 297, 67, 2, 45, 13, 2, 700, 157, 3, 2, 41, 297];151;"Impacted zones: and 
+                
+ Remove the lighting system from the packaging. 
+ Make sure that the components in the package are the same as those on the  
+ Install the light bulb to the front and rear lights (refer to  
+ Attach the front light fitting on the top of the handlebar. 
+ Apply the protective strip around the handlebar. 
+ Pull the clamp open and put it around the protective strip with the light connector at the top. 
+ Install the washer on the screw. 
+ Use the correct screwdriver from the  and tighten the screw into the hole at the bottom of the clamp. This safeties the clamp to the handlebar. 
+ Attach the rear light fitting to the rear triangle of the bike frame. 
+ Apply the protective strip around one of the two rear triangle up-tubes. 
+ Pull the clamp open and put it around the protective strip. Make sure the light connector points rearwards. 
+ Install the washer on the screw. 
+ Use the correct screwdriver from the  and tighten the screw into the hole at the bottom of the clamp. This safeties the clamp to the tube. 
+ Attach the light with the white glass to the front connector. 
+ Attach the light with the red glass to the rear connector.";DMC-S1000DLIGHTING-A-D00-00-00-00AA-700A-AAA(2)
+[45, 504, 46, 5, 193, 83];152;"Lighting: 
+ Assemble, install and connect procedures";DMC-S1000DLIGHTING-A-D00-00-00-00AA-700A-AAA(3)
+[45, 361, 32, 5, 193, 86];152;"Lighting: 
+ Assemble, install and connect procedures";DMC-S1000DLIGHTING-A-D00-00-00-00AA-700A-AAA(3)
+[21, 35, 11, 2, 85, 134, 9, 31, 701];153;Make sure that the new bulb is not cracked.;DMC-S1000DLIGHTING-A-D00-00-00-00AA-921A-AAA(1)
+[21, 35, 11, 2, 85, 134, 17, 31, 701];153;Make sure that the new bulb is not cracked.;DMC-S1000DLIGHTING-A-D00-00-00-00AA-921A-AAA(1)
+[14, 702, 29, 2, 157, 29, 2, 465, 26, 466, 134, 467, 2, 465, 134, 29, 2, 85, 239, 134, 14, 2, 285, 46, 2, 85, 239, 134, 46, 2, 157, 8, 2, 45, 67, 2, 45, 352, 8, 2, 34, 80, 2, 378, 238, 152, 2, 34, 46, 2, 204, 8, 2, 75, 24, 2, 351, 304, 14, 2, 460, 5, 78, 2, 75, 43, 2, 122, 68, 2, 130, 4, 2, 48, 37, 508, 2, 48, 3, 2, 34, 14, 702, 29, 2, 157, 29, 2, 465, 466, 41, 134, 467, 2, 465, 134, 29, 2, 85, 239, 134, 14, 2, 285, 46, 2, 85, 239, 703, 6, 449, 122, 20, 2, 505, 4, 2, 157, 20, 468, 3, 441, 863, 5, 704, 864, 70, 2, 45, 9, 705, 8, 2, 157, 13, 2, 122, 334, 9, 468, 865, 13, 2, 314, 46, 2, 157, 13, 2, 122, 8, 2, 45];154;"From location , remove the glass . 
+ Remove the used front yellow bulb . 
+ Discard the used bulb . 
+ Remove the new white bulb  from the kit . 
+ Install the new white bulb . 
+ Install the glass  on the light. 
+ Attach the light fitting on the handlebar. 
+ Apply the protective strip around the handlebar. 
+ Install the washer on the screw. 
+ Use the special screwdriver  from the toolset  and tighten the screw into the hole at the bottom of the clamp. This safeties the clamp to the handlebar. 
+ From location  Remove the glass . 
+ Remove the used yellow rear bulb . 
+ Discard the used bulb . 
+ Remove the new white bulb  from the kit . 
+ Install the new white . 
+ Drill a 4mm hole in the middle of the glass  in order to allow venting and heat evacuation when the light is switched on. 
+ The glass with the hole may be ordered independently with the reference . 
+ Install the glass with the hole  on the light.";DMC-S1000DLIGHTING-A-D00-00-00-00AA-921A-AAA(2)
+[14, 482, 30, 2, 157, 30, 2, 24, 26, 466, 134, 467, 2, 24, 134, 30, 2, 85, 239, 134, 14, 2, 285, 32, 2, 85, 239, 134, 32, 2, 157, 8, 2, 45, 67, 2, 45, 352, 8, 2, 34, 81, 2, 248, 238, 152, 2, 34, 32, 2, 204, 8, 2, 75, 24, 2, 351, 312, 14, 2, 460, 5, 78, 2, 75, 43, 2, 122, 68, 2, 130, 4, 2, 48, 37, 384, 2, 48, 3, 2, 34, 14, 482, 30, 2, 157, 30, 2, 24, 466, 41, 134, 467, 2, 24, 134, 30, 2, 85, 239, 134, 14, 2, 285, 32, 2, 85, 239, 703, 6, 449, 122, 20, 2, 528, 4, 2, 157, 20, 468, 3, 441, 943, 5, 704, 944, 70, 2, 45, 17, 705, 8, 2, 157, 13, 2, 122, 334, 9, 468, 945, 13, 2, 10, 32, 2, 157, 13, 2, 122, 8, 2, 45];154;"From location , remove the glass . 
+ Remove the used front yellow bulb . 
+ Discard the used bulb . 
+ Remove the new white bulb  from the kit . 
+ Install the new white bulb . 
+ Install the glass  on the light. 
+ Attach the light fitting on the handlebar. 
+ Apply the protective strip around the handlebar. 
+ Install the washer on the screw. 
+ Use the special screwdriver  from the toolset  and tighten the screw into the hole at the bottom of the clamp. This safeties the clamp to the handlebar. 
+ From location  Remove the glass . 
+ Remove the used yellow rear bulb . 
+ Discard the used bulb . 
+ Remove the new white bulb  from the kit . 
+ Install the new white . 
+ Drill a 4mm hole in the middle of the glass  in order to allow venting and heat evacuation when the light is switched on. 
+ The glass with the hole may be ordered independently with the reference . 
+ Install the glass with the hole  on the light.";DMC-S1000DLIGHTING-A-D00-00-00-00AA-921A-AAA(2)
+[45, 29, 5, 46, 6, 85, 189];155;"Lighting: 
+ Remove and install a new item";DMC-S1000DLIGHTING-A-D00-00-00-00AA-921A-AAA(3)
+[45, 30, 5, 32, 6, 85, 189];155;"Lighting: 
+ Remove and install a new item";DMC-S1000DLIGHTING-A-D00-00-00-00AA-921A-AAA(3)
+[45, 706, 295];156;"Lights: 
+ Warning repository";DMC-S1000DLIGHTING-A-D00-00-00-01AA-012A-AAA(1)
+[45, 706, 301];156;"Lights: 
+ Warning repository";DMC-S1000DLIGHTING-A-D00-00-00-01AA-012A-AAA(1)
+[45, 51, 596, 38, 394, 433];157;"Light system: 
+ Illustrated Parts Data - IPD";DMC-S1000DLIGHTING-D-D00-00-00-01AA-941A-AAA(1)
+[45, 51, 481, 38, 474, 433];157;"Light system: 
+ Illustrated Parts Data - IPD";DMC-S1000DLIGHTING-D-D00-00-00-01AA-941A-AAA(1)
+[45, 707, 295];158;"Lights: 
+ Caution repository";DMC-S1000DLIGHTING-A-D00-00-00-02AA-012A-AAA(1)
+[45, 707, 301];158;"Lights: 
+ Caution repository";DMC-S1000DLIGHTING-A-D00-00-00-02AA-012A-AAA(1)

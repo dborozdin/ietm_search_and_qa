@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC '-//W3C//NOTATION Portable Network Graphics//EN'>
+<!ENTITY DUMMYENTITY SYSTEM 'DUMMYENTITY.PNG' NDATA png>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/proced.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+ 
+<identAndStatusSection>
+    <dmAddress>
+        <dmIdent>
+            <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="254" infoCodeVariant="A" itemLocationCode="A" modelIdentCode="URALM" subSubSystemCode="3" subSystemCode="1" systemCode="K2" systemDiffCode="A"/>
+            <language countryIsoCode="RU" languageIsoCode="ru"/>
+            <issueInfo issueNumber="001" inWork="04"/>
+        </dmIdent>
+        <dmAddressItems>
+            <issueDate year="2021" month="11" day="07"/>
+            <dmTitle>
+                <techName>Клапан электромагнитный</techName>
+                <infoName>Ремонт</infoName>
+            </dmTitle>
+        </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+        <security securityClassification="01"/>
+        <responsiblePartnerCompany enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </responsiblePartnerCompany>
+        <originator enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </originator>
+        <applic>
+            <displayText>
+                <simplePara>Все</simplePara>
+            </displayText>
+        </applic>
+        <techStandard>
+            <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+            <authorityExceptions/>
+            <authorityNotes/>
+        </techStandard>
+        <brexDmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="URALM" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A"/>
+                </dmRefIdent>
+            </dmRef>
+        </brexDmRef>
+        <qualityAssurance>
+            <unverified/>
+        </qualityAssurance>
+    </dmStatus>
+</identAndStatusSection>
+ <content>
+  <procedure>
+   <preliminaryRqmts>
+    <productionMaintData>
+     <taskDuration startupDuration="0" procedureDuration="0" unitOfMeasure="h" closeupDuration="0"/>
+    </productionMaintData>
+    <reqCondGroup>
+     <noConds/>
+    </reqCondGroup>
+    <reqSupportEquips>
+     <supportEquipDescrGroup>
+      <supportEquipDescr id="seq-0000">
+<?pi_preliminaryRqmts id="{cf6319d7-b4a9-4108-a167-04612f93be2e}" id_ref="86502"?>
+       <name>Ключ гаечный комбинированный 12 мм</name>
+       <identNumber>
+        <manufacturerCode/>
+        <partAndSerialNumber>
+         <partNumber>7811-0225</partNumber>
+        </partAndSerialNumber>
+       </identNumber>
+       <reqQuantity unitOfMeasure="EA">
+<?reqQuantity thUOM="th53"?>
+1</reqQuantity>
+      </supportEquipDescr>
+     </supportEquipDescrGroup>
+    </reqSupportEquips>
+    <reqSupplies>
+     <supplyDescrGroup>
+      <supplyDescr id="sup-0000">
+<?pi_preliminaryRqmts id="{def14fd8-d4ff-4375-95c4-f0d61bc77698}" id_ref="86501"?>
+       <name>Ветошь 509 ГОСТ 4643-75</name>
+       <identNumber>
+        <manufacturerCode/>
+        <partAndSerialNumber>
+         <partNumber>509 ГОСТ 4643-75</partNumber>
+        </partAndSerialNumber>
+       </identNumber>
+       <reqQuantity unitOfMeasure="EA">
+<?reqQuantity thUOM="th55"?>
+1</reqQuantity>
+      </supplyDescr>
+     </supplyDescrGroup>
+    </reqSupplies>
+    <reqSpares>
+     <noSpares/>
+    </reqSpares>
+    <reqSafety>
+     <noSafety/>
+    </reqSafety>
+   </preliminaryRqmts>
+   <mainProcedure>
+    <proceduralStep id="stp-0000">
+     <para>Измерьте сопротивление соляноида клапана.</para>
+     <para/>
+     <note>
+      <notePara>Сопротивление соляноида менее 16 Ом не допускается. При сопротивлении соляноида менее 16 Ом замените клапан электромагнитный.</notePara>
+     </note>
+     <para/>
+    </proceduralStep>
+    <proceduralStep id="stp-0001">
+     <para>Выкрутите соляноид из корпуса клапана.</para>
+     <para/>
+    </proceduralStep>
+    <proceduralStep id="stp-0002">
+     <para>Осмотрите соляноид и клапан на наличие ржавчины</para>
+     <para/>
+     <note>
+      <notePara>Наличие ржавины на соляноиде и штоке клапана не допускается.</notePara>
+     </note>
+     <para/>
+    </proceduralStep>
+    <proceduralStep id="stp-0003">
+     <para>Промойте спиртом соляноид и внутренние полости клапана.</para>
+     <para/>
+    </proceduralStep>
+    <proceduralStep id="stp-0004">
+     <para>Продуйте клапан и соляноид сжатым воздухом</para>
+    </proceduralStep>
+    <proceduralStep id="stp-0005">
+     <para>Просушите клапан и соляноид в течении не менее 10 минут.</para>
+    </proceduralStep>
+    <proceduralStep id="stp-0006">
+     <para>Установите соляноид в корпус клапана.</para>
+    </proceduralStep>
+    <proceduralStep id="stp-0007">
+     <para>Проверьте работу клапана для чего:</para>
+     <proceduralStep id="stp-0008">
+      <para>Подсоедините к фиттингу запитки клапана источник сжатого воздуха</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0009">
+      <para>Периодической подачей напряжения 12 В на контакты разъема штепсельного убедитесь что клапан перепускает воздух.</para>
+     </proceduralStep>
+    </proceduralStep>
+   </mainProcedure>
+   <closeRqmts>
+    <reqCondGroup>
+     <noConds/>
+    </reqCondGroup>
+   </closeRqmts>
+  </procedure>
+ </content>
+</dmodule>

@@ -1,0 +1,233 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC '-//W3C//NOTATION Portable Network Graphics//EN'>
+<!ENTITY DUMMYENTITY SYSTEM 'DUMMYENTITY.PNG' NDATA png>
+]>
+<dmodule xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/wrngdata.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <identAndStatusSection>
+  <dmAddress>
+   <dmIdent>
+    <dmCode subSubSystemCode="0" subSystemCode="0" assyCode="00" systemCode="B4" infoCodeVariant="A" disassyCodeVariant="A" disassyCode="00" itemLocationCode="A" infoCode="031" systemDiffCode="A" modelIdentCode="URALM"/>
+    <language languageIsoCode="ru" countryIsoCode="RU"/>
+    <issueInfo issueNumber="001" inWork="01"/>
+   </dmIdent>
+   <dmAddressItems>
+    <issueDate year="2021" day="03" month="11"/>
+    <dmTitle>
+     <techName>Электросистема</techName>
+     <infoName>Перечень стандартных изделий</infoName>
+     <infoNameVariant/>
+    </dmTitle>
+   </dmAddressItems>
+  </dmAddress>
+  <dmStatus issueType="new">
+   <security securityClassification="01"/>
+   <responsiblePartnerCompany enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </responsiblePartnerCompany>
+   <originator enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </originator>
+   <applic>
+    <displayText>
+     <simplePara>Все</simplePara>
+    </displayText>
+   </applic>
+   <techStandard>
+    <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+    <authorityExceptions/>
+    <authorityNotes/>
+   </techStandard>
+   <brexDmRef>
+    <dmRef>
+     <dmRefIdent>
+      <dmCode subSubSystemCode="0" subSystemCode="0" assyCode="00" systemCode="B4" infoCodeVariant="A" disassyCodeVariant="A" disassyCode="00" itemLocationCode="A" infoCode="031" systemDiffCode="A" modelIdentCode="URALM"/>
+      <language languageIsoCode="ru" countryIsoCode="RU"/>
+     </dmRefIdent>
+    </dmRef>
+   </brexDmRef>
+   <qualityAssurance>
+    <unverified/>
+   </qualityAssurance>
+  </dmStatus>
+ </identAndStatusSection>
+ <content>
+  <referencedApplicGroup>
+   <applic id="app-0001">
+    <displayText>
+     <simplePara>УРАЛ 44202-80М 4х4 - УРАЛ 44202-80М с колёсной формулой 4х4</simplePara>
+    </displayText>
+   </applic>
+   <applic id="app-0002">
+    <displayText>
+     <simplePara>УРАЛ 44202-80М 6х6 - УРАЛ 44202-80М с колёсной формулой 6х6</simplePara>
+    </displayText>
+   </applic>
+  </referencedApplicGroup>
+  <wiringData>
+   <standardPartGroup>
+    <connectorGroup>
+     <connector reasonForUpdateRefIds="new" changeType="add" applicRefId="all">
+      <partNumber id="id_XP147" reasonForUpdateRefIds="new" changeType="add">Вилка 2РМДТ18КПН4Ш5В1В</partNumber>
+      <mass unitOfMeasure="g">22,5</mass>
+      <rack>вилка на кабель</rack>
+      <contactCount>4</contactCount>
+      <contactDescrGroup>
+       <contactDescr>
+        <contact contactIdent="4"/>
+       </contactDescr>
+       <contactDescr>
+        <contact contactIdent="3"/>
+       </contactDescr>
+       <contactDescr>
+        <contact contactIdent="2"/>
+       </contactDescr>
+       <contactDescr>
+        <contact contactIdent="1"/>
+       </contactDescr>
+      </contactDescrGroup>
+      <connectorAccessories>
+       <partNumber>Трубка термоусадочная ТИШ-10НГ</partNumber>
+      </connectorAccessories>
+     </connector>
+    </connectorGroup>
+    <distributionPartGroup>
+     <distributionPart reasonForUpdateRefIds="new" changeType="add" applicRefId="all">
+      <partNumber id="id_S1" reasonForUpdateRefIds="new" changeType="add">Лепесток 1-1-3.2-18-07 ГОСТ22376-77</partNumber>
+      <altIdentGroup>
+       <altIdent>
+        <partNumber>ЭлКон 1-1-3.2-18-07</partNumber>
+        <manufacturerCode>КС7750025</manufacturerCode>
+       </altIdent>
+      </altIdentGroup>
+      <contactSize>3,2</contactSize>
+      <material>Латунь Л63 ГОСТ15524-70</material>
+      <mass unitOfMeasure="g">0,16</mass>
+      <contactDiameter unitOfMeasure="mm">1,2</contactDiameter>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-50</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+125</maxTemperature>
+      </temperature>
+     </distributionPart>
+    </distributionPartGroup>
+    <accessoryGroup>
+     <accessory reasonForUpdateRefIds="new" controlAuthorityRefs="IEK" changeType="add" applicRefId="all">
+      <partNumber id="ИЭК LLD111-LS-65">Стартер LS111M 4-65Вт 220-240В</partNumber>
+      <altIdentGroup>
+       <altIdent>
+        <partNumber>Стартер S10 4-65W SIN 220-240В EUR</partNumber>
+        <manufacturerCode>Philips 928392220230 / 871150069769133</manufacturerCode>
+       </altIdent>
+      </altIdentGroup>
+      <mass unitOfMeasure="g">7,733</mass>
+     </accessory>
+    </accessoryGroup>
+    <solderSleeveGroup>
+     <solderSleeve reasonForUpdateRefIds="new" changeType="add" applicRefId="all">
+      <partNumber id="T_0004" reasonForUpdateRefIds="new" changeType="add" changeMark="1">Гильза припоечная ГСИ-Т 1.5</partNumber>
+      <altIdentGroup>
+       <altIdent>
+        <partNumber>STEKKER ГСИ-Т</partNumber>
+        <manufacturerCode>32806</manufacturerCode>
+       </altIdent>
+      </altIdentGroup>
+      <length unitOfMeasure="mm">25</length>
+      <material>Поливинилиденфторид</material>
+      <mass unitOfMeasure="g">0,001</mass>
+      <sleeveDiameter>
+       <minDiameter unitOfMeasure="mm">1,7</minDiameter>
+       <maxDiameter unitOfMeasure="mm">1,9</maxDiameter>
+      </sleeveDiameter>
+     </solderSleeve>
+    </solderSleeveGroup>
+    <shrinkSleeveGroup>
+     <shrinkSleeve reasonForUpdateRefIds="new" applicRefId="all">
+      <partNumber id="SBRS-(2X)G">Трубка термоусадочная ISKE2-(2X)G</partNumber>
+      <altIdentGroup>
+       <altIdent>
+        <partNumber>ТУТ Rexant 0.8/1.6</partNumber>
+        <manufacturerCode>RXT08/16</manufacturerCode>
+       </altIdent>
+      </altIdentGroup>
+      <size unitOfMeasure="mm">1000</size>
+      <mass unitOfMeasure="g">15</mass>
+      <wireColor>черный</wireColor>
+      <sleeveDiameter>
+       <minDiameter unitOfMeasure="mm">0,8</minDiameter>
+       <maxDiameter unitOfMeasure="mm">1,6</maxDiameter>
+      </sleeveDiameter>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-50</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+125</maxTemperature>
+      </temperature>
+     </shrinkSleeve>
+    </shrinkSleeveGroup>
+    <identSleeveGroup>
+     <identSleeve reasonForUpdateRefIds="new" changeType="add" applicRefId="all">
+      <partNumber id="OM-3.5-6" reasonForUpdateRefIds="new">Трубка маркировочная</partNumber>
+      <altIdentGroup>
+       <altIdent>
+        <partNumber>OHM-3.5-6</partNumber>
+        <manufacturerCode>9000057904</manufacturerCode>
+       </altIdent>
+      </altIdentGroup>
+      <length unitOfMeasure="mm">10</length>
+      <material>пластик</material>
+      <mass unitOfMeasure="g">0,001</mass>
+     </identSleeve>
+    </identSleeveGroup>
+    <conduitGroup>
+     <conduit reasonForUpdateRefIds="new" controlAuthorityRefs="Урал-ПАК" applicRefId="all">
+      <partNumber id="К-4578">Кабель-канал 15х10 L2000</partNumber>
+      <altIdentGroup>
+       <altIdent>
+        <partNumber>РКК-15х10-27М</partNumber>
+        <manufacturerCode>8000858682</manufacturerCode>
+       </altIdent>
+      </altIdentGroup>
+      <size unitOfMeasure="mm">2000</size>
+      <mass unitOfMeasure="g">75</mass>
+      <wireColor>белый</wireColor>
+      <wallThickness unitOfMeasure="mm">0,8</wallThickness>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-50</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+100</maxTemperature>
+      </temperature>
+     </conduit>
+    </conduitGroup>
+    <wireMaterialGroup>
+     <wireMaterial reasonForUpdateRefIds="new" applicRefId="all">
+      <partNumber id="87" reasonForUpdateRefIds="new" changeType="add">РК-75-2-11</partNumber>
+      <altIdentGroup>
+       <altIdent>
+        <partNumber>MARS 4K (01-2501)</partNumber>
+        <manufacturerCode>MARS 4K (01-2501)</manufacturerCode>
+       </altIdent>
+      </altIdentGroup>
+      <wireCode>
+       <wireType>PC</wireType>
+       <wireGauge wireGaugeType="mt">6</wireGauge>
+      </wireCode>
+      <numberOfCores>1</numberOfCores>
+      <mass unitOfMeasure="g">0,125</mass>
+      <wireColor>черный</wireColor>
+      <outerJacketColor>черный</outerJacketColor>
+      <outerDiameter unitOfMeasure="mm">6</outerDiameter>
+      <resistance unitOfMeasure="ohm/m">0,001</resistance>
+      <voltage unitOfMeasure="V">500</voltage>
+      <amperage unitOfMeasure="A">2,5</amperage>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-50</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+125</maxTemperature>
+      </temperature>
+      <screenCount>1</screenCount>
+      <triaxialCableFlag>N</triaxialCableFlag>
+      <frequencyCharacteristics>
+       <impedance unitOfMeasure="ohm">75</impedance>
+      </frequencyCharacteristics>
+     </wireMaterial>
+    </wireMaterialGroup>
+   </standardPartGroup>
+  </wiringData>
+ </content>
+</dmodule>

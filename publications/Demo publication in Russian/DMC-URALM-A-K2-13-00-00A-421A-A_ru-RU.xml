@@ -1,0 +1,217 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
+<!ENTITY URALM-A-K2-13-00-00A-421A-A_001_RU-RU-GRAPHIC0 SYSTEM "URALM-A-K2-13-00-00A-421A-A_001_RU-RU-GRAPHIC0.svg" NDATA svg>
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/fault.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ 
+<identAndStatusSection>
+    <dmAddress>
+        <dmIdent>
+            <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="421" infoCodeVariant="A" itemLocationCode="A" modelIdentCode="URALM" subSubSystemCode="3" subSystemCode="1" systemCode="K2" systemDiffCode="A"/>
+            <language countryIsoCode="RU" languageIsoCode="ru"/>
+            <issueInfo issueNumber="001" inWork="06"/>
+        </dmIdent>
+        <dmAddressItems>
+            <issueDate year="2021" month="11" day="05"/>
+            <dmTitle>
+                <techName>Система регулирования давления воздуха в шинах</techName>
+                <infoName>Невозможность поддержания давления</infoName>
+            </dmTitle>
+        </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+        <security securityClassification="01"/>
+        <responsiblePartnerCompany enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </responsiblePartnerCompany>
+        <originator enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </originator>
+        <applic>
+            <displayText>
+                <simplePara>Все</simplePara>
+            </displayText>
+        </applic>
+        <techStandard>
+            <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+            <authorityExceptions/>
+            <authorityNotes/>
+        </techStandard>
+        <brexDmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="URALM" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A"/>
+                </dmRefIdent>
+            </dmRef>
+        </brexDmRef>
+        <qualityAssurance>
+            <unverified/>
+        </qualityAssurance>
+    </dmStatus>
+</identAndStatusSection>
+ <content>
+  <faultIsolation>
+   <faultIsolationProcedure>
+    <fault faultCode=""/>
+    <faultDescr>
+     <descr>Невозможность поддержания давления</descr>
+     <detailedFaultDescr>
+      <viewLocation/>
+      <systemLocation/>
+      <systemName>Пневматическая система</systemName>
+      <faultySubSystem>Система регулирования давления в шинах</faultySubSystem>
+      <systemIdent/>
+      <systemPosition/>
+      <faultEquip/>
+      <faultMessageIndication/>
+      <faultMessageBody/>
+      <faultCond/>
+     </detailedFaultDescr>
+    </faultDescr>
+    <isolationProcedure>
+     <preliminaryRqmts>
+      <productionMaintData>
+       <taskDuration unitOfMeasure="h" procedureDuration="0" closeupDuration="0" startupDuration="0"/>
+      </productionMaintData>
+      <reqCondGroup>
+       <noConds/>
+      </reqCondGroup>
+      <reqSupportEquips>
+       <supportEquipDescrGroup>
+        <supportEquipDescr id="seq-0000">
+<?pi_preliminaryRqmts id="{d2e88e9c-0af6-43c6-a727-52597ef22cc5}" id_ref="86691"?>
+         <name>Ключ гаечный комбинированный 17 мм</name>
+         <identNumber>
+          <manufacturerCode/>
+          <partAndSerialNumber>
+           <partNumber>7811-0228</partNumber>
+          </partAndSerialNumber>
+         </identNumber>
+         <reqQuantity unitOfMeasure="EA">
+<?reqQuantity thUOM="th53"?>
+1</reqQuantity>
+        </supportEquipDescr>
+       </supportEquipDescrGroup>
+      </reqSupportEquips>
+      <reqSupplies>
+       <supplyDescrGroup>
+        <supplyDescr id="sup-0000">
+         <name>Смазка глубокого проникновения</name>
+         <identNumber>
+          <manufacturerCode/>
+          <partAndSerialNumber>
+           <partNumber>WD-40</partNumber>
+          </partAndSerialNumber>
+         </identNumber>
+         <reqQuantity unitOfMeasure="EA">
+<?reqQuantity ?>
+1</reqQuantity>
+        </supplyDescr>
+       </supplyDescrGroup>
+      </reqSupplies>
+      <reqSpares>
+       <spareDescrGroup>
+        <spareDescr id="spa-0000">
+<?pi_preliminaryRqmts id="{5d75c8cc-cd31-403a-9507-73664cfa2d83}" id_ref="86692"?>
+         <name>Клапан ускорительный</name>
+         <identNumber>
+          <manufacturerCode/>
+          <partAndSerialNumber>
+           <partNumber>100-3518210-10</partNumber>
+          </partAndSerialNumber>
+         </identNumber>
+         <reqQuantity unitOfMeasure="EA">
+<?reqQuantity thUOM="th53"?>
+1</reqQuantity>
+        </spareDescr>
+       </spareDescrGroup>
+      </reqSpares>
+      <reqSafety>
+       <noSafety/>
+      </reqSafety>
+     </preliminaryRqmts>
+     <isolationMainProcedure>
+      <isolationStep id="stp-0001">
+       <title>Проверьте герметичность магистралей подводки воздуха к мостам
+</title>
+       <action>Проверьте герметичность магистралей подводки воздуха к мостам</action>
+       <isolationStepQuestion>Магистрали гермитичны?</isolationStepQuestion>
+       <isolationStepAnswer>
+        <yesNoAnswer>
+         <yesAnswer nextActionRefId="stp-0003"/>
+         <noAnswer nextActionRefId="stp-0002"/>
+        </yesNoAnswer>
+       </isolationStepAnswer>
+      </isolationStep>
+      <isolationProcedureEnd id="stp-0002">
+       <title>Устраните негерметичность
+</title>
+       <action>Устраните негерметичность</action>
+      </isolationProcedureEnd>
+      <isolationStep id="stp-0003">
+       <title>Проверьте герметичность трубки питания клапана электромагнитного
+</title>
+       <action>Проверьте герметичность трубки питания клапана электромагнитного</action>
+       <isolationStepQuestion>Трубка питания гермитична?</isolationStepQuestion>
+       <isolationStepAnswer>
+        <yesNoAnswer>
+         <yesAnswer nextActionRefId="stp-0005"/>
+         <noAnswer nextActionRefId="stp-0004"/>
+        </yesNoAnswer>
+       </isolationStepAnswer>
+      </isolationStep>
+      <isolationProcedureEnd id="stp-0004">
+       <title>Устраните негерметичность
+</title>
+       <action>Устраните негерметичность</action>
+      </isolationProcedureEnd>
+      <isolationStep id="stp-0005">
+       <title>Проверьте герметичность клапана электромагнитного
+</title>
+       <action>Проверьте герметичность клапана электромагнитного</action>
+       <isolationStepQuestion>Клапан электромагнитный гермитичен?</isolationStepQuestion>
+       <isolationStepAnswer>
+        <listOfChoices>
+         <choice nextActionRefId="stp-0006">Нет</choice>
+        </listOfChoices>
+       </isolationStepAnswer>
+      </isolationStep>
+      <isolationProcedureEnd id="stp-0006">
+       <title>Замените клапан</title>
+       <action>Замените клапан <dmRef>
+<?dmRef_pi code="URALM-A-K2-13-00-00A-921A-A" id="86012" name="Клапан электромагнитный
+Замена"?>
+         <dmRefIdent>
+          <dmCode infoCode="921" assyCode="00" subSubSystemCode="3" modelIdentCode="URALM" systemDiffCode="A" infoCodeVariant="A" itemLocationCode="A" disassyCode="00" systemCode="K2" subSystemCode="1" disassyCodeVariant="A"/>
+         </dmRefIdent>
+         <dmRefAddressItems>
+          <dmTitle>
+           <techName>Клапан электромагнитный
+Замена</techName>
+          </dmTitle>
+         </dmRefAddressItems>
+        </dmRef> </action>
+      </isolationProcedureEnd>
+      <figure>
+       <title>Диаграмма ПиУН</title>
+       <graphic infoEntityIdent="URALM-A-K2-13-00-00A-421A-A_001_RU-RU-GRAPHIC0">
+<?diagramCoords graphicRect="1;55;254;143" noPolyline="254;96;313;96" noPt="25;20" yesPolyline="118;143;118;225" yesPt="-33;51"?>
+<?diagramCoords graphicRect="313;63;508;136"?>
+<?diagramCoords graphicRect="2;225;255;313" noPolyline="255;279;314;279" noPt="21;-13" yesPolyline="123;313;123;391" yesPt="-36;40"?>
+<?diagramCoords graphicRect="314;231;509;304"?>
+<?diagramCoords answer0001="18;-10;255;435;314;435" graphicRect="2;391;255;479"?>
+<?diagramCoords graphicRect="314;393;512;472"?>
+       </graphic>
+      </figure>
+     </isolationMainProcedure>
+     <closeRqmts>
+      <reqCondGroup>
+       <noConds/>
+      </reqCondGroup>
+     </closeRqmts>
+    </isolationProcedure>
+   </faultIsolationProcedure>
+  </faultIsolation>
+ </content>
+</dmodule>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!NOTATION jpg PUBLIC "+//ISBN 0-7923-9432-1::Graphic Notation//NOTATION Joint Photographic Experts Group Raster//EN">
+<!ENTITY PUBLICATION_LOGO SYSTEM "publication_logo.JPG" NDATA jpg>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="URALM" systemDiffCode="A" systemCode="05" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="071" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="ru" countryIsoCode="RU"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2019" month="07" day="29"/>
+        <dmTitle>
+          <techName>Урал-44202-80М</techName>
+          <infoName>Нормы расхода материалов</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <logo><symbol infoEntityIdent="PUBLICATION_LOGO"/></logo>
+      <responsiblePartnerCompany enterpriseCode="00000">
+        <enterpriseName>Ответственная компания</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="00000">
+        <enterpriseName>АО «Автомобильный завод «УРАЛ»</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>Все</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="URALM" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+
+
+
+<content>
+<rpl>
+<materialList>
+  <materialListTitle>
+  <operatingPeriod thresholdUnitOfMeasure="th57" value="10000"></operatingPeriod>
+        <productName>Урал-44202-80М</productName>
+  </materialListTitle>
+  
+  <materialListContent>
+    <materialListSection>
+      <sectionTitle>Горюче-смазочные материалы</sectionTitle>
+              
+        <materialListItem itemUnitOfMeasure="L">
+		<itemIdent>WD-40</itemIdent>
+		<itemName>Смазка глубокого проникновения</itemName>
+		<itemStockNumber>501392</itemStockNumber>
+		<itemGradeStandard>WD40</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>10</itemExpenditureRate>
+		<itemPrice currencycode="Р">600</itemPrice>
+		<remarks></remarks>
+		</materialListItem>
+        
+		<materialListItem itemUnitOfMeasure="kg">
+		<itemIdent></itemIdent>
+		<itemName>Графитная смазка</itemName>
+		<itemStockNumber>150295</itemStockNumber>
+		<itemGradeStandard>ГОСТ 3333-80</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>10</itemExpenditureRate>
+		<itemPrice currencycode="Р">90</itemPrice>
+		<remarks></remarks>
+        </materialListItem>
+        
+		<materialListItem itemUnitOfMeasure="L">
+		<itemIdent>ТМ-5-12рк</itemIdent>
+		<itemName>Масло трансмиссионное</itemName>
+		<itemStockNumber>1872</itemStockNumber>
+		<itemGradeStandard>ТУ 38.101844-80</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>10</itemExpenditureRate>
+		<itemPrice currencycode="Р">150</itemPrice>
+		<remarks></remarks>
+        </materialListItem>
+
+		<materialListItem itemUnitOfMeasure="m">
+		<itemIdent>КО-0.8</itemIdent>
+		<itemName>Проволока контровочная</itemName>
+		<itemStockNumber>7653734</itemStockNumber>
+		<itemGradeStandard>ГОСТ 792-67</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>10</itemExpenditureRate>
+		<itemPrice currencycode="Р">4</itemPrice>
+		<remarks></remarks>
+        </materialListItem>
+        
+    </materialListSection>
+    <materialListSection>
+	<sectionTitle>Элементы крепления</sectionTitle>
+              
+        <materialListItem itemUnitOfMeasure="EA">
+        <itemIdent>258085-П29</itemIdent>
+		<itemName>Шплинт 6,3х50</itemName>
+		<itemStockNumber>B3100002A011</itemStockNumber>
+		<itemGradeStandard>ОСТ 37.001.171-93</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>50</itemExpenditureRate>
+		<itemPrice currencycode="Р">2</itemPrice>
+		<remarks></remarks>
+		</materialListItem>
+		 
+		<materialListItem itemUnitOfMeasure="EA">
+		<itemIdent>201502-П29</itemIdent>
+		<itemName>Болт М10-6gх38</itemName>
+		<itemStockNumber>B3100002A012</itemStockNumber>
+		<itemGradeStandard>ОСТ 37.001.123-96</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>4</itemExpenditureRate>
+		<itemPrice currencycode="Р">22</itemPrice>
+		<remarks></remarks>
+		</materialListItem>
+		    
+        <materialListItem itemUnitOfMeasure="EA">
+		<itemIdent>252136-П2</itemIdent>
+		<itemName>Шайба 10</itemName>
+		<itemStockNumber>B3100002A013</itemStockNumber>
+		<itemGradeStandard>ОСТ 37.001.115-75</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>20</itemExpenditureRate>
+		<itemPrice currencycode="Р">8</itemPrice>
+		<remarks></remarks>
+		</materialListItem>
+		
+		<materialListItem itemUnitOfMeasure="EA">
+		<itemIdent>250512-П29</itemIdent>
+		<itemName>Гайка М10-6Н</itemName>
+		<itemStockNumber>B3100002A014</itemStockNumber>
+		<itemGradeStandard>ОСТ 37.001.124-75</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>8</itemExpenditureRate>
+		<itemPrice currencycode="Р">12</itemPrice>
+		<remarks></remarks>
+		</materialListItem>
+        
+        <materialListItem itemUnitOfMeasure="EA">
+		<itemIdent>332763-П29</itemIdent>
+		<itemName>Болт М18х1,5-6gх55</itemName>
+		<itemStockNumber>B3100002A001</itemStockNumber>
+		<itemGradeStandard>ОСТ 37.001.115-75</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>6</itemExpenditureRate>
+		<itemPrice currencycode="Р">30</itemPrice>
+		<remarks></remarks>
+		</materialListItem>
+        
+		<materialListItem itemUnitOfMeasure="EA">
+		<itemIdent>252140-П2</itemIdent>
+		<itemName>Шайба 18</itemName>
+		<itemStockNumber>B3100002A002</itemStockNumber>
+		<itemGradeStandard>ОСТ 37.001.115-75</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>12</itemExpenditureRate>
+		<itemPrice currencycode="Р">12</itemPrice>
+		<remarks></remarks>
+		</materialListItem>
+		
+		<materialListItem itemUnitOfMeasure="EA">
+		<itemIdent>336448</itemIdent>
+		<itemName>Шайба 50х21,5х5</itemName>
+		<itemStockNumber>B3100001A001</itemStockNumber>
+		<itemGradeStandard>ОСТ37.001.171-93</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>4</itemExpenditureRate>
+		<itemPrice currencycode="Р">20</itemPrice>
+		<remarks></remarks>
+		</materialListItem>
+        
+        <materialListItem itemUnitOfMeasure="EA">
+		<itemIdent>258054-П29</itemIdent>
+		<itemName>Шплинт 4х32</itemName>
+		<itemStockNumber>B3100001A005</itemStockNumber>
+		<itemGradeStandard>ОСТ37.001.171-93</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>24</itemExpenditureRate>
+		<itemPrice currencycode="Р">3</itemPrice>
+		<remarks></remarks>
+		</materialListItem>
+        
+        <materialListItem itemUnitOfMeasure="EA">
+		<itemIdent>332722</itemIdent>
+		<itemName>Болт М16-6ех160</itemName>
+		<itemStockNumber>B3100001A018</itemStockNumber>
+		<itemGradeStandard>ОСТ37.001.171-93</itemGradeStandard>
+		<itemSortment></itemSortment>
+		<itemSortmentStandard></itemSortmentStandard>
+		<itemExpenditureRate>2</itemExpenditureRate>
+		<itemPrice currencycode="Р">5</itemPrice>
+		<remarks></remarks>
+		</materialListItem>
+      
+    </materialListSection>
+	</materialListContent>
+  </materialList>
+
+</rpl>
+  </content>
+</dmodule>

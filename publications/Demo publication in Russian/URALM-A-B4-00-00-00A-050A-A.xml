@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+<!ENTITY ICN-URALM-A-B40000-0-00000-00002-A-001-01 SYSTEM "ICN-URALM-A-B40000-0-00000-00002-A-001-01.png" NDATA png>
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+ <identAndStatusSection>
+  <dmAddress>
+   <dmIdent>
+    <dmCode assyCode="00" subSubSystemCode="0" itemLocationCode="A" modelIdentCode="URALM" systemCode="B4" subSystemCode="0" infoCodeVariant="A" disassyCode="00" infoCode="050" systemDiffCode="A" disassyCodeVariant="A"/>
+    <language countryIsoCode="RU" languageIsoCode="ru"/>
+    <issueInfo issueNumber="001" inWork="01"/>
+   </dmIdent>
+   <dmAddressItems>
+    <issueDate day="10" year="2021" month="11"/>
+    <dmTitle>
+     <techName>Электросистема</techName>
+     <infoName>Схема электрическая</infoName>
+     <infoNameVariant/>
+    </dmTitle>
+   </dmAddressItems>
+  </dmAddress>
+  <dmStatus issueType="new">
+   <security securityClassification="01"/>
+   <responsiblePartnerCompany enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </responsiblePartnerCompany>
+   <originator enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </originator>
+   <applic>
+    <displayText>
+     <simplePara>Все</simplePara>
+    </displayText>
+   </applic>
+   <techStandard>
+    <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+    <authorityExceptions/>
+    <authorityNotes/>
+   </techStandard>
+   <brexDmRef>
+    <dmRef>
+     <dmRefIdent>
+      <dmCode assyCode="00" subSubSystemCode="0" itemLocationCode="A" modelIdentCode="URALM" systemCode="B4" subSystemCode="0" infoCodeVariant="A" disassyCode="00" infoCode="050" systemDiffCode="A" disassyCodeVariant="A"/>
+      <language countryIsoCode="RU" languageIsoCode="ru"/>
+     </dmRefIdent>
+    </dmRef>
+   </brexDmRef>
+   <qualityAssurance>
+    <unverified/>
+   </qualityAssurance>
+  </dmStatus>
+ </identAndStatusSection>
+ <content>
+  <description>
+   <figure id="fig-0000">
+    <title>Схема электрическая</title>
+    <graphic infoEntityIdent="ICN-URALM-A-B40000-0-00000-00002-A-001-01" id="fig-0000-gra-0000">
+     <hotspot objectCoordinates="734,444,768,444,768,470,734,470" hotspotTitle="16">
+<?pi_hotspot dataModuleId="0" shape="0" version="16"?>
+     </hotspot>
+     <hotspot objectCoordinates="885,58,919,58,919,84,885,84" hotspotTitle="15">
+<?pi_hotspot dataModuleId="0" shape="0" version="15"?>
+     </hotspot>
+     <hotspot objectCoordinates="797,62,831,62,831,88,797,88" hotspotTitle="14">
+<?pi_hotspot dataModuleId="0" shape="0" version="14"?>
+     </hotspot>
+     <hotspot objectCoordinates="704,60,738,60,738,86,704,86" hotspotTitle="13">
+<?pi_hotspot dataModuleId="0" shape="0" version="13"?>
+     </hotspot>
+     <hotspot objectCoordinates="616,63,650,63,650,89,616,89" hotspotTitle="12">
+<?pi_hotspot dataModuleId="0" shape="0" version="12"?>
+     </hotspot>
+     <hotspot objectCoordinates="509,72,543,72,543,98,509,98" hotspotTitle="11">
+<?pi_hotspot dataModuleId="0" shape="0" version="11"?>
+     </hotspot>
+     <hotspot objectCoordinates="433,62,467,62,467,88,433,88" hotspotTitle="10">
+<?pi_hotspot dataModuleId="0" shape="0" version="10"?>
+     </hotspot>
+     <hotspot objectCoordinates="373,70,400,70,400,96,373,96" hotspotTitle="9">
+<?pi_hotspot dataModuleId="0" shape="0" version="9"?>
+     </hotspot>
+     <hotspot objectCoordinates="18,1978,45,1978,45,2004,18,2004" hotspotTitle="8">
+<?pi_hotspot dataModuleId="0" shape="0" version="8"?>
+     </hotspot>
+     <hotspot objectCoordinates="21,1712,48,1712,48,1738,21,1738" hotspotTitle="7">
+<?pi_hotspot dataModuleId="0" shape="0" version="7"?>
+     </hotspot>
+     <hotspot objectCoordinates="24,1563,51,1563,51,1589,24,1589" hotspotTitle="6">
+<?pi_hotspot dataModuleId="0" shape="0" version="6"?>
+     </hotspot>
+     <hotspot objectCoordinates="51,1426,78,1426,78,1452,51,1452" hotspotTitle="5">
+<?pi_hotspot dataModuleId="0" shape="0" version="5"?>
+     </hotspot>
+     <hotspot objectCoordinates="168,1399,195,1399,195,1425,168,1425" hotspotTitle="4">
+<?pi_hotspot dataModuleId="0" shape="0" version="4"?>
+     </hotspot>
+     <hotspot objectCoordinates="66,917,93,917,93,943,66,943" hotspotTitle="3">
+<?pi_hotspot dataModuleId="0" shape="0" version="3"?>
+     </hotspot>
+     <hotspot objectCoordinates="65,521,92,521,92,547,65,547" hotspotTitle="2">
+<?pi_hotspot dataModuleId="0" shape="0" version="2"?>
+     </hotspot>
+     <hotspot objectCoordinates="168,84,195,84,195,110,168,110" hotspotTitle="1">
+<?pi_hotspot dataModuleId="0" shape="0" version="1"?>
+     </hotspot>
+<?pi_graphic blob_id="86041"?>
+    </graphic>
+   </figure>
+   <para> </para>
+  </description>
+ </content>
+</dmodule>

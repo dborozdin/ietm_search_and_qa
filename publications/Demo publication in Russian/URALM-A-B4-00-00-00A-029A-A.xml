@@ -1,0 +1,412 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC '-//W3C//NOTATION Portable Network Graphics//EN'>
+<!ENTITY DUMMYENTITY SYSTEM 'DUMMYENTITY.PNG' NDATA png>
+]>
+<dmodule xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/wrngflds.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <identAndStatusSection>
+  <dmAddress>
+   <dmIdent>
+    <dmCode itemLocationCode="A" infoCodeVariant="A" systemCode="B4" infoCode="029" subSubSystemCode="0" assyCode="00" systemDiffCode="A" subSystemCode="0" disassyCode="00" disassyCodeVariant="A" modelIdentCode="URALM"/>
+    <language languageIsoCode="ru" countryIsoCode="RU"/>
+    <issueInfo inWork="01" issueNumber="001"/>
+   </dmIdent>
+   <dmAddressItems>
+    <issueDate year="2021" month="11" day="02"/>
+    <dmTitle>
+     <techName>Электросистема</techName>
+     <infoName>Набор правил конфигурирования</infoName>
+     <infoNameVariant/>
+    </dmTitle>
+   </dmAddressItems>
+  </dmAddress>
+  <dmStatus issueType="new">
+   <security securityClassification="01"/>
+   <responsiblePartnerCompany enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </responsiblePartnerCompany>
+   <originator enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </originator>
+   <applic>
+    <displayText>
+     <simplePara>Все</simplePara>
+    </displayText>
+   </applic>
+   <techStandard>
+    <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+    <authorityExceptions/>
+    <authorityNotes/>
+   </techStandard>
+   <brexDmRef>
+    <dmRef>
+     <dmRefIdent>
+      <dmCode itemLocationCode="A" infoCodeVariant="A" systemCode="B4" infoCode="029" subSubSystemCode="0" assyCode="00" systemDiffCode="A" subSystemCode="0" disassyCode="00" disassyCodeVariant="A" modelIdentCode="URALM"/>
+      <language languageIsoCode="ru" countryIsoCode="RU"/>
+     </dmRefIdent>
+    </dmRef>
+   </brexDmRef>
+   <qualityAssurance>
+    <unverified/>
+   </qualityAssurance>
+  </dmStatus>
+ </identAndStatusSection>
+ <content>
+  <referencedApplicGroup>
+   <applic id="app-0001">
+    <displayText>
+     <simplePara>УРАЛ 44202-80М 4х4 - УРАЛ 44202-80М с колёсной формулой 4х4</simplePara>
+    </displayText>
+   </applic>
+   <applic id="app-0002">
+    <displayText>
+     <simplePara>УРАЛ 44202-80М 6х6 - УРАЛ 44202-80М с колёсной формулой 6х6</simplePara>
+    </displayText>
+   </applic>
+  </referencedApplicGroup>
+  <wiringFields>
+   <descrWire>
+    <descrCircuitIdent>
+     <fieldName>Circuit Code</fieldName>
+     <descr reasonForUpdateRefIds="reason" changeMark="1" changeType="modify" controlAuthorityRefs="authority">descr1</descr>
+     <refs>
+      <dmRef referredFragment="referredFragment1" derivativeClassificationRefId="ID1" applicRefId="ID1" caveat="cv01" securityClassification="01" id="ID1" reasonForUpdateRefIds="ID1 ID1 ID1 " p5:title="title1" p5:type="simple" xmlns:p5="http://www.w3.org/1999/xlink" changeMark="1" changeType="add" p5:href="href1" p5:show="replace" controlAuthorityRefs="ID1 ID1 ID1 " commercialClassification="cc01" p5:actuate="onRequest">
+       <dmRefIdent>
+        <identExtension extensionProducer="extensionProducer1" extensionCode="extensionCode1"/>
+        <dmCode itemLocationCode="A" infoCodeVariant="infoCodeVariant1" learnCode="learnCode1" systemCode="systemCode1" learnEventCode="A" infoCode="infoCode1" subSubSystemCode="subSubSystemCode1" assyCode="assyCode1" systemDiffCode="systemDiffCode1" subSystemCode="subSystemCode1" disassyCode="disassyCode1" disassyCodeVariant="disassyCodeVariant1" modelIdentCode="modelIdentCode1"/>
+        <language languageIsoCode="languageIsoCode1" countryIsoCode="countryIsoCode1"/>
+        <issueInfo inWork="0" issueNumber="0"/>
+       </dmRefIdent>
+       <dmAddressItems>
+        <issueDate year="2021" month="02" day="01"/>
+        <dmTitle>
+         <techName>text</techName>
+         <infoName>text</infoName>
+        </dmTitle>
+       </dmAddressItems>
+       <behavior linkShow="newPane" linkActuate="onLoad"/>
+      </dmRef>
+     </refs>
+    </descrCircuitIdent>
+    <descrWireNumber>
+     <fieldName>WireNumber</fieldName>
+    </descrWireNumber>
+    <descrSectionIdent>
+     <fieldName>SectionIdent</fieldName>
+    </descrSectionIdent>
+    <descrWireType>
+     <fieldName>WireType</fieldName>
+    </descrWireType>
+    <descrWireGauge>
+     <fieldName>WireGauge</fieldName>
+    </descrWireGauge>
+    <descrPartNumber>
+     <fieldName>PartNumber</fieldName>
+     <descr>Manufacturer Part Number</descr>
+    </descrPartNumber>
+    <descrHarnessIdent>
+     <fieldName>HarnessIdent</fieldName>
+     <descr>Harness Identification</descr>
+    </descrHarnessIdent>
+    <descrWireSeqNumber>
+     <fieldName>WireSeqNumber</fieldName>
+    </descrWireSeqNumber>
+    <descrWireInfoCircuitIdent>
+     <fieldName>WireInfoCircuitIdent</fieldName>
+    </descrWireInfoCircuitIdent>
+    <descrWireInfoSectionIdent>
+     <fieldName>WireInfoSectionIdent</fieldName>
+    </descrWireInfoSectionIdent>
+    <descrEmcCode>
+     <fieldName>EmcCode</fieldName>
+    </descrEmcCode>
+    <descrLength>
+     <fieldName>Length</fieldName>
+    </descrLength>
+    <descrWireColor>
+     <fieldName>WireColor</fieldName>
+    </descrWireColor>
+    <descrTwist>
+     <fieldName>Twist</fieldName>
+    </descrTwist>
+    <descrCoaxialCableFlag>
+     <fieldName>CoaxialCableFlag</fieldName>
+    </descrCoaxialCableFlag>
+    <descrTriaxialCableFlag>
+     <fieldName>TriaxialCableFlag</fieldName>
+    </descrTriaxialCableFlag>
+    <descrSignalInfo>
+     <fieldName>SignalInfo</fieldName>
+    </descrSignalInfo>
+    <descrFunctionalItemRef>
+     <fieldName>FunctionalItemRef</fieldName>
+    </descrFunctionalItemRef>
+    <descrContact>
+     <fieldName>Contact</fieldName>
+    </descrContact>
+    <descrWireConnectionCode>
+     <fieldName>WireConnectionCode</fieldName>
+    </descrWireConnectionCode>
+    <descrNetworkAnalysisCode>
+     <fieldName>NetworkAnalysisCode</fieldName>
+    </descrNetworkAnalysisCode>
+    <descrGroupCode>
+     <fieldName>GroupCode</fieldName>
+    </descrGroupCode>
+    <descrScreen>
+     <fieldName>Screen</fieldName>
+    </descrScreen>
+    <descrPreparationInfo>
+     <fieldName>PreparationInfo</fieldName>
+    </descrPreparationInfo>
+    <descrFinishingInfo>
+     <fieldName>FinishingInfo</fieldName>
+    </descrFinishingInfo>
+    <descrResponsiblePartnerCompany>
+     <fieldName>ResponsiblePartnerCompany</fieldName>
+    </descrResponsiblePartnerCompany>
+    <descrRouting>
+     <fieldName>Routing</fieldName>
+    </descrRouting>
+    <descrFeedThru>
+     <fieldName>FeedThru</fieldName>
+    </descrFeedThru>
+    <descrWireRoute>
+     <fieldName>WireRoute</fieldName>
+    </descrWireRoute>
+    <descrRestriction>
+     <fieldName>Restriction</fieldName>
+    </descrRestriction>
+    <descrNextHigherAssy>
+     <fieldName>NextHigherAssy</fieldName>
+    </descrNextHigherAssy>
+    <descrFunctionalDescrRef>
+     <fieldName>FunctionalDescrRef</fieldName>
+    </descrFunctionalDescrRef>
+    <descrIllustrationRef>
+     <fieldName>IllustrationRef</fieldName>
+    </descrIllustrationRef>
+   </descrWire>
+   <descrHarness>
+    <descrHarnessIdent>
+     <fieldName>descrHarnessIdent_fieldName</fieldName>
+    </descrHarnessIdent>
+    <descrAltPartNumber>
+     <fieldName>descrAltPartNumber_fieldName</fieldName>
+    </descrAltPartNumber>
+    <descrManufacturerCode>
+     <fieldName>descrManufacturerCode_fieldName1</fieldName>
+    </descrManufacturerCode>
+    <descrHarnessVariantIdent>
+     <fieldName>descrHarnessVariantIdent_fieldName1</fieldName>
+    </descrHarnessVariantIdent>
+    <descrHarnessVariantIssue>
+     <fieldName>descrHarnessVariantIssue_fieldName1</fieldName>
+    </descrHarnessVariantIssue>
+    <descrHarnessName>
+     <fieldName>descrHarnessName_fieldName1</fieldName>
+    </descrHarnessName>
+    <descrMinTemperature>
+     <fieldName>fieldName1</fieldName>
+    </descrMinTemperature>
+    <descrMaxTemperature>
+     <fieldName>descrMinTemperature_fieldName1</fieldName>
+    </descrMaxTemperature>
+    <descrHarnessEnvironment>
+     <fieldName>descrHarnessEnvironment_fieldName1</fieldName>
+    </descrHarnessEnvironment>
+    <descrSleeve>
+     <fieldName>descrSleeve_fieldName1</fieldName>
+    </descrSleeve>
+   </descrHarness>
+   <descrElectricalEquip>
+    <descrFunctionalItemRef>
+     <fieldName>descrFunctionalItemRef_fieldName2</fieldName>
+    </descrFunctionalItemRef>
+    <descrInstallationLocation>
+     <fieldName>descrInstallationLocation_fieldName1</fieldName>
+    </descrInstallationLocation>
+    <descrAccessDoorOrPanel>
+     <fieldName>descrAccessDoorOrPanel_fieldName1</fieldName>
+    </descrAccessDoorOrPanel>
+    <descrAssy>
+     <fieldName>descrAssy_fieldName1</fieldName>
+    </descrAssy>
+    <descrPositionOnNextHigherAssy>
+     <fieldName>descrPositionOnNextHigherAssy_fieldName1</fieldName>
+    </descrPositionOnNextHigherAssy>
+    <descrMaxMountingPositions>
+     <fieldName>descrMaxMountingPositions_fieldName1</fieldName>
+    </descrMaxMountingPositions>
+    <descrSystemBreakdownCode>
+     <fieldName>descrSystemBreakdownCode_fieldName1</fieldName>
+    </descrSystemBreakdownCode>
+    <descrSiblingPlugIdent>
+     <fieldName>descrSiblingPlugIdent_fieldName1</fieldName>
+    </descrSiblingPlugIdent>
+    <descrTransverseLink>
+     <fieldName>descrTransverseLink_fieldName1</fieldName>
+    </descrTransverseLink>
+    <descrConnectionListClass>
+     <fieldName>descrConnectionListClass_fieldName1</fieldName>
+    </descrConnectionListClass>
+    <descrElectricalContact>
+     <fieldName>descrElectricalContact_fieldName1</fieldName>
+    </descrElectricalContact>
+    <descrElectricalStateDescr>
+     <fieldName>descrElectricalStateDescr_fieldName1</fieldName>
+    </descrElectricalStateDescr>
+    <descrEquipName>
+     <fieldName>descrEquipName_fieldName1</fieldName>
+    </descrEquipName>
+    <descrReqQuantity>
+     <fieldName>descrReqQuantity_fieldName1</fieldName>
+    </descrReqQuantity>
+    <descrEquipDescrRef>
+     <fieldName>descrEquipDescrRef_fieldName1</fieldName>
+    </descrEquipDescrRef>
+   </descrElectricalEquip>
+   <descrStandardPartGroup>
+    <descrConnector>
+     <descrPartNumber>
+      <fieldName>descrPartNumber_fieldName2</fieldName>
+     </descrPartNumber>
+     <descrAltPartNumber>
+      <fieldName>Alternative Part Number</fieldName>
+      <descr>Alternative part number description</descr>
+     </descrAltPartNumber>
+     <descrMass>
+      <fieldName>descrMass_fieldName1</fieldName>
+     </descrMass>
+     <descrOrientation>
+      <fieldName>descrOrientation_fieldName1</fieldName>
+     </descrOrientation>
+     <descrRack>
+      <fieldName>descrRack_fieldName1</fieldName>
+     </descrRack>
+     <descrContactCount>
+      <fieldName>descrContactCount_fieldName1</fieldName>
+     </descrContactCount>
+     <descrContactDiameter>
+      <fieldName>descrContactDiameter_fieldName1</fieldName>
+     </descrContactDiameter>
+     <descrThermoCouplePlus>
+      <fieldName>fieldName1</fieldName>
+     </descrThermoCouplePlus>
+     <descrThermoCoupleMinus>
+      <fieldName>descrThermoCouplePlus_fieldName1</fieldName>
+     </descrThermoCoupleMinus>
+     <descrSpecialTerminal>
+      <fieldName>descrSpecialTerminal_fieldName1</fieldName>
+     </descrSpecialTerminal>
+     <descrTerminationModuleGroupingValue>
+      <fieldName>descrTerminationModuleGroupingValue_fieldName1</fieldName>
+     </descrTerminationModuleGroupingValue>
+     <descrBlockGroupingValue>
+      <fieldName>descrBlockGroupingValue_fieldName1</fieldName>
+     </descrBlockGroupingValue>
+     <descrShuntGroupingValue>
+      <fieldName>descrShuntGroupingValue_fieldName1</fieldName>
+     </descrShuntGroupingValue>
+     <descrAccessoryPartNumber>
+      <fieldName>descrAccessoryPartNumber_fieldName1</fieldName>
+     </descrAccessoryPartNumber>
+    </descrConnector>
+    <descrDistributionPart>
+     <descrPartNumber>
+      <fieldName>descrPartNumber_fieldName3</fieldName>
+     </descrPartNumber>
+     <descrContactSize>
+      <fieldName>descrContactSize_fieldName1</fieldName>
+     </descrContactSize>
+     <descrMaterial>
+      <fieldName>descrMaterial_fieldName1</fieldName>
+     </descrMaterial>
+     <descrSurfaceProtection>
+      <fieldName>descrSurfaceProtection_fieldName1</fieldName>
+     </descrSurfaceProtection>
+    </descrDistributionPart>
+    <descrAccessory>
+     <descrPartNumber>
+      <fieldName>descrPartNumber_fieldName4</fieldName>
+     </descrPartNumber>
+    </descrAccessory>
+    <descrSolderSleeve>
+     <descrPartNumber>
+      <fieldName>descrPartNumber_fieldName5</fieldName>
+     </descrPartNumber>
+     <descrMinDiameter>
+      <fieldName>descrMinDiameter_fieldName1</fieldName>
+     </descrMinDiameter>
+     <descrMaxDiameter>
+      <fieldName>descrMaxDiameter_fieldName1</fieldName>
+     </descrMaxDiameter>
+    </descrSolderSleeve>
+    <descrShrinkSleeve>
+     <descrPartNumber>
+      <fieldName>descrPartNumber_fieldName6</fieldName>
+     </descrPartNumber>
+     <descrMaxHarnessSize>
+      <fieldName>descrMaxHarnessSize_fieldName1</fieldName>
+     </descrMaxHarnessSize>
+    </descrShrinkSleeve>
+    <descrIdentSleeve>
+     <descrPartNumber>
+      <fieldName>descrPartNumber_fieldName7</fieldName>
+     </descrPartNumber>
+    </descrIdentSleeve>
+    <descrConduit>
+     <descrPartNumber>
+      <fieldName>descrPartNumber_fieldName8</fieldName>
+     </descrPartNumber>
+     <descrWallThickness>
+      <fieldName>Wall Thickness</fieldName>
+      <descr>Wall Thickness Description</descr>
+     </descrWallThickness>
+    </descrConduit>
+    <descrWireMaterial>
+     <descrPartNumber>
+      <fieldName>111111</fieldName>
+      <descr changeType="add">22222</descr>
+      <refs>
+       <dmRef>
+        <dmRefIdent>
+         <dmCode itemLocationCode="A" infoCodeVariant="A" systemCode="B3" infoCode="031" subSubSystemCode="0" assyCode="00" systemDiffCode="A" subSystemCode="2" disassyCode="00" disassyCodeVariant="A" modelIdentCode="URALM"/>
+        </dmRefIdent>
+       </dmRef>
+       <dmRef>
+        <dmRefIdent>
+         <dmCode itemLocationCode="A" infoCodeVariant="A" systemCode="B3" infoCode="057" subSubSystemCode="0" assyCode="00" systemDiffCode="A" subSystemCode="2" disassyCode="00" disassyCodeVariant="A" modelIdentCode="URALM"/>
+        </dmRefIdent>
+       </dmRef>
+      </refs>
+     </descrPartNumber>
+     <descrAltPartNumber>
+      <fieldName>altpart</fieldName>
+      <refs>
+       <dmRef>
+        <dmRefIdent>
+         <dmCode itemLocationCode="A" infoCodeVariant="A" systemCode="B3" infoCode="058" subSubSystemCode="0" assyCode="00" systemDiffCode="A" subSystemCode="2" disassyCode="00" disassyCodeVariant="A" modelIdentCode="URALM"/>
+        </dmRefIdent>
+       </dmRef>
+      </refs>
+     </descrAltPartNumber>
+     <descrSize>
+      <fieldName>sizeeeeeee</fieldName>
+      <refs/>
+     </descrSize>
+     <descrMaxTemperature>
+      <fieldName>123</fieldName>
+     </descrMaxTemperature>
+     <descrFrequency>
+      <fieldName>123</fieldName>
+     </descrFrequency>
+     <descrFunctionalDescrRef>
+      <fieldName>Functional</fieldName>
+      <descr reasonForUpdateRefIds="123" changeType="add" controlAuthorityRefs="456">Desciption2</descr>
+     </descrFunctionalDescrRef>
+    </descrWireMaterial>
+   </descrStandardPartGroup>
+  </wiringFields>
+ </content>
+</dmodule>

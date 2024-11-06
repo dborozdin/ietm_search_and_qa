@@ -1,0 +1,210 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+<!ENTITY ICN-URALM-A-K21300-A-SFX44-00007-A-001-01 SYSTEM "ICN-URALM-A-K21300-A-SFX44-00007-A-001-01.png" NDATA png>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/ipd.xsd">
+ 
+<identAndStatusSection>
+    <dmAddress>
+        <dmIdent>
+            <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="941" infoCodeVariant="A" itemLocationCode="A" modelIdentCode="URALM" subSubSystemCode="3" subSystemCode="1" systemCode="K2" systemDiffCode="A"/>
+            <language countryIsoCode="RU" languageIsoCode="ru"/>
+            <issueInfo issueNumber="001" inWork="05"/>
+        </dmIdent>
+        <dmAddressItems>
+            <issueDate year="2021" month="11" day="05"/>
+            <dmTitle>
+                <techName>Система регулирования давления воздуха в шинах</techName>
+                <infoName>Каталог деталей и сборочных единиц</infoName>
+            </dmTitle>
+        </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+        <security securityClassification="01"/>
+        <responsiblePartnerCompany enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </responsiblePartnerCompany>
+        <originator enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </originator>
+        <applic>
+            <displayText>
+                <simplePara>Все</simplePara>
+            </displayText>
+        </applic>
+        <techStandard>
+            <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+            <authorityExceptions/>
+            <authorityNotes/>
+        </techStandard>
+        <brexDmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="URALM" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A"/>
+                </dmRefIdent>
+            </dmRef>
+        </brexDmRef>
+        <qualityAssurance>
+            <unverified/>
+        </qualityAssurance>
+    </dmStatus>
+</identAndStatusSection>
+ <content>
+  <illustratedPartsCatalog>
+   <figure id="fig-0000">
+    <title>Установка электромагнитного клапана</title>
+    <graphic infoEntityIdent="ICN-URALM-A-K21300-A-SFX44-00007-A-001-01" id="fig-0000-gra-0000">
+     <hotspot objectCoordinates="349,388,381,388,381,411,349,411" hotspotTitle="32">
+<?pi_hotspot dataModuleId="0" name="Трубка запитки клапана накачки шин" shape="0" version="32"?>
+     </hotspot>
+     <hotspot objectCoordinates="671,44,703,44,703,67,671,67" hotspotTitle="14">
+<?pi_hotspot dataModuleId="0" name="Трубка от клапана накачки шин" shape="0" version="14"?>
+     </hotspot>
+     <hotspot objectCoordinates="466,205,498,205,498,228,466,228" hotspotTitle="13">
+<?pi_hotspot dataModuleId="85952" name="Клапан электромагнитный" shape="0" version="13"?>
+     </hotspot>
+     <hotspot objectCoordinates="321,721,353,721,353,744,321,744" hotspotTitle="12">
+<?pi_hotspot dataModuleId="0" name="Трубка от клапана накачки шин" shape="0" version="12"?>
+     </hotspot>
+     <hotspot objectCoordinates="672,655,698,655,698,678,672,678" hotspotTitle="5">
+<?pi_hotspot dataModuleId="0" name="Трубка от клапана накачки шин" shape="0" version="5"?>
+     </hotspot>
+<?pi_graphic blob_id="86000"?>
+    </graphic>
+   </figure>
+   <catalogSeqNumber assyCode="00" item="000" figureNumber="01" subSubSystemCode="3" subSystemCode="1" indenture="1" systemCode="K2">
+    <itemSeqNumber itemSeqNumberValue="">
+     <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+     <partRef partNumberValue="K2-13-00" manufacturerCodeValue=""/>
+     <partSegment>
+      <itemIdentData>
+       <descrForPart>Система регулирования давления в шинах</descrForPart>
+       <natoStockNumber>
+        <fullNatoStockNumber/>
+       </natoStockNumber>
+      </itemIdentData>
+      <techData>
+       <unitOfIssue/>
+       <unitOfIssueQualificationSegment unitOfMeasure="">
+        <quantityPerUnit/>
+       </unitOfIssueQualificationSegment>
+      </techData>
+     </partSegment>
+    </itemSeqNumber>
+<?catalogSeqNumber_pi csn="" dfl="" qui="1" rtx="" pos=""?>
+<?idInfo_pi id="" id_ref="0"?>
+   </catalogSeqNumber>
+   <catalogSeqNumber assyCode="00" item="005" figureNumber="01" subSubSystemCode="3" subSystemCode="1" indenture="2" systemCode="K2">
+    <itemSeqNumber itemSeqNumberValue="">
+     <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+     <partRef partNumberValue="4320Т-3125104" manufacturerCodeValue=""/>
+     <partSegment>
+      <itemIdentData>
+       <descrForPart>Трубка от клапана накачки шин</descrForPart>
+       <natoStockNumber>
+        <fullNatoStockNumber/>
+       </natoStockNumber>
+      </itemIdentData>
+      <techData>
+       <unitOfIssue/>
+       <unitOfIssueQualificationSegment unitOfMeasure="">
+        <quantityPerUnit/>
+       </unitOfIssueQualificationSegment>
+      </techData>
+     </partSegment>
+    </itemSeqNumber>
+<?catalogSeqNumber_pi csn="" dfl="" qui="1" rtx="" pos="5"?>
+<?idInfo_pi id="" id_ref="0"?>
+   </catalogSeqNumber>
+   <catalogSeqNumber assyCode="00" item="012" figureNumber="01" subSubSystemCode="3" subSystemCode="1" indenture="2" systemCode="K2">
+    <itemSeqNumber itemSeqNumberValue="">
+     <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+     <partRef partNumberValue="4320Т3125106" manufacturerCodeValue=""/>
+     <partSegment>
+      <itemIdentData>
+       <descrForPart>Трубка от клапана накачки шин</descrForPart>
+       <natoStockNumber>
+        <fullNatoStockNumber/>
+       </natoStockNumber>
+      </itemIdentData>
+      <techData>
+       <unitOfIssue/>
+       <unitOfIssueQualificationSegment unitOfMeasure="">
+        <quantityPerUnit/>
+       </unitOfIssueQualificationSegment>
+      </techData>
+     </partSegment>
+    </itemSeqNumber>
+<?catalogSeqNumber_pi csn="" dfl="" qui="1" rtx="" pos="12"?>
+<?idInfo_pi id="" id_ref="0"?>
+   </catalogSeqNumber>
+   <catalogSeqNumber assyCode="00" item="013" figureNumber="01" subSubSystemCode="3" subSystemCode="1" indenture="2" systemCode="K2">
+    <itemSeqNumber itemSeqNumberValue="">
+     <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+     <partRef partNumberValue="4729000530" manufacturerCodeValue=""/>
+     <partSegment>
+      <itemIdentData>
+       <descrForPart>Клапан электромагнитный</descrForPart>
+       <natoStockNumber>
+        <fullNatoStockNumber/>
+       </natoStockNumber>
+      </itemIdentData>
+      <techData>
+       <unitOfIssue/>
+       <unitOfIssueQualificationSegment unitOfMeasure="">
+        <quantityPerUnit/>
+       </unitOfIssueQualificationSegment>
+      </techData>
+     </partSegment>
+    </itemSeqNumber>
+<?catalogSeqNumber_pi csn="" dfl="" qui="1" rtx="" pos="13"?>
+<?idInfo_pi id="" id_ref="0"?>
+   </catalogSeqNumber>
+   <catalogSeqNumber assyCode="00" item="014" figureNumber="01" subSubSystemCode="3" subSystemCode="1" indenture="2" systemCode="K2">
+    <itemSeqNumber itemSeqNumberValue="">
+     <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+     <partRef partNumberValue="4320Т-3125100" manufacturerCodeValue=""/>
+     <partSegment>
+      <itemIdentData>
+       <descrForPart>Трубка от клапана накачки шин</descrForPart>
+       <natoStockNumber>
+        <fullNatoStockNumber/>
+       </natoStockNumber>
+      </itemIdentData>
+      <techData>
+       <unitOfIssue/>
+       <unitOfIssueQualificationSegment unitOfMeasure="">
+        <quantityPerUnit/>
+       </unitOfIssueQualificationSegment>
+      </techData>
+     </partSegment>
+    </itemSeqNumber>
+<?catalogSeqNumber_pi csn="" dfl="" qui="1" rtx="" pos="14"?>
+<?idInfo_pi id="" id_ref="0"?>
+   </catalogSeqNumber>
+   <catalogSeqNumber assyCode="00" item="032" figureNumber="01" subSubSystemCode="3" subSystemCode="1" indenture="2" systemCode="K2">
+    <itemSeqNumber itemSeqNumberValue="">
+     <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+     <partRef partNumberValue="4320Т3125110" manufacturerCodeValue=""/>
+     <partSegment>
+      <itemIdentData>
+       <descrForPart>Трубка запитки клапана накачки шин</descrForPart>
+       <natoStockNumber>
+        <fullNatoStockNumber/>
+       </natoStockNumber>
+      </itemIdentData>
+      <techData>
+       <unitOfIssue/>
+       <unitOfIssueQualificationSegment unitOfMeasure="">
+        <quantityPerUnit/>
+       </unitOfIssueQualificationSegment>
+      </techData>
+     </partSegment>
+    </itemSeqNumber>
+<?catalogSeqNumber_pi csn="" dfl="" qui="1" rtx="" pos="32"?>
+<?idInfo_pi id="" id_ref="0"?>
+   </catalogSeqNumber>
+  </illustratedPartsCatalog>
+ </content>
+</dmodule>

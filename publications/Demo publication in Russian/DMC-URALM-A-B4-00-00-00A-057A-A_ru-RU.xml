@@ -1,0 +1,1398 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC '-//W3C//NOTATION Portable Network Graphics//EN'>
+<!ENTITY DUMMYENTITY SYSTEM 'DUMMYENTITY.PNG' NDATA png>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/wrngdata.xsd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <identAndStatusSection>
+  <dmAddress>
+   <dmIdent>
+    <dmCode disassyCodeVariant="A" infoCode="057" systemCode="B4" infoCodeVariant="A" systemDiffCode="A" itemLocationCode="A" assyCode="00" modelIdentCode="URALM" subSystemCode="0" disassyCode="00" subSubSystemCode="0"/>
+    <language languageIsoCode="ru" countryIsoCode="RU"/>
+    <issueInfo issueNumber="001" inWork="01"/>
+   </dmIdent>
+   <dmAddressItems>
+    <issueDate month="11" day="02" year="2021"/>
+    <dmTitle>
+     <techName>Электросоединения</techName>
+     <infoName>Перечень соединений</infoName>
+     <infoNameVariant/>
+    </dmTitle>
+   </dmAddressItems>
+  </dmAddress>
+  <dmStatus issueType="new">
+   <security securityClassification="01"/>
+   <responsiblePartnerCompany enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </responsiblePartnerCompany>
+   <originator enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </originator>
+   <applic>
+    <displayText>
+     <simplePara>Все</simplePara>
+    </displayText>
+   </applic>
+   <techStandard>
+    <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+    <authorityExceptions/>
+    <authorityNotes/>
+   </techStandard>
+   <brexDmRef>
+    <dmRef>
+     <dmRefIdent>
+      <dmCode disassyCodeVariant="A" infoCode="057" systemCode="B4" infoCodeVariant="A" systemDiffCode="A" itemLocationCode="A" assyCode="00" modelIdentCode="URALM" subSystemCode="0" disassyCode="00" subSubSystemCode="0"/>
+      <language languageIsoCode="ru" countryIsoCode="RU"/>
+     </dmRefIdent>
+    </dmRef>
+   </brexDmRef>
+   <qualityAssurance>
+    <unverified/>
+   </qualityAssurance>
+  </dmStatus>
+ </identAndStatusSection>
+ <content>
+  <referencedApplicGroup>
+   <applic id="app-0001">
+    <displayText>
+     <simplePara>УРАЛ 44202-80М с колёсной формулой 4х4</simplePara>
+    </displayText>
+   </applic>
+   <applic id="app-0002">
+    <displayText>
+     <simplePara>УРАЛ 44202-80М с колёсной формулой 6х6</simplePara>
+    </displayText>
+   </applic>
+  </referencedApplicGroup>
+  <wiringData>
+   <wireGroup>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="PN-AC-12561" itemOriginator="orig01">
+      <wireNumber>6531</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="771.3709-02.00" manufacturerCodeValue="F0001" contextIdent="PN-AC-12561" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="U" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>01</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="PN-AC-12561" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="31" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="PN-AC-12561" itemOriginator="orig01">4420БМ-3724032</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="1">Batt</twist>
+      </twistGroup>
+      <length wireLengthType="critical">400</length>
+      <wireColor>фиолетовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="PN-AC-12561" itemOriginator="orig01">
+      <wireNumber>6564</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="771.3709-02.00" manufacturerCodeValue="F0001" contextIdent="PN-AC-12561" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="S" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>01</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="PN-AC-12561" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="64" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="PN-AC-12561" itemOriginator="orig01">4420БМ-3724032</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="1">Batt</twist>
+      </twistGroup>
+      <length wireLengthType="critical">400</length>
+      <wireColor>фиолетовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="PN-AC-12561" itemOriginator="orig01">
+      <wireNumber>1171</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="771.3709-02.00" manufacturerCodeValue="F0001" contextIdent="PN-AC-12561" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="9" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>00</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="PN-AC-12561" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="18" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="PN-AC-12561" itemOriginator="orig01">4420БМ-3724032</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">400</length>
+      <wireColor>голубой</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>1106</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="1391.210010010100" manufacturerCodeValue="F0001" contextIdent="Тахограф" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="B3" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>01</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="9" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="УРАЛ 4320" itemOriginator="orig01">4320-3735049</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>голубой</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>L0134</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="1391.210010010100" manufacturerCodeValue="F0001" contextIdent="Тахограф" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="A8" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="7" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="УРАЛ 4320" itemOriginator="orig01">4320-3735049</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>голубой</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>0000</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="1391.210010010100" manufacturerCodeValue="F0001" contextIdent="Тахограф" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="A6" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="6" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="УРАЛ 4320" itemOriginator="orig01">4320-3735049</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>коричневый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>0066</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="1391.210010010100" manufacturerCodeValue="F0001" contextIdent="Тахограф" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="A5" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="5" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="УРАЛ 4320" itemOriginator="orig01">4320-3735049</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>голубой</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>Н0135</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="1391.210010010100" manufacturerCodeValue="F0001" contextIdent="Тахограф" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="A4" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="4" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="УРАЛ 4320" itemOriginator="orig01">4320-3735049</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>коричневый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>8871</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="1391.210010010100" manufacturerCodeValue="F0001" contextIdent="Тахограф" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="A3" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="3" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="УРАЛ 4320" itemOriginator="orig01">4320-3735049</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>зеленый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>4442</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="1391.210010010100" manufacturerCodeValue="F0001" contextIdent="Тахограф" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="A2" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="2" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="УРАЛ 4320" itemOriginator="orig01">4320-3735049</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>серый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>7772</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="1391.210010010100" manufacturerCodeValue="F0001" contextIdent="Тахограф" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="1" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="650.3763010(EDC-7UC31)" manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="1" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504" contextIdent="УРАЛ 4320" itemOriginator="orig01">4320-3735049</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>красный</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>2228</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="1" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>1</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="2РТ980.680" manufacturerCodeValue="F0001" contextIdent="Дневной ходовой огонь" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="1" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов основной" itemOriginator="orig01">4420БМ-3724026</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>белый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>2260</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="2" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="2РТ980.680" manufacturerCodeValue="F0001" contextIdent="Дневной ходовой огонь" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="2" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов основной" itemOriginator="orig01">4420БМ-3724026</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>белый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>1129</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="4" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="26.3726010" manufacturerCodeValue="F0001" contextIdent="Указатель поворота левый" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="4" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины левый" itemOriginator="orig01">636453724025</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>голубой</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>1123</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="5" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="26.3726010" manufacturerCodeValue="F0001" contextIdent="Указатель поворота правый" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="4" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины правый" itemOriginator="orig01">636453724024</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>голубой</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>9034</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="10" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="671.3711" manufacturerCodeValue="2671.3711" contextIdent="Фара левая" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="1" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины левый" itemOriginator="orig01">636453724025</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>розовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>9134</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="14" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="671.3711" manufacturerCodeValue="2671.3711" contextIdent="Фара правая" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="1" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины правый" itemOriginator="orig01">636453724024</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>розовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>9035</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="11" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="671.3711" manufacturerCodeValue="2671.3711" contextIdent="Фара левая" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="2" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины левый" itemOriginator="orig01">636453724025</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>розовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>9036</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="12" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="671.3711" manufacturerCodeValue="2671.3711" contextIdent="Фара левая" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="3" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины левый" itemOriginator="orig01">636453724025</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>розовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>9037</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="13" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="671.3711" manufacturerCodeValue="2671.3711" contextIdent="Фара левая" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="4" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины левый" itemOriginator="orig01">636453724025</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>розовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>9039</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="18" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="671.3711" manufacturerCodeValue="2671.3711" contextIdent="Фара левая" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="5" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины левый" itemOriginator="orig01">636453724025</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>розовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>9135</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="15" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="671.3711" manufacturerCodeValue="2671.3711" contextIdent="Фара правая" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="2" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины правый" itemOriginator="orig01">636453724024</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>розовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>9136</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="12" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="671.3711" manufacturerCodeValue="2671.3711" contextIdent="Фара правая" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="3" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины правый" itemOriginator="orig01">636453724024</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>розовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>9137</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="13" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="671.3711" manufacturerCodeValue="2671.3711" contextIdent="Фара правая" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="4" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины правый" itemOriginator="orig01">636453724024</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>розовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="active">
+     <wireIdent manufacturerCodeValue="F0001" contextIdent="УРАЛ 4320" itemOriginator="orig01">
+      <wireNumber>9139</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="П305" manufacturerCodeValue="F0001" contextIdent="Переключатель света центральный" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="19" wireInstallationDirection="A"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>2</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="671.3711" manufacturerCodeValue="2671.3711" contextIdent="Фара правая" itemOriginator="orig01"/>
+       <contactInfo>
+        <contact contactIdent="5" wireInstallationDirection="B"/>
+        <wireConnectionCode>
+         <electricalPotential>
+          <contactOrderValue>Сигнал</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>02</networkAnalysisCode>
+       </contactInfo>
+      </toEquip>
+     </wireConnection>
+     <wireInfo>
+      <wireCode>
+       <wireType>AP</wireType>
+       <wireGauge wireGaugeType="proj">010</wireGauge>
+      </wireCode>
+      <harnessIdent manufacturerCodeValue="3504-9-1" contextIdent="Пучок проводов кабины правый" itemOriginator="orig01">636453724024</harnessIdent>
+      <wireSeqNumber>1</wireSeqNumber>
+      <twistGroup>
+       <twist twistingType="-">нет</twist>
+      </twistGroup>
+      <length wireLengthType="critical">200</length>
+      <wireColor>розовый</wireColor>
+      <responsiblePartnerCompany enterpriseCode="35049">
+       <enterpriseName>АО "Электрокабель"</enterpriseName>
+      </responsiblePartnerCompany>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </wireInfo>
+    </wire>
+    <wire applicRefId="app-0001" wireState="logconn">
+     <wireIdent>
+      <wireNumber>ND1</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="2РТ980.680"/>
+       <contactInfo>
+        <wireConnectionCode>
+         <screenOrder>1</screenOrder>
+         <specialConnection>100</specialConnection>
+         <electricalPotential>
+          <contactOrderValue>0</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>01</networkAnalysisCode>
+       </contactInfo>
+       <screenGroup>
+        <screen screenLevel="01" screenStyle="01" screenType="03"/>
+       </screenGroup>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="2РТ980.680"/>
+       <contactInfo>
+        <wireConnectionCode>
+         <screenOrder>1</screenOrder>
+         <electricalPotential>
+          <contactOrderValue>0</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>01</networkAnalysisCode>
+       </contactInfo>
+       <screenGroup>
+        <screen screenLevel="01" screenStyle="01" screenType="03">SCT1</screen>
+       </screenGroup>
+      </toEquip>
+     </wireConnection>
+    </wire>
+    <wire applicRefId="app-0001" wireState="logconn">
+     <wireIdent>
+      <wireNumber>ND2</wireNumber>
+     </wireIdent>
+     <wireConnection>
+      <fromEquip>
+       <functionalItemRef functionalItemNumber="2РТ980.680"/>
+       <contactInfo>
+        <wireConnectionCode>
+         <screenOrder>1</screenOrder>
+         <specialConnection>100</specialConnection>
+         <electricalPotential>
+          <contactOrderValue>0</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>01</networkAnalysisCode>
+       </contactInfo>
+       <screenGroup>
+        <screen screenLevel="01" screenStyle="01" screenType="03"/>
+       </screenGroup>
+      </fromEquip>
+      <toEquip>
+       <functionalItemRef functionalItemNumber="2РТ980.680"/>
+       <contactInfo>
+        <wireConnectionCode>
+         <screenOrder>1</screenOrder>
+         <electricalPotential>
+          <contactOrderValue>0</contactOrderValue>
+         </electricalPotential>
+        </wireConnectionCode>
+        <networkAnalysisCode>01</networkAnalysisCode>
+       </contactInfo>
+       <screenGroup>
+        <screen screenLevel="01" screenStyle="01" screenType="03">SCT1</screen>
+       </screenGroup>
+      </toEquip>
+     </wireConnection>
+    </wire>
+   </wireGroup>
+  </wiringData>
+ </content>
+</dmodule>

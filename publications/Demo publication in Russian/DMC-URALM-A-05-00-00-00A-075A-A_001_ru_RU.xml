@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!NOTATION jpg PUBLIC "+//ISBN 0-7923-9432-1::Graphic Notation//NOTATION Joint Photographic Experts Group Raster//EN">
+<!ENTITY PUBLICATION_LOGO SYSTEM "publication_logo.JPG" NDATA jpg>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="URALM" systemDiffCode="A" systemCode="05" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="075" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="ru" countryIsoCode="RU"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2019" month="07" day="29"/>
+        <dmTitle>
+          <techName>Урал-44202-80М</techName>
+          <infoName>Нормы расхода запасных частей</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <logo><symbol infoEntityIdent="PUBLICATION_LOGO"/></logo>
+      <responsiblePartnerCompany enterpriseCode="00000">
+        <enterpriseName>Ответственная компания</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="00000">
+        <enterpriseName>АО «Автомобильный завод «УРАЛ»</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>Все</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="URALM" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+
+
+
+<content>
+<rpl>
+<sparePartsList>
+  <sparePartsListTitle>
+  <operatingPeriod thresholdUnitOfMeasure="th57" value="10000"></operatingPeriod>
+        <productName>Урал-44202-80М</productName>
+		<remarks></remarks>
+  </sparePartsListTitle>
+  
+  <sparePartsListContent>
+    <sparePartsListSection>
+      <sectionTitle>Детали ходовой части</sectionTitle>
+              
+        <sparePartsListItem itemUnitOfMeasure="EA">
+		<itemIdent>375-2902414-01</itemIdent>
+		<itemName>Буфер передней рессоры</itemName>
+		<itemStockNumber>B3100001A008</itemStockNumber>
+		<itemQuantity>2</itemQuantity>
+		<itemWeight itemUnitOfMeasure="kg">0,3</itemWeight>
+		<itemExpenditureRate>2</itemExpenditureRate>
+		<itemPrice currencycode="Р">500</itemPrice>
+		<remarks></remarks>
+		</sparePartsListItem>
+		
+		<sparePartsListItem itemUnitOfMeasure="EA">
+		<itemIdent>4320-2902413</itemIdent>
+		<itemName>Накладка рессоры</itemName>
+		<itemStockNumber>B3100001A009</itemStockNumber>
+		<itemQuantity>2</itemQuantity>
+		<itemWeight itemUnitOfMeasure="kg">0,1</itemWeight>
+		<itemExpenditureRate>2</itemExpenditureRate>
+		<itemPrice currencycode="Р">450</itemPrice>
+		<remarks></remarks>
+		</sparePartsListItem>
+		
+		<sparePartsListItem itemUnitOfMeasure="EA">
+		<itemIdent>264040-П29</itemIdent>
+		<itemName>Масленка 2.3.90 Ц6 ГОСТ 19853-74</itemName>
+		<itemStockNumber>B3100001A014</itemStockNumber>
+		<itemQuantity>2</itemQuantity>
+		<itemWeight itemUnitOfMeasure="kg">0,05</itemWeight>
+		<itemExpenditureRate>2</itemExpenditureRate>
+		<itemPrice currencycode="Р">50</itemPrice>
+		<remarks></remarks>
+		</sparePartsListItem>
+		
+		<sparePartsListItem itemUnitOfMeasure="EA">
+		<itemIdent>375-2902453</itemIdent>
+		<itemName>Вкладыш боковой</itemName>
+		<itemStockNumber>B3100001A014</itemStockNumber>
+		<itemQuantity>4</itemQuantity>
+		<itemWeight itemUnitOfMeasure="kg">0,05</itemWeight>
+		<itemExpenditureRate>8</itemExpenditureRate>
+		<itemPrice currencycode="Р">150</itemPrice>
+		<remarks></remarks>
+		</sparePartsListItem>
+		
+		<sparePartsListItem itemUnitOfMeasure="EA">
+		<itemIdent>375-2902449-20</itemIdent>
+		<itemName>Вкладыш заднего кронштейна</itemName>
+		<itemStockNumber>B3100001A024</itemStockNumber>
+		<itemQuantity>2</itemQuantity>
+		<itemWeight itemUnitOfMeasure="kg">0,1</itemWeight>
+		<itemExpenditureRate>2</itemExpenditureRate>
+		<itemPrice currencycode="Р">320</itemPrice>
+		<remarks></remarks>
+		</sparePartsListItem>
+		
+		<sparePartsListItem itemUnitOfMeasure="EA">
+		<itemIdent>5320-2912624</itemIdent>
+		<itemName>Буфер задней рессоры</itemName>
+		<itemStockNumber>B3100002A005</itemStockNumber>
+		<itemQuantity>4</itemQuantity>
+		<itemWeight itemUnitOfMeasure="kg">0,3</itemWeight>
+		<itemExpenditureRate>2</itemExpenditureRate>
+		<itemPrice currencycode="Р">550</itemPrice>
+		<remarks></remarks>
+		</sparePartsListItem>
+  
+    </sparePartsListSection>
+    
+	</sparePartsListContent>
+  </sparePartsList>
+
+</rpl>
+  </content>
+</dmodule>

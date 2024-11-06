@@ -1,0 +1,15 @@
+streamlit
+torch
+lxml
+tensorflow-cpu==2.16.1
+tf-keras==2.16.0
+spacy
+transformers
+PyStemmer
+spacy>=3.7.2,<3.8.0
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+ru_core_news_sm @ https://huggingface.co/spacy/ru_core_news_sm/resolve/main/ru_core_news_sm-any-py3-none-any.whl
+
+
+
+

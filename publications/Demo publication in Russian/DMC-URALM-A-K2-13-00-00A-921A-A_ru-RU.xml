@@ -1,0 +1,247 @@
+<?xml version='1.0'?>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/proced.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ 
+<identAndStatusSection>
+    <dmAddress>
+        <dmIdent>
+            <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="921" infoCodeVariant="A" itemLocationCode="A" modelIdentCode="URALM" subSubSystemCode="3" subSystemCode="1" systemCode="K2" systemDiffCode="A"/>
+            <language countryIsoCode="RU" languageIsoCode="ru"/>
+            <issueInfo issueNumber="001" inWork="10"/>
+        </dmIdent>
+        <dmAddressItems>
+            <issueDate year="2021" month="11" day="05"/>
+            <dmTitle>
+                <techName>Клапан электромагнитный</techName>
+                <infoName>Замена</infoName>
+            </dmTitle>
+        </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+        <security securityClassification=""/>
+        <responsiblePartnerCompany enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </responsiblePartnerCompany>
+        <originator enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </originator>
+        <applic>
+            <displayText>
+                <simplePara>Все</simplePara>
+            </displayText>
+        </applic>
+        <techStandard>
+            <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+            <authorityExceptions/>
+            <authorityNotes/>
+        </techStandard>
+        <brexDmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="URALM" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A"/>
+                </dmRefIdent>
+            </dmRef>
+        </brexDmRef>
+        <qualityAssurance>
+            <unverified/>
+        </qualityAssurance>
+    </dmStatus>
+</identAndStatusSection>
+ <content>
+  <procedure>
+   <preliminaryRqmts>
+    <productionMaintData>
+     <workAreaLocationGroup>
+      <zoneRef zoneNumber="400">
+<?pi_preliminaryRqmts id="{abc45e9e-cfd2-4615-89a7-40db0506bdd9}" id_ref="86785"?>
+       <name>Платформа</name>
+      </zoneRef>
+     </workAreaLocationGroup>
+     <taskDuration closeupDuration="0" startupDuration="0" unitOfMeasure="h" procedureDuration="0.72999999999999998"/>
+    </productionMaintData>
+    <reqCondGroup>
+     <reqCondNoRef id="req-0001">
+      <reqCond>Перед началом проведения работ по замене клапана электромагнитного удалите воздух из системы регулирования давления в шинах, нажав на шток крана слива конденсата на воздушном балоне не тормозных потребителей.</reqCond>
+     </reqCondNoRef>
+    </reqCondGroup>
+    <reqSupportEquips>
+     <supportEquipDescrGroup>
+      <supportEquipDescr id="seq-0000">
+<?pi_preliminaryRqmts id="{dec509cf-ff63-4174-9edc-981af73ea3cc}" id_ref="86783"?>
+       <name>Ключ гаечный комбинированный 17 мм</name>
+       <identNumber>
+        <manufacturerCode/>
+        <partAndSerialNumber>
+         <partNumber>7811-0228</partNumber>
+        </partAndSerialNumber>
+       </identNumber>
+       <reqQuantity unitOfMeasure="EA">
+<?reqQuantity thUOM="th53"?>
+1</reqQuantity>
+      </supportEquipDescr>
+      <supportEquipDescr id="seq-0001">
+<?pi_preliminaryRqmts id="{4d32db72-3fc3-478b-ad2e-3706ea725db2}" id_ref="86782"?>
+       <name>Ключ динамометрический</name>
+       <identNumber>
+        <manufacturerCode/>
+        <partAndSerialNumber>
+         <partNumber>Ключ моментный Тип А ГОСТ Р 51254-99</partNumber>
+        </partAndSerialNumber>
+       </identNumber>
+       <reqQuantity unitOfMeasure="EA">
+<?reqQuantity thUOM="th53"?>
+1</reqQuantity>
+      </supportEquipDescr>
+     </supportEquipDescrGroup>
+    </reqSupportEquips>
+    <reqSupplies>
+     <supplyDescrGroup>
+      <supplyDescr id="sup-0000">
+<?pi_preliminaryRqmts id="{0f9adc21-9bc3-4e98-ad42-b2c9fa74d3ca}" id_ref="86781"?>
+       <name>Ветошь 509 ГОСТ 4643-75</name>
+       <identNumber>
+        <manufacturerCode/>
+        <partAndSerialNumber>
+         <partNumber>509 ГОСТ 4643-75</partNumber>
+        </partAndSerialNumber>
+       </identNumber>
+       <reqQuantity unitOfMeasure="EA">
+<?reqQuantity thUOM="th55"?>
+1</reqQuantity>
+      </supplyDescr>
+     </supplyDescrGroup>
+    </reqSupplies>
+    <reqSpares>
+     <spareDescrGroup>
+      <spareDescr id="spa-0000">
+<?pi_preliminaryRqmts id="{2708b319-c7a9-4e1e-ab35-643bd58aaa66}" id_ref="86784"?>
+       <name>Клапан обратный</name>
+       <identNumber>
+        <manufacturerCode/>
+        <partAndSerialNumber>
+         <partNumber>11.3567010-10</partNumber>
+        </partAndSerialNumber>
+       </identNumber>
+       <reqQuantity unitOfMeasure="EA">
+<?reqQuantity thUOM="th53"?>
+1</reqQuantity>
+      </spareDescr>
+     </spareDescrGroup>
+    </reqSpares>
+    <reqSafety>
+     <safetyRqmts>
+      <caution>
+       <warningAndCautionPara>Запрещается проводить работы без стравливания воздуха из системы!</warningAndCautionPara>
+      </caution>
+     </safetyRqmts>
+    </reqSafety>
+   </preliminaryRqmts>
+   <mainProcedure>
+    <proceduralStep id="stp-0000">
+     <para>Демонтаж:</para>
+     <para>Для демонтажа клапана электромагнитного необходимо выполнить следующие действия:</para>
+     <proceduralStep id="stp-0001">
+      <para>Открутить накидные гайки трех гибких шлангов от клапана накачки к мостам.</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0002">
+      <para>Вывернуть шланги из угловых фиттингов клапана.</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0003">
+      <para>Открутить накидную гайку гибкой трубки запитки клапана накачки шин.</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0004">
+      <para>Вывернуть трубку запитки из фиттинга клапана.</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0005">
+      <para>Отсоединить штекерное соединения от клапана.</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0006">
+      <para>Открутить два болта крепления электромагнитного клапана к кронштейну на раме и снять клапан.</para>
+      <figure id="fig-0000">
+       <title>Открутить два болта крепления клапана</title>
+       <graphic id="fig-0000-gra-0000" infoEntityIdent="ICN-URALM-A-K21300-A-SFX44-00005-A-001-01">
+        <hotspot objectCoordinates="156,122,188,122,188,145,156,145" hotspotTitle="10">
+<?pi_hotspot dataModuleId="0" name="Гайка" shape="0" version="10"?>
+        </hotspot>
+        <hotspot objectCoordinates="157,271,189,271,189,294,157,294" hotspotTitle="10">
+<?pi_hotspot dataModuleId="0" name="Гайка" shape="0" version="10"?>
+        </hotspot>
+        <hotspot objectCoordinates="207,290,233,290,233,313,207,313" hotspotTitle="9">
+<?pi_hotspot dataModuleId="0" name="Шайба" shape="0" version="9"?>
+        </hotspot>
+        <hotspot objectCoordinates="205,143,237,143,237,166,205,166" hotspotTitle="9">
+<?pi_hotspot dataModuleId="0" name="Шайба" shape="0" version="9"?>
+        </hotspot>
+        <hotspot objectCoordinates="564,746,590,746,590,769,564,769" hotspotTitle="8">
+<?pi_hotspot dataModuleId="0" name="Фиттинг угловой" shape="0" version="8"?>
+        </hotspot>
+        <hotspot objectCoordinates="517,653,543,653,543,676,517,676" hotspotTitle="8">
+<?pi_hotspot dataModuleId="0" name="Фиттинг угловой" shape="0" version="8"?>
+        </hotspot>
+        <hotspot objectCoordinates="605,861,631,861,631,884,605,884" hotspotTitle="7">
+<?pi_hotspot dataModuleId="0" name="Фиттинг угловой" shape="0" version="7"?>
+        </hotspot>
+        <hotspot objectCoordinates="926,425,952,425,952,448,926,448" hotspotTitle="6">
+<?pi_hotspot dataModuleId="0" name="Болт" shape="0" version="6"?>
+        </hotspot>
+        <hotspot objectCoordinates="873,544,899,544,899,567,873,567" hotspotTitle="6">
+<?pi_hotspot dataModuleId="0" name="Болт" shape="0" version="6"?>
+        </hotspot>
+        <hotspot objectCoordinates="786,167,812,167,812,190,786,190" hotspotTitle="5">
+<?pi_hotspot dataModuleId="0" name="Кланан электромагнитный" shape="0" version="5"?>
+        </hotspot>
+        <hotspot objectCoordinates="460,81,486,81,486,104,460,104" hotspotTitle="2">
+<?pi_hotspot dataModuleId="0" name="Кронштейн" shape="0" version="2"?>
+        </hotspot>
+<?pi_graphic blob_id="86026"?>
+       </graphic>
+      </figure>
+      <para> </para>
+      <para/>
+     </proceduralStep>
+     <proceduralStep id="stp-0007">
+      <para>Выкрутить угловые фиттинги из клапана</para>
+     </proceduralStep>
+    </proceduralStep>
+    <proceduralStep id="stp-0008">
+     <caution>
+      <warningAndCautionPara>При монтаже электромагнитного клапана обеспечить соосность накидных гаек шлангов с фитингами и отверстиями клапана.</warningAndCautionPara>
+     </caution>
+     <para/>
+     <para>Монтаж</para>
+     <para/>
+     <proceduralStep id="stp-0009">
+      <para>Установить на угловые фитинги уплотнительные кольца</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0010">
+      <para>Закрутить угловые фиттинги в клапан до касания уплотнительного кольца торцевой части клапана</para>
+      <para/>
+      <note>
+       <notePara>При закручивании фиттинга обеспечить необходимую угловую ориентацию фитинга поворотом корпуса против часовой стрелки, в пределах 360°</notePara>
+      </note>
+      <para/>
+     </proceduralStep>
+     <proceduralStep id="stp-0011">
+      <para>Удерживая корпус клапана затянуть контргайку фитинга с моментом затяжки в клапан 24,3-29,7 Н•м</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0012">
+      <para>Установить электромагнитный клапан на кронштейн на раме и закрепить его двумя болтами</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0013">
+      <para>Подсоединить штекерное соединения к клапану</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0014">
+      <para>Подсоединить трубку запитки клапана к фиттингу клапана и закрутить накидную гайку</para>
+     </proceduralStep>
+     <proceduralStep id="stp-0015">
+      <para>Подсоединить три гибких шланга от мостов к клапану и закрутить накидные гайки</para>
+     </proceduralStep>
+    </proceduralStep>
+   </mainProcedure>
+   <closeRqmts>
+    <reqCondGroup>
+     <noConds/>
+    </reqCondGroup>
+   </closeRqmts>
+  </procedure>
+ </content>
+</dmodule>

@@ -1,0 +1,442 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC '-//W3C//NOTATION Portable Network Graphics//EN'>
+<!ENTITY DUMMYENTITY SYSTEM 'DUMMYENTITY.PNG' NDATA png>
+]>
+<dmodule xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/wrngdata.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+ <identAndStatusSection>
+  <dmAddress>
+   <dmIdent>
+    <dmCode infoCode="056" modelIdentCode="URALM" disassyCode="00" disassyCodeVariant="A" systemDiffCode="A" subSubSystemCode="0" assyCode="00" infoCodeVariant="A" subSystemCode="0" itemLocationCode="A" systemCode="B4"/>
+    <language languageIsoCode="ru" countryIsoCode="RU"/>
+    <issueInfo issueNumber="001" inWork="01"/>
+   </dmIdent>
+   <dmAddressItems>
+    <issueDate month="11" year="2021" day="02"/>
+    <dmTitle>
+     <techName>Электрооборудование</techName>
+     <infoName>Перечень электрооборудования</infoName>
+     <infoNameVariant/>
+    </dmTitle>
+   </dmAddressItems>
+  </dmAddress>
+  <dmStatus issueType="new">
+   <security securityClassification="01"/>
+   <responsiblePartnerCompany enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </responsiblePartnerCompany>
+   <originator enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </originator>
+   <applic>
+    <displayText>
+     <simplePara>Все</simplePara>
+    </displayText>
+   </applic>
+   <techStandard>
+    <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+    <authorityExceptions/>
+    <authorityNotes/>
+   </techStandard>
+   <brexDmRef>
+    <dmRef>
+     <dmRefIdent>
+      <dmCode infoCode="056" modelIdentCode="URALM" disassyCode="00" disassyCodeVariant="A" systemDiffCode="A" subSubSystemCode="0" assyCode="00" infoCodeVariant="A" subSystemCode="0" itemLocationCode="A" systemCode="B4"/>
+      <language languageIsoCode="ru" countryIsoCode="RU"/>
+     </dmRefIdent>
+    </dmRef>
+   </brexDmRef>
+   <qualityAssurance>
+    <unverified/>
+   </qualityAssurance>
+  </dmStatus>
+ </identAndStatusSection>
+ <content>
+  <referencedApplicGroupRef/>
+  <wiringData>
+   <electricalEquipGroup>
+    <electricalEquip changeInfo="add" applicId="app-0001" changeType="add" equipState="active" changeMark="0">
+     <functionalItemRef changeType="add" functionalItemType="fit01" manufacturerCodeValue="ОАО &quot;РУДЕНСК&quot;" changeMark="0" itemOriginator="orig02" functionalItemNumber="ПФ130АБ-3712010-01"/>
+     <partNumber changeType="add" changeMark="0">Фонарь передний</partNumber>
+     <responsiblePartnerCompany enterpriseCode="U8025">
+      <enterpriseName>UK MoD</enterpriseName>
+     </responsiblePartnerCompany>
+     <installationInfo>
+      <installationLocation>Рама</installationLocation>
+     </installationInfo>
+    </electricalEquip>
+    <electricalEquip changeInfo="add" changeType="add" equipState="active" changeMark="0">
+     <functionalItemRef changeType="add" functionalItemType="fit01" changeMark="0" itemOriginator="orig01" functionalItemNumber="С306Д">
+      <name>Звуковой сигнал низкого тона</name>
+     </functionalItemRef>
+     <partNumber changeMark="0">Сигнал звуковой низкого тона</partNumber>
+     <responsiblePartnerCompany enterpriseCode="U8025">
+      <enterpriseName>UK MoD</enterpriseName>
+     </responsiblePartnerCompany>
+     <installationInfo>
+      <installationLocation>Моторный отсек</installationLocation>
+     </installationInfo>
+    </electricalEquip>
+    <electricalEquip changeInfo="add" applicId="app-0001" changeType="add" equipState="active" changeMark="0">
+     <functionalItemRef changeType="add" functionalItemType="fit04" changeMark="0" itemOriginator="orig06" functionalItemNumber="511.3726010"/>
+     <partNumber changeType="add" changeMark="0">Указатель поворота боковой</partNumber>
+     <responsiblePartnerCompany enterpriseCode="U8025">
+      <enterpriseName>UK MoD</enterpriseName>
+     </responsiblePartnerCompany>
+     <installationInfo>
+      <installationLocation>Переднее Крыло</installationLocation>
+     </installationInfo>
+    </electricalEquip>
+    <electricalEquip changeInfo="add" applicId="app-0002" changeType="add" equipState="logequip" changeMark="0">
+     <functionalItemRef changeType="add" functionalItemType="fit05" changeMark="0" itemOriginator="orig01" functionalItemNumber="264.3712"/>
+     <partNumber changeType="add" changeMark="0">Фонарь габаритный передний</partNumber>
+     <responsiblePartnerCompany enterpriseCode="U8025">
+      <enterpriseName>UK MoD</enterpriseName>
+     </responsiblePartnerCompany>
+     <installationInfo>
+      <installationLocation>Передний бампер</installationLocation>
+      <nextHigherAssy>
+       <functionalItemRef functionalItemNumber="ELO-Box"/>
+      </nextHigherAssy>
+     </installationInfo>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="С307Д"/>
+     <partNumber id="4">Звуковой сигнал низкого тона</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="671.3711"/>
+     <partNumber>Фара</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="17.3723"/>
+     <partNumber>Панель соединительная</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="431.3731"/>
+     <partNumber>Фонарь габаритный боковой</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="МЭ252"/>
+     <partNumber>Электродвигатель предпускового подогревателя</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="46.3710"/>
+     <partNumber>Выключатель электродвигателя предаускового подогрева</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ВН45М"/>
+     <partNumber>Выключатель свечи предпускового подогревателя</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="25.3708-21"/>
+     <partNumber>Стартер</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПЖД30101550104"/>
+     <partNumber>Клапан электромагнитного предпускового подогревателя</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="11.3741060"/>
+     <partNumber>Нагреватель топлива предпускового подогревателя</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="9301.3734"/>
+     <partNumber>Источник высокого напряжения</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="СН423"/>
+     <partNumber>Свеча искровая предпускового подогревателя</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ТМ111-01"/>
+     <partNumber>Датчик аварийного перегрева охлаждающей жидкости</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="1322.3771"/>
+     <partNumber>Генератор</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ТМ100А"/>
+     <partNumber>Датчик указателя температуры охлаждающей жидкости</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="2602.3729"/>
+     <partNumber>Датчик аварийного падения давления масла</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ММ370"/>
+     <partNumber>Датчик указателя давления масла</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="11.3740"/>
+     <partNumber>Свеча факельная ЭФУ</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="13.3839"/>
+     <partNumber>Датчик засоренности воздушного фильтра</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ЭМКФ35"/>
+     <partNumber>Корректор ближнего света фар</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПР11901"/>
+     <partNumber>Предохранитель плавкий 6А</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="1102.3741"/>
+     <partNumber>Клапан электромагнитный ЭФУ</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="2802.3829"/>
+     <partNumber>Выключатель звуковых сигналов</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="901.3747"/>
+     <partNumber>Реле звуковых сигналов</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="16.3730"/>
+     <partNumber>Стеклоочиститель</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="1112.520800014"/>
+     <partNumber>Стеклоомыватель</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="П147.3709"/>
+     <partNumber>Переключатель стеклоочистителя</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="11.370401"/>
+     <partNumber>Выключатель стеклоомывателя</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="12.3741"/>
+     <partNumber>Сопротивление с биметаллическим контактом системы ЭФУ</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="291.3722"/>
+     <partNumber>Предохранитель биметаллический</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="47К"/>
+     <partNumber>Розетка переносной лампы</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="11.7904"/>
+     <partNumber>Фильтр конденсаторный</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="738.3747-20"/>
+     <partNumber>Реле стартера</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="П39"/>
+     <partNumber>Переключатель света фар ножной</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="РС951А"/>
+     <partNumber>Реле указателей поворота</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ММ125Д"/>
+     <partNumber>Выключатель вспомогательного тормоза</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="733.3747"/>
+     <partNumber>Сигнализатор звуковой (зуммер)</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="2012.3803-13"/>
+     <partNumber>Сигнализатор включения БМКД оси</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="2212.3803-16"/>
+     <partNumber>Сигнализатор заряда АКБ</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="2212.3803-20"/>
+     <partNumber>Сигнализатор засоренности воздушного фильтра</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ВК416Б-01"/>
+     <partNumber>Реостат подсветки приборов</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПР119Б-01"/>
+     <partNumber>Предохранитель плавкий 10А</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="П305"/>
+     <partNumber>Переключатель света центральный</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="245.3710-01"/>
+     <partNumber>Выключатель световой аварийной сигнализации</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="2109.3704010"/>
+     <partNumber>Выключатель стартера и приборов</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="П110А"/>
+     <partNumber>Переключатель указателей поворота</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="МЭ226В"/>
+     <partNumber>Электродвигатель отопителя</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="СЭ300"/>
+     <partNumber>Сопротивление электродвигателя отопителя</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="171.3711"/>
+     <partNumber>Фара - прожектор</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ВК343.01.08"/>
+     <partNumber>Выключатель плафона кабины</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ВК343.01.06"/>
+     <partNumber>Выключатель фары - прожектора</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ВК343.02.16"/>
+     <partNumber>Выключатель фонарей знака автопоезда</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="П147.3709-03.11"/>
+     <partNumber>Переключатель отопителя кабины</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПР120"/>
+     <partNumber>Блок предохранителей</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="3842.3710-11.04"/>
+     <partNumber>Выключатель заднего противотуманного фонаря</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="211.3777М"/>
+     <partNumber>Реле включения задних противотуманных фонарей</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="6СТ190А"/>
+     <partNumber>Батарея аккумуляторная</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="1400.3737"/>
+     <partNumber>Выключатель аккумуляторных батарей</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПС315100"/>
+     <partNumber>Розетка внешнего запуска</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ВК403А"/>
+     <partNumber>Выключатель света заднего хода</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="УП101Б1"/>
+     <partNumber>Фонарь знака автопоезда</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПТ37-3М"/>
+     <partNumber>Плафон кабины</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПД511Е"/>
+     <partNumber>Блок контрольных ламп правый</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="МД101"/>
+     <partNumber>Манометр шинный</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="УБ101М"/>
+     <partNumber>Указатель уровня топлива</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="АП171А"/>
+     <partNumber>Указатель тока</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПА8046-4/5"/>
+     <partNumber>Спидометр</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="2537.3813"/>
+     <partNumber>Тахометр</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="УК170М"/>
+     <partNumber>Указатель давления масла</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="1901.3830010"/>
+     <partNumber>Манометр двухстрелочный</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПД512Е"/>
+     <partNumber>Блок контрольных ламп левый</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="РС493"/>
+     <partNumber>Реле стояночного тормоза</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПД8089"/>
+     <partNumber>Датчик спидометра</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ВК12Б"/>
+     <partNumber>Выключатель сигнала торможения</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ВК503"/>
+     <partNumber>Датчик неисправности тормозов</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="2702.3829"/>
+     <partNumber>Датчик падения воздуха в баллонах</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="5202.3827010"/>
+     <partNumber>Датчик указателя уровня топлива</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ПС326150"/>
+     <partNumber>Розетка прицепа</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="ФП131АБ-02"/>
+     <partNumber>Фонарь освещения номерного знака</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="7442.3716-10"/>
+     <partNumber>Фонарь задний</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="53203721500"/>
+     <partNumber>Клапан электромагнитный останова двигателя</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="5102.3709010"/>
+     <partNumber>Переключатель муфты вентилятора</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="661.3710-01"/>
+     <partNumber>Термореле</partNumber>
+    </electricalEquip>
+    <electricalEquip>
+     <functionalItemRef functionalItemNumber="КЭМ3223"/>
+     <partNumber>Клапан электромагнитный</partNumber>
+    </electricalEquip>
+   </electricalEquipGroup>
+  </wiringData>
+ </content>
+</dmodule>

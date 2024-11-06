@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC '-//W3C//NOTATION Portable Network Graphics//EN'>
+<!ENTITY DUMMYENTITY SYSTEM 'DUMMYENTITY.PNG' NDATA png>
+]>
+<dmodule xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/proced.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ 
+<identAndStatusSection>
+    <dmAddress>
+        <dmIdent>
+            <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="364" infoCodeVariant="A" itemLocationCode="A" modelIdentCode="URALM" subSubSystemCode="3" subSystemCode="1" systemCode="K2" systemDiffCode="A"/>
+            <language countryIsoCode="RU" languageIsoCode="ru"/>
+            <issueInfo issueNumber="001" inWork="03"/>
+        </dmIdent>
+        <dmAddressItems>
+            <issueDate year="2021" month="11" day="07"/>
+            <dmTitle>
+                <techName>Система регулирования давления воздуха в шинах</techName>
+                <infoName>Устранение негермитичности трубопроводов</infoName>
+            </dmTitle>
+        </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+        <security securityClassification="01"/>
+        <responsiblePartnerCompany enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </responsiblePartnerCompany>
+        <originator enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </originator>
+        <applic>
+            <displayText>
+                <simplePara>Все</simplePara>
+            </displayText>
+        </applic>
+        <techStandard>
+            <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+            <authorityExceptions/>
+            <authorityNotes/>
+        </techStandard>
+        <brexDmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="URALM" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A"/>
+                </dmRefIdent>
+            </dmRef>
+        </brexDmRef>
+        <qualityAssurance>
+            <unverified/>
+        </qualityAssurance>
+    </dmStatus>
+</identAndStatusSection>
+ <content>
+  <procedure>
+   <preliminaryRqmts>
+    <productionMaintData>
+     <taskDuration unitOfMeasure="h" closeupDuration="0" procedureDuration="0" startupDuration="0"/>
+    </productionMaintData>
+    <reqCondGroup>
+     <noConds/>
+    </reqCondGroup>
+    <reqSupportEquips>
+     <noSupportEquips/>
+    </reqSupportEquips>
+    <reqSupplies>
+     <noSupplies/>
+    </reqSupplies>
+    <reqSpares>
+     <noSpares/>
+    </reqSpares>
+    <reqSafety>
+     <noSafety/>
+    </reqSafety>
+   </preliminaryRqmts>
+   <mainProcedure>
+    <proceduralStep id="stp-0000">
+     <para>Включите электропитание</para>
+    </proceduralStep>
+    <proceduralStep id="stp-0001">
+     <para>Переведите клавишу подкачки шин в положение "накачка"</para>
+     <para/>
+    </proceduralStep>
+    <proceduralStep id="stp-0002">
+     <para>Обмыльте место соединения трубки запитки клапана накачки шин с клапаном электромагнитным. Утечки воздуха не должно быть. При негерметичности соединений подтяните гайки соединений и вновь проверьте герметичность</para>
+    </proceduralStep>
+    <proceduralStep id="stp-0003">
+     <para>Обмыльте соединения трубок накачки шин и клапана электромагнитного. Утечки воздуха не должно быть. При негермитичности соединений подтяните гайки соединений и вновь проверьте герметичность.</para>
+    </proceduralStep>
+    <proceduralStep id="stp-0004">
+     <para>Переведите клавишу подкачки шин в положение "нейтраль"	</para>
+    </proceduralStep>
+    <proceduralStep id="stp-0005">
+     <para>Отключите электропитание</para>
+    </proceduralStep>
+   </mainProcedure>
+   <closeRqmts>
+    <reqCondGroup>
+     <noConds/>
+    </reqCondGroup>
+   </closeRqmts>
+  </procedure>
+ </content>
+</dmodule>

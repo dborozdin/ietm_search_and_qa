@@ -1,0 +1,392 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC '-//W3C//NOTATION Portable Network Graphics//EN'>
+<!ENTITY DUMMYENTITY SYSTEM 'DUMMYENTITY.PNG' NDATA png>
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/wrngdata.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <identAndStatusSection>
+  <dmAddress>
+   <dmIdent>
+    <dmCode disassyCode="00" modelIdentCode="URALM" subSubSystemCode="0" subSystemCode="0" systemDiffCode="A" systemCode="B4" infoCodeVariant="A" assyCode="00" itemLocationCode="A" infoCode="058" disassyCodeVariant="A"/>
+    <language countryIsoCode="RU" languageIsoCode="ru"/>
+    <issueInfo issueNumber="001" inWork="01"/>
+   </dmIdent>
+   <dmAddressItems>
+    <issueDate year="2021" month="11" day="02"/>
+    <dmTitle>
+     <techName>Жгуты проводов</techName>
+     <infoName>Перечень жгутов</infoName>
+     <infoNameVariant/>
+    </dmTitle>
+   </dmAddressItems>
+  </dmAddress>
+  <dmStatus issueType="new">
+   <security securityClassification="01"/>
+   <responsiblePartnerCompany enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </responsiblePartnerCompany>
+   <originator enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </originator>
+   <applic>
+    <displayText>
+     <simplePara>Все</simplePara>
+    </displayText>
+   </applic>
+   <techStandard>
+    <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+    <authorityExceptions/>
+    <authorityNotes/>
+   </techStandard>
+   <brexDmRef>
+    <dmRef>
+     <dmRefIdent>
+      <dmCode disassyCode="00" modelIdentCode="URALM" subSubSystemCode="0" subSystemCode="0" systemDiffCode="A" systemCode="B4" infoCodeVariant="A" assyCode="00" itemLocationCode="A" infoCode="058" disassyCodeVariant="A"/>
+      <language countryIsoCode="RU" languageIsoCode="ru"/>
+     </dmRefIdent>
+    </dmRef>
+   </brexDmRef>
+   <qualityAssurance>
+    <unverified/>
+   </qualityAssurance>
+  </dmStatus>
+ </identAndStatusSection>
+ <content>
+  <referencedApplicGroup>
+   <applic id="app-0001">
+    <displayText>
+     <simplePara>УРАЛ 44202-80М 4х4 - УРАЛ 44202-80М с колёсной формулой 4х4</simplePara>
+    </displayText>
+   </applic>
+   <applic id="app-0002">
+    <displayText>
+     <simplePara>УРАЛ 44202-80М 6х6 - УРАЛ 44202-80М с колёсной формулой 6х6</simplePara>
+    </displayText>
+   </applic>
+  </referencedApplicGroup>
+  <wiringData>
+   <harnessGroup>
+    <harness applicRefId="app-0001">
+     <harnessIdent itemOriginator="orig01" contextIdent="PN-AC-12561" manufacturerCodeValue="F0001">4320Б5-3724235</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_mass" changeMark="0" changeType="add">Жгут проводов круиз-контроля</partNumber>
+      <harnessVariantIdent>4320Б5-3724235-07</harnessVariantIdent>
+      <harnessVariantIssue>07</harnessVariantIssue>
+      <emcCode>LS1</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Тефлон">
+        <partNumber>SPN1234</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany enterpriseCode="П235">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0002">
+     <harnessIdent itemOriginator="orig03" contextIdent="PN-AC-12562" manufacturerCodeValue="008">4320БМ-3724035</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_mass" changeMark="0" changeType="add">Жгут проводов шасси</partNumber>
+      <harnessVariantIdent>4320БМ-3724035-03</harnessVariantIdent>
+      <harnessVariantIssue>03</harnessVariantIssue>
+      <harnessName>Chassis harness</harnessName>
+      <emcCode>LS2</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-50</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Резина">
+        <partNumber>SPN1535</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany enterpriseCode="U8025">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0001">
+     <harnessIdent itemOriginator="orig02" contextIdent="PN-AC-12564" manufacturerCodeValue="005">4320Б5-3724033</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_mass" changeMark="0" changeType="add">Жгут проводов коробки переключения передач</partNumber>
+      <harnessVariantIdent>4320Б5-3724033-00</harnessVariantIdent>
+      <harnessVariantIssue>01</harnessVariantIssue>
+      <harnessName>Transmission harness</harnessName>
+      <emcCode>LS3</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Пластик">
+        <partNumber>SPN1755</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany enterpriseCode="U8025">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0002">
+     <harnessIdent itemOriginator="orig01" contextIdent="PN-AC-12568" manufacturerCodeValue="001">4320БМ-3723170</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_mass" changeMark="0" changeType="add">Жгут к модуляторам и датчикам</partNumber>
+      <harnessVariantIdent>4320БМ-3723170-12</harnessVariantIdent>
+      <harnessVariantIssue>12</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS3</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Силикон">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany enterpriseCode="U8025">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0001">
+     <harnessIdent itemOriginator="orig01" contextIdent="PN-AC-12565" manufacturerCodeValue="08">63685Р-3724255</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_mass" changeMark="0" changeType="add">Провод питания кабины</partNumber>
+      <harnessVariantIdent>63685Р-3724255-10</harnessVariantIdent>
+      <harnessVariantIssue>10</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS3</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Силикон">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany id="63645" enterpriseCode="3724255">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0002">
+     <harnessIdent itemOriginator="orig01" contextIdent="PN-AC-4320" manufacturerCodeValue="08">4320П2-3724137</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_distribution_box" changeMark="0" changeType="add">Пучок проводов к раздаточной коробке</partNumber>
+      <harnessVariantIdent>4320П2-3724137-10</harnessVariantIdent>
+      <harnessVariantIssue>10</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS3</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Полистирол">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany id="4320П2" enterpriseCode="10">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0001">
+     <harnessIdent itemOriginator="orig01" contextIdent="PN-AC-3724097" manufacturerCodeValue="08">4320Х-3724097</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_mass" changeMark="0" changeType="add">Провод массовый</partNumber>
+      <harnessVariantIdent>4320Х-3724097-01</harnessVariantIdent>
+      <harnessVariantIssue>01</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS4</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Резина">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany id="4230Х" enterpriseCode="3724097">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0002">
+     <harnessIdent itemOriginator="orig01" contextIdent="PN-AC-3724070" manufacturerCodeValue="08">4320ЯХ-3724070</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_connection_rechangeable_battery" changeMark="0" changeType="add">Провод соединения аккумуляторных батарей</partNumber>
+      <harnessVariantIdent>4320ЯХ-3724070-03</harnessVariantIdent>
+      <harnessVariantIssue>03</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS5</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Резина">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany id="4320ЯХ" enterpriseCode="3724070">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0001">
+     <harnessIdent itemOriginator="orig02" contextIdent="PN-AC-3724080" manufacturerCodeValue="08">4320-3724080</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_joining_switch_mass" changeMark="0" changeType="add">Провод соединения АКБ с выключателем массы</partNumber>
+      <harnessVariantIdent>4320-3724080-04</harnessVariantIdent>
+      <harnessVariantIssue>04</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS5</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="0"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Силикон">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany id="4320" enterpriseCode="3724080">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0002">
+     <harnessIdent itemOriginator="orig03" contextIdent="PN-AC-3724026" manufacturerCodeValue="08">4420БМ-3724026</harnessIdent>
+     <harnessInfo>
+      <partNumber id="basic_wire_bunch" changeMark="0" changeType="add">Пучок проводов основной</partNumber>
+      <harnessVariantIdent>4420БМ-3724026-01</harnessVariantIdent>
+      <harnessVariantIssue>01</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS1</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Пластик">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany id="4420БМ" enterpriseCode="3724026">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0001">
+     <harnessIdent itemOriginator="orig01" contextIdent="PN-AC-3724043" manufacturerCodeValue="08">5323-3724043</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_switch_mass" changeMark="0" changeType="add">Провод от выключателя "массы" к лонжерону</partNumber>
+      <harnessVariantIdent>5323-3724043-01</harnessVariantIdent>
+      <harnessVariantIssue>01</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS1</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Резина">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany id="5323" enterpriseCode="3724043">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0002">
+     <harnessIdent itemOriginator="orig01" contextIdent="PN-AC-3724050" manufacturerCodeValue="08">5323РХ-3724050</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_starter" changeMark="0" changeType="add">Провод от АКБ к стартеру</partNumber>
+      <harnessVariantIdent>5323РХ-3724050-01</harnessVariantIdent>
+      <harnessVariantIssue>01</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS1</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Тефлон">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany id="5323РХ" enterpriseCode="3724050">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0001">
+     <harnessIdent itemOriginator="orig02" contextIdent="PN-AC-3724032" manufacturerCodeValue="08">4420БМ-3724032</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_bunch_engine" changeMark="0" changeType="add">Пучок проводов двигателя</partNumber>
+      <harnessVariantIdent>4420БМ-3724032-04</harnessVariantIdent>
+      <harnessVariantIssue>04</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS1</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Полистирол">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany id="4420БМ" enterpriseCode="3724032">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+    <harness applicRefId="app-0002">
+     <harnessIdent itemOriginator="orig01" contextIdent="PN-AC-3724029" manufacturerCodeValue="08">4420БМ-3724029</harnessIdent>
+     <harnessInfo>
+      <partNumber id="wire_brunch_chassis" changeMark="0" changeType="add">Пучок проводов шасси</partNumber>
+      <harnessVariantIdent>4420БМ-3724029-02</harnessVariantIdent>
+      <harnessVariantIssue>02</harnessVariantIssue>
+      <harnessName>Module harness</harnessName>
+      <emcCode>LS2</emcCode>
+      <temperature>
+       <minTemperature unitOfMeasure="degC">-45</minTemperature>
+       <maxTemperature unitOfMeasure="degC">+45</maxTemperature>
+      </temperature>
+      <harnessEnvironment highVibrationFlag="1" hydraulicFlag="1"/>
+      <sleeveGroup>
+       <sleeve sleeveMaterial="Полистирол">
+        <partNumber>SPN1739</partNumber>
+       </sleeve>
+      </sleeveGroup>
+     </harnessInfo>
+     <responsiblePartnerCompany id="4420БМ" enterpriseCode="3724029">
+      <enterpriseName>URALAZ</enterpriseName>
+     </responsiblePartnerCompany>
+    </harness>
+   </harnessGroup>
+  </wiringData>
+ </content>
+</dmodule>

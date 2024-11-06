@@ -1,0 +1,160 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+<!ENTITY ICN-URALM-A-K21300-A-SFX44-00001-A-001-01 SYSTEM "ICN-URALM-A-K21300-A-SFX44-00001-A-001-01.png" NDATA png>
+<!ENTITY ICN-URALM-A-K21300-A-SFX44-00002-A-001-01 SYSTEM "ICN-URALM-A-K21300-A-SFX44-00002-A-001-01.png" NDATA png>
+<!ENTITY ICN-URALM-A-K21300-A-SFX44-00003-A-001-01 SYSTEM "ICN-URALM-A-K21300-A-SFX44-00003-A-001-01.png" NDATA png>
+<!ENTITY ICN-URALM-A-K21300-A-SFX44-00004-A-001-01 SYSTEM "ICN-URALM-A-K21300-A-SFX44-00004-A-001-01.png" NDATA png>
+]>
+<dmodule xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+ 
+<identAndStatusSection>
+    <dmAddress>
+        <dmIdent>
+            <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="044" infoCodeVariant="A" itemLocationCode="A" modelIdentCode="URALM" subSubSystemCode="3" subSystemCode="1" systemCode="K2" systemDiffCode="A"/>
+            <language countryIsoCode="RU" languageIsoCode="ru"/>
+            <issueInfo issueNumber="001" inWork="09"/>
+        </dmIdent>
+        <dmAddressItems>
+            <issueDate year="2021" month="11" day="05"/>
+            <dmTitle>
+                <techName>Система регулирования давления воздуха в шинах</techName>
+                <infoName>Описание и работа</infoName>
+            </dmTitle>
+        </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+        <security securityClassification="01"/>
+        <responsiblePartnerCompany enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </responsiblePartnerCompany>
+        <originator enterpriseCode="00000">
+            <enterpriseName>Организация</enterpriseName>
+        </originator>
+        <applic>
+            <displayText>
+                <simplePara>Все</simplePara>
+            </displayText>
+        </applic>
+        <techStandard>
+            <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+            <authorityExceptions/>
+            <authorityNotes/>
+        </techStandard>
+        <brexDmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="URALM" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A"/>
+                </dmRefIdent>
+            </dmRef>
+        </brexDmRef>
+        <qualityAssurance>
+            <unverified/>
+        </qualityAssurance>
+    </dmStatus>
+</identAndStatusSection>
+ <content>
+  <description>
+   <levelledPara id="par-0000">
+    <title>Назначение</title>
+    <para>Система регулирования давления воздуха в шинах (СРДВШ) предназначена для:</para>
+    <para>повышения  проходимости автомобиля за счет снижения давления воздуха в шинах.</para>
+    <para>Система позволяет:</para>
+    <para>
+     <randomList>
+      <listItem>
+       <para>контролировать давление воздуха в шинах;</para>
+      </listItem>
+      <listItem>
+       <para>поддерживать давление в предела нормы;</para>
+      </listItem>
+      <listItem>
+       <para>кратковременно продолжать движение автомобиля с поврежденными шинами без замены колеса при этом колесные краны неповрежденных колес должны быть закрыты.</para>
+      </listItem>
+     </randomList>
+    </para>
+   </levelledPara>
+   <levelledPara id="par-0001">
+    <title>Характеристика</title>
+    <para>СРДВШ ‒ двухпроводной схемы.</para>
+   </levelledPara>
+   <levelledPara id="par-0002">
+    <title>Общее устройство</title>
+    <para>СРДВШ представлена на <internalRef internalRefTargetType="irtt01" internalRefId="fig-0000">Рис.1</internalRef>  . Система состоит из:</para>
+    <para>
+     <randomList>
+      <listItem>
+       <para>электромагнитного клапана управления давлением <internalRef internalRefTargetType="irtt01" internalRefId="fig-0002">Рис.3</internalRef>  ;</para>
+      </listItem>
+      <listItem>
+       <para>ступичного узла подвода воздуха к шинам <internalRef internalRefTargetType="irtt01" internalRefId="fig-0001">Рис.2</internalRef>  ;</para>
+      </listItem>
+      <listItem>
+       <para>трубопроводов, шлангов и тройников <internalRef internalRefTargetType="irtt01" internalRefId="fig-0000">Рис.1</internalRef>  .</para>
+      </listItem>
+     </randomList>
+    </para>
+    <figure id="fig-0000">
+     <title>Система регулирования давления воздуха в шинах</title>
+     <graphic infoEntityIdent="ICN-URALM-A-K21300-A-SFX44-00001-A-001-01" id="fig-0000-gra-0000">
+<?pi_graphic blob_id="85967"?>
+     </graphic>
+    </figure>
+    <para> </para>
+    <para> Для подвода воздуха к шине ступичный узел имеет ряд конструктивных особенностей представленных на <internalRef internalRefTargetType="irtt01" internalRefId="fig-0001">Рис.2</internalRef>   .</para>
+    <figure id="fig-0001">
+     <title>Ступичный узел подвода воздуха к шинам</title>
+     <graphic infoEntityIdent="ICN-URALM-A-K21300-A-SFX44-00002-A-001-01" id="fig-0001-gra-0000">
+      <hotspot hotspotTitle="6" objectCoordinates="644,578,670,578,670,601,644,601">
+<?pi_hotspot dataModuleId="0" name="Уплотнитель вентильного паза" shape="0" version="6"?>
+      </hotspot>
+      <hotspot hotspotTitle="5" objectCoordinates="644,525,670,525,670,548,644,548">
+<?pi_hotspot dataModuleId="0" name="Кран запора" shape="0" version="5"?>
+      </hotspot>
+      <hotspot hotspotTitle="4" objectCoordinates="641,462,667,462,667,485,641,485">
+<?pi_hotspot dataModuleId="0" name="Кожух защитный" shape="0" version="4"?>
+      </hotspot>
+      <hotspot hotspotTitle="3" objectCoordinates="643,383,669,383,669,406,643,406">
+<?pi_hotspot dataModuleId="0" name="Шланг" shape="0" version="3"?>
+      </hotspot>
+      <hotspot hotspotTitle="2" objectCoordinates="643,320,669,320,669,343,643,343">
+<?pi_hotspot dataModuleId="0" name="Угольник" shape="0" version="2"?>
+      </hotspot>
+      <hotspot hotspotTitle="1" objectCoordinates="642,265,668,265,668,288,642,288">
+<?pi_hotspot dataModuleId="0" name="Блок сальников" shape="0" version="1"?>
+      </hotspot>
+<?pi_graphic blob_id="85969"?>
+     </graphic>
+    </figure>
+    <para> </para>
+    <para>1 - Блок сальников. 2 - Угольник. 3 - Шланг. 4 - Кожух защитный. 5 - Кран запора воздуха. 6 - Уплотнитель вентильного паза.</para>
+    <para>Кожух полуоси (цапфа) и полуось имеют специальные внутренние каналы. Полость между ними уплотняется блоком сальников <internalRef internalRefTargetType="irtt01" internalRefId="fig-0001">Рис.2</internalRef>   Поз. 1. Место соединения каналов неподвижного кожуха полуоси (цапфы) и каналов вращающейся полуоси уплотняется блоком манжет.</para>
+    <para>В отверстие в центре шлицевого колеса полуосей вставлен угловой фитинг <internalRef internalRefTargetType="irtt01" internalRefId="fig-0001">Рис.2</internalRef>   Поз. 2, который через шланг Поз. 3 соединен с краном запора воздуха Поз. 5. Кран запора воздуха обеспечивает перекрытие подачи воздуха из системы к шинам.</para>
+    <para>Колесный диск для подвода воздуха в шины имеет вентильный паз, который закрывается уплотнителем Поз. 6.</para>
+   </levelledPara>
+   <levelledPara id="par-0003">
+    <title>Принцип работы</title>
+    <para>Сжатый в компрессоре воздух из воздушного баллона не тормозных потребителей через четырехконтурный защитный клапан поступает в электромагнитный клапан.</para>
+    <figure id="fig-0002">
+     <title>Электромагнитный клапан</title>
+     <graphic infoEntityIdent="ICN-URALM-A-K21300-A-SFX44-00003-A-001-01" id="fig-0002-gra-0000">
+<?pi_graphic blob_id="85973"?>
+     </graphic>
+    </figure>
+    <para> </para>
+    <para> I - От защитного клапана. II - К шинам заднего моста. III - К шинам среднего моста. IV - К шинам переднего моста.</para>
+    <para>Электромагнитный клапан имеет три рабочих положения: “выпуск”, “нейтраль” и “накачка” и обеспечивает снижение давления.</para>
+    <para>При переключении клавиш подкачки шин на панели приборов в режим “накачка” электромагнитный клапан осуществляет подачу воздуха к ступичным узлам соответствующих колес. В ступичных узлах воздух, проходя по каналам кожухов полуосей (цапф) и полуосей поступает в краны запора воздуха, из которых через открытые краны по соединительным шлангам в шины колес.</para>
+    <figure id="fig-0003">
+     <title>Блок сальников</title>
+     <graphic infoEntityIdent="ICN-URALM-A-K21300-A-SFX44-00004-A-001-01" id="fig-0003-gra-0000">
+<?pi_graphic blob_id="85976"?>
+     </graphic>
+    </figure>
+    <para> </para>
+    <para>При переключении клавиш подкачки шин на панели приборов в режим “выпуск” электромагнитный клапан осуществляет выпуск воздуха из соответствующих шин в атмосферу. Для снижения шума при выпуске  воздуха, электромагнитный клапан оборудуется глушителем.</para>
+    <para>При установке клавиши подкачки шин в нейтральное положение электромагнитный клапан полностью закрывается, поступление воздуха к шинам и из них в атмосферу исключается. </para>
+   </levelledPara>
+  </description>
+ </content>
+</dmodule>

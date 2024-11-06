@@ -1,0 +1,480 @@
+<?xml version='1.0'?>
+<!DOCTYPE dmodule [
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+<!ENTITY ICN-URALM-A-B40000-0-00001-00010-A-001-01 SYSTEM "ICN-URALM-A-B40000-0-00001-00010-A-001-01.png" NDATA png>
+]>
+<dmodule xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+ <identAndStatusSection>
+  <dmAddress>
+   <dmIdent>
+    <dmCode subSystemCode="0" infoCodeVariant="A" subSubSystemCode="0" infoCode="051" modelIdentCode="URALM" systemDiffCode="A" itemLocationCode="A" systemCode="B4" disassyCode="00" assyCode="00" disassyCodeVariant="A"/>
+    <language countryIsoCode="RU" languageIsoCode="ru"/>
+    <issueInfo inWork="01" issueNumber="001"/>
+   </dmIdent>
+   <dmAddressItems>
+    <issueDate year="2021" month="11" day="10"/>
+    <dmTitle>
+     <techName>Электросистема</techName>
+     <infoName>Схема  соединения</infoName>
+     <infoNameVariant/>
+    </dmTitle>
+   </dmAddressItems>
+  </dmAddress>
+  <dmStatus issueType="new">
+   <security securityClassification="01"/>
+   <responsiblePartnerCompany enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </responsiblePartnerCompany>
+   <originator enterpriseCode="00000">
+    <enterpriseName>Организация</enterpriseName>
+   </originator>
+   <applic>
+    <displayText>
+     <simplePara>Все</simplePara>
+    </displayText>
+   </applic>
+   <techStandard>
+    <techPubBase>ASD S1000D  / АС 1.1.1000D-2007</techPubBase>
+    <authorityExceptions/>
+    <authorityNotes/>
+   </techStandard>
+   <brexDmRef>
+    <dmRef>
+     <dmRefIdent>
+      <dmCode subSystemCode="0" infoCodeVariant="A" subSubSystemCode="0" infoCode="051" modelIdentCode="URALM" systemDiffCode="A" itemLocationCode="A" systemCode="B4" disassyCode="00" assyCode="00" disassyCodeVariant="A"/>
+      <language countryIsoCode="RU" languageIsoCode="ru"/>
+     </dmRefIdent>
+    </dmRef>
+   </brexDmRef>
+   <qualityAssurance>
+    <unverified/>
+   </qualityAssurance>
+  </dmStatus>
+ </identAndStatusSection>
+ <content>
+  <refs>
+   <dmRef>
+    <dmRefIdent>
+     <dmCode subSystemCode="0" infoCodeVariant="A" subSubSystemCode="0" infoCode="056" modelIdentCode="URALM" systemDiffCode="A" itemLocationCode="A" systemCode="E0" disassyCode="00" assyCode="00" disassyCodeVariant="A"/>
+    </dmRefIdent>
+    <dmRefAddressItems>
+     <dmTitle>
+      <techName>Перечень оборудования</techName>
+     </dmTitle>
+    </dmRefAddressItems>
+   </dmRef>
+   <dmRef>
+    <dmRefIdent>
+     <dmCode subSystemCode="0" infoCodeVariant="A" subSubSystemCode="0" infoCode="058" modelIdentCode="URALM" systemDiffCode="A" itemLocationCode="A" systemCode="E0" disassyCode="00" assyCode="00" disassyCodeVariant="A"/>
+    </dmRefIdent>
+    <dmRefAddressItems>
+     <dmTitle>
+      <techName>Перечень жгутов</techName>
+     </dmTitle>
+    </dmRefAddressItems>
+   </dmRef>
+  </refs>
+  <description>
+   <para>Типовая схема соединения автомобилей семейства УРАЛ 44202 представлена на рисунке <internalRef internalRefTargetType="irtt01" internalRefId="fig-0000">1</internalRef> .</para>
+   <figure id="fig-0000">
+    <title>Схема соединения</title>
+    <graphic infoEntityIdent="ICN-URALM-A-B40000-0-00001-00010-A-001-01" id="fig-0000-gra-0000">
+     <hotspot objectCoordinates="3169,1867,3191,1867,3191,1882,3169,1882" hotspotTitle="119">
+<?pi_hotspot dataModuleId="0" shape="0" version="119"?>
+     </hotspot>
+     <hotspot objectCoordinates="2680,1504,2702,1504,2702,1519,2680,1519" hotspotTitle="118">
+<?pi_hotspot dataModuleId="0" shape="0" version="118"?>
+     </hotspot>
+     <hotspot objectCoordinates="2679,1686,2701,1686,2701,1701,2679,1701" hotspotTitle="118">
+<?pi_hotspot dataModuleId="0" shape="0" version="118"?>
+     </hotspot>
+     <hotspot objectCoordinates="2825,1362,2847,1362,2847,1377,2825,1377" hotspotTitle="117">
+<?pi_hotspot dataModuleId="0" shape="0" version="117"?>
+     </hotspot>
+     <hotspot objectCoordinates="3379,1286,3401,1286,3401,1301,3379,1301" hotspotTitle="116">
+<?pi_hotspot dataModuleId="0" shape="0" version="116"?>
+     </hotspot>
+     <hotspot objectCoordinates="3382,1429,3404,1429,3404,1444,3382,1444" hotspotTitle="116">
+<?pi_hotspot dataModuleId="0" shape="0" version="116"?>
+     </hotspot>
+     <hotspot objectCoordinates="3012,1219,3034,1219,3034,1234,3012,1234" hotspotTitle="115">
+<?pi_hotspot dataModuleId="0" shape="0" version="115"?>
+     </hotspot>
+     <hotspot objectCoordinates="3343,883,3365,883,3365,898,3343,898" hotspotTitle="114">
+<?pi_hotspot dataModuleId="0" shape="0" version="114"?>
+     </hotspot>
+     <hotspot objectCoordinates="2975,1092,2997,1092,2997,1107,2975,1107" hotspotTitle="114">
+<?pi_hotspot dataModuleId="0" shape="0" version="114"?>
+     </hotspot>
+     <hotspot objectCoordinates="3202,880,3224,880,3224,895,3202,895" hotspotTitle="113">
+<?pi_hotspot dataModuleId="0" shape="0" version="113"?>
+     </hotspot>
+     <hotspot objectCoordinates="3386,1607,3408,1607,3408,1622,3386,1622" hotspotTitle="113">
+<?pi_hotspot dataModuleId="0" shape="0" version="113"?>
+     </hotspot>
+     <hotspot objectCoordinates="3112,879,3134,879,3134,894,3112,894" hotspotTitle="112">
+<?pi_hotspot dataModuleId="0" shape="0" version="112"?>
+     </hotspot>
+     <hotspot objectCoordinates="2978,876,3000,876,3000,891,2978,891" hotspotTitle="111">
+<?pi_hotspot dataModuleId="0" shape="0" version="111"?>
+     </hotspot>
+     <hotspot objectCoordinates="2883,756,2905,756,2905,771,2883,771" hotspotTitle="110">
+<?pi_hotspot dataModuleId="0" shape="0" version="110"?>
+     </hotspot>
+     <hotspot objectCoordinates="3058,666,3080,666,3080,681,3058,681" hotspotTitle="109">
+<?pi_hotspot dataModuleId="0" shape="0" version="109"?>
+     </hotspot>
+     <hotspot objectCoordinates="2882,664,2904,664,2904,679,2882,679" hotspotTitle="108">
+<?pi_hotspot dataModuleId="0" shape="0" version="108"?>
+     </hotspot>
+     <hotspot objectCoordinates="2698,649,2720,649,2720,664,2698,664" hotspotTitle="107">
+<?pi_hotspot dataModuleId="0" shape="0" version="107"?>
+     </hotspot>
+     <hotspot objectCoordinates="2692,434,2714,434,2714,449,2692,449" hotspotTitle="106">
+<?pi_hotspot dataModuleId="0" shape="0" version="106"?>
+     </hotspot>
+     <hotspot objectCoordinates="3189,137,3211,137,3211,152,3189,152" hotspotTitle="105">
+<?pi_hotspot dataModuleId="0" shape="0" version="105"?>
+     </hotspot>
+     <hotspot objectCoordinates="2982,139,3004,139,3004,154,2982,154" hotspotTitle="104">
+<?pi_hotspot dataModuleId="0" shape="0" version="104"?>
+     </hotspot>
+     <hotspot objectCoordinates="2916,137,2938,137,2938,152,2916,152" hotspotTitle="103">
+<?pi_hotspot dataModuleId="0" shape="0" version="103"?>
+     </hotspot>
+     <hotspot objectCoordinates="2810,136,2832,136,2832,151,2810,151" hotspotTitle="102">
+<?pi_hotspot dataModuleId="0" shape="0" version="102"?>
+     </hotspot>
+     <hotspot objectCoordinates="2492,1472,2514,1472,2514,1487,2492,1487" hotspotTitle="101">
+<?pi_hotspot dataModuleId="0" shape="0" version="101"?>
+     </hotspot>
+     <hotspot objectCoordinates="2315,1469,2337,1469,2337,1484,2315,1484" hotspotTitle="100">
+<?pi_hotspot dataModuleId="0" shape="0" version="100"?>
+     </hotspot>
+     <hotspot objectCoordinates="2612,1386,2627,1386,2627,1401,2612,1401" hotspotTitle="99">
+<?pi_hotspot dataModuleId="0" shape="0" version="99"?>
+     </hotspot>
+     <hotspot objectCoordinates="2552,1207,2567,1207,2567,1222,2552,1222" hotspotTitle="98">
+<?pi_hotspot dataModuleId="0" shape="0" version="98"?>
+     </hotspot>
+     <hotspot objectCoordinates="2360,1162,2375,1162,2375,1177,2360,1177" hotspotTitle="97">
+<?pi_hotspot dataModuleId="0" shape="0" version="97"?>
+     </hotspot>
+     <hotspot objectCoordinates="2587,937,2602,937,2602,952,2587,952" hotspotTitle="96">
+<?pi_hotspot dataModuleId="0" shape="0" version="96"?>
+     </hotspot>
+     <hotspot objectCoordinates="2590,796,2605,796,2605,811,2590,811" hotspotTitle="95">
+<?pi_hotspot dataModuleId="0" shape="0" version="95"?>
+     </hotspot>
+     <hotspot objectCoordinates="2589,756,2604,756,2604,771,2589,771" hotspotTitle="94">
+<?pi_hotspot dataModuleId="0" shape="0" version="94"?>
+     </hotspot>
+     <hotspot objectCoordinates="2589,609,2604,609,2604,624,2589,624" hotspotTitle="93">
+<?pi_hotspot dataModuleId="0" shape="0" version="93"?>
+     </hotspot>
+     <hotspot objectCoordinates="2400,652,2415,652,2415,667,2400,667" hotspotTitle="92">
+<?pi_hotspot dataModuleId="0" shape="0" version="92"?>
+     </hotspot>
+     <hotspot objectCoordinates="2586,527,2601,527,2601,542,2586,542" hotspotTitle="91">
+<?pi_hotspot dataModuleId="0" shape="0" version="91"?>
+     </hotspot>
+     <hotspot objectCoordinates="2350,506,2365,506,2365,521,2350,521" hotspotTitle="90">
+<?pi_hotspot dataModuleId="0" shape="0" version="90"?>
+     </hotspot>
+     <hotspot objectCoordinates="2574,1849,2589,1849,2589,1864,2574,1864" hotspotTitle="89">
+<?pi_hotspot dataModuleId="0" shape="0" version="89"?>
+     </hotspot>
+     <hotspot objectCoordinates="2493,1852,2508,1852,2508,1867,2493,1867" hotspotTitle="88">
+<?pi_hotspot dataModuleId="0" shape="0" version="88"?>
+     </hotspot>
+     <hotspot objectCoordinates="2449,1852,2464,1852,2464,1867,2449,1867" hotspotTitle="87">
+<?pi_hotspot dataModuleId="0" shape="0" version="87"?>
+     </hotspot>
+     <hotspot objectCoordinates="2422,1853,2437,1853,2437,1868,2422,1868" hotspotTitle="86">
+<?pi_hotspot dataModuleId="0" shape="0" version="86"?>
+     </hotspot>
+     <hotspot objectCoordinates="2393,1852,2408,1852,2408,1867,2393,1867" hotspotTitle="85">
+<?pi_hotspot dataModuleId="0" shape="0" version="85"?>
+     </hotspot>
+     <hotspot objectCoordinates="2361,1854,2376,1854,2376,1869,2361,1869" hotspotTitle="84">
+<?pi_hotspot dataModuleId="0" shape="0" version="84"?>
+     </hotspot>
+     <hotspot objectCoordinates="2304,1851,2319,1851,2319,1866,2304,1866" hotspotTitle="83">
+<?pi_hotspot dataModuleId="0" shape="0" version="83"?>
+     </hotspot>
+     <hotspot objectCoordinates="2228,1849,2243,1849,2243,1864,2228,1864" hotspotTitle="82">
+<?pi_hotspot dataModuleId="0" shape="0" version="82"?>
+     </hotspot>
+     <hotspot objectCoordinates="2197,1849,2212,1849,2212,1864,2197,1864" hotspotTitle="81">
+<?pi_hotspot dataModuleId="0" shape="0" version="81"?>
+     </hotspot>
+     <hotspot objectCoordinates="2161,1851,2176,1851,2176,1866,2161,1866" hotspotTitle="80">
+<?pi_hotspot dataModuleId="0" shape="0" version="80"?>
+     </hotspot>
+     <hotspot objectCoordinates="2033,1851,2048,1851,2048,1866,2033,1866" hotspotTitle="79">
+<?pi_hotspot dataModuleId="0" shape="0" version="79"?>
+     </hotspot>
+     <hotspot objectCoordinates="1984,1852,1999,1852,1999,1867,1984,1867" hotspotTitle="78">
+<?pi_hotspot dataModuleId="0" shape="0" version="78"?>
+     </hotspot>
+     <hotspot objectCoordinates="1921,1849,1936,1849,1936,1864,1921,1864" hotspotTitle="77">
+<?pi_hotspot dataModuleId="0" shape="0" version="77"?>
+     </hotspot>
+     <hotspot objectCoordinates="1873,1851,1888,1851,1888,1866,1873,1866" hotspotTitle="76">
+<?pi_hotspot dataModuleId="0" shape="0" version="76"?>
+     </hotspot>
+     <hotspot objectCoordinates="1827,1851,1842,1851,1842,1866,1827,1866" hotspotTitle="75">
+<?pi_hotspot dataModuleId="0" shape="0" version="75"?>
+     </hotspot>
+     <hotspot objectCoordinates="1744,1852,1759,1852,1759,1867,1744,1867" hotspotTitle="74">
+<?pi_hotspot dataModuleId="0" shape="0" version="74"?>
+     </hotspot>
+     <hotspot objectCoordinates="1678,1853,1693,1853,1693,1868,1678,1868" hotspotTitle="73">
+<?pi_hotspot dataModuleId="0" shape="0" version="73"?>
+     </hotspot>
+     <hotspot objectCoordinates="1585,1851,1600,1851,1600,1866,1585,1866" hotspotTitle="72">
+<?pi_hotspot dataModuleId="0" shape="0" version="72"?>
+     </hotspot>
+     <hotspot objectCoordinates="1511,1851,1526,1851,1526,1866,1511,1866" hotspotTitle="71">
+<?pi_hotspot dataModuleId="0" shape="0" version="71"?>
+     </hotspot>
+     <hotspot objectCoordinates="1415,1849,1430,1849,1430,1864,1415,1864" hotspotTitle="70">
+<?pi_hotspot dataModuleId="0" shape="0" version="70"?>
+     </hotspot>
+     <hotspot objectCoordinates="2207,1244,2222,1244,2222,1259,2207,1259" hotspotTitle="69">
+<?pi_hotspot dataModuleId="0" shape="0" version="69"?>
+     </hotspot>
+     <hotspot objectCoordinates="2054,1163,2069,1163,2069,1178,2054,1178" hotspotTitle="68">
+<?pi_hotspot dataModuleId="0" shape="0" version="68"?>
+     </hotspot>
+     <hotspot objectCoordinates="1808,1134,1823,1134,1823,1149,1808,1149" hotspotTitle="67">
+<?pi_hotspot dataModuleId="0" shape="0" version="67"?>
+     </hotspot>
+     <hotspot objectCoordinates="1757,1134,1772,1134,1772,1149,1757,1149" hotspotTitle="66">
+<?pi_hotspot dataModuleId="0" shape="0" version="66"?>
+     </hotspot>
+     <hotspot objectCoordinates="2956,1218,2978,1218,2978,1233,2956,1233" hotspotTitle="66">
+<?pi_hotspot dataModuleId="0" shape="0" version="66"?>
+     </hotspot>
+     <hotspot objectCoordinates="1608,1012,1623,1012,1623,1027,1608,1027" hotspotTitle="65">
+<?pi_hotspot dataModuleId="0" shape="0" version="65"?>
+     </hotspot>
+     <hotspot objectCoordinates="1572,1013,1587,1013,1587,1028,1572,1028" hotspotTitle="64">
+<?pi_hotspot dataModuleId="0" shape="0" version="64"?>
+     </hotspot>
+     <hotspot objectCoordinates="1538,1013,1553,1013,1553,1028,1538,1028" hotspotTitle="63">
+<?pi_hotspot dataModuleId="0" shape="0" version="63"?>
+     </hotspot>
+     <hotspot objectCoordinates="2191,859,2206,859,2206,874,2191,874" hotspotTitle="62">
+<?pi_hotspot dataModuleId="0" shape="0" version="62"?>
+     </hotspot>
+     <hotspot objectCoordinates="2214,775,2229,775,2229,790,2214,790" hotspotTitle="61">
+<?pi_hotspot dataModuleId="0" shape="0" version="61"?>
+     </hotspot>
+     <hotspot objectCoordinates="2215,718,2230,718,2230,733,2215,733" hotspotTitle="60">
+<?pi_hotspot dataModuleId="0" shape="0" version="60"?>
+     </hotspot>
+     <hotspot objectCoordinates="1893,749,1908,749,1908,764,1893,764" hotspotTitle="59">
+<?pi_hotspot dataModuleId="0" shape="0" version="59"?>
+     </hotspot>
+     <hotspot objectCoordinates="1857,749,1872,749,1872,764,1857,764" hotspotTitle="58">
+<?pi_hotspot dataModuleId="0" shape="0" version="58"?>
+     </hotspot>
+     <hotspot objectCoordinates="1427,837,1442,837,1442,852,1427,852" hotspotTitle="57">
+<?pi_hotspot dataModuleId="0" shape="0" version="57"?>
+     </hotspot>
+     <hotspot objectCoordinates="2025,642,2040,642,2040,657,2025,657" hotspotTitle="56">
+<?pi_hotspot dataModuleId="0" shape="0" version="56"?>
+     </hotspot>
+     <hotspot objectCoordinates="1534,649,1549,649,1549,664,1534,664" hotspotTitle="55">
+<?pi_hotspot dataModuleId="0" shape="0" version="55"?>
+     </hotspot>
+     <hotspot objectCoordinates="2612,135,2627,135,2627,150,2612,150" hotspotTitle="54">
+<?pi_hotspot dataModuleId="0" shape="0" version="54"?>
+     </hotspot>
+     <hotspot objectCoordinates="2568,137,2583,137,2583,152,2568,152" hotspotTitle="53">
+<?pi_hotspot dataModuleId="0" shape="0" version="53"?>
+     </hotspot>
+     <hotspot objectCoordinates="2523,138,2538,138,2538,153,2523,153" hotspotTitle="52">
+<?pi_hotspot dataModuleId="0" shape="0" version="52"?>
+     </hotspot>
+     <hotspot objectCoordinates="2479,137,2494,137,2494,152,2479,152" hotspotTitle="51">
+<?pi_hotspot dataModuleId="0" shape="0" version="51"?>
+     </hotspot>
+     <hotspot objectCoordinates="2442,135,2457,135,2457,150,2442,150" hotspotTitle="50">
+<?pi_hotspot dataModuleId="0" shape="0" version="50"?>
+     </hotspot>
+     <hotspot objectCoordinates="2412,135,2427,135,2427,150,2412,150" hotspotTitle="49">
+<?pi_hotspot dataModuleId="0" shape="0" version="49"?>
+     </hotspot>
+     <hotspot objectCoordinates="2375,135,2390,135,2390,150,2375,150" hotspotTitle="48">
+<?pi_hotspot dataModuleId="0" shape="0" version="48"?>
+     </hotspot>
+     <hotspot objectCoordinates="2333,137,2348,137,2348,152,2333,152" hotspotTitle="47">
+<?pi_hotspot dataModuleId="0" shape="0" version="47"?>
+     </hotspot>
+     <hotspot objectCoordinates="2198,138,2213,138,2213,153,2198,153" hotspotTitle="46">
+<?pi_hotspot dataModuleId="0" shape="0" version="46"?>
+     </hotspot>
+     <hotspot objectCoordinates="2053,138,2068,138,2068,153,2053,153" hotspotTitle="45">
+<?pi_hotspot dataModuleId="0" shape="0" version="45"?>
+     </hotspot>
+     <hotspot objectCoordinates="1995,137,2010,137,2010,152,1995,152" hotspotTitle="44">
+<?pi_hotspot dataModuleId="0" shape="0" version="44"?>
+     </hotspot>
+     <hotspot objectCoordinates="1878,138,1893,138,1893,153,1878,153" hotspotTitle="43">
+<?pi_hotspot dataModuleId="0" shape="0" version="43"?>
+     </hotspot>
+     <hotspot objectCoordinates="1809,137,1824,137,1824,152,1809,152" hotspotTitle="42">
+<?pi_hotspot dataModuleId="0" shape="0" version="42"?>
+     </hotspot>
+     <hotspot objectCoordinates="1749,138,1764,138,1764,153,1749,153" hotspotTitle="41">
+<?pi_hotspot dataModuleId="0" shape="0" version="41"?>
+     </hotspot>
+     <hotspot objectCoordinates="1413,137,1428,137,1428,152,1413,152" hotspotTitle="40">
+<?pi_hotspot dataModuleId="0" shape="0" version="40"?>
+     </hotspot>
+     <hotspot objectCoordinates="1363,135,1378,135,1378,150,1363,150" hotspotTitle="39">
+<?pi_hotspot dataModuleId="0" shape="0" version="39"?>
+     </hotspot>
+     <hotspot objectCoordinates="1049,1808,1064,1808,1064,1823,1049,1823" hotspotTitle="38">
+<?pi_hotspot dataModuleId="0" shape="0" version="38"?>
+     </hotspot>
+     <hotspot objectCoordinates="1177,1713,1192,1713,1192,1728,1177,1728" hotspotTitle="37">
+<?pi_hotspot dataModuleId="0" shape="0" version="37"?>
+     </hotspot>
+     <hotspot objectCoordinates="1178,1634,1193,1634,1193,1649,1178,1649" hotspotTitle="36">
+<?pi_hotspot dataModuleId="0" shape="0" version="36"?>
+     </hotspot>
+     <hotspot objectCoordinates="1029,1633,1044,1633,1044,1648,1029,1648" hotspotTitle="35">
+<?pi_hotspot dataModuleId="0" shape="0" version="35"?>
+     </hotspot>
+     <hotspot objectCoordinates="974,1635,989,1635,989,1650,974,1650" hotspotTitle="34">
+<?pi_hotspot dataModuleId="0" shape="0" version="34"?>
+     </hotspot>
+     <hotspot objectCoordinates="828,1308,843,1308,843,1323,828,1323" hotspotTitle="33">
+<?pi_hotspot dataModuleId="0" shape="0" version="33"?>
+     </hotspot>
+     <hotspot objectCoordinates="1063,1212,1078,1212,1078,1227,1063,1227" hotspotTitle="32">
+<?pi_hotspot dataModuleId="0" shape="0" version="32"?>
+     </hotspot>
+     <hotspot objectCoordinates="1067,1009,1082,1009,1082,1024,1067,1024" hotspotTitle="31">
+<?pi_hotspot dataModuleId="0" shape="0" version="31"?>
+     </hotspot>
+     <hotspot objectCoordinates="979,1007,994,1007,994,1022,979,1022" hotspotTitle="30">
+<?pi_hotspot dataModuleId="0" shape="0" version="30"?>
+     </hotspot>
+     <hotspot objectCoordinates="892,1005,907,1005,907,1020,892,1020" hotspotTitle="29">
+<?pi_hotspot dataModuleId="0" shape="0" version="29"?>
+     </hotspot>
+     <hotspot objectCoordinates="841,1008,856,1008,856,1023,841,1023" hotspotTitle="28">
+<?pi_hotspot dataModuleId="0" shape="0" version="28"?>
+     </hotspot>
+     <hotspot objectCoordinates="1027,793,1042,793,1042,808,1027,808" hotspotTitle="27">
+<?pi_hotspot dataModuleId="0" shape="0" version="27"?>
+     </hotspot>
+     <hotspot objectCoordinates="790,746,805,746,805,761,790,761" hotspotTitle="26">
+<?pi_hotspot dataModuleId="0" shape="0" version="26"?>
+     </hotspot>
+     <hotspot objectCoordinates="734,744,749,744,749,759,734,759" hotspotTitle="25">
+<?pi_hotspot dataModuleId="0" shape="0" version="25"?>
+     </hotspot>
+     <hotspot objectCoordinates="647,747,662,747,662,762,647,762" hotspotTitle="24">
+<?pi_hotspot dataModuleId="0" shape="0" version="24"?>
+     </hotspot>
+     <hotspot objectCoordinates="1127,180,1142,180,1142,195,1127,195" hotspotTitle="23">
+<?pi_hotspot dataModuleId="0" shape="0" version="23"?>
+     </hotspot>
+     <hotspot objectCoordinates="1057,182,1072,182,1072,197,1057,197" hotspotTitle="22">
+<?pi_hotspot dataModuleId="0" shape="0" version="22"?>
+     </hotspot>
+     <hotspot objectCoordinates="886,165,901,165,901,180,886,180" hotspotTitle="21">
+<?pi_hotspot dataModuleId="0" shape="0" version="21"?>
+     </hotspot>
+     <hotspot objectCoordinates="819,183,834,183,834,198,819,198" hotspotTitle="20">
+<?pi_hotspot dataModuleId="0" shape="0" version="20"?>
+     </hotspot>
+     <hotspot objectCoordinates="779,183,794,183,794,198,779,198" hotspotTitle="19">
+<?pi_hotspot dataModuleId="0" shape="0" version="19"?>
+     </hotspot>
+     <hotspot objectCoordinates="2023,1297,2045,1297,2045,1312,2023,1312" hotspotTitle="19">
+<?pi_hotspot dataModuleId="0" shape="0" version="19"?>
+     </hotspot>
+     <hotspot objectCoordinates="706,183,721,183,721,198,706,198" hotspotTitle="18">
+<?pi_hotspot dataModuleId="0" shape="0" version="18"?>
+     </hotspot>
+     <hotspot objectCoordinates="593,183,608,183,608,198,593,198" hotspotTitle="17">
+<?pi_hotspot dataModuleId="0" shape="0" version="17"?>
+     </hotspot>
+     <hotspot objectCoordinates="491,184,506,184,506,199,491,199" hotspotTitle="16">
+<?pi_hotspot dataModuleId="0" shape="0" version="16"?>
+     </hotspot>
+     <hotspot objectCoordinates="525,1621,540,1621,540,1636,525,1636" hotspotTitle="15">
+<?pi_hotspot dataModuleId="0" shape="0" version="15"?>
+     </hotspot>
+     <hotspot objectCoordinates="460,1621,475,1621,475,1636,460,1636" hotspotTitle="14">
+<?pi_hotspot dataModuleId="0" shape="0" version="14"?>
+     </hotspot>
+     <hotspot objectCoordinates="33,1331,48,1331,48,1346,33,1346" hotspotTitle="13">
+<?pi_hotspot dataModuleId="0" shape="0" version="13"?>
+     </hotspot>
+     <hotspot objectCoordinates="28,1163,43,1163,43,1178,28,1178" hotspotTitle="12">
+<?pi_hotspot dataModuleId="0" shape="0" version="12"?>
+     </hotspot>
+     <hotspot objectCoordinates="28,1135,43,1135,43,1150,28,1150" hotspotTitle="11">
+<?pi_hotspot dataModuleId="0" shape="0" version="11"?>
+     </hotspot>
+     <hotspot objectCoordinates="30,1017,45,1017,45,1032,30,1032" hotspotTitle="10">
+<?pi_hotspot dataModuleId="0" shape="0" version="10"?>
+     </hotspot>
+     <hotspot objectCoordinates="37,996,44,996,44,1011,37,1011" hotspotTitle="9">
+<?pi_hotspot dataModuleId="0" shape="0" version="9"?>
+     </hotspot>
+     <hotspot objectCoordinates="36,976,43,976,43,991,36,991" hotspotTitle="8">
+<?pi_hotspot dataModuleId="0" shape="0" version="8"?>
+     </hotspot>
+     <hotspot objectCoordinates="38,867,45,867,45,882,38,882" hotspotTitle="7">
+<?pi_hotspot dataModuleId="0" shape="0" version="7"?>
+     </hotspot>
+     <hotspot objectCoordinates="36,811,43,811,43,826,36,826" hotspotTitle="6">
+<?pi_hotspot dataModuleId="0" shape="0" version="6"?>
+     </hotspot>
+     <hotspot objectCoordinates="39,656,46,656,46,671,39,671" hotspotTitle="5">
+<?pi_hotspot dataModuleId="0" shape="0" version="5"?>
+     </hotspot>
+     <hotspot objectCoordinates="32,444,39,444,39,459,32,459" hotspotTitle="4">
+<?pi_hotspot dataModuleId="0" shape="0" version="4"?>
+     </hotspot>
+     <hotspot objectCoordinates="3074,1512,3096,1512,3096,1527,3074,1527" hotspotTitle="4">
+<?pi_hotspot dataModuleId="0" shape="0" version="4"?>
+     </hotspot>
+     <hotspot objectCoordinates="27,1523,49,1523,49,1538,27,1538" hotspotTitle="4">
+<?pi_hotspot dataModuleId="0" shape="0" version="4"?>
+     </hotspot>
+     <hotspot objectCoordinates="34,342,41,342,41,357,34,357" hotspotTitle="3">
+<?pi_hotspot dataModuleId="0" shape="0" version="3"?>
+     </hotspot>
+     <hotspot objectCoordinates="24,1636,46,1636,46,1651,24,1651" hotspotTitle="3">
+<?pi_hotspot dataModuleId="0" shape="0" version="3"?>
+     </hotspot>
+     <hotspot objectCoordinates="31,271,38,271,38,286,31,286" hotspotTitle="2">
+<?pi_hotspot dataModuleId="0" shape="0" version="2"?>
+     </hotspot>
+     <hotspot objectCoordinates="24,1715,46,1715,46,1730,24,1730" hotspotTitle="2">
+<?pi_hotspot dataModuleId="0" shape="0" version="2"?>
+     </hotspot>
+     <hotspot objectCoordinates="31,205,38,205,38,220,31,220" hotspotTitle="1">
+<?pi_hotspot dataModuleId="0" shape="0" version="1"?>
+     </hotspot>
+     <hotspot objectCoordinates="23,1809,45,1809,45,1824,23,1824" hotspotTitle="1">
+<?pi_hotspot dataModuleId="0" shape="0" version="1"?>
+     </hotspot>
+<?pi_graphic blob_id="86076"?>
+    </graphic>
+   </figure>
+   <para> </para>
+   <para/>
+   <para>Перечень оборудования  и жгутов приведены в модулях   и   соответствено.</para>
+  </description>
+ </content>
+</dmodule>
