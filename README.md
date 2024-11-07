@@ -1,13 +1,7 @@
----
-title: Ietm Search And Qa
-emoji: 🌍
-colorFrom: yellow
-colorTo: gray
-sdk: streamlit
-sdk_version: 1.39.0
-app_file: app.py
-pinned: false
-short_description: S1000d publication tokenized search and question answering
----
+Приложение-демонстратор возможности выполнения индексированного поиска по публикациям в формате ASD S1000D с учетом словоформ и поиска ответов на вопросы (question answering) c применением нейросетевой модели семейства Bert и трасформеров (библиотека huggingface transformers). 
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+Для демонстрации используется публикация на тех.обслуживание грузового автомобиля Урал на русском языке и пример в составе спецификации ASD S1000D Issue 5.0 "bike" (https://s1000d.org/).
+
+Приложение развернуто на сервисе streamlit (https://ietmsearch.streamlit.app/)
+
+Подробнее в https://github.com/dborozdin/ietm_search_and_qa/wiki
