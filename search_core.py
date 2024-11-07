@@ -45,9 +45,15 @@ PUBLICATION_PATH=PUBLICATION_DEMO_RU_PATH
 TOKENIZER_SEARCH_FILENAME='tokenizer_search.pickle'
 TOKENIZER_QA_FILENAME='tokenizer_qa.pickle'
 INDEX_FOLDER= PUBLICATION_PATH+ os.sep+ "index"
+INDEX_FOLDER_RU= PUBLICATION_DEMO_RU_PATH+ os.sep+ "index"
+INDEX_FOLDER_EN= PUBLICATION_DEMO_EN_PATH+ os.sep+ "index"
 #print('INDEX_FOLDER:', INDEX_FOLDER)
 TOKENIZER_SEARCH_PATH= INDEX_FOLDER+ os.sep+ TOKENIZER_SEARCH_FILENAME
+TOKENIZER_SEARCH_PATH_RU= INDEX_FOLDER_RU+ os.sep+ TOKENIZER_SEARCH_FILENAME
+TOKENIZER_SEARCH_PATH_EN= INDEX_FOLDER_EN+ os.sep+ TOKENIZER_SEARCH_FILENAME
 TOKENIZER_QA_PATH= INDEX_FOLDER+ os.sep+ TOKENIZER_QA_FILENAME
+TOKENIZER_QA_PATH_RU= INDEX_FOLDER_RU+ os.sep+ TOKENIZER_QA_FILENAME
+TOKENIZER_QA_PATH_EN= INDEX_FOLDER_EN+ os.sep+ TOKENIZER_QA_FILENAME
 #print('TOKENIZER_SEARCH_PATH:', TOKENIZER_SEARCH_PATH)
 PUBLICATION_LANGUAGE="ru"
 
@@ -335,6 +341,7 @@ def convert2list(string):
 def load_index_data():
     global nlp, tokenizer_search, search_df, index_data_loaded
     print('load_index_data!')
+    print('PUBLICATION_LANGUAGE:', PUBLICATION_LANGUAGE)
     #spacy    
     disabled_pipes = [ "parser",  "ner"]
     if PUBLICATION_LANGUAGE=="ru":
@@ -345,11 +352,18 @@ def load_index_data():
         stemmer= Stemmer.Stemmer('en')#english
     #print('spacy loaded:', nlp)
     #tokenizer
-    with open(TOKENIZER_SEARCH_PATH, 'rb') as handle:
-        tokenizer_search = pickle.load(handle)
+    if PUBLICATION_LANGUAGE=="ru":
+        with open(TOKENIZER_SEARCH_PATH_RU, 'rb') as handle:
+            tokenizer_search = pickle.load(handle)
+    else:
+        with open(TOKENIZER_SEARCH_PATH_EN, 'rb') as handle:
+            tokenizer_search = pickle.load(handle)
     #print('tokenizer loaded:', tokenizer)
     #index
-    search_index_path= INDEX_FOLDER+os.sep+'search_index.csv'
+    if PUBLICATION_LANGUAGE=="ru":
+        search_index_path= INDEX_FOLDER_RU+os.sep+'search_index.csv'
+    else:
+        search_index_path= INDEX_FOLDER_EN+os.sep+'search_index.csv'
     search_df= pd.read_csv(search_index_path, sep=';')
     print('index file loaded:', search_df.info())    
     search_df['tokens']= search_df['tokens'].apply(convert2list)
@@ -369,11 +383,18 @@ def load_index_data_qa():
         stemmer= Stemmer.Stemmer('en')#english
     print('spacy loaded:', nlp)
     #tokenizer
-    with open(TOKENIZER_QA_PATH, 'rb') as handle:
-        tokenizer_qa = pickle.load(handle)
+    if PUBLICATION_LANGUAGE=="ru":
+        with open(TOKENIZER_QA_PATH_RU, 'rb') as handle:
+            tokenizer_qa = pickle.load(handle)
+    else:
+        with open(TOKENIZER_QA_PATH_EN, 'rb') as handle:
+            tokenizer_qa = pickle.load(handle)
     #print('tokenizer loaded:', tokenizer_qa)
     #index
-    qa_index_path= INDEX_FOLDER+os.sep+'qa_index.csv'
+    if PUBLICATION_LANGUAGE=="ru":
+        qa_index_path= INDEX_FOLDER_RU+os.sep+'qa_index.csv'
+    else:
+        qa_index_path= INDEX_FOLDER_EN+os.sep+'qa_index.csv'
     qa_df= pd.read_csv(qa_index_path, sep=';')
     #print('index qa file loaded:', qa_df.info())    
     qa_df['tokens']= qa_df['tokens'].apply(convert2list)
@@ -446,17 +467,20 @@ def search_query_any(query, df=None, tokenizer=None):
         result.append({'text': text, 'DMC':dmc})
     return result
 
-def search_query_all(query, df=None, tokenizer=None):
-    global SEARCH_DATA, search_df, index_data_loaded
+def search_query_all(query, df=None, tokenizer=None, language="ru"):
+    global SEARCH_DATA, search_df, index_data_loaded, PUBLICATION_LANGUAGE
     print('search_query_all!')
     print(f'query: {query}')
+    old_publication_language= PUBLICATION_LANGUAGE
+    PUBLICATION_LANGUAGE= language
+    print('PUBLICATION_LANGUAGE:', PUBLICATION_LANGUAGE)
     SEARCH_DATA= df
     if df is None:
-        if index_data_loaded==False:
+        if index_data_loaded==False or language!=old_publication_language:
             load_index_data()
         SEARCH_DATA=search_df
         print('SEARCH_DATA:', SEARCH_DATA.head())
-    
+        
     print('nlp loaded or not:', nlp)
     
     doc = nlp(clear_text(query))
@@ -537,8 +561,8 @@ def initialize_qa_model(model):
     else:#model==2 (базовая)
         qa_model= pipeline("question-answering", "timpal0l/mdeberta-v3-base-squad2", device=device)
         print('initialized model number 2!')
-    if qa_index_data_loaded==False:
-        load_index_data_qa()
+    #if qa_index_data_loaded==False:
+    load_index_data_qa()
     #print('len(qa_df)', len(qa_df))
     qa_df= concat_by_DMC(qa_df)   
     #qa_df.to_csv('concat_index.csv', sep=';', index=False)    
@@ -589,25 +613,25 @@ def find_answer(inputs, threshold, max_answer_len=1000, top_k=20, verbose=True, 
     found_answer=False
     #print('qa_model', qa_model)
     model_results= qa_model([{"question": q["question"], "context": q["context"]} for q in inputs], batch_size=BATCH_SIZE, max_answer_len=max_answer_len, top_k=top_k)
-    print('model_results type:', type(model_results))
+    #print('model_results type:', type(model_results))
     if isinstance(model_results, dict):
         tmp= model_results
         model_results= list()
         model_results.append(tmp)
-    print('model_results:', model_results)
+    #print('model_results:', model_results)
     # Добавляем индексы обратно в результаты
     best_score=0
     best_result=None
     longest_result=None
     for i, result in enumerate(model_results):#для каждого документа (модуля данных) свой список результатов
         dmc_value= inputs[i]["DMC"]
-        print('dmc_value:', dmc_value)
+        #print('dmc_value:', dmc_value)
         if isinstance(result, dict):
             tmp= result
             result= list()
             result.append(tmp)
         for r in result:#это список результатов для одного модуля данных
-            print('r:', r)
+            #print('r:', r)
             r["DMC"] = dmc_value
         #print(model_results)
         best_doc_result, longest_doc_result= get_best_and_longest_result(result, threshold, mode)
@@ -621,19 +645,22 @@ def find_answer(inputs, threshold, max_answer_len=1000, top_k=20, verbose=True, 
         answer_cleaned= re.sub(r"[\W\d_]+$", '', longest_answer).strip()
         if verbose==True:
             prob_value= round(model_result['score'], 2)
-            print(f'Ответ (уверенность= {prob_value}): {answer_cleaned}')
+            print(f'Answer (score= {prob_value}): {answer_cleaned}')
         longest_result['answer']= answer_cleaned
         found_answer=True
     if found_answer==False and verbose==True:
-        print('Ответ не найден!')
+        print('Answer not found!')
     model_result= best_result 
     model_result['answer']= longest_result['answer']
     return model_result
     
-def answer_question(question, mode, model=1):
-    global qa_model_initialized, qa_model_num, tokenizer_qa
+def answer_question(question, mode, model=1, language="ru"):
+    global qa_model_initialized, qa_model_num, tokenizer_qa, PUBLICATION_LANGUAGE
     print('answer_question!')
-    if qa_model_initialized==False or model!= qa_model_num:
+    old_publication_language= PUBLICATION_LANGUAGE
+    PUBLICATION_LANGUAGE= language
+    print('PUBLICATION_LANGUAGE:', PUBLICATION_LANGUAGE)
+    if qa_model_initialized==False or model!= qa_model_num or old_publication_language!= language:
         initialize_qa_model(model)
     print(f'question: {question}')
     print(f'mode: {mode}')
@@ -645,26 +672,21 @@ def answer_question(question, mode, model=1):
     if len(filtered_index)<1:
         filtered_index= search_query_any(question, qa_df, tokenizer_qa)
         threshold= THRESHOLD
-        #print('filtered_index любое слово:', len(filtered_index))
-    
-    found_answer=False
-    best_answer=""
-    best_score=0
-    best_DMC=""
-    
-    regex = re.compile(r'\([^)]*\)')
-    #for indx in filtered_index:
-    print('filtered_index:', filtered_index)
+    #print('filtered_index:', filtered_index)
 
     inputs = [{"question": question, "context": indx["text"], "DMC": indx["DMC"]} for indx in filtered_index]
     #print('qa model inputs', inputs)
-    result= find_answer(inputs, threshold=threshold, max_answer_len=1000, top_k=len(filtered_index), verbose=False, mode=mode)
+    top_k=1
+    if mode!="strict":
+        top_k=len(filtered_index)
+    result= find_answer(inputs, threshold=threshold, max_answer_len=1000, top_k=top_k, verbose=False, mode=mode)
 
-    if result['score']>best_score:
+    if result!= None:
         best_answer= result['answer']
         best_score= result['score']
         best_DMC= result['DMC']
+        regex = re.compile(r'\([^)]*\)')
         best_DMC= re.sub(regex, '', best_DMC)
-    result= [{'score': best_score, 'answer': best_answer, 'DMC': best_DMC}]
+        result= [{'score': best_score, 'answer': best_answer, 'DMC': best_DMC}]
     return result
     
